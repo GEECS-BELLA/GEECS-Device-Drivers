@@ -1,0 +1,23 @@
+;Example Name: AutoReverse
+;Description:
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Set Motor 1 Speed (Normal Power) = 2000
+;	4.) Set Loop Marker To Current Location in Program 0
+;	5.) Motor 1 Move 2000
+;	6.) Pause Seconds = 1
+;	7.) Motor 1 Move - 2000
+;	8.) Loop To Program Start OR Last Known Loop Marker Continuously
+;	9.) Run Program
+;
+;Actual Script seen below
+;
+F,		;VXM On-Line WITH Echo OFF 
+PM-0,		;Change To AND Clear Program 0
+S1M2000,	;Set Motor 1 Speed (Normal Power) = 2000
+LM0,		;Set Loop Marker To Current Location in Program 0
+I1M2000,	;Motor 1 Move 2000
+P10,		;Pause Seconds = 10
+I1M-2000,	;Motor 1 Move - 2000
+L0,		;Loop To Program Start OR Last Known Loop Marker Continuously
+R

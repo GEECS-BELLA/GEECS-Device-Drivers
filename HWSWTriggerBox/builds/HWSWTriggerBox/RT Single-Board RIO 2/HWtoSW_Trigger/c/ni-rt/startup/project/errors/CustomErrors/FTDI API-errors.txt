@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW FTDI API Error Codes
+</nicomment>
+<nierror code="5001">
+FT_INVALID_HANDLE
+</nierror>
+<nierror code="5002">
+FT_DEVICE_NOT_FOUND
+</nierror>
+<nierror code="5003">
+FT_DEVICE_NOT_OPENED
+</nierror>
+<nierror code="5004">
+FT_IO_ERROR
+</nierror>
+<nierror code="5005">
+FT_INSUFFICIENT_RESOURCES
+</nierror>
+<nierror code="5006">
+FT_INVALID_PARAMETE
+</nierror>
+<nierror code="5007">
+T_INVALID_BAUD_RATE	
+</nierror>
+<nierror code="5008">
+FT_DEVICE_NOT_OPENED_FOR_ERASE	
+</nierror>
+<nierror code="5009">
+FT_DEVICE_NOT_OPENED_FOR_WRITE
+</nierror>
+<nierror code="5010">
+FT_FAILED_TO_WRITE_DEVICE
+</nierror>
+<nierror code="5011">
+FT_EEPROM_READ_FAILED	
+</nierror>
+<nierror code="5012">
+FT_EEPROM_WRITE_FAILED
+</nierror>
+<nierror code="5013">
+FT_EEPROM_ERASE_FAILED
+</nierror>
+<nierror code="5014">
+FT_EEPROM_NOT_PRESENT
+</nierror>
+<nierror code="5015">
+FT_EEPROM_NOT_PROGRAMMED
+</nierror>
+<nierror code="5016">
+FT_INVALID_ARGS	
+</nierror>
+<nierror code="5017">
+FT_NOT_SUPPORTED
+</nierror>
+<nierror code="5018">
+FT_OTHER_ERROR	
+</nierror>
+<nierror code="5019">
+FT_READ_TIMEOUT
+</nierror>
+</nidocument>

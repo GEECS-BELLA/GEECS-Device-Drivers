@@ -1,0 +1,57 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Rectangle with Chamfers
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 1
+;	3.) Set Motor 1 Acceleration = 10 (20000 steps/sec^2)
+;	4.) Set Motor 3 Acceleration = 10 (20000 steps/sec^2)
+;	5.) Set Motor 1 Speed = 2000 steps/sec
+;	6.) SSet Motor 3 Speed = 2000 steps/sec
+;	7.) Motor 1 Move 2000 steps
+;	8.) Simultaneously Move Motor 3 and Motor 1
+;	9.) Motor 3 Move 4000 steps
+;	10.) Simultaneously Move Motor 3 and Motor 1
+;	11.) Motor 1 Move - 4000 steps
+;	12.) Simultaneously Move Motor 3 and Motor 1
+;	13.) Motor 3 Move - 4000 steps
+;	14.) Simultaneously Move Motor 3 and Motor 1
+;	15.) Motor 1 Move 2000 steps
+;
+;	16.) Change to and clear Program 0
+;	17.) Set Motor 2 Acceleration = 10 (20000 steps/sec^2)
+;	18.) Set Motor 2 Speed = 2000 steps/sec
+;	19.) Motor 2 Move 400 steps
+;	20.) Turn on Output 1
+;	21.) Jump to Program 1 and return when done
+;	22.) Turn off Output 1
+;	23.) Motor 2 Move - 400 steps
+;
+;Actual Script seen below
+;
+F, 
+PM-1,
+A1M10,
+A3M10,
+S1M2000,
+S3M2000,
+I1M2000,
+(I3M2000,I1M2000,)
+I3M4000,
+(I3M2000,I1M-2000,)
+I1M-4000,
+(I3M-2000,I1M-2000,)
+I3M-4000,
+(I3M-2000,I1M2000,)
+I1M2000,
+;
+PM-0,
+A2M10,S2M2000,I2M400,
+U5,
+JM1,
+U4,
+I2M-400,

@@ -1,0 +1,16 @@
+;*************************************************************************
+;*** Comments appear after a semicolon ';' are not seen by the control ***
+;*** 'ImM-0' commands = 'Index (motor#) to negative limit'             ***
+;*** 'ImM0' commands = 'Index (motor#) to positive limit'              ***
+;*** 'IAmM-0' commands = 'Set(motor#) position to zero'                ***
+;*************************************************************************
+;*****  S T A R T   S C R I P T   *****
+F,		; Control Online with Echo Off
+;
+;
+;---------- HOMING ROUTINE - PROGRAM 4 ----------
+		; Select and Clear Program 4 for Homing Routine
+;
+;
+;---------- TEACHPAD ROUTINE - PROGRAM 0 ----------
+PM-0,		; Select and Clear Program 0

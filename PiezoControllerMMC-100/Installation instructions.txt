@@ -1,0 +1,10 @@
+Edmund Optics - Piezo stage - PiezoControllerMMC-100
+
+step 1) install the USB driver: "CDM v2.08.30 WHQL Certified.exe"
+	it can be found under:
+	"H\Software\Installs and Manuals\Edmund Optics\Piezo Positioning Stage\Install & manuals\MMC_100 CD 	(Edmund Optics)\Software & Drivers\Drivers\Windows\CDM v2.08.30 WHQL Certified.exe"
+
+step 2) install the native GUI: "MCP-100_v1.14.40.exe"
+	it can be found under:
+	"H\Software\Installs and Manuals\Edmund Optics\Piezo Positioning Stage\Install & manuals\MMC_100 CD
+	(Edmund Optics)\Software & Drivers\MCP GUI installer\MCP-100_v1.14.40.exe"

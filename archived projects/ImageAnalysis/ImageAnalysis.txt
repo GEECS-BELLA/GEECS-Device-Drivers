@@ -1,0 +1,14 @@
+Variable or State	Default Value	Minimum	Maximum	Step Size	Data type	Allowed text Values	Arguments	Class	Location	
+whatami	ImageAnalysis	NA	NA	NA	numeric	NA	NA	Camera	L Cave	
+ipaddress	192.168.10.182	NA	NA	NA	numeric	NA	NA			
+udpport	65535	NA	NA	NA	numeric	NA	NA			
+remoteport	65010	NA	NA	NA	numeric	NA	NA			
+dllname	DeviceClassDll	NA	NA	NA	text	NA	NA			
+multicastip	234.5.6.9	NA	NA	NA	text	NA	NA
+multicastport	58432	NA	NA	NA	numeric	NA	NA	
+runmode	off	NA	NA	NA	text	on,off	get,set			
+image	NA	NA	NA	NA	image	NA	get			
+maxcounts	NA	NA	NA	NA	numeric	NA	get
+mincounts	NA	NA	NA	NA	numeric	NA	get	
+centroidx	NA	NA	NA	NA	numeric	NA	get
+centroidy	NA	NA	NA	NA	numeric	NA	get			

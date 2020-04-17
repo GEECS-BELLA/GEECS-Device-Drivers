@@ -1,0 +1,91 @@
+Enhanced Parallel Port interface (EPP)
+Installation Instructions for Win2000 or WinXP 
+Sorry, StellarNet no longer provides support
+for parallel port installations.  We recommend
+using our USB2EPP cable.  
+
+EPP-PCMCIA card <Quatech SPP-100> for notebooks.
+EPP-PCI card <Lava Computer> for desktops.
+Integrated printer port with EPP mode in BIOS. (note*1)
+-------------------------------------------------------
+
+1. Install SpectraWiz for NT/00/XP, but do not start.
+   If you don't have a diskette, download from 
+   www.StellarNet-Inc.com.
+  
+   When downloaded, password = same name as the file,
+   with lower case, omit the leading "s" and
+   trailing file extension.  For example SW3-1NT.exe
+   password = "w3-1nt".
+
+   The default spectrometer hex port address is 278h,
+   with a check box selection for LAVA PCI card.  This
+   should be un-checked if using the EPP-PCMCIA.
+   
+>> Do not start SpectraWiz until a driver is installed.  
+>> The port address setup in SpectraWiz may need
+>> to be changed the the port address configured by the
+>> Windows device manager such as  (lpt1) 378h, 
+>> (lpt2) 278h, and (lpt3) 260h
+    
+2a.Install driver for WinXP (also works on Win2000).
+   If you don't have a diskette, download from
+   www.StellarNet-Inc.com and unzip to floppy.
+   password = "wxp".
+
+2b.If the PC card was previously installed, it will
+   appear in Device Manager under Ports (COM & LPT).
+   Then use the device manager to select "Update driver"
+   as found on the Driver panel.
+
+   If you have not installed the PC card, then insert   
+   now and you should get "New hardward found" message.
+   
+>> When prompted for driver, DO NOT allow Windows to 
+>> search for driver, select look ONLY on floppy disk.
+
+   If prompted with list, select "EPP-PCMCIA card" for
+   Quatech or "Standard port types" for LAVA PCI card.
+ 
+2c.After driver install completes, a new device will
+   appear on the Device Manager list (near bottom) as
+   "WinRT Devices".  Open the parallel port device
+   and verify the driver provider = "StellarNet Inc" and
+   check the "resources tab" for its port address.
+   Make note of the port address assigned to setup
+   SpectraWiz for the same address. 
+    
+3. Start SpectraWiz -> Setup -> Interface port and detector.
+   The default port is 278 hex, however this should be
+   changed to the same port shown in the Device manager.
+   Uncheck the LAVA card box if using the PCMCIA card.
+
+>> Exit SpectraWiz and re-boot.
+
+   Re-start SpectraWiz to see real-time spectral graphs.
+
+   When needed, download the latest SpectraWiz version from
+   our website as "SWUpdate.exe".  Just click to install,
+   no password is needed.
+
+   If no spectra is displayed, then try the following:
+
+    a. For EPP-PCMCIA (Quatech) cards on notebook computers
+       Use device manager to select another available interrupt.
+       Even though SpectraWiz does not use interrupts, the card
+       may have problems that Windows cannot detect. 
+
+    b. For EPP-PCI (Lava) cards on desktop computers
+       Install the LAVA2000.reg driver found in the SpectraWiz folder.
+       Just click on it to install, then re-start computer from
+       power off.  
+
+note*1
+------
+Must set the printer to EPP mode using computers BIOS menu.
+The BIOS menu is started BEFORE the Windows screen appears.  
+If there is no option for EPP mode on the BIOS menu, then 
+you cannot use the integrated printer port.
+
+note*2
+------ 

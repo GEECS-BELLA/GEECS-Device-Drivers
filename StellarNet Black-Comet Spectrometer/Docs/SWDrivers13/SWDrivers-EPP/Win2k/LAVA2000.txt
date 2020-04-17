@@ -1,0 +1,28 @@
+Here are 2 ways to get the EPP2000 specrometers to work on Win2000.  The SpectraWiz NT install MUST BE USED for Win2000.  The EPP-PCMCIA interface will be supported in the future.  Our engineers are figuring out how Bill Gates (Win2000) turned off the power to the PCMCIA interface when "their" drivers are stopped.
+
+1. EPP2000 connection to LAVA PCI card in desktop computer:
+Install the SpectraWiz for NT and the SWUpdate.exe (for the latest version).  No need to start SpectraWiz unless you "unchecked" the LAVA box or the XT2000 spectro on the setup menu for ports and irq.  The port and irq settings for the Lava will be detected by the PCI system on Win2000 and override the SpectraWiz selections.  SpectraWiz may ask to select between EPP or ISA -> ALWAYS choose EPP.
+
+Apply the LAVA2000 registry information by clicking on the "LAVA2000.reg" file located in the c:\Program Files\StellarNet\SpectraWiz directory.  If required, the "LAVA2000.reg" file may be acquired directly from StellarNet customer support.
+
+Re-start Win2000 and SpectraWiz. The EPP2000 should now provide spectral data.
+--------------------------------------------------
+
+2. EPP2000 connection to integrated EPP printer port:
+
+You must first set the printer into EPP mode using the computers BIOS menu.
+The BIOS menu is started BEFORE the Windows screen appears.  If there is no option for EPP mode on the BIOS menu, then you cannot use this option.
+
+For Win2000, disable the printer port in the device manager, so that the Windows printer drivers do not claim this as a resource.  Review, then clear the Windows event log.  This is where you can see if the WinRT driver was NOT started because there was insufficient resources (because the Windows printer driver claimed it first).
+
+Install SpectraWizNT and the SWUpdate.exe (download these from our website).
+Before restarting, configure the SpectraWiz interface port and irq panel for the appropriate LPT port and select IRQ NOT USED.  The select Setup Registry.
+
+If your computer was upgraded from NT then Restart Windows2000 and SpectraWiz.
+If your computer was is new or upgraded from Win9x, the last step is to remove the power saver functions that Windows2000 installs. To fix this you will need to get a file from the Win2000 CD which makes it an NT upgrade without power control.  The file is on the CDROM as: \I386\hal.dl_ (directory I386 file: hal.dl_)
+
+Copy this file to a temporary directory and use the Windows "expand" utility to make it useable:  "expand hal.dl_ hal.dll".  Now rename the file of the same name located in the c:\WinNt\System32 directory.  Copy the file created as "hal.dll" to the c:\WinNt\System32.
+
+Re-start Win2000 and SpectraWiz.  The EPP2000 should now provide spectral data when attached to LPT1 or LPT2 integrated printer ports.
+--------------------------------------------------
+ 

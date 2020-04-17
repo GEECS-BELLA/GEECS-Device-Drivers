@@ -1,0 +1,25 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Motor 1 Move 3600 steps and back again
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Pause 10/10ths of a second (1 second)
+;	4.) Index motor 1 for distance of 400 steps (1 revolutions)
+;	5.) Loop to begining of program 9 more times
+;		(Last loop I1M400 will be ignored)
+;	6.) Index motor 1 for distance of -3600 steps (9 loops*400 steps ea.)
+;
+;Actual Script seen below
+;
+F,
+PM-0,
+P10,
+I1M400,
+L10,
+I1M-3600,
+R

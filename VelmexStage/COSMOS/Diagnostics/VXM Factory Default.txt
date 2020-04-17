@@ -1,0 +1,34 @@
+;******************************************
+;©	=	Special Command to COSMOS
+;¢	=	Show Comment in Terminal
+;¥	=	Commands to send to VXM
+;¶ 	=	Prompt User for input
+;******************************************
+
+
+©m\STARTPORTLOG,
+
+¢VXM Online
+¥K,Q,F,V,
+©P100
+
+¢Defaulting Device to factory Default
+¥setD0,
+©P1000
+
+©Clear
+¢Device Factory Defaulted
+©P500
+
+©Clear
+¢Rebooting Device
+©P500
+
+
+©P5000
+
+©Clear
+¢Reconfigure Device
+©P500
+
+©m\ENDPORTLOG,

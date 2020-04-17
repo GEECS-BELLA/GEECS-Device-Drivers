@@ -1,0 +1,29 @@
+Date:		05-16-2012
+Developer:	Kod Integrations, LLC
+Revision:	2.0
+Changes:	Complete rework from previous version (1.1).  Includes all major functionality exposed via the USB communications API.
+
+Date:		06-12-2012
+Developer:	Kod Integrations, LLC
+Revision:	2.1
+Changes:	Enhancements / bugfixes to the example Utility Panel
+
+Date:		07-06-2012
+Developer:	Kod Integrations, LLC
+Revision:	2.2
+Changes:	Added a simple console-based utility panel to the examples - a simple means of communicating (and demonstrating) communication with the device via the ASCII commandset.
+
+Date:		03-06-2013
+Developer:	Kod Integrations, LLC
+Revision:	2.2.1
+Changes:	Removed password protection all sub-VI's permitting users full access to all source code.  Added master/slave example VI's demonstrating that ability to dynamically control a VI that's solely responsible for motor control.
+
+Date:		07-14-2013
+Developer:	Kod Integrations, LLC
+Revision:	2.2.2
+Changes:	The 'close connection' VI would not have worked properly if an error was fed into its error cluster input.  Human readable strict-type-def enumerated control for pre-defined commands went from camel-case text to standard text.  Other minor changes that do not affect functionality.
+		
+Date: 		10-19-2014
+Developer:	Kod Integrations, LLC
+Revision:	3.0.0
+Changes:	Entire code base has been converted to an object oriented architecture.  PMX-4EX-SA support has been incorporated.  Examples code base has been expanded upon.	Improved VI documentation.							

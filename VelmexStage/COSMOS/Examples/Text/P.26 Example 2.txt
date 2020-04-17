@@ -1,0 +1,11 @@
+;**********************************************************************************
+;*** The following example is for moving motor 1 for a distance of 		***
+;*** 400 steps (1 Rev)	clockwise						***
+;*** Example can be found on P.26 of users manual.				***
+;***										***
+;*** NOTE: Comments in text code not allowed after the 'R' (Run Command)	***
+;***										***
+;*** Move Motor 1 Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+I1M400,			;Index motor 1 for distance of 400 steps (1 revolution)
+R

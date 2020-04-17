@@ -1,0 +1,52 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Equilateral Triangle
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 1
+;	3.) Set Motor 1 Acceleration = 5 (10000 steps/sec^2)
+;	4.) Set Motor 3 Acceleration = 9 (18000 steps/sec^2)
+;	5.) Set Motor 1 Speed = 1000 steps/sec
+;	6.) Set Motor 3 Speed = 1732 steps/sec
+;	7.) Simultaneously Move Motor 3 and Motor 1
+;	8.) Set Motor 1 Acceleration = 10 (20000 steps/sec^2)
+;	9.) Set Motor 1 Speed = 2000 steps/sec
+;	10.) Motor 1 Move -12000 steps
+;	11.) Set Motor 1 Speed = 1000 steps/sec
+;	12.) Set Motor 1 Acceleration = 5 (10000 steps/sec^2)
+;	13.) Simultaneously Move Motor 3 and Motor 1
+;
+;	14.) Change to and Clear Program 0
+;	15.) Set Motor 2 Acceleration = 10 (20000 steps/sec^2)
+;	16.) Set Motor 2 Speed = 2000
+;	17.) Pause 2/10ths of a second
+;	18.) Turn on Output 1
+;	19.) Jump to Program 1 and return when done
+;	20.) Turn off Output 1
+;	21.) Motor 2 Move - 400 steps
+;
+;Actual Script seen below
+;
+F, 
+PM-1,
+A1M5,
+A3M9,
+S1M1000,
+S3M1732,
+(I3M10392,I1M6000,)
+A1M10,
+S1M2000,
+I1M-12000,
+S1M1000,
+A1M5,
+(I3M-10392,I1M6000,)
+PM-0,
+A2M10,S2M2000,I2M400,P2,
+U5,
+JM1,
+U4,
+I2M-400,

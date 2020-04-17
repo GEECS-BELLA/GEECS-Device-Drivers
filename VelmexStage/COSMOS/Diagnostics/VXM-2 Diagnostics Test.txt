@@ -1,0 +1,185 @@
+;******************************************
+;©   =    Special Command to COSMOS
+;¢   =    Show Comment in Terminal
+;¥   =    Commands to send to VXM
+;¶   =    Prompt User for input
+;******************************************
+
+
+©m\STARTPORTLOG,
+
+¢VXM Online
+¥K,Q,F,V,
+©P100
+
+¢Getting VXM Version
+¥getD0,
+©P100
+
+¢Getting VXM Version Date
+¥getD1,
+©P100
+¢Getting VXM Axis
+¥getD2,
+©P100
+¢Getting VXM Multi-Function Inputs
+¥getI,
+©P100
+¢Getting VXM Mode
+¥getDM,
+©P100
+
+
+¢Getting VXM Joystick Deadband
+¥getDA,
+©P100
+
+¢Getting VXM Analog Joystick Motor 1 Hi-Speed
+¥getjA1M,
+©P100
+
+¢Getting VXM Analog Joystick Motor 1 Lo-Speed
+¥getJA1M,
+©P100
+
+¢Getting VXM Analog Joystick Motor 2 Hi-Speed
+¥getjA2M,
+©P100
+
+¢Getting VXM Analog Joystick Motor 2 Lo-Speed
+¥getJA2M,
+©P100
+
+
+¢Getting VXM Digital Joystick Motor 1 Hi-Speed
+¥getj1M,
+©P100
+
+¢Getting VXM Digital Joystick Motor 1 Lo-Speed
+¥getJ1M,
+©P100
+
+¢Getting VXM Digital Joystick Motor 2 Hi-Speed
+¥getj2M,
+©P100
+
+¢Getting VXM Digital Joystick Motor 2 Lo-Speed
+¥getJ2M,
+©P100
+
+¢Getting Pulse Motor 1
+¥getP1M,
+©P100
+
+¢Getting Pulse Motor 2
+¥getP2M,
+©P100
+
+¢Getting Pulse Width
+¥getPA,
+©P100
+
+¢Getting Last 4 x positions on input 4
+¥x,
+©P100
+
+¢Getting Last 4 y positions on input 4
+¥y,
+©P100
+
+¢Getting current motor
+¥#,
+©P100
+
+¢Getting Last Decel Position
+¥*,
+©P100
+
+¢Getting Backlash
+¥B,
+©P100
+
+
+¢Getting Limit Switch Indicators
+¥O,
+©P100
+
+¢Getting Axis 1 Settings
+¥getM1M,
+©P100
+¥getL1M,
+©P100
+
+¢Getting Axis 2 Settings
+¥getM2M,
+©P100
+¥getL2M,
+©P100
+
+¢Getting Limit Inputs
+¥?
+©P100
+¢Getting User Inputs
+¥~
+©P100
+¢Getting User Outputs
+¥$
+©P100
+
+¢Getting PM0
+¥PM0,
+©P100
+
+¢Listing Pgm0
+¥lst
+©P1000
+
+
+¢Getting PM1
+¥PM1,
+©P100
+
+¢Listing Pgm1
+¥lst
+©P1000
+
+
+¢Getting PM2
+¥PM2,
+©P100
+
+¢Listing Pgm2
+¥lst
+©P1000
+
+
+
+¢Getting PM3
+¥PM3,
+©P100
+
+¢Listing Pgm3
+¥lst
+©P1000
+
+
+
+¢Getting PM4
+¥PM4,
+©P100
+
+¢Listing Pgm4
+¥lst
+©P1000
+
+
+
+¢Setting PM0
+¥PM0,
+©P100
+
+
+©Clear
+¢Tests completed
+
+©m\ENDPORTLOG,

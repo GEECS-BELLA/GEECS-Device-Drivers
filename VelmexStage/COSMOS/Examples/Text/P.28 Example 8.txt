@@ -1,0 +1,18 @@
+;**********************************************************************************
+;*** The following example is for a 2 motor raster scan with controller waiting ***
+;*** for an input before commencing, the return scan, also a 1 second pause 	***
+;*** between each move								***
+;*** Example can be found on P.28 of users manual.				***
+;***										***
+;*** NOTE: Comments in text code not allowed after the 'R' (Run Command)	***
+;***										***
+;*** Raster Scan Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+I1M200,			;Move motor 1 a distance of 200 steps (1/2 rev)
+P10,			;Pause 10/10ths of a second (1 second)
+L7,			;Loop to begining of program 6x [(# after L)-1]
+I2M400,			;Move motor 2 a distance of 400 steps (1 rev)
+L-4,			;Loop to begining of program 3x, alternate motor direction each loop
+U6,			;Send 'W' to computer and wait for 'G' to continue
+LM-2,			;Loop to begining of program 1x [(# after L)-1]
+R

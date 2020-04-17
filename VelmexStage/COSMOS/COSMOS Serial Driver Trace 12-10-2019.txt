@@ -1,0 +1,14 @@
+Thread ID =  2460
+Error Number =  9 Error Description = Subscript/Pointer out of range
+Call Stack at Error = WINMAIN(4194304,0,22232780,1)
+LoadCosmos()
+MDI_WINDOWPROC()
+MDI_WINDOWPROC()
+MDI_CALLDIALOGPROC()
+TEACHPADABSOLUTECALLBACK()
+ErrorCheck(9)
+
+Errors in Session =  1
+
+
+

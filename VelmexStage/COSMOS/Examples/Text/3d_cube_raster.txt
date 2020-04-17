@@ -1,0 +1,15 @@
+E,		;VXM On-Line WITH Echo ON 
+C,		;Clear Current Program 
+LM0,		;Set Loop Marker To Current Location in Program
+I1M1000,		;Motor 1 Move 1000
+L7,		;Loop To Program Start OR Last Known Loop Marker (Skip last known Non-Loop Command)  6 Times
+I3M1000,		;Motor 3 Move 1000
+LM0,		;Set Loop Marker To Current Location in Program
+I1M-1000,		;Motor 1 Move - 1000
+L7,		;Loop To Program Start OR Last Known Loop Marker (Skip last known Non-Loop Command)  6 Times
+I3M1000,		;Motor 3 Move 1000
+L10,		;Loop To Program Start OR Last Known Loop Marker (Skip last known Non-Loop Command)  9 Times
+LM-0,		;Reset Loop Marker To Program Start
+I2M1000,		;Motor 2 Move 1000
+L10,		;Loop To Program Start OR Last Known Loop Marker (Skip last known Non-Loop Command)  9 Times
+R

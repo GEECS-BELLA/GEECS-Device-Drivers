@@ -1,0 +1,61 @@
+<LogMessage time="2019-01-29 08:57:31.022" source="Newport.Common.Logging.SingleFileLoggingMethod" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[Logging device for AGILISUC.Log opened for AgilisApp version 2.0.1.0.  Instance name = AgilisUC, Instance version = ]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.013" source="Newport.Common.Logging.SingleFileLoggingMethod" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[Log AGILISUC.Log opened for AgilisApp version 2.0.1.0.  Instance name = AgilisUC, Instance version = ]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.026" source="Newport.Common.Logging.SingleFileLoggingMethod" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[Log AGILISUC.Log is logging at level 4]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.029" source="Newport.Common.Logging.SingleFileLoggingMethod" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[Log AGILISUC.Log is logging at level 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.029" source="AgilisUC" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[Load Configuration : Successful.]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.031" source="AgilisUC" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[AGILISUC Log Initialize]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.071" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  VE => Response to command: AG-UC8 v2.2.1]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.074" source="AgilisUC" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[MR: Success]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.086" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  CC => Response to command: C1]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.102" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.102" source="AgilisUC" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[Communication with instrument successful]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.117" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1SU- => Response to command: 35]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.134" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1SU+ => Response to command: 35]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.150" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1SU- => Response to command: 35]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.166" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1SU+ => Response to command: 35]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.214" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.438" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.646" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:31.854" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:32.062" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:32.270" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:32.478" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:32.686" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:32.894" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:33.101" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:33.309" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:33.517" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:33.725" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:33.933" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:34.141" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:34.349" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:34.557" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:34.765" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:34.972" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:35.180" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:35.388" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:35.597" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:35.805" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:36.012" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:36.220" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:36.428" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:36.637" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:36.845" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:37.052" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:37.260" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:37.468" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:37.676" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:37.884" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:38.092" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:38.300" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:38.508" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:38.716" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:38.924" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:39.132" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:39.340" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:39.547" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:39.755" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:39.963" source="AgilisCmds" logname="AGILISUC.Log" thread="" severity="Trace"><![CDATA[Command Sent to the Instrument:  1TS => Response to command: 0]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:40.131" source="AgilisUC" logname="AGILISUC.Log" thread="" severity="Error"><![CDATA[Exception occured in polling. Message = Thread was being aborted.]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:40.131" source="AgilisUC" logname="AGILISUC.Log" thread="" severity="Error"><![CDATA[Exception occured in polling. Message = Thread was being aborted.]]></LogMessage>
+<LogMessage time="2019-01-29 08:57:40.147" source="AgilisUC" logname="AGILISUC.Log" thread="" severity="Info"><![CDATA[SaveXMLConfiguration: Configuration Save : Successful.]]></LogMessage>

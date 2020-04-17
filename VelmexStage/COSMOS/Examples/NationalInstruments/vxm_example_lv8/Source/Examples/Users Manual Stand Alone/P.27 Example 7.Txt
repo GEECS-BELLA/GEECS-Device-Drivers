@@ -1,0 +1,25 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Home to Limit
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Set Motor 1 Speed = 600 steps/sec
+;	4.) Home Motor 1 to Positive Limit
+;	5.) Move Motor 1 a distance of 200 steps off the limit
+;	6.) Set current position as zero (for homing purposes later)
+;	7.) Run Program
+;
+;Actual Script seen below
+;
+F,
+PM-0,
+S1M600,
+I1M0,			;Home motor 1 to the positive limit
+I1M-200,		;Move motor 1 a distance of 200 steps off the limit
+IA1M-0,			;Set current position as zero (for homing purposes later)
+R

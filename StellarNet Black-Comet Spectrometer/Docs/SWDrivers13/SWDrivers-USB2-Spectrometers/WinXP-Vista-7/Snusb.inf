@@ -1,0 +1,89 @@
+;
+; StellarNet Spectrometer install for Win2k/XP/Vista/Win7
+;
+[Version]
+Signature="$Windows NT$"
+Class=USBDEV
+ClassGUID="{69DE480D-48C9-4ea7-BFAF-5684BDA36582}"
+Provider=%StellarNet%
+DriverVer=1/1/2010,4.3
+ 
+[Manufacturer]
+%StellarNet%=StellarNet
+
+[StellarNet]
+;
+; USB2EPP start - request load
+;
+%USB\VID_04B4&PID_8613.DeviceDesc%=snusbDEV.Dev, USB\VID_04B4&PID_8613
+
+;
+; USB2EPP device loaded
+;
+%USB\VID_0BD7&PID_A012.DeviceDesc%=snusb.Dev, USB\VID_0BD7&PID_A012
+ 
+[DestinationDirs]
+DefaultDestDir=10,System32\Drivers
+snusb.Files.Ext = 10,System32\Drivers
+snusbDEV.Files.Ext = 10,System32\Drivers
+
+[ClassInstall32]
+AddReg=ClassInstall32.AddReg
+ 
+[ClassInstall32.AddReg]
+HKR,,Icon,,-20 
+
+[snusb.Dev.NT]
+;snusb.sys
+DelFiles=snusb.Files.Ext
+CopyFiles=snusb.Files.Ext
+
+[snusb.Dev.NT.Services]
+Addservice = snusb, 0x00000002, snusb.AddService
+
+[snusb.AddService]
+DisplayName    = %snusb.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_AUTO_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\snusb.sys
+AddReg=snusb.AddReg
+
+[snusb.AddReg]
+HKR,,ClassGUID,0,%USBDEVClassGUID%
+HKR,%ConfigKey%,MaxTransfer,0x00010001,4096
+HKR,%ConfigKey%,AuthKey,0,%AuthKey%
+HKR,%ConfigKey%,RenumOnHibernate,0x00010001,0
+
+[snusb.Files.Ext]
+snusb.sys
+
+[snusbDEV.Dev.NT]
+;snloader.sys
+DelFiles=snusbDEV.Files.Ext
+CopyFiles=snusbDEV.Files.Ext
+
+[snusbDEV.Dev.NT.Services]
+Addservice = snusbDEV, 0x00000002, snusbDEV.AddService
+
+[snusbDEV.AddService]
+DisplayName    = %snusbDEV.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_AUTO_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\snloader.sys
+
+[snusbDEV.Files.Ext]
+snloader.sys
+ 
+;---------------------------------------------------------------;
+
+[Strings]
+StellarNet="www.StellarNet.us"
+USB\VID_0BD7&PID_A012.DeviceDesc="StellarNet Spectrometer"
+USB\VID_04B4&PID_8613.DeviceDesc="StellarNet Spectrometer - Startup"
+ConfigKey="Vid_0bd7&Pid_A012"
+snusb.SvcDesc="StellarNet Spectrometer Driver"
+snusbDEV.SvcDesc="StellarNet Spectrometer Loader"
+USBDEVClassGUID="{69DE480D-48C9-4ea7-BFAF-5684BDA36582}"
+AuthKey="4196a529bcdc2a98" 

@@ -1,0 +1,134 @@
+;
+; StellarNet Spectrometer install v2 for Win7 -64bit
+;
+[Version]
+Signature="$CHICAGO$"
+Class=USBDEV
+ClassGUID={69DE480D-48C9-4ea7-BFAF-5684BDA36582}
+Provider=%StellarNet%
+DriverVer=07/04/2012,3.4.006.2
+CatalogFile.NTAMD64 = SNUSB.cat
+
+[SourceDisksNames]
+1=%StellarNet_Install%,,,
+
+[SourceDisksFiles]
+snusb64.sys = 1
+snloader.spt = 1 
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[Manufacturer]
+%StellarNet%=Device, NTAMD64
+
+[Device]
+;
+; StellarNet firmware loaded
+;
+%USB\VID_0BD7&PID_A012.DeviceDesc%=snusb, USB\VID_0BD7&PID_A012
+;
+; StellarNet startup - request load
+;
+%USB\VID_04B4&PID_8613.DeviceDesc%=snloader, USB\VID_04B4&PID_8613
+%USB\VID_0BD7&PID_A024.DeviceDesc%=snloader, USB\VID_0BD7&PID_A024
+;
+;for 64bit platforms
+[Device.NTAMD64]
+%USB\VID_0BD7&PID_A012.DeviceDesc%=snusb, USB\VID_0BD7&PID_A012
+%USB\VID_04B4&PID_8613.DeviceDesc%=snloader, USB\VID_04B4&PID_8613 
+%USB\VID_0BD7&PID_A024.DeviceDesc%=snloader, USB\VID_0BD7&PID_A024
+
+[DestinationDirs]
+snusb.Files = 10,System32\Drivers
+snloader.Files = 10,System32\Drivers
+ 
+;---setup special icon for USBDEV --------
+
+[ClassInstall32]
+AddReg=ClassInstall32.AddReg
+[ClassInstall32.AddReg]
+HKR,,Icon,,-20 
+
+;--- snloader--------------------
+
+[snloader.Files]
+snloader.spt
+
+[snloader.NTAMD64]
+CopyFiles=snusb.Files, snloader.Files
+AddReg=snusb.AddReg
+
+[snloader.NTAMD64.HW]
+AddReg=snloader.AddReg.Guid
+
+[snloader.NTAMD64.Services]
+Addservice = snusb, 2, snusb.AddService
+
+[snloader.AddReg.Guid]
+HKR,,DriverGUID,,%snusb.GUID%
+HKR,,DriverEXECSCRIPT,,%MyDevice.EXECSCRIPT%
+
+;======================================
+
+[snusb.Files]
+snusb64.sys
+
+[snusb.NTAMD64]
+CopyFiles=snusb.Files
+AddReg=snusb.AddReg
+
+[snusb.NTAMD64.HW]
+AddReg=snusb.AddReg.Guid
+
+[snusb.NTAMD64.Services]
+Addservice = snusb, 2, snusb.AddService
+
+[snusb.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,SNUSB64.sys
+
+;HKR,,DriverBase,,SNUSB64.sys
+;HKR,"Parameters","MaximumTransferSize",0x10001,4096
+;HKR,"Parameters","DebugLevel",0x10001,2
+HKR,,FriendlyName,,%snusb.SvcDesc%
+
+;---special setup needed for legacy assistance
+
+HKR,%ConfigKey%,MaxTransfer,0x10001,4096
+HKR,%ConfigKey%,AuthKey,0,%AuthKey%
+HKR,%ConfigKey%,RenumOnHibernate,0x00010001,0
+HKR,,ClassGUID,0,%snusb.GUID%
+
+[snusb.AddReg.Guid]
+HKR,,DriverGUID,,%snusb.GUID%
+
+;=============================
+
+[snusb.AddService]
+DisplayName    = %snusb.SvcDesc%
+ServiceType    = 1       
+StartType      = 3
+ErrorControl   = 1  
+ServiceBinary  = %10%\System32\Drivers\snusb64.sys
+LoadOrderGroup = Base
+ 
+;---------------------------------------------------------------;
+
+[Strings]
+StellarNet="www.StellarNet.us"
+USB\VID_0BD7&PID_A012.DeviceDesc="StellarNet Spectrometer"
+USB\VID_04B4&PID_8613.DeviceDesc="StellarNet Spectrometer - Startup"
+ConfigKey="Vid_0bd7&Pid_A012"
+snusb.SvcDesc="StellarNet Spectrometer 3264 Driver"
+snloader.SvcDesc="StellarNet Spectrometer Loader"
+StellarNet_Install="StellarNet Driver Installation Disk"
+AuthKey="4196a529bcdc2a98"
+;apa
+snusb.GUID= "{69DE480D-48C9-4ea7-BFAF-5684BDA36582}"
+;cy
+;snusb.GUID="{AE18AA60-7F6A-11d4-97DD-00010229B959}"
+;
+MyDevice.EXECSCRIPT="\systemroot\system32\drivers\snloader.spt"
+;snloader.GUID="{892CB23C-2AE6-46d7-8012-E14DE8C26FBB}"
+snusb_Unused="." 

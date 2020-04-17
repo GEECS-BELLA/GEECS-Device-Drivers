@@ -1,0 +1,24 @@
+
+WDREG utility v11.10. Build Aug 26 2012 13:52:13
+Log from Fri Jan 04 15:17:39 2019
+
+Command line: C:\Program Files\Newport\Piezo Motion Control\Newport FTDI Driver\wdreg.exe -inf C:\Program Files\Newport\Piezo Motion Control\Newport FTDI Driver\ftdiport.inf -silent -log C:\Program Files\Newport\Piezo Motion Control\Newport FTDI Driver\ftdiport.log install
+
+Processing HWID FTDIBUS\COMPORT&VID_104D&PID_3000
+Trying to create virtual device
+Installing a signed driver package for FTDIBUS\COMPORT&VID_104D&PID_3000
+LOG ok: 1, ENTER:  DriverPackageInstallA
+LOG ok: 1, ENTER:  DriverPackageInstallW
+LOG ok: 1, Looking for Model Section [FtdiHw.NTamd64]...
+LOG ok: 1, Installing INF file 'C:\Program Files\Newport\Piezo Motion Control\Newport FTDI Driver\ftdiport.inf' (Plug and Play).
+LOG ok: 1, Looking for Model Section [FtdiHw.NTamd64]...
+LOG ok: 1, Installing devices with Id "FTDIBUS\COMPORT&VID_104D&PID_3000" using INF "C:\Windows\System32\DriverStore\FileRepository\ftdiport.inf_amd64_868e6aa69f505c76\ftdiport.inf".
+LOG ok: 1, ENTER UpdateDriverForPlugAndPlayDevices...
+LOG ok: 0, RETURN UpdateDriverForPlugAndPlayDevices.
+LOG ok: 1, Installation was successful.
+LOG ok: 0, Install completed
+LOG ok: 1, RETURN: DriverPackageInstallW  (0x0)
+LOG ok: 1, RETURN: DriverPackageInstallA  (0x0)
+ difx_install_preinstall_inf: err 0, last event 0, last error 0. SUCCESS
+install: completed successfully
+STATUS_SUCCESS

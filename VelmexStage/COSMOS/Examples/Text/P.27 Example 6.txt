@@ -1,0 +1,15 @@
+;**********************************************************************************
+;*** The following example is for moving motor 1 in a repeating index (10x)	***
+;*** with a 1 second pause between indexes, and then returning to where it 	***
+;*** started from								***
+;*** Example can be found on P.27 of users manual.				***
+;***										***
+;*** NOTE: Comments in text code not allowed after the 'R' (Run Command)	***
+;***										***
+;*** Move Motor 1 Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+P10,			;Pause 10/10ths of a second (1 second)
+I1M400,			;Index motor 1 for distance of 400 steps (1 revolutions)
+L10			;Loop to begining of program 9x [(# after L)-1]
+I1M-3600,		;Index motor 1 for distance of -3600 steps (9 loops*400 steps ea.)
+R

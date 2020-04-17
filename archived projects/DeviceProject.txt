@@ -1,0 +1,20 @@
+Variable or State	Default Value	Minimum	Maximum	Step Size	Data type	Allowed text Values	Arguments	Class	Location	
+whatami	PointGreyMVFireWire	NA	NA	NA	numeric	NA	NA	Camera	L Cave	
+ipaddress	192.168.10.182	NA	NA	NA	numeric	NA	NA			
+udpport	65535	NA	NA	NA	numeric	NA	NA
+multicastip	234.5.6.9	NA	NA	NA	text	NA	NA
+multicastport	58432	NA	NA	NA	numeric	NA	NA	
+timeout	2500	NA	NA	NA	numeric	NA	NA			
+camsession	cam4	NA	NA	NA	text	NA	NA		
+dllname	PointGreyMVFireWire.dll	NA	NA	NA	text	NA	NA			
+localsavingpath	C:\Temp\	NA	NA	NA	text	anything	get,set			
+runmode	off	NA	NA	NA	text	on,off	get,set			
+save	off	NA	NA	NA	text	on,off	get,set			
+trigger	off	NA	NA	NA	text	on,off	get,set			
+exposure	0.1	0.01	0.14	0.01	numeric	NA	get,set		
+triggerdelay	0.0	0.00	0.3	0.001	numeric	NA	get,set			
+gain	0	0	12	0.1	numeric	NA	get,set			
+image	NA	NA	NA	NA	image	NA	get			
+	
+	
+		

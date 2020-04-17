@@ -1,0 +1,18 @@
+REGEDIT4
+
+# Installation script for WinRT
+# Created on: 6/28/2001 at: 17:58
+# This file can be double-clicked or run to enter the information into
+# the registry.  Note that all numbers in this file are expressed in hex,
+# and should never include a "0x" prefix.
+ 
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CLASS\WinRT]
+"Type"=dword:00000001
+"Group"="WinRT"
+"ErrorControl"=dword:00000001
+"Start"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CLASS\WinRT\WinRTdev0\Parameters\Section0]
+"BusType"=dword:5
+"CardId"=dword:8000
+"VendorId"=dword:1407

@@ -1,0 +1,134 @@
+; ==========================================
+; INF file for Qwave and Qmini spectrometers
+; ==========================================
+
+[Version]
+Signature = "$Windows NT$"
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName = "Qwave Qmini Driver Package"
+Class=MeasurementAndControl
+ClassGuid={79DE62A4-B772-448E-BAF9-F94CFAEEEED7}
+Provider = %ProviderName%
+; Date format: MM/DD/YYYY
+DriverVer=12/05/2016,3.2.0.0
+CatalogFile=qwave.cat
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%ProviderName% = RgbSpectrometer,NTx86,NTamd64
+%CompanyAvantes% = Avantes,NTx86,NTamd64
+%CompanyLaser2000% = Laser2000,NTx86,NTamd64
+
+[RgbSpectrometer.NTx86]
+%USB\VID_0403&PID_90CF.DeviceDesc% =USB_Install, USB\VID_0403&PID_90CF&REV_0900
+%USB\VID_0403&PID_90CE.DeviceDesc% =USB_Install, USB\VID_0403&PID_90CE&REV_0900
+
+[RgbSpectrometer.NTamd64]
+%USB\VID_0403&PID_90CF.DeviceDesc% =USB_Install, USB\VID_0403&PID_90CF&REV_0900
+%USB\VID_0403&PID_90CE.DeviceDesc% =USB_Install, USB\VID_0403&PID_90CE&REV_0900
+
+[Avantes.NTx86]
+%USB\VID_1992&PID_90CF.DeviceDesc% =USB_Install, USB\VID_1992&PID_90CF&REV_0900
+%USB\VID_1992&PID_90CE.DeviceDesc% =USB_Install, USB\VID_1992&PID_90CE&REV_0900
+
+[Avantes.NTamd64]
+%USB\VID_1992&PID_90CF.DeviceDesc% =USB_Install, USB\VID_1992&PID_90CF&REV_0900
+%USB\VID_1992&PID_90CE.DeviceDesc% =USB_Install, USB\VID_1992&PID_90CE&REV_0900
+
+[Laser2000.NTx86]
+%USB\VID_276E&PID_90C7.DeviceDesc% =USB_Install, USB\VID_276E&PID_90C7&REV_0900
+
+[Laser2000.NTamd64]
+%USB\VID_276E&PID_90C7.DeviceDesc% =USB_Install, USB\VID_276E&PID_90C7&REV_0900
+
+; ========== New device manager category =============
+
+[ClassInstall32]
+AddReg=ClassInstall_AddReg
+
+[ClassInstall_AddReg]
+HKR,,,,%DEVICEMANAGERCATEGORY%
+HKR,,Icon,,"-20"
+
+; =================== Installation ===================
+
+;[1]
+[USB_Install]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+;[2]
+[USB_Install.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+;[3]
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+;[4]
+[USB_Install.Wdf]
+KmdfService=WINUSB, WinUsb_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion=1.9
+
+;[5]
+[USB_Install.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{967B3969-AF03-4e3d-A44E-F9A066A71DC6}"
+
+;[6]
+[USB_Install.CoInstallers]
+AddReg=CoInstallers_AddReg
+CopyFiles=CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+; ================= Source Media Section =====================
+
+[SourceDisksNames.x86]
+1 = %DISK_NAME%,,,\i386
+
+[SourceDisksNames.amd64]
+2 = %DISK_NAME%,,,\amd64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll=1
+WdfCoInstaller01009.dll=1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll=2
+WdfCoInstaller01009.dll=2
+
+; =================== Strings ===================
+
+[Strings]
+ProviderName="RGB Photonics"
+USB\VID_0403&PID_90CF.DeviceDesc="Qwave"
+USB\VID_0403&PID_90CE.DeviceDesc="Qmini"
+WinUSB_SvcDesc="Qwave/Qmini"
+DISK_NAME="Qwave/Qmini Drivers Disk"
+DEVICEMANAGERCATEGORY="Measurement and Control"
+
+CompanyAvantes="Avantes"
+USB\VID_1992&PID_90CF.DeviceDesc="AvaSpec-Mini"
+USB\VID_1992&PID_90CE.DeviceDesc="AvaSpec-Micro"
+
+CompanyLaser2000="Laser 2000"
+USB\VID_276E&PID_90C7.DeviceDesc="S_pectra"

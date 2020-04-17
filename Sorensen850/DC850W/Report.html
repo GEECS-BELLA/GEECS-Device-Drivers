@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<!-- Constructed with LabVIEW Report Generation -->
+<HEAD>
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+<!--
+    BODY  {margin-top:0.250000in; margin-bottom: 0.250000in; margin-left: 0.500000in; margin-right: 0.500000in
+    }-->
+</STYLE>
+</HEAD>
+
+<BODY>
+<TABLE WIDTH="100%">
+<TR>
+<TH ALIGN="CENTER"><H3>DC850W LabVIEW Wrapper Conversion Report</H3></TH>
+</TR></TABLE><script language="vbscript">
+    function OpenVI(viName)
+        Dim lvapp
+        Dim vi
+        
+        Set lvapp = CreateObject("LabVIEW.Application")
+        Set vi = lvapp.GetVIReference(viName)
+        vi.FPWinOpen = True
+    end function 
+</script><DIV align=right></I>
+</U>
+<FONT FACE="Arial" SIZE="1">
+<B>Monday, December 14, 2009  2:53:51 PM</DIV></B><BR><FONT FACE="Arial" SIZE="2">
+<B>Source Driver Information<BR></I>
+</U>
+</B>
+<FONT FACE="Arial" SIZE="2">
+Driver Prefix: DC850W<BR>
+Total number of functions: 91<BR>
+Driver Class:  IviDCPwr<BR>
+<BR><FONT FACE="Arial" SIZE="2">
+<B>LabVIEW Wrapper Driver Information<BR></I>
+</U>
+</B>
+<FONT FACE="Arial" SIZE="2">
+Total number of VIs: 75<BR>
+<BR><FONT FACE="Arial" SIZE="2">
+<B>Conversion Information<BR></I>
+</U>
+</B>
+<FONT FACE="Arial" SIZE="2">
+Advanced<BR>
+<BR></I>
+</U>
+</B>
+<FONT FACE="Arial" SIZE="2">
+For best results, it is important to ensure that the source driver is fully compliant with the IVI Foundation specifications and all problems relating to the driver and function panel are resolved before running this tool.  To help verify IVI compliance and detect possible problems with the driver, use the <a href="http://zone.ni.com/devzone%5Cconceptd.nsf/webmain/1CB67BBC20B4C9DE862569FD0077EF28">IVI Specific Driver Test Suite</a> test suite.<BR>
+The following errors/warnings occurred when generating the wrapper for this instrument driver.  Address each of these issues to complete the instrument driver VIs.  Note that some of these issues may be a result of issues in the LabWindows/CVI driver.  To resolve these types of issues, fix the problem in the LabWindows/CVI driver and regenerate the LabVIEW interface.  Contact <a href="mailto:instrument.drivers@ni.com">instrument.drivers@ni.com</a> for technical assistance.<BR><BR><FONT FACE="Arial" SIZE="2">
+<B>Constant Array Size to Allocate Indicator<BR></B>
+<FONT FACE="Arial" SIZE="2">
+The following instrument driver VI(s) have string or array indicators. The utility uses a constant to allocate memory for the indicator. Review the block diagrams of the VI(s) to ensure that the appropriate size is allocated for the indicator. The block diagram constant used to allocate array size or string size should be adjusted so that it is large enough to accommodate all valid values for the indicator. If the DLL function in the generated VI(s) has a size parameter, delete the block diagram constant and wire the size control to the size input of the Initialize Array function.<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Get Comm Baud Rate.vi")'>DC850W Get Comm Baud Rate.vi -> Data Rate</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Source.vi")'>DC850W Query Source.vi -> Source</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Error.vi")'>DC850W Query Error.vi -> Error Message</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Mode.vi")'>DC850W Query Mode.vi -> Mode</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Auto Sequence State.vi")'>DC850W Query Auto Sequence State.vi -> Auto Sequence State</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Auto Sequence Repeat.vi")'>DC850W Query Auto Sequence Repeat.vi -> Repeat Count</a><BR><BR><FONT FACE="Arial" SIZE="2">
+<B>Default Menu Palette Icon<BR></B>
+<FONT FACE="Arial" SIZE="2">
+Cannot match appropriate icons for the following menu (.mnu) palettes. Assign meaningful icons to the palette(s) by selecting Tools&#0187;Advanced&#0187;Edit Palette Views. Use the <a href="http://www.ni.com/devzone/idnet/library/icon_art_glossary.htm">Icon Art Glossary</a> for assistance with creating menu palette icons. <BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Action_Status Functions - Query<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Action_Status Functions - Auto Sequence Action<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Action_Status Functions - Auto Sequence Query<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Utility Functions - System Setup<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Configuration Functions - Output - Basic Operation<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Configuration Functions - Output - Protection Mechanisms<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Action_Status Functions - Auto Sequence Action - Programming Sequences<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;dir - Action_Status Functions - Auto Sequence Action - Running Sequences<BR><BR><FONT FACE="Arial" SIZE="2">
+<B>Default VI Icon<BR></B>
+<FONT FACE="Arial" SIZE="2">
+Cannot match appropriate icons for the following VI(s). Assign meaningful icons to the VI(s) by right-clicking the icon in the upper-right corner of the VI(s) and selecting Edit Icon. Use the <a href="http://www.ni.com/devzone/idnet/library/icon_art_glossary.htm">Icon Art Glossary</a> for assistance with creating VI icons.<BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Command Time Delay.vi")'>DC850W Set Command Time Delay.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Get Command Time Delay.vi")'>DC850W Get Command Time Delay.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Comm Baud Rate.vi")'>DC850W Set Comm Baud Rate.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Get Comm Baud Rate.vi")'>DC850W Get Comm Baud Rate.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Save User Settings.vi")'>DC850W Save User Settings.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Preset.vi")'>DC850W Preset.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Reset Multichannel.vi")'>DC850W Reset Multichannel.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Register.vi")'>DC850W Set Register.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Clear Status.vi")'>DC850W Clear Status.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Register.vi")'>DC850W Query Register.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Setpoint.vi")'>DC850W Query Setpoint.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Protection Settings.vi")'>DC850W Query Protection Settings.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Protection Latch.vi")'>DC850W Query Protection Latch.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Protection Tripped.vi")'>DC850W Query Protection Tripped.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Enabled.vi")'>DC850W Query Enabled.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Address.vi")'>DC850W Query Address.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Source.vi")'>DC850W Query Source.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Error.vi")'>DC850W Query Error.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Mode.vi")'>DC850W Query Mode.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Delete All Sequences.vi")'>DC850W Delete All Sequences.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Auto Sequence State.vi")'>DC850W Query Auto Sequence State.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Auto Sequence Dwell Time.vi")'>DC850W Query Auto Sequence Dwell Time.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Auto Sequence Repeat.vi")'>DC850W Query Auto Sequence Repeat.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Output Enabled Power-On.vi")'>DC850W Set Output Enabled Power-On.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Configure Front Panel Timeout.vi")'>DC850W Configure Front Panel Timeout.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Query Front Panel Timeout.vi")'>DC850W Query Front Panel Timeout.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Current Share Mode.vi")'>DC850W Set Current Share Mode.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Recall User Setting.vi")'>DC850W Recall User Setting.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Remote Mode.vi")'>DC850W Set Remote Mode.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Select Voltage Remote Control Source.vi")'>DC850W Select Voltage Remote Control Source.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Select Current Remote Control Source.vi")'>DC850W Select Current Remote Control Source.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Select Voltage Analog Programming Range.vi")'>DC850W Select Voltage Analog Programming Range.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Select Current Analog Programming Range.vi")'>DC850W Select Current Analog Programming Range.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Send Command.vi")'>DC850W Send Command.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Configure Protection Setpoint.vi")'>DC850W Configure Protection Setpoint.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Configure Protection Latch.vi")'>DC850W Configure Protection Latch.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Configure Foldback Setting.vi")'>DC850W Configure Foldback Setting.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Configure Fold Delay.vi")'>DC850W Configure Fold Delay.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Auto Sequence Step Dwell Time.vi")'>DC850W Set Auto Sequence Step Dwell Time.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Program Auto Sequence Repeat.vi")'>DC850W Program Auto Sequence Repeat.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Start Recording Auto Sequence Program.vi")'>DC850W Start Recording Auto Sequence Program.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Stop Recording Auto Sequence Program.vi")'>DC850W Stop Recording Auto Sequence Program.vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Send Auto Sequence Software Trigger [TRG].vi")'>DC850W Send Auto Sequence Software Trigger [TRG].vi</a><BR></B>
+<FONT FACE="Arial" SIZE="2">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href='vbscript:OpenVI("C:\DC850W\LabVIEW8.5\DC850W.llb\DC850W Set Auto Sequence State.vi")'>DC850W Set Auto Sequence State.vi</a><BR><BR><FONT FACE="Arial" SIZE="2">
+<B>Missing Item ID in RC File<BR></B>
+<FONT FACE="Arial" SIZE="2">
+Cannot find the item ID for the following attributes. The defined C constant in the .sub file might be invalid. Verify that the following attributes have a valid ID in the .sub file and .h file.<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;Dc850W_ATTR_QUERY_INSTR_STATUS<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;Dc850W_ATTR_NUM_CHANNELS<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;Dc850W_ATTR_RESOURCE_DESCRIPTOR<BR><BR><FONT FACE="Arial" SIZE="2">
+<B>Functions Unselected<BR></B>
+<FONT FACE="Arial" SIZE="2">
+The following functions are not selected.  The LabVIEW Interface Generator for LabWindows/CVI does not generate wrapper VIs for them.<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_GetError<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_ClearError<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_LockSession<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_UnlockSession<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_SetAttributeViInt32<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_SetAttributeViReal64<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_SetAttributeViString<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_SetAttributeViBoolean<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_SetAttributeViSession<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_GetAttributeViInt32<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_GetAttributeViReal64<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_GetAttributeViString<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_GetAttributeViBoolean<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_GetAttributeViSession<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_CheckAttributeViInt32<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_CheckAttributeViReal64<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_CheckAttributeViString<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_CheckAttributeViBoolean<BR></B>
+<FONT FACE="Arial" SIZE="2">
+ &nbsp;&nbsp;&nbsp;&nbsp;DC850W_CheckAttributeViSession<BR><BR></B>
+<FONT FACE="Arial" SIZE="2">
+</BODY>
+</HTML>

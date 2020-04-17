@@ -1,0 +1,12 @@
+;**********************************************************************************
+;*** The following example is for moving motor 3 for a distance of 1 revolution ***
+;*** Example can be found on P.10 of users manual.				***
+;***										***
+;*** NOTE: Comments in text code not allowed after the 'R' (Run Command)	***
+;***										***
+;*** Move Motor 3 Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+E,			;Bring controller online
+C,			;Clear previous program from memory
+I3M400,			;Index motor 3 for distance of 400 steps (1 revolution)
+R

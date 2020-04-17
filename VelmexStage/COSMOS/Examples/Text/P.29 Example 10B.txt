@@ -1,0 +1,22 @@
+;**********************************************************************************
+;*** The following example is for 2 different raster scans involving 2 motors	***
+;*** with a loop marker between the different scans and returning to home when 	***
+;*** the program has finished. Program will run this scenerio 5x		***
+;*** 										***
+;*** Example can be found on P.29 of users manual.				***
+;***										***
+;*** NOTE: Comments in text code not allowed after the 'R' (Run Command)	***
+;***										***
+;*** Raster Scan Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+I1M2000,		;Move motor 1 a distance of 2000 steps (5 rev)
+I2M300,			;Move motor 2 a distance of 300 steps (3/4 rev)
+L-4,			;Loop to begining of program 3x, alternate motor direction each loop
+LM0,			;Loop Marker (1st raster scan is done)
+I2M600,			;Move motor 2 a distance of 600 steps (1 and 1/4 rev)
+I1M3000,		;Move motor 1 a distance of 3000 steps (7.5 rev)
+L-3,			;Loop to loop marker 2x, alternate motor direction each loop
+IA2M0,			;Return to motor 2 position zero
+LM-0,			;Clear Loop Marker
+LA5,			;Loop to beginning of program 4 more times
+R

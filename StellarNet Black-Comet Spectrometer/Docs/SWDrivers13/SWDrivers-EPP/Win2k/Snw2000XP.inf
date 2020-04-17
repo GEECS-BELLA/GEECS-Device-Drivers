@@ -1,0 +1,218 @@
+; Windows 2000, XP, Me, 98 Plug and Play INF for WinRT WDM WrtDev
+; Portions Copyright (c) 1993-2001, BSQUARE CORPORATION and StellarNet Inc
+; This file installs devices from the device manager (F4 from the Console)
+; Or from a Plug and Play add device wizard
+
+[Version]
+Signature="$Windows NT$"
+Class=WinRTDevices
+ClassGUID={D695ED6A-630D-4d83-8D8B-F1F0AC107AD0}
+Provider=%WrtDev.Provider%
+
+[Manufacturer]
+%Std%=Std
+%HP%=HP
+%TDC%=TDC
+%SIIG%=SIIG
+%Quatech%=Quatech
+%Lava%=Lava
+
+[ClassInstall32]
+AddReg=WrtDev.AddClassReg
+
+[Quatech]
+%WrtDev.DeviceDesc% = LptPort.INSTALL, PCMCIA\QUATECH_INC-PCMCIA_ENHANCED_PARALLEL_PORT_CARD-26A8
+
+[Lava]
+%WrtDev.DeviceDesc% = LptPort.INSTALL, PCI\VEN_1407&DEV_8000
+
+[Std]
+%WrtDev.DeviceDesc% = EcpPort.INSTALL, *PNP0400           ; Printer Port
+%WrtDev.DeviceDesc% = EcpPort.INSTALL, *PNP0401           ; ECP Printer Port
+
+; Compaq devices
+%WrtDev.DeviceDesc% = EcpPort.INSTALL, *CPQA0E0           ; ECP Printer Port
+
+[HP]            ; Hewlett Packard devices
+%WrtDev.DeviceDesc% = EcpPort.INSTALL, MF\EISA_HWP1C10_DEV1
+
+[TDC]
+%WrtDev.DeviceDesc%=  EcpPort.INSTALL, "PCMCIA\TDC-TRANS_PC_CARD-37D0"
+
+[SIIG]
+%WrtDev.DeviceDesc% = EcpPort.INSTALL, PCI\VEN_131F&DEV_1020&SUBSYS_00000000&REV_02
+%WrtDev.DeviceDesc% = EcpPort.INSTALL, PCI\VEN_131F&DEV_1021&SUBSYS_00000000&REV_02
+%WrtDev.DeviceDesc% = EcpPort.INSTALL, PCI\VEN_131F&DEV_2020&SUBSYS_2020131F&REV_00
+
+; LPT sections
+;----------------------------------------------------------
+[LptPort.INSTALL.LogConfigOverride]
+LogConfig=WrtDev.Override1,WrtDev.Override2,WrtDev.Override3,WrtDev.Override4,WrtDev.Override5
+
+[LptPort.INSTALL.NT.LogConfigOverride]
+LogConfig=WrtDev.Override1,WrtDev.Override2,WrtDev.Override3,WrtDev.Override4,WrtDev.Override5
+
+[LptPort.INSTALL]
+LogConfig=epp,lsnn,lsan,lann,laan
+CopyFiles=WrtDev.CopyFiles
+AddReg=WrtDev.AddRegLoader
+
+[LptPort.INSTALL.NT]
+LogConfig=epp,lsnn,lsan,lann,laan
+CopyFiles=WrtDev.CopyFiles
+AddReg=WrtDev.AddRegLoader
+
+[LptPort.INSTALL.NT.HW]
+AddReg=WrtDev.AddRegWinRT
+
+[LptPort.INSTALL.HW]
+AddReg=WrtDev.AddRegWinRT
+
+[LptPort.INSTALL.NT.Services]
+AddService = WrtDev,0x00000002,WrtDev_Service_Inst
+
+[EcpPort.INSTALL]
+LogConfig=epp,lsnn,lsan,lsaa,lann,laaa
+CopyFiles=WrtDev.CopyFiles
+AddReg=WrtDev.AddRegLoader
+
+[EcpPort.INSTALL.NT]
+LogConfig=epp,lsnn,lsan,lsaa,lann,laaa
+CopyFiles=WrtDev.CopyFiles
+AddReg=WrtDev.AddRegLoader
+
+[EcpPort.INSTALL.NT.HW]
+AddReg=WrtDev.AddRegWinRT
+
+[EcpPort.INSTALL.HW]
+AddReg=WrtDev.AddRegWinRT
+
+[EcpPort.INSTALL.NT.Services]
+AddService = WrtDev,0x00000002,WrtDev_Service_Inst
+
+; The following sections are LPT and ECP port logical
+; resource configurations. Section name format means:
+; Char 1 = l (LPT port)
+; Char 2 = I/O config:    s (std), a (any)
+; Char 3 = IRQ config: #,          a (any), n (none)
+; Char 4 = DMA config:             a (any), n (none)
+
+[lsnn]
+ConfigPriority=HARDRECONFIG
+IOConfig=3bc-3be(3ff::),378-37a(3ff::),278-27a(3ff::)
+
+[lsan]
+ConfigPriority=HARDRECONFIG
+IOConfig=3bc-3be(3ff::),378-37a(3ff::),278-27a(3ff::)
+IRQConfig=3,4,5,6,7,8,9,10,11,12,13,14,15
+
+[lann]
+ConfigPriority=HARDRECONFIG
+IOConfig=8@100-3ff%fff8(3ff::)
+
+[laan]
+ConfigPriority=HARDRECONFIG
+IOConfig=8@100-3ff%fff8(3ff::)
+IRQConfig=3,4,5,6,7,8,9,10,11,12,13,14,15
+
+[lsaa]
+ConfigPriority=HARDRECONFIG
+IOConfig=3bc-3be(3ff::),378-37a(3ff::),278-27a(3ff::)
+IRQConfig=3,4,5,6,7,8,9,10,11,12,13,14,15
+DMAConfig=1,2,3,5,6,7
+
+[laaa]
+ConfigPriority=HARDRECONFIG
+IOConfig=8@100-3ff%fff8(3ff::)
+IRQConfig=3,4,5,6,7,8,9,10,11,12,13,14,15
+DMAConfig=1,2,3,5,6,7
+
+[epp]
+ConfigPriority=DESIRED
+IOConfig=268-26f(3ff::),278-27f(3ff::),378-37f(3ff::)
+IRQConfig=3,4,5,7,9,10,11,12,13,14
+DMAConfig=1,2,3,5,6,7
+ 
+[WrtDev.Override1]
+ConfigPriority=NORMAL
+IOConfig=278-27f(3ff::)
+PcCardConfig = 9
+
+[WrtDev.Override2]
+ConfigPriority=NORMAL
+IOConfig=268-26f(3ff::)
+PcCardConfig = 9
+
+[WrtDev.Override3]
+ConfigPriority=NORMAL
+IOConfig=278-27f(3ff::),268-26f(3ff::)
+IRQConfig=3,4,5,7,9,10,11,12,13,14
+PcCardConfig = 9
+
+[WrtDev.Override4]
+ConfigPriority=NORMAL
+IOConfig=268-26f(3ff::),278-37f(3ff::)
+IRQConfig=3,4,5,7,9,10,11,12,13,14
+PcCardConfig = 9
+
+[WrtDev.Override5]
+ConfigPriority=NORMAL
+IOConfig=8@0000-ffff%8(3ff::)
+IRQConfig=3,4,5,7,9,10,11,12,13,14
+PcCardConfig = 1
+
+; End LPT and ECP LogConfig sections
+
+[SourceDisksNames]
+1=%WrtDev.DriverDiskName%,"",1
+
+[SourceDiskFiles]
+WRTDEV.sys=1
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+WrtDev.CopyFiles = 10,system32\drivers ; WINDOWS\SYSTEM32\DRIVERS
+
+[WrtDev.AddClassReg]
+HKR,,,,%WrtDev.ClassName%
+
+[WrtDev.AddRegLoader]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,WRTDEV.sys
+
+[WrtDev.AddRegWinRT]
+HKR,,BusType,0x00010001,1
+HKR,,SymbolicLinkName,0,"WrtDev"
+
+[WrtDev_Service_Inst]
+ServiceType     = 1
+StartType       = 2  ; Start type is irrelevant on WDM
+ErrorControl    = 1
+ServiceBinary   = %12%\WRTDEV.sys
+DisplayName     = %WrtDev.DeviceDesc%
+
+[WrtDev.CopyFiles]
+WRTDEV.sys
+
+;---------------------------------------------------------------
+; TODO: You can change Providor, Manufacturer, DeviceDesc
+;       and DriverDiskName to match your hardware and
+;       and software
+;---------------------------------------------------------------
+
+[Strings]
+WrtDev.Provider="StellarNet Inc"
+WrtDev.Manufacturer="BSQUARE CORPORATION"
+WrtDev.DeviceDesc="StellarNet WinRT Parallel WDM Device"
+WrtDev.ClassName="WinRT Devices"
+WrtDev.DriverDiskName="StellarNet WinRT Parallel WDM Installation Diskette"
+
+Lava = "EPP-PCI card by LAVA"
+Quatech = "EPP-PCMCIA card by Quatech"
+Std = "Standard port types and LAVA"
+HP = "Hewlett Packard"
+SIIG="SIIG"
+strPCMCIA_SPP_100="Quatech SPP-100:  1 Parallel Port"
+TDC = "TDC"

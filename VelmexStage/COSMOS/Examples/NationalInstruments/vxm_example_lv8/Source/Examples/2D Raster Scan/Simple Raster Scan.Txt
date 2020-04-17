@@ -1,0 +1,20 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Simple Raster Scan
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Motor 1 Move 2000 steps
+;	4.) Motor 2 Move 300 steps
+;	5.) Loop to begginning of program 3 more times and alternate Motor 1 direction 
+;		(last motor 2 movement will be ignored)
+;	6.) Move Motor 2 to position 0
+;	7.) Run Program
+;
+;Actual Script seen below
+;
+F,PM-0,I1M2000,I2M300,L-4,IA2M0,R

@@ -1,0 +1,97 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Sinusoid with Loop
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 1
+;	3.) Motor 1 Speeds and Movement Commands
+;	4.) Change To AND Clear Program 2
+;	5.) Motor 1 Speeds and Movement Commands
+;	6.) Change To AND Clear Program 0
+;	7.) Set Motor 1 Acceleration = 10 (20000 steps/sec^2
+;	8.) Start Continuous Index
+;	9.) Set Loop Marker
+;	10.) Jump to Program 1 and return when done
+;	11.) Jump to Program 2 and return when done
+;	12.) Loop to Loop Marker and reverse Motor 1 and Motor 2 direction
+;	13.) End Continuous Index and Auto Generate a distance to decellerate to a stop
+;
+;Actual Script seen below
+;
+F,
+PM-1,
+S1M48,I1M5,
+S1M153,I1M16,
+S1M257,I1M27,
+S1M363,I1M38,
+S1M467,I1M49,
+S1M563,I1M59,
+S1M670,I1M70,
+S1M766,I1M80,
+S1M860,I1M90,
+S1M955,I1M100,
+S1M1040,I1M109,
+S1M1133,I1M119,
+S1M1215,I1M127,
+S1M1300,I1M136,
+S1M1375,I1M144,
+S1M1452,I1M152,
+S1M1520,I1M159,
+S1M1588,I1M166,
+S1M1648,I1M173,
+S1M1708,I1M179,
+S1M1757,I1M184,
+S1M1806,I1M189,
+S1M1848,I1M193,
+S1M1885,I1M197,
+S1M1919,I1M201,
+S1M1945,I1M204,
+S1M1967,I1M206,
+S1M1983,I1M208,
+S1M1994,I1M209,
+S1M1999,I1M209,
+
+PM-2,
+S1M1999,I1M209,
+S1M1994,I1M209,
+S1M1983,I1M208,
+S1M1967,I1M206,
+S1M1945,I1M204,
+S1M1919,I1M201,
+S1M1885,I1M197,
+S1M1848,I1M193,
+S1M1806,I1M189,
+S1M1757,I1M184,
+S1M1708,I1M179,
+S1M1648,I1M173,
+S1M1588,I1M166,
+S1M1520,I1M159,
+S1M1452,I1M152,
+S1M1375,I1M144,
+S1M1300,I1M136,
+S1M1215,I1M127,
+S1M1133,I1M119,
+S1M1040,I1M109,
+S1M955,I1M100,
+S1M860,I1M90,
+S1M766,I1M80,
+S1M670,I1M70,
+S1M563,I1M59,
+S1M467,I1M49,
+S1M363,I1M38,
+S1M257,I1M27,
+S1M153,I1M16,
+S1M48,I1M5,
+
+PM-0,
+A1M10,
+U77,
+LM0,
+JM1,
+JM2,
+LM-3,
+U91,

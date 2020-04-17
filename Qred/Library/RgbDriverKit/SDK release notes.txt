@@ -1,0 +1,119 @@
+**********************************************************
+*******  Waves SDK / RgbDriverKit.dll Release Notes ******
+**********************************************************
+
+2.1.7  Support for Qred 512C-2.5
+       Alternating nonlinearity for polynomials up to 8th order
+       Bugfix for dark spectra < 1 ms
+
+2.1.6  UART interface for Qseries devices
+
+2.1.5  Support for connecting to devices via SPI
+       Bugfixes
+
+2.1.4  Support for Qred with extended InGaAs sensor
+
+2.1.3  Bugfix for dark spectra
+
+2.1.2  Support for Qwave 2 with ILX sensor
+       SensitivitySmoothing renamed to PRNUCorrection
+       Bugfixes
+
+2.1.1  Bugfix
+
+2.1.0  Improved support for temperature-controlled spectrometers
+
+2.0.9  Bugfixes: Searching for serial ports, SPI interface
+       GetDeviceSettings() for all spectrometers
+
+2.0.8  Improved: Removal of permanent bad pixels
+       Preliminary support for Qred including temperature control
+       New calibration data format V3.1 for Qred
+       Adjust Offset with fixed offset and offset spectrum
+       
+2.0.7  Support for devices with variable sensor gain
+       More precise calculation of nonlinearity when using high-order polynomials
+       Improved reliability of serial port communication
+       Several minor improvements
+
+2.0.5  Bugfix for Qstick
+       SaturationValue is now included in nonlinearity correction
+
+2.0.4  LabView code updated for new Qmini spectrometer
+       Bugfixes
+
+2.0.2  New I/O configuration for Qseries: Pulsed high/low during expousure
+       Bugfix for reading old calibration data format
+
+2.0.1  Bugfixes
+
+2.0.0  Support for the new Qmini spectrometer
+       Alternating Nonlinearity correction (for odd/even pixels)
+       Improved dark spectrum calculation
+       New calibration data format V3.0
+       More efficient spectrum processing
+       Minimum supported firmware versions: Qwave/Qmini 1.5.8, Qstick 1.4.2
+
+1.6.3  Company name changed to RGB Photonics
+
+1.6.2  (no changes in RgbDriverKit.dll)
+
+1.6.1  Bugfix for occasional 270 ms delay in Qwave/Qmini spectrum transfer (needs firmware version >= 1.7.1)
+
+1.6.0  Small bugfixes and improvements
+
+1.5.8  Updated Matlab demo code
+       Increased write/read buffer size for auxiliary I2C interface       
+
+1.5.7  Support for latest FreshDetect devices
+
+1.5.6  Bugfix for AvaSpec-Micro and -Mini spectrometers
+       New processing step: Scale to 16 bit range
+       
+1.5.5  Support for linearity-corrected light source
+       New sample code: Controlling lasers with Matlab
+
+1.5.2  Small bugfixes
+
+1.5.1  New sample code: COM Wrapper
+       Improved support for binning and buffering
+
+1.5.0  Support for binning and buffering prototype
+       Spectrometer framework updated, more information in "API changes.txt" 
+       SimulatedSpectrometer now simulates a real device more realistically
+
+1.4.4  Bugfix: ContinuousExposure
+       Small bugfixes
+
+1.4.3  Added support for Qwave/Qmini with UART interface
+       Bugfix: Internal offset problem with old Qstick firmware
+
+1.4.2  Added support for latest OEM devices
+       Bugfix: Device reset for STS spectrometers
+       Added: Base class for monochromators
+
+1.4.1  Added: Saving user data on device
+
+1.3.8  Added: Support for OutputPulsedDuringExposure
+
+1.3.7  Changed auxiliary interface
+       Small bugfixes
+
+1.3.6  New internal structure for saving calibration data in spectrometer
+       Support for NOD NanoStick and NanoTune devices
+
+1.3.4  Improved sensitivity smoothing when overloaded
+
+1.3.3  Added: support for Auxiliary Interfaces (not documented yet)
+
+1.3.2  Bugfix: Bug when using devices without nonlinearity correction
+
+1.3.0  (Internal change) Spectrum processing moved to ExtendedSpectrometer
+       Sensitivity calibration setting is now persistently saved on device
+       Sensitivity Smoothing for Qstick is now persistently saved on device
+
+1.2.5   Added preliminary auto-exposure in ExtendedSpectrometer
+        Added events ExposureTimeChanged and AveragingChanged in Spectrometer
+
+1.2.0   Property renamed: SelectedProcessingSteps -> ProcessingSteps
+        Property renamed: SelectableProcessingSteps -> AvailableProcessingSteps

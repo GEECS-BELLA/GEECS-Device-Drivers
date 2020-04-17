@@ -1,0 +1,142 @@
+; =================================
+; INF file for Qstick spectrometers
+; =================================
+
+[Version]
+Signature = "$Windows NT$"
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName="Qstick Driver Package"
+Class=MeasurementAndControl
+ClassGuid={79DE62A4-B772-448E-BAF9-F94CFAEEEED7}
+Provider=%COMPANYNAME%
+CatalogFile=qstick.cat
+; Date format: MM/DD/YYYY
+DriverVer=02/14/2016,1.2.2.0
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%COMPANYNAME% = Qstick,NTx86,NTamd64
+%COMPANYNOD% = NOD,NTx86,NTamd64
+%COMPANYFRESH% = Fresh,NTx86,NTamd64
+%COMPANYTLUX% = TLux,NTx86,NTamd64
+
+[Qstick.NTx86]
+%DESCRQSTICK% =USB_Install, USB\VID_276E&PID_90CD&MI_00
+
+[Qstick.NTamd64]
+%DESCRQSTICK% =USB_Install, USB\VID_276E&PID_90CD&MI_00
+
+[NOD.NTx86]
+%DESCRNANOSTICK% =USB_Install, USB\VID_276E&PID_A0CD&MI_00
+%DESCRNANOTUNE% =USB_Install, USB\VID_276E&PID_A0CA&MI_00
+
+[NOD.NTamd64]
+%DESCRNANOSTICK% =USB_Install, USB\VID_276E&PID_A0CD&MI_00
+%DESCRNANOTUNE% =USB_Install, USB\VID_276E&PID_A0CA&MI_00
+
+[Fresh.NTx86]
+%DESCRFRESH% =USB_Install, USB\VID_276E&PID_E001
+
+[Fresh.NTamd64]
+%DESCRFRESH% =USB_Install, USB\VID_276E&PID_E001
+
+[TLux.NTx86]
+%DESCRTLUX% =USB_Install, USB\VID_276E&PID_E002&MI_00
+%DESCRTLUX% =USB_Install, USB\VID_276E&PID_E002
+
+[TLux.NTamd64]
+%DESCRTLUX% =USB_Install, USB\VID_276E&PID_E002&MI_00
+%DESCRTLUX% =USB_Install, USB\VID_276E&PID_E002
+
+; ========== New device manager category =============
+
+[ClassInstall32]
+AddReg=ClassInstall_AddReg
+
+[ClassInstall_AddReg]
+HKR,,,,%DEVICEMANAGERCATEGORY%
+HKR,,Icon,,"-20"
+
+; =================== Installation ===================
+
+[USB_Install]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[USB_Install.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+[USB_Install.Wdf]
+KmdfService=WINUSB, WinUsb_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion=1.9
+
+[USB_Install.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{061C8487-23FF-439F-9771-62B45BB64B39}"
+
+[USB_Install.CoInstallers]
+AddReg=CoInstallers_AddReg
+CopyFiles=CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+; ================= Source Media Section =====================
+
+[SourceDisksNames.x86]
+1 = %DISK_NAME%,,,\i386
+
+[SourceDisksNames.amd64]
+2 = %DISK_NAME%,,,\amd64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll=1
+WdfCoInstaller01009.dll=1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll=2
+WdfCoInstaller01009.dll=2
+
+[_CopyFiles_sys]
+winusb.sys
+
+[DestinationDirs]
+DefaultDestDir = 12 ; %SystemRoot%\system32\drivers
+_CopyFiles_sys = 12
+
+; =================== Strings ===================
+
+[Strings]
+COMPANYNAME="RGB Photonics"
+COMPANYNOD="Nano Optic Devices"
+COMPANYFRESH="FreshDetect"
+COMPANYTLUX="Tailorlux"
+DESCRQSTICK="Qstick"
+DESCRNANOSTICK="Nano-Stick"
+DESCRNANOTUNE="Nano-Tune"
+DESCRFRESH="FreshDetect Handheld"
+DESCRTLUX="Tailorlux Handheld"
+WinUSB_SvcDesc="Qstick"
+DISK_NAME="Qstick Drivers Disk"
+DEVICEMANAGERCATEGORY="Measurement and Control"
+

@@ -1,0 +1,3 @@
+;Simple Raster Scan
+;
+F,C,I1M2000,I2M300,L-4,IA2M0,R

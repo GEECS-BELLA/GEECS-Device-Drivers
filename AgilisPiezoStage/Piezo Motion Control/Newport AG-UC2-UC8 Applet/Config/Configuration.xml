@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Newport.AGILISUC.Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Configuration.xsd">
+  <LoggingConfiguration LogFileName="AgilisUC.Log" LogPath="\\Log" Permission="" Level="Trace" />
+  <InstrumentInformation PollingFrequency="200" />
+  <Diagnostics Delay="1000" />
+  <Models>
+    <InstrumentInfo InstrumentType="AGILIS-UC2, AGILIS-UC8" NoOfInstruments="2" CommunicationChannel="USB" />
+  </Models>
+</Newport.AGILISUC.Configuration>

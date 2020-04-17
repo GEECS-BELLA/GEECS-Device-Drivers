@@ -1,0 +1,248 @@
+<html>
+    <head>
+        <title>Tektronix DPO MSO 2000 4000 Series Instrument Driver Readme</title>
+    </head>
+    <body>
+        <pre>
+        <font face = "Times New Roman", size = 3>
+        <h2>Tektronix DPO MSO 2000 4000 Series Instrument Driver Readme</h2>
+To rate this instrument driver, go to the driver download page on the <a href="http://www.ni.com/idnet">Instrument Driver Network</a>.
+<h3>1. Overview</h3>
+Instrument Driver Technology: LabVIEW Plug and Play (project-style)
+Manufacturer: Tektronix
+Supported Language(s): LabVIEW 
+
+Supported Model(s): DPO4032, DPO4034, DPO4054, DPO4104, MSO4032,
+MSO4034, MSO4054, MSO4104, DPO3012, DPO3014, DPO3032, DPO3034, DPO3052,
+DPO3054, DPO2002, DPO2012, DPO2014, DPO2024, MSO2002, MSO2012, MSO2014,
+MSO2024, MSO3012, MSO3014, MSO3032, MSO3034, MSO3052, MSO3054, DPO4034B,
+DPO4054B, DPO4104B, MSO4034B, MSO4054B, MSO4104B,
+MDO4054-3, MDO4054-6, MDO4104-3, MDO4104-6
+DPO4104B-L, DPO4102B, DPO4102B-L, MSO4104B-L, MSO4102B, MSO4102B-L
+
+Model(s) Tested: DPO4104,MSO4032,DPO3054, MSO3052, MSO4054B, MDO4104-6
+Interface(s): USB, Ethernet(DPO/MSO4kB do not support USB)
+Firmware Revision(s) Tested: v1.11(DPO4K),v2.01(DPO/MSO4K),v2.06(DPO/MSO4K),v0.00316(DPO3K),v2.09132(DPO/MSO3K),v1.12(DPO/MSO4kB)
+
+Certified: Yes
+NI Supported: Yes
+Source Code Available: Yes
+
+Driver Revision: 5.1.1
+Original Release Date: 8/30/2006
+Current Revision Date: 9/26/2012
+
+Note: Repeatedly open and close the visa resource name is not suggested when using this instrument driver.
+
+<h3>2. Required Software</h3>
+Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
+
+VISA 3.2 or later
+
+Refer to the <i>LabVIEW Help</i> for more information about software requirements. You access the <i>LabVIEW Help</i> by selecting <i>Help»Search the LabVIEW Help</i>.
+<h3>3. Known Issues</h3>
+To report issues or provide feedback about this instrument driver, please send an email to <a href="mailto:instrument.drivers@ni.com">instrument.drivers@ni.com</a>.
+
+Wait for Operation Complete clears the instrument's event log. The practical result of this is that all instrument errors are lost.
+
+The digital waveform graph indicator in the Read Multiple Digital Waveforms vi autosizes incorrectly the first time when there are more than one digital channel is selected. Re-running the vi fixes the issue.
+
+The Trigger On parameters "TX Parity Error" and "RX Parity Error" do not have programming interface commands in place therefore they aren't implemented in the driver.
+<h3>4. Revision History</h3>
+The latest version of this and other LabVIEW and LabWindows/CVI instrument drivers can be downloaded at the <a href="http://www.ni.com/idnet">Instrument Driver Network</a>.
+
+REV 1.0, 8/30/05
+Modified by: Penar Zhu, Shanghai,China.
+Original release.
+
+REV 1.0.1, 3/12/2007
+Modified by: Penar Zhu, Shanghai,China.
+Removed index was wired into the N terminal of the For Loop.
+
+REV 1.1.0, 10/29/2007
+Modified by: Berk Ozdogan, Austin, Texas.
+MSO4K series, digital acquisition, RS232C, Parallel and HDTV triggering are now supported.
+Added VIs are:
+- Configure Digital Channel
+- Configure Magnivu Enabled
+- Configure Trigger (Parallel)
+- Configure Trigger (RS232)
+- Display Setup
+- Fetch Waveform (Digital Waveform)
+- Read (Single Digital Waveform)
+- Read (Multiple Digital Waveform)
+- Save-Recall Setup
+DPO4104B-L, DPO4102B, DPO4102B-L, MSO4104B-L, MSO4102B, MSO4102B-L
+Added examples are:
+- Acquire Digital Waveform Example
+- Acquire Multiple Digital Waveforms Example
+
+REV 1.2.0, 11/06/2007
+Modified by: Berk Ozdogan, Austin, Texas.
+New features added by the firmware updates 2.04 &amp; 2.06 are now supported.
+Added VIs are:
+- Configure Bus Source (RS232)
+
+REV 1.2.1, 01/09/2008
+Modified by: Berk Ozdogan, Austin, Texas.
+Problems relating to Bus modes and display are fixed
+Modified VIs are:
+- Configure Bus Source (RS232):
+Constant source array element order is corrected so that the source controls work properly.
+Missing command termination character (";") is added to the end of each element in the constant source array.
+"Off" option to RX and TX source controls are added.
+Missing bit rate values are added. 
+Source controls are expanded so that all parameters can be viewed in full.
+- Configure Bus Source (SPI):
+Constant source array element order is corrected so that the source controls work properly.
+Source controls are expanded so that all parameters can be viewed in full.
+- Configure Bus Source (I2C):
+Constant source array element order is corrected so that the source controls work properly.
+Source controls are expanded so that all parameters can be viewed in full.
+- Configure Bus Source (CAN):
+Constant source array element order is corrected so that the source controls work properly.
+Source controls are expanded so that all parameters can be viewed in full.
+- Display Setup:
+Commands that are only relevant to models with digital channels are now gated with a case structure.
+
+REV 1.2.2, 04/07/2008
+Modified by: Berk Ozdogan, Austin, Texas.
+- VISA STB block is replaced with manual VISA Write with "*STB?" and VISA Read to prevent VISA timeouts that occured when USB interface is used.
+
+REV 2.0, 04/23/2008
+Modified by: Berk Ozdogan, Austin, Texas.
+- DPO3K Series are now supported:
+      - New HDTV options are added
+      - 5M Record Length option added
+      - 150 MHz bandwidth option added
+      - 75 Ohm channel input impedence option added
+- Video Triggering on specific lines is added (Trigger on Numeric Line)
+- Setup &amp; Hold Triggering documentation updated to reflect MSO models not being able to use AUX input as a data source
+- New measurements (Positive and Negative Edge Counts, Positive and Negative Pulse Counts) are now supported
+- Multiple data source selection capability is included in the Setup &amp; Hold triggering (specifically for MSO models)
+- Custom option added to the Bit Rate control in Configure Bus Source (CAN) VI
+- Custom Bitrate control added to Configure Bus Source (CAN) VI
+- Sample Point control added to Configure Bus Source (CAN) VI
+- Off option added to the Delimiter control in Configure Bus Source (RS232) VI
+- 0x20 (Space) delimiter added to the Delimiter control in Configure Bus Source (RS232) VI
+- 9 Bits option added to the Data Bits control in Configure Bus Source (RS232) VI
+- Idle Time framing is now possible for SPI Bus, Configure Bus Source (SPI - Idle Time) VI added
+- Configure Bus Source (SPI) VI modified to include a command to switch into SS framing in case idle time framing was active previously
+- Bit Order and Word Size controls are added to SPI configuration VIs
+- Include R/W In Address control added to Configure Bus Source (I2C) VI
+- Updated the documentation for Direction control in Configure Trigger (I2C) VI to reflect the effect of Include R/W In Address control in Configure Bus Source (I2C) VI
+- Updated the documentation for Data Bits and Parity controls in Configure Bus Source (RS232) VI to reflect the effect of the new 9 bits option for Data Bits
+- Added Start of Frame option to the Trigger Condition control in Configure Trigger (SPI) and updated the documentation to reflect restrictions
+- Configure Delay VI added
+
+REV 3.0, 11/19/2008
+Modified by: Berk Ozdogan, Austin, Texas.
+- DPO2K and MSO2K Series are now supported:
+- Documentation of the Configure Magnivu Enabled VI is updated.
+- Documentation of the Acquisition Type control in Configure Acquisition VI is updated.
+- Documentation for source controls in Configure Bus source VI's are updated to indicate that thresholds must be set by Configure Channel or Configure Digital Channel VIs.
+- Documentation of the Bandwidth control in Configure Channel VI is updated to reflect the capabilties of the DPO2K and MSO2K series.
+- Documentation of the Input Impedance control in Configure Channel VI is updated to reflect the capabilties of the DPO2K and MSO2K series.
+- Configure Record Data VI added.
+- Configure Delay Trigger VI documentation is updated to reflect that it is not supported by DPO2K and MSO2K series.
+- Configure Trigger (Runt) VI updated to not send the Trigger Condition command if a 2K series instrument is being used since that functionality isn't supported.
+- Signal Format and HDTV Format controls in Configure Trigger (Video) VI are updated to reflect the capabilities not supported by DPO2K and MSO2K series.
+
+REV 4.0, 07/06/2009
+Modified by: Alvin Tang, Austin, Texas.
+- Original Release for LabVIEW 8.0. Driver created based on version 3.0 of LabVIEW 7.1 Tektronix DPO MSO 2000 4000 Series Driver.
+
+REV 4.1, 10/01/2009
+Modified by: Alvin Tang, Austin, Texas.
+- Configure Record Data.vi 
+VI Documentation changed from "This VI is not valid for any series other than DPO2K and MSO2K series" to "This VI is not valid for DPO 3k, MSO 3k, DPO 4k and MSO 4k Series".
+-Tektronix DPO MSO 2000 4000 Series Acquire Digital Waveform Example.vi 
+Added Configure Record Data.vi to configure Data Composition to Singular. 
+Added user data to determine which instrument model is used. Configure Record Data.vi is not used for DPO and MSO 4k Series. 
+-Tektronix DPO MSO 2000 4000 Series Acquire Multiple Digital Waveform Example.vi 
+Added Configure Record Data.vi to configure Data Composition to Singular. 
+Added user data to determine which instrument model is used. Configure Record Data.vi is not used for DPO and MSO 4k Series. 
+
+REV 4.1.1, 10/15/2009
+Modified by: Alvin Tang, Austin, Texas.
+-Tektronix DPO MSO 2000 4000 Series Acquire Digital Waveform Example.vi, Read(Single Digital Waveform).vi and Fetch(Digital Waveform).vi
+Digital Waveform Graph Property Chnaged. 
+Right Click on Graph&gt;&gt;Y Scale&gt;&gt;Uncheck Expand Digital Buses
+
+REV 4.2, 06/01/2010
+Modified by: Lei Liu, Shanghai, China.
+- MSO3000 Series are now supported:
+- Add the VIs bellow:
+- Configure Bus Source (AUDIO - Clock).vi
+- Configure Bus Source (AUDIO - Data).vi
+- Configure Bus Source (AUDIO - Frame).vi
+- Configure Bus Source (AUDIO - Type).vi
+- Configure Bus Source (LIN).vi
+- Configure Bus Source (Parallel).vi  
+- Configure Trigger (AUDIO).vi
+- Configure Trigger (LIN).vi
+- Documentations are updated.
+
+REV 4.3, 01/26/2011
+Modified by: Liping Zhao, Shanghai, China.
+- DPO4034B,DPO4054B, DPO4104B, MSO4034B, MSO4054B, MSO4104B  are now supported:
+- Add the VI(s) bellow:
+- Configure Bus Threshold.vi
+- Configure Ethernet.vi
+- Configure Trigger (USB).vi
+- Configure Trigger (Ethernet - Basic).vi
+- Configure Trigger (Ethernet - Data).vi
+- Configure Trigger (Ethernet - IP Header).vi
+- Configure Trigger (Ethernet - MAC).vi
+- Configure Trigger (Ethernet - QTAG).vi
+- Configure Trigger (Ethernet - TCP Header).vi
+- Documentations are updated.
+
+REV 4.3.1, 03/07/2011
+Modified by: Lars Lindstrom, Austin, Texas.
+-Modified Save-Recall Setup.vi
+Added a space after the *RCL command
+Fixed the Memory Location control so it has the valid range of Location 1 through Location 10 instead of 0-9
+
+REV 5.0, 08/30/2011
+Modified by: Ayo Olubeko, Austin, Texas.
+- Added Support for the MDO Series oscilloscopes in the Initialize VI.
+- Added the following 9 VI's to the project:
+&nbsp;&nbsp;- Configure Math (Spectrum)
+&nbsp;&nbsp;- Configure RF Channel
+&nbsp;&nbsp;- Configure RF Squelch
+&nbsp;&nbsp;- Configure RF Resolution bandwidth
+&nbsp;&nbsp;- Configure Frequency Domain Measurement
+&nbsp;&nbsp;- Read Frequency Domain Measurement
+&nbsp;&nbsp;- Tektronix Model Check (Private VI)
+&nbsp;&nbsp;- Convert Measurement Units (Private VI)
+&nbsp;&nbsp;- Tektronix DPO MSO 2000 4000 Series Configure and Frequency Domain Measurement (Example VI)
+- Updated the following VI's to include support for RF channels:
+&nbsp;&nbsp;- Configure Trigger (Logic)
+&nbsp;&nbsp;- Configure Trigger (Edge)
+&nbsp;&nbsp;- Configure Trigger (Runt)
+&nbsp;&nbsp;- Configure Delay Trigger
+&nbsp;&nbsp;- Fetch Waveform Measurement
+&nbsp;&nbsp;- Fetch Waveform (Waveform Data Type)
+&nbsp;&nbsp;- Is channel Enabled
+
+REV 5.0.1, 11/21/2011
+Modified by: Haoran Feng, Shanghai, China.
+Modified Wait for Operation Complete.vi - Removed the *CLS command since it was causing the scope to trigger incorrectly.
+
+REV 5.0.2, 12/06/2011
+Modified by: Lars Lindstrom, Austin, TX
+Modified Tektronix DPO MSO 2000 4000 Series Acquire Multiple Waveform Example.vi 
+- Swapped connection order of Channel A and Channel B to Build Array function as this was causing the graph legend to mislabel the curves.
+
+REV 5.1, 3/22/2012
+Modified by: Haoran Feng, Shanghai, China.
+- DPO4104B-L, DPO4102B, DPO4102B-L, MSO4104B-L, MSO4102B, MSO4102B-L  are now supported.
+<br>
+REV 5.1.1, 9/26/2012
+Initialize.vi The two newly supported models as 3/22/2012 (DPO4102 and MSO4102) are now indexed as 32 and 33 instead of 1 and 6 in Instrument Module String Array constant. 
+Previously having new models as indexed as 1 and 6 was causing issues with Tektronix Model Check Private VI.
+
+</pre>
+</body>
+</html>

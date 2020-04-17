@@ -1,0 +1,15 @@
+Variable or State	Default Value	Minimum	Maximum	Step Size	Data type	Allowed text Values	Arguments	Class	Location
+whatami	FakeCam	NA	NA	NA	numeric	NA	NA	Camera	L Cave
+ipaddress	192.168.10.182	NA	NA	NA	numeric	NA	NA		
+udpport	65535	NA	NA	NA	numeric	NA	NA		
+camsession	cam0	NA	NA	NA	text	NA	NA		
+dllname	PointGreyUSB.dll	NA	NA	NA	text	NA	NA
+localsavingpath	C:\Temp\	NA	NA	NA	text	anything	get,set		
+runmode	off	NA	NA	NA	text	on,off	get,set			
+save	off	NA	NA	NA	text	on,off	get,set		
+trigger	off	NA	NA	NA	text	on,off	get,set		
+exposure	0.1	0.03	1	0.01	numeric	NA	get,set		
+gain	0	0	16	1	numeric	NA	get,set
+image	NA	NA	NA	NA	image	NA	get		
+opticalspectrum	NA	NA	NA	NA	1darray	NA	get		
+spec2	NA	NA	NA	NA	1darray	NA	get

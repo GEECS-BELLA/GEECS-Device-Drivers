@@ -1,0 +1,9 @@
+;**********************************************************************************
+;*** The following example is for clearing previous program from memory		***
+;*** Example can be found on P.26 of users manual.				***
+;***										***
+;***										***
+;*** Clear program Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+C			;Clear previous program from memory
+

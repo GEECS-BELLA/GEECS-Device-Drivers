@@ -1,0 +1,37 @@
+ 
+[Version]
+Signature="$CHICAGO$"
+Class=Ports
+Provider=%String0%
+
+[Manufacturer]
+%String0%=LAVA
+
+[LAVA]
+%String1%=ParallelPort,PCI\VEN_1407&DEV_8000
+%String2%=ParallelPort,PCI\VEN_1407&DEV_8002
+%String3%=ParallelPort,PCI\VEN_1407&DEV_8003
+
+[ParallelPort]
+AddReg=ParallelPort.AddReg
+LogConfig=lca
+Reboot
+
+[ParallelPort.AddReg]
+HKR,,DevLoader,0,*vcomm
+HKR,,Enumerator,0,lptenum.vxd
+HKR,,PortDriver,0,lpt.vxd
+HKR,,Contention,0,*vpd
+HKR,,PortSubClass,1,00
+HKR,,ECPDevice,1,00
+
+[Strings]
+String0="Lava Computer MFG Inc."
+String1="Lava Parallel PCI"
+String2="Lava DParallel PCI PortA"
+String3="Lava DParallel PCI PortB"
+
+[lca]
+ConfigPriority=HARDRECONFIG
+IOConfig=8@100-ffff%fff8(ffff::)
+IRQConfig=S:3,4,5,7,9,10,11,12,15

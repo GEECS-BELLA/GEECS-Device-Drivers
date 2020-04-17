@@ -1,0 +1,29 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Rectangle with Output 1 On and Wait for Input 1 at each corner
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Motor 1 Move 2000 steps
+;	4.) Wait For Input 1 AND Hold Output 1 ON
+;	5.) Motor 2 Move 1000 steps
+;	6.) Wait For Input 1 AND Hold Output 1 ON
+;	7.) Loop to begginning of program and reverse Motor 1 and Motor 2 Direction
+;	8.) Loop to begginning of program continuously
+;	9.) Run Program
+;
+;Actual Script seen below
+;
+F,
+PM-0,
+I1M2000,
+U1,
+I2M1000,
+U1,
+LM-3,
+L0,
+R

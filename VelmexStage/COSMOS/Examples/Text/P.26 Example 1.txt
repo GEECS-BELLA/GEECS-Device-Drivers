@@ -1,0 +1,8 @@
+;**********************************************************************************
+;*** The following example is for bringing the controller online 		***
+;*** Example can be found on P.26 of users manual.				***
+;***										***
+;***										***
+;*** Control Online Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+E,			;Bring controller online

@@ -1,0 +1,88 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Raster scan with 1 sec pauses and wait for go (Equivalent code as Users Manual P.28 Example 8 code but much longer)
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Motor 1 Movement Commands
+;	4.) Send W to computer and wait for a "G" to continue
+;	5.) Run Program
+;
+;Actual Script seen below
+;
+F,
+PM-0,
+;###################### ROW 1
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+;###################### DOWN 1
+I2M400,
+;###################### ROW 2
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+;###################### DOWN 2
+I2M400,
+;###################### ROW 3
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+I1M200,
+P10,
+;###################### DOWN 3
+I2M400,
+;###################### ROW 4
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+I1M-200,
+P10,
+;###################### WAIT FOR INPUT
+U6,
+LM-2,
+R

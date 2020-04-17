@@ -1,0 +1,29 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: AutoReverse
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Set Motor 1 Speed (Normal Power) = 2000
+;	4.) Set Loop Marker To Current Location in Program 0
+;	5.) Motor 1 Move 2000
+;	6.) Pause 1 Second
+;	7.) Motor 1 Move - 2000
+;	8.) Loop To Program Start Continuously
+;	9.) Run Program
+;
+;Actual Script seen below
+;
+F,
+PM-0,
+S1M2000,
+LM0,
+I1M2000,
+P10,
+I1M-2000,
+L0,
+R

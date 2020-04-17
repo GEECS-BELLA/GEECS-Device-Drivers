@@ -1,0 +1,14 @@
+;**********************************************************************************
+;*** The following example is for homing motor 1 to the positive limit and move	***
+;*** back 200 steps from where the limit is, to prevent limit switch damage 	***
+;*** NOTE: Velocities above 1000sps will damage the limit switch		***
+;*** Example can be found on P.27 of users manual.				***
+;***										***
+;***										***
+;*** Home Motor 1 Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+S1M600,			;Set motor 1 speed to 600sps (to prevent damage)
+I1M0,			;Home motor 1 to the positive limit
+I1M-200,		;Move motor 1 a distance of 200 steps off the limit
+IA1M-0,			;Set current position as zero (for homing purposes later)
+R

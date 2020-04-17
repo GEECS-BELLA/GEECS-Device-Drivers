@@ -1,0 +1,718 @@
+explicitActiveChannels: TRUE
+library: DC850W_32.dll
+
+class: "DC850W"
+flags: 0
+sorted: no
+implements: ivi, IviDCPwr, iviResourceMgr
+
+attribute: "Active Channel" "Active Channel" string writeonly 3 -2
+"Specifics the channel name used to access all subsequent channel-based properties in this property node.  Set the channel before setting channel-based properties.  Pass a name that the instrument driver defines or a virtual channel name configured in MAX."
+
+attribute: "Range Check"
+	"Inherent IVI Properties:User Options:Range Check"
+	bool readwrite 1 100592
+	//const: Dc850W_ATTR_RANGE_CHECK
+"Specifies whether to validate property values and VI parameters.  If enabled, the instrument driver validates the parameter values that you pass to driver VIs.  Range checking parameters is very useful for debugging.  After you validate your program, you can set this property to FALSE to disable range checking and maximize performance.
+    The default value is TRUE.   Use the DC850W Initialize With Options.vi to override this value.
+    
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Query Instrument Status"
+	"Inherent IVI Properties:User Options:Query Instrument Status"
+	bool readwrite 1 100593
+	//const: Dc850W_ATTR_QUERY_INSTRUMENT_STATUS
+"Specifies whether the instrument driver queries the instrument status after each operation.  Querying the instrument status is very useful for debugging.  After you validate your program, you can set this property to FALSE to disable status checking and maximize performance
+    The instrument driver can choose to ignore status checking for particular properties regardless of the setting of this property.
+    The default value is TRUE.   Use the DC850W Initialize With Options.vi to override this value.
+    
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Cache"
+	"Inherent IVI Properties:User Options:Cache"
+	bool readwrite 1 100594
+	//const: Dc850W_ATTR_CACHE
+"Specifies whether to cache the value of properties.  When caching is enabled, the instrument driver keeps track of the current instrument settings and avoids sending redundant commands to the instrument.  Thus, you can significantly increase execution speed.
+    The instrument driver can choose always to cache or never to cache particular properties regardless of the setting of this property.
+    The default value is TRUE.   Use the DC850W Initialize With Options.vi to override this value.
+    
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Simulate"
+	"Inherent IVI Properties:User Options:Simulate"
+	bool readwrite 1 100595
+	//const: Dc850W_ATTR_SIMULATE
+"Specifies whether or not to simulate instrument driver I/O operations.  If simulation is enabled, instrument driver VIs perform range checking and call Ivi_GetAttribute and Ivi_SetAttribute VIs, but they do not perform instrument I/O.  For output parameters that represent instrument data, the instrument driver VIs return calculated values.
+    The default value is FALSE.   Use the DC850W Initialize With Options.vi to override this value.
+    
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Record Value Coercions"
+	"Inherent IVI Properties:User Options:Record Value Coercions"
+	bool readwrite 1 100596
+	//const: Dc850W_ATTR_RECORD_COERCIONS
+"Specifies whether the IVI engine keeps a list of the value coercions it makes for integer and ViReal64 properties.  You call DC850W Get Next Coercion Record.vi to extract and delete the oldest coercion record from the list.
+    The default value is FALSE.   Use the DC850W Initialize With Options.vi to override this value.
+    
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Interchange Check"
+	"Inherent IVI Properties:User Options:Interchange Check"
+	bool readwrite 1 1005A5
+	//const: Dc850W_ATTR_INTERCHANGE_CHECK
+"Specifies whether to perform interchangeability checking and retrieve interchangeability warnings when you call DC850W Measure.vi, DC850W_Initiate. 
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Query Instrument Status"
+	"Inherent IVI Properties:User Options:Query Instrument Status"
+	bool readwrite 1 0
+	//const: Dc850W_ATTR_QUERY_INSTR_STATUS
+"Specifies whether the instrument driver queries the instrument status after each operation.  Querying the instrument status is very useful for debugging.  After you validate your program, you can set this property to FALSE to disable status checking and maximize performance
+    The instrument driver can choose to ignore status checking for particular properties regardless of the setting of this property.
+    The default value is TRUE.   Use the DC850W Initialize With Options.vi to override this value.
+    
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Description"
+	"Inherent IVI Properties:Driver Identification:Description"
+	string readonly 1 100792
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_DESCRIPTION
+"A string that contains a brief description of the specific driver
+    
+
+"
+attribute: "Driver Prefix"
+	"Inherent IVI Properties:Driver Identification:Driver Prefix"
+	string readonly 1 1006BE
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_PREFIX
+"A string that contains the prefix for the instrument driver.  The name of each user-callable VI in this driver starts with this prefix.
+    
+
+"
+attribute: "Driver Vendor"
+	"Inherent IVI Properties:Driver Identification:Driver Vendor"
+	string readonly 1 100791
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_VENDOR
+"A string that contains the name of the vendor that supplies this driver.
+    
+
+"
+attribute: "Revision"
+	"Inherent IVI Properties:Driver Identification:Revision"
+	string readonly 1 1007B7
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_REVISION
+"A string that contains additional version information about this instrument driver.
+    
+
+"
+attribute: "Class Specification Major Version"
+	"Inherent IVI Properties:Driver Identification:Class Specification Major Version"
+	iL readonly 1 100793
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MAJOR_VERSION
+"The major version number of the class specification with which this driver is compliant.
+    
+
+"
+attribute: "Class Specification Minor Version"
+	"Inherent IVI Properties:Driver Identification:Class Specification Minor Version"
+	iL readonly 1 100794
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MINOR_VERSION
+"The minor version number of the class specification with which this driver is compliant.
+    
+
+"
+attribute: "Major Version"
+	"Inherent IVI Properties:Driver Identification:Major Version"
+	iL readonly 1 100787
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_MAJOR_VERSION
+"The major version number of this instrument driver.
+    
+
+"
+attribute: "Minor Version"
+	"Inherent IVI Properties:Driver Identification:Minor Version"
+	iL readonly 1 100788
+	//const: Dc850W_ATTR_SPECIFIC_DRIVER_MINOR_VERSION
+"The minor version number of this instrument driver.
+    
+
+"
+attribute: "Supported Instrument Models"
+	"Inherent IVI Properties:Driver Capabilities:Supported Instrument Models"
+	string readonly 1 1006D7
+	//const: Dc850W_ATTR_SUPPORTED_INSTRUMENT_MODELS
+"Contains a model code of the instrument. For drivers that support more than one device, this property contains a comma-separated list of supported instrument models.
+    
+
+"
+attribute: "Class Group Capabilities"
+	"Inherent IVI Properties:Driver Capabilities:Class Group Capabilities"
+	string readonly 1 100721
+	//const: Dc850W_ATTR_GROUP_CAPABILITIES
+"A string that contains a comma-separated list of class-extention groups that this driver implements.
+    
+
+"
+attribute: "Number of Channels"
+	"Inherent IVI Properties:Driver Capabilities:Number of Channels"
+	iL readonly 1 10065B
+	//const: Dc850W_ATTR_CHANNEL_COUNT
+"Indicates the number of channels that the specific instrument driver supports.  
+    For each property for which the IVI_VAL_MULTI_CHANNEL (1024)  flag property is set, the IVI engine maintains a separate cache value for each channel.
+    
+
+"
+attribute: "Number of Channels"
+	"Inherent IVI Properties:Driver Capabilities:Number of Channels"
+	iL readonly 1 0
+	//const: Dc850W_ATTR_NUM_CHANNELS
+"Indicates the number of channels that the specific instrument driver supports.  
+    For each property for which the IVI_VAL_MULTI_CHANNEL (1024)  flag property is set, the IVI engine maintains a separate cache value for each channel.
+    
+
+"
+attribute: "Manufacturer"
+	"Inherent IVI Properties:Instrument Identification:Manufacturer"
+	string readonly 1 10078F
+	//const: Dc850W_ATTR_INSTRUMENT_MANUFACTURER
+"A string that contains the name of the instrument manufacturer you are currently using.
+    
+
+"
+attribute: "Model"
+	"Inherent IVI Properties:Instrument Identification:Model"
+	string readonly 1 100790
+	//const: Dc850W_ATTR_INSTRUMENT_MODEL
+"A string that contains the model number or name of the instrument that you are currently using.
+    
+
+"
+attribute: "Firmware Revision"
+	"Inherent IVI Properties:Instrument Identification:Firmware Revision"
+	string readonly 1 10078E
+	//const: Dc850W_ATTR_INSTRUMENT_FIRMWARE_REVISION
+"A string that contains the firmware revision information for the instrument you are currently using.
+    
+
+"
+attribute: "Driver Setup"
+	"Inherent IVI Properties:Advanced Session Information:Driver Setup"
+	string readonly 1 100597
+	//const: Dc850W_ATTR_DRIVER_SETUP
+"This property indicates the Driver Setup string that the user specified when initializing the driver.
+
+Some cases exist where the end-user must specify instrument driver options at initialization time.  An example of this is specifying a particular instrument model from among a family of instruments that the driver supports.  This is useful when using simulation.  The end-user can specify driver-specific options through the DriverSetup keyword in the optionsString parameter to the DC850W Initialize With Options.vi, or through the IVI Configuration Utility.
+
+If the user does not specify a Driver Setup string, this property returns an empty string.
+    
+
+"
+attribute: "Logical Name"
+	"Inherent IVI Properties:Advanced Session Information:Logical Name"
+	string readonly 1 1006C1
+	//const: Dc850W_ATTR_LOGICAL_NAME
+"A string containing the logical name you specified when opening the current IVI session.
+     You may pass a logical name to the DC850W Initialize.vi or DC850W Initialize With Options.vi VIs.  The IVI Configuration utility must contain an entry for the logical name.  The logical name entry refers to a virtual instrument section in the IVI Configuration file.  The virtual instrument section specifies a physical device and initial user options.
+    
+
+"
+attribute: "Resource Descriptor"
+	"Inherent IVI Properties:Advanced Session Information:Resource Descriptor"
+	string readonly 1 1006C0
+	//const: Dc850W_ATTR_IO_RESOURCE_DESCRIPTOR
+"Indicates the resource descriptor the driver uses to identify the physical device.
+    If you initialize the driver with a logical name, this property contains the resource descriptor that corresponds to the entry in the IVI Configuration utility.  
+    If you initialize the instrument driver with the resource descriptor, this property contains that value.
+    
+
+"
+attribute: "Resource Descriptor"
+	"Inherent IVI Properties:Advanced Session Information:Resource Descriptor"
+	string readonly 1 0
+	//const: Dc850W_ATTR_RESOURCE_DESCRIPTOR
+"Indicates the resource descriptor the driver uses to identify the physical device.
+    If you initialize the driver with a logical name, this property contains the resource descriptor that corresponds to the entry in the IVI Configuration utility.  
+    If you initialize the instrument driver with the resource descriptor, this property contains that value.
+    
+
+"
+attribute: "I/O Session Type"
+	"Inherent IVI Properties:Advanced Session Information:I/O Session Type"
+	string readonly 1 1006D4
+	//const: Dc850W_ATTR_IO_SESSION_TYPE
+"Contains the type of the I/O session that this driver uses to communicate with the instrument.     
+
+"
+attribute: "Instrument I/O Session"
+	"Inherent IVI Properties:Advanced Session Information:Instrument I/O Session"
+	uL readonly 1 1006D2
+	//const: Dc850W_ATTR_IO_SESSION
+"Specifies the I/O session that the specific driver uses to communicate with the instrument.
+    
+
+"
+attribute: "Primary Error"
+	"Inherent IVI Properties:Error Info:Primary Error"
+	iL readwrite 1 1005F5
+	//const: Dc850W_ATTR_PRIMARY_ERROR
+"A code that describes the first error that occurred since the last call to DC850W_GetErrorInfo on the session.  The value follows the VXIplug&play completion code conventions.  A negative value describes an error condition.  A positive value describes a warning condition and indicates that no error occurred.  A zero indicates that no error or warning occurred. The error and warning values can be status codes defined by IVI, VISA, class drivers, or specific drivers.
+    
+
+"
+attribute: "OVP Enabled"
+	"Basic Operation:OVP Enabled"
+	bool readwrite 1 1312D2
+	//const: Dc850W_ATTR_OVP_ENABLED
+"This channel-based property specifies whether the power supply provides over-voltage protection.  If this property is set to TRUE, the power supply disables the output when the output voltage is greater than or equal to the value of the Over Voltage Protection property.
+    
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Aux Supply Enabled"
+	"Instrument Specific Properties:Basic Operation:Aux Supply Enabled"
+	bool readwrite 1 118C5E
+	//const: Dc850W_ATTR_AUX_ENABLED
+"If set to TRUE, the auxiliary supply is enabled.
+
+If set to FALSE, the auxiliary supply is disabled. 
+
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Output Enabled"
+	"Instrument Specific Properties:Basic Operation:Output Enabled"
+	bool readwrite 1 1312D6
+	//const: Dc850W_ATTR_OUTPUT_ENABLED
+"If set to TRUE, the supply's output is enabled.
+
+If set to FALSE, the ouput is disabled. The supply will continue to accept new commands, but they will not be implemented until the output is re-enabled.
+
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Voltage Level"
+	"Instrument Specific Properties:Basic Operation:Voltage Level"
+	fD readwrite 1 1312D1
+	//const: Dc850W_ATTR_VOLTAGE_LEVEL
+"This channel-based property specifies the voltage level the DC power supply attempts to generate.  The units are Volts.
+
+Valid Range:  Instrument Dependent
+
+"
+attribute: "Current Limit"
+	"Instrument Specific Properties:Basic Operation:Current Limit"
+	fD readwrite 1 1312D5
+	//const: Dc850W_ATTR_CURRENT_LIMIT
+"This channel-based property specifies the output current limit. The units are Amps.
+
+The value of the Current Limit Behavior property determines the behavior of the power supply when the output current is equal to or greater than the value of this property.
+
+Valid Range:  Instrument Dependent
+
+"
+attribute: "Current Limit Behavior"
+	"Instrument Specific Properties:Basic Operation:Current Limit Behavior"
+	iL enum { Dc850W_VAL_CURRENT_REGULATE=0, Dc850W_VAL_CURRENT_TRIP=1 } readwrite 1 1312D4
+	//const: Dc850W_ATTR_CURRENT_LIMIT_BEHAVIOR
+"This channel-based property specifies the behavior of the power supply when the output current is equal to or greater than the value of the Current Limit property.
+    
+Valid Values:
+Dc850W_VAL_CURRENT_REGULATE
+Dc850W_VAL_CURRENT_TRIP
+
+Dc850W_VAL_CURRENT_REGULATE (0)
+When the output current reaches the value of the Current Limit property, the power supply restricts the output voltage such that the output current is not greater than the value of the Current Limit property.
+
+Dc850W_VAL_CURRENT_TRIP (1)
+When the output current reaches or exceeds the value of the Current Limit property, the power supply disables the output.
+
+"
+attribute: "Over Voltage Protection"
+	"Instrument Specific Properties:Protection Setpoints:Over Voltage Protection"
+	fD readwrite 1 1312D3
+	//const: Dc850W_ATTR_OVP_LIMIT
+"This channel-based property specifies the maximum voltage the power supply allows. The units are Volts.
+
+If the OVP Enabled property is set to TRUE, the power supply disables the output when the output voltage is greater than or equal to the value of this property.
+
+If the OVP Enabled property is set to FALSE, this property does not affect the behavior of the instrument.
+
+The valid range for this property is between 0% and 125 - 110% of the rated output voltage depending on which model.
+
+Default value is based on the default model's default value.
+
+
+"
+attribute: "Over Current Protection"
+	"Instrument Specific Properties:Protection Setpoints:Over Current Protection"
+	fD readwrite 1 118C44
+	//const: Dc850W_ATTR_OCP_LIMIT
+"This channel-based property specifies the maximum current the power supply allows before the OCP protection is triggered. The units are Amps.
+
+If the Current Limit Behavior property is set to Dc850W_VAL_TRIP, this property will be set to the value of the current limit and you will be unable to control the value of the OCP_LIMIT.  If the Current Limit Behavior behavior is set to Dc850W_VAL_REGULATE then this property will be configurable. 
+
+Should the output current exceed the OCP limit value set here then  the protection will trip and the output will be disabled.  This protection can't have its latch set nor be masked. 
+
+The valid range for this property is between 0% and 110% of the rated output current for the specific model.
+
+
+"
+attribute: "Under Voltage Protection"
+	"Instrument Specific Properties:Protection Setpoints:Under Voltage Protection"
+	fD readwrite 1 118C48
+	//const: Dc850W_ATTR_UVP_LIMIT
+"This channel-based property specifies the minimum voltage the power supply allows. The units are Volts.
+
+If the Dc850W_ATTR_UVP_BEHAVIOR property is set to Dc850W_VAL_TRIP, the power supply disables the output and issues a warning when the output voltage is less than or equal to the value of this property.
+
+If the Dc850W_ATTR_UVP_BEHAVIOR property is set to Dc850W_VAL_WARNING, this property does not affect the behavior of the instrument, but instructs the supply to issue a warning.
+
+The valid range for this property is between 0% and the current set point.
+
+"
+attribute: "Over Temperature Slave Response (1700 Watt only)"
+	"Instrument Specific Properties:Protection Mechanisms:Over Temperature Slave Response (1700 Watt only)"
+	bool readwrite 1 118C59
+	//const: Dc850W_ATTR_OVER_TEMPERATURE_SLAVE_RESPONSE
+"Configure the supply's output to either latch off, or auto recover in the event of an over-temperature condition. (XTR 1700 Watt only)
+
+Valid Values:
+TRUE  - Latch Off
+FALSE - Auto-Recover
+
+Default Value:
+TRUE
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Over Temperature Response"
+	"Instrument Specific Properties:Protection Mechanisms:Over Temperature Response"
+	bool readwrite 1 118C4E
+	//const: Dc850W_ATTR_OVER_TEMPERATURE_RESPONSE
+"Configure the supply's output to either latch off, or auto recover in the event of an over-temperature condition.
+
+Valid Values:
+TRUE  - Latch Off
+FALSE - Auto-Recover
+
+Default Value:
+TRUE
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Foldback Response"
+	"Instrument Specific Properties:Protection Mechanisms:Foldback Response"
+	bool readwrite 1 118C5A
+	//const: Dc850W_ATTR_FOLDBACK_RESPONSE
+"Configure the supply's output to either latch off, or auto recover in the event of an over-temperature condition.
+
+Valid Values:
+TRUE  - Latch Off
+FALSE - Auto-Recover
+
+Default Value:
+TRUE
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "AC Fail Response"
+	"Instrument Specific Properties:Protection Mechanisms:AC Fail Response"
+	bool readwrite 1 118C4F
+	//const: Dc850W_ATTR_AC_FAIL_RESPONSE
+"Configure the supply's output to either latch off, or auto recover in the event of an AC Fail condition.
+
+Valid Values:
+TRUE  - Latch Off
+FALSE - Auto-Recover
+
+Default Value:
+FALSE
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "DC850W_ATTR_FOLDBACK_SETTING"
+	"Instrument Specific Properties:Protection Mechanisms:DC850W_ATTR_FOLDBACK_SETTING"
+	string readwrite 1 118C37
+	//const: Dc850W_ATTR_FOLDBACK_SETTING
+"This channel-based property is the Foldback Setting the power supply generates. 
+
+Values: "NONE" -  Foldback mode disabled
+        "CV"   -  Supply operates in Constant Current and disables
+                  output if supply switches to Constant Voltage 
+                  mode.
+        "CC"   -  Supply operates in Constant Voltage and disables 
+                  output if supply switches to Constant Current 
+                  mode.
+Default Value : 
+
+"
+attribute: "Protection Mask "
+	"Instrument Specific Properties:Protection Mechanisms:Protection Mask "
+	iL readwrite 1 118C62
+	//const: Dc850W_ATTR_PROTECTION_MASK
+"The protection/alarm mask, this allows control of if an alarm is enabled or disabled.  See the devices manual to determine if there is any restrictions on which alarms can be masked. 
+
+"
+attribute: "DC850W_ATTR_FOLD_DELAY"
+	"Instrument Specific Properties:Protection Mechanisms:DC850W_ATTR_FOLD_DELAY"
+	fD readwrite 1 118C3F
+	//const: Dc850W_ATTR_FOLD_DELAY
+"This channel-based property is the time delay value you want the power supply to wait before fold protection is triggered.
+   
+The units are seconds.
+
+"
+attribute: "External Shutdown Pin logic level"
+	"Instrument Specific Properties:System Setup Properties:External Shutdown Pin logic level"
+	bool readwrite 1 118C60
+	//const: Dc850W_ATTR_EXT_SHUTDOWN_LOGIC
+"This is the logic to be used for detecting if the SD pin is signaling the power supply to disabled the output.
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Auxiliary Output Enabled at Power On"
+	"Instrument Specific Properties:System Setup Properties:Auxiliary Output Enabled at Power On"
+	bool readwrite 1 118C5F
+	//const: Dc850W_ATTR_AUX_ENABLED_POWER_ON
+"If set to TRUE, the supply's auxiliary supply will be enabled when the instrument is turned on.
+
+If set to FALSE, the auxiliary supply is not enabled when the instrument is turned on.
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Current Remote Control Source"
+	"Instrument Specific Properties:System Setup Properties:Current Remote Control Source"
+	string readwrite 1 118C5C
+	//const: Dc850W_ATTR_REMOTE_SOURCE_CURR
+"Configure the supply to respond to a particular remote programming source, possible sources include local (digital control), Resistive APG, Voltage APG, Isolate Resistive, and Isolated Voltage control.
+
+Valid Values:
+"LOC"
+"AVOL"
+"ARES"
+"IAV"
+"IAR"
+
+
+"
+attribute: "Voltage Remote Control Source"
+	"Instrument Specific Properties:System Setup Properties:Voltage Remote Control Source"
+	string readwrite 1 118C54
+	//const: Dc850W_ATTR_REMOTE_SOURCE_VOLT
+"Configure the supply to respond to a particular remote programming source, possible sources include local (digital control), Resistive APG, Voltage APG, Isolate Resistive, and Isolated Voltage control.
+
+Valid Values:
+"LOC"
+"AVOL"
+"ARES"
+"IAV"
+"IAR"
+
+
+"
+attribute: "Remote Control Operation"
+	"Instrument Specific Properties:System Setup Properties:Remote Control Operation"
+	string readwrite 1 118C50
+	//const: Dc850W_ATTR_REMOTE_MODE
+"Select the mode that the power supply will operate in.
+
+Valid Values:
+"LOC"  - Local (front panel accepts commands)
+"REM"  - Remote (front panel lockout)
+
+"
+attribute: "Set Current Share Mode"
+	"Instrument Specific Properties:System Setup Properties:Set Current Share Mode"
+	string readwrite 1 118C4D
+	//const: Dc850W_ATTR_CURRENT_SHARE_MODE
+"Allows the user to select a Current-Share mode for the power supply. See the user manual for more details.
+
+Valid Values:
+"MAST"
+"SLAV"
+
+
+"
+attribute: "Current Analog Programming Range"
+	"Instrument Specific Properties:System Setup Properties:Current Analog Programming Range"
+	fD readwrite 1 118C5B
+	//const: Dc850W_ATTR_CURR_ANALOG_PROGRAMMING_RANGE
+"Set the voltage range used for controlling the output current using analog programming. Choose between a maximum level from 2.0 - 10.0 volts.
+
+"
+attribute: "Voltage Analog Programming Range"
+	"Instrument Specific Properties:System Setup Properties:Voltage Analog Programming Range"
+	fD readwrite 1 118C51
+	//const: Dc850W_ATTR_VOLT_ANALOG_PROGRAMMING_RANGE
+"Set the voltage range used for controlling the output voltage using analog programming. Choose between a maximum level from 2.0 - 10.0 volts.
+
+"
+attribute: "Output Enabled at Power-on"
+	"Instrument Specific Properties:System Setup Properties:Output Enabled at Power-on"
+	bool readwrite 1 118C41
+	//const: Dc850W_ATTR_OUTPUT_ENABLED_POWER_ON
+"If set to TRUE, the supply's output will be enabled when the instrument is turned on.
+
+If set to FALSE, the ouput is not enabled when the instrument is turned on. 
+
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"
+attribute: "Auto Sequence Dwell Time"
+	"Instrument Specific Properties:Auto Sequence:Auto Sequence Dwell Time"
+	iL readwrite 1 118C61
+	//const: Dc850W_ATTR_AUTO_SEQUENCE_DWELL_TIME
+"The amount of time that the XTR will delay between commands in an autosequence program.
+
+"
+attribute: "Instrument Firmware"
+	"Instrument Specific Properties:Multichannel Instrument Information:Instrument Firmware"
+	string readonly 1 118C57
+	//const: Dc850W_ATTR_MULTICHANNEL_FIRMWARE_REVISION
+"This property is the same as Firmware Revision, but it is for multichannel instruments on the CANbus.
+
+"
+attribute: "ID Query Response"
+	"Instrument Specific Properties:Multichannel Instrument Information:ID Query Response"
+	string readonly 1 118C31
+	//const: Dc850W_ATTR_ID_QUERY_RESPONSE
+"Returns the ID Query response string.  The instrument driver gets the value of this property when you pass TRUE for the ID Query parameter to the DC850W Initialize.vi or DC850W Initialize With Options.vi.
+    
+
+"
+attribute: "Multichannel Model Type"
+	"Instrument Specific Properties:Multichannel Instrument Information:Multichannel Model Type"
+	iL readonly 1 118C55
+	//const: Dc850W_ATTR_MODEL_TYPE
+"This property holds an int value that represents the Model Version. The ID string is parsed to obtain the model string (ex. XTR 6-110). Each different model string is linked to a specific number, which represents the Model Type. 
+
+This property is used to select which range tables the particular instrument will use for voltage, current and power settings.
+
+"
+attribute: "Front Panel Inactivity Timeout"
+	"Instrument Specific Properties:Miscellaneous Properties:Front Panel Inactivity Timeout"
+	iL readwrite 1 118C5D
+	//const: Dc850W_ATTR_FP_INACTIVITY_TIMEOUT
+"This is a configuration setting for the front panel. The inactivity timer indicates how long the front panel menu systems will display the menu before timeout and return to normal mode.    
+
+"
+attribute: "Configurable Delay Time"
+	"Instrument Specific Properties:Miscellaneous Properties:Configurable Delay Time"
+	fD readwrite 1 118C58
+	//const: Dc850W_ATTR_CONFIGURABLE_DELAY
+"Default Value: 0.030 sec
+
+If you are running your application program on a fast computer, you may encounter timing problems with the XTR. New commands could be transmitted to the XTR before it has completed the previous command. This would cause an error.
+
+If you experience this problem, use this VI to set a small time delay after each of the commands are sent to the instrument(s).
+
+The delay should not be long. Typically, 25-30ms will suffice.
+
+If you do not set this property in your application program, the time delay will default to 30 ms. 
+
+"
+attribute: "Dc850W_ATTR_UVP_BEHAVIOR"
+	"Instrument Specific Properties:Hidden Properties (not user-viewable):Dc850W_ATTR_UVP_BEHAVIOR"
+	bool readwrite 1 118C4C
+	//const: Dc850W_ATTR_UVP_BEHAVIOR
+"
+
+VI_TRUE (1)
+True
+
+VI_FALSE (0)
+False
+
+"

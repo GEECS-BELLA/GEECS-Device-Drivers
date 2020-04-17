@@ -1,0 +1,10 @@
+Variable or State	Default Value	Minimum	Maximum	Step Size	Data type	Allowed text Values	Arguments	Class	Location	
+whatami	FilterWheel FW102C	NA	NA	NA	numeric	NA	NA	Camera	L Cave
+comsession	COM4	NA	NA	NA	text	NA	NA
+ipaddress	192.168.10.182	NA	NA	NA	numeric	NA	NA			
+udpport	65535	NA	NA	NA	numeric	NA	NA			
+dllname	DeviceClassDll	NA	NA	NA	text	NA	NA				
+multicastip	234.5.6.9	NA	NA	NA	text	NA	NA
+multicastport	58432	NA	NA	NA	numeric	NA	NA	
+runmode	off	NA	NA	NA	text	on,off	get,set			
+position	1	1	6	1	numeric	1,2,3,4,5,6	get,set

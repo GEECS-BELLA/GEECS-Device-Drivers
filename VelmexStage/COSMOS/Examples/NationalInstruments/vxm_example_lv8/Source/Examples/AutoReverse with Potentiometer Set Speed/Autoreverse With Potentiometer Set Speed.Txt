@@ -1,0 +1,25 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: AutoReverse with Potentiometer Set Speed
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Set Motor 1 AccelleratiOn = 4
+;	4.) Set Motor 1 Analog Speed (Normal Power) = 13
+;	5.) Motor 1 Move 1200 steps
+;	6.) Motor 1 Move - 1200 steps
+;	7.) Save Program in VXM memory
+;
+;Actual Script seen below
+;
+F,
+PM-0,
+A1M4,
+S1M-13,
+I1M1200,
+I1M-1200,
+rsm

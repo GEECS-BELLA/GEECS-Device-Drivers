@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Direction">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Positive" />
+      <xs:enumeration value="Negative" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Orientation">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Normal" />
+      <xs:enumeration value="Inverse" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MouseParameters">
+    <xs:attribute name="MouseButton" >
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Left" />
+          <xs:enumeration value="Right" />
+          <xs:enumeration value="Middle" />
+          <xs:enumeration value="XButton1" />
+          <xs:enumeration value="XButton2" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="MouseEvent">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Click" />
+          <xs:enumeration value="Double-Click" />
+          <xs:enumeration value="Wheel down" />
+          <xs:enumeration value="Wheel up" />
+          <xs:enumeration value="Down" />
+          <xs:enumeration value="Up" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="MouseConfiguration">
+    <xs:sequence>
+      <xs:element name="EnterPositionTracking" type="MouseParameters"/>
+      <xs:element name="ExitPositionTracking" type="MouseParameters"/>
+      <xs:element name="EnterPositionJoystick" type="MouseParameters"/>
+      <xs:element name="ExitPositionJoystick" type="MouseParameters"/>
+      <xs:element name="SelectXaxis"  type="MouseParameters"/>
+      <xs:element name="SelectYaxis" type="MouseParameters"/>
+      <xs:element name="IncreaseSensibility"  type="MouseParameters"/>
+      <xs:element name="DecreaseSensibility"  type="MouseParameters"/>
+      <xs:element name="MemorizeCurrentPosition"  type="MouseParameters"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Newport.AGILISUC.Configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LoggingConfiguration">
+          <xs:complexType>
+            <xs:attribute name="LogFileName" type="xs:string" fixed="AgilisUC.Log" />
+            <xs:attribute name="LogPath" type="xs:string" fixed="\\Log" />
+            <xs:attribute name="Permission" type="xs:hexBinary" />
+            <xs:attribute name="Level" default="Trace">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Trace" />
+                  <xs:enumeration value="Detail" />
+                  <xs:enumeration value="Equipment Message" />
+                  <xs:enumeration value="Info" />
+                  <xs:enumeration value="Warning" />
+                  <xs:enumeration value="Error" />
+                  <xs:enumeration value="Critical Errror" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InstrumentInformation">
+          <xs:complexType>
+            <xs:attribute name="PollingFrequency" type="xs:int" default="200" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Diagnostics">
+          <xs:complexType>
+            <xs:attribute name="Delay" type="xs:int" default="1000" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Models">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InstrumentInfo">
+                <xs:complexType>
+                  <xs:attribute name="InstrumentType" type="xs:string" fixed="AGILIS-UC2, AGILIS-UC8" />
+                  <xs:attribute name="NoOfInstruments" type="xs:int" fixed="2" />
+                  <xs:attribute name="CommunicationChannel" default="USB">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="USB" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

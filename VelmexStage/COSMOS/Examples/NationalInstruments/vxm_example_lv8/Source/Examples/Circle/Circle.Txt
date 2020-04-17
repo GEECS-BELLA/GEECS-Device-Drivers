@@ -1,0 +1,536 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Circle
+;Description: 
+;	1.) VXM On-Line WITH Echo ON 
+;	2.) Commands to create a circle
+;
+;Actual Script seen below
+;
+E,		;VXM On-Line WITH Echo ON 
+[,		;Start Sending DATA To Slave Through Master 
+PM-1,		;Change To AND Clear Program 1
+A1M10,		;Set Motor 1 AccelleratiOn = 10
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I3,		;Last Known Motor Move 3
+U0,		;Wait For Input 1 0
+U77,		;Start Of Continuous Index WITH No Output Pulses 77
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I8,		;Last Known Motor Move 8
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I14,		;Last Known Motor Move 14
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I19,		;Last Known Motor Move 19
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I24,		;Last Known Motor Move 24
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I30,		;Last Known Motor Move 30
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I35,		;Last Known Motor Move 35
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I40,		;Last Known Motor Move 40
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I45,		;Last Known Motor Move 45
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I50,		;Last Known Motor Move 50
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I55,		;Last Known Motor Move 55
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I59,		;Last Known Motor Move 59
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I64,		;Last Known Motor Move 64
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I68,		;Last Known Motor Move 68
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I72,		;Last Known Motor Move 72
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I76,		;Last Known Motor Move 76
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I80,		;Last Known Motor Move 80
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I83,		;Last Known Motor Move 83
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I86,		;Last Known Motor Move 86
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I89,		;Last Known Motor Move 89
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I92,		;Last Known Motor Move 92
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I95,		;Last Known Motor Move 95
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I97,		;Last Known Motor Move 97
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I99,		;Last Known Motor Move 99
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I100,		;Last Known Motor Move 100
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I102,		;Last Known Motor Move 102
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I103,		;Last Known Motor Move 103
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I104,		;Last Known Motor Move 104
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I104,		;Last Known Motor Move 104
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I106,		;Last Known Motor Move 106
+J2,		;Jump To Begginning Of Program 2
+],		;END Sending DATA To Slave Through Master 
+PM-1,		;Change To AND Clear Program 1
+A1M10,		;Set Motor 1 AccelleratiOn = 10
+U15,		;Output 2 ON 15
+U77,		;Start Of Continuous Index WITH No Output Pulses 77
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I106,		;Last Known Motor Move 106
+U14,		;Output 2 OFF 14
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I104,		;Last Known Motor Move 104
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I104,		;Last Known Motor Move 104
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I103,		;Last Known Motor Move 103
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I102,		;Last Known Motor Move 102
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I100,		;Last Known Motor Move 100
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I99,		;Last Known Motor Move 99
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I97,		;Last Known Motor Move 97
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I95,		;Last Known Motor Move 95
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I92,		;Last Known Motor Move 92
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I89,		;Last Known Motor Move 89
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I86,		;Last Known Motor Move 86
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I83,		;Last Known Motor Move 83
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I80,		;Last Known Motor Move 80
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I76,		;Last Known Motor Move 76
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I72,		;Last Known Motor Move 72
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I68,		;Last Known Motor Move 68
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I64,		;Last Known Motor Move 64
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I59,		;Last Known Motor Move 59
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I55,		;Last Known Motor Move 55
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I50,		;Last Known Motor Move 50
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I45,		;Last Known Motor Move 45
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I40,		;Last Known Motor Move 40
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I35,		;Last Known Motor Move 35
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I30,		;Last Known Motor Move 30
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I24,		;Last Known Motor Move 24
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I19,		;Last Known Motor Move 19
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I14,		;Last Known Motor Move 14
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I8,		;Last Known Motor Move 8
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I3,		;Last Known Motor Move 3
+J2,		;Jump To Begginning Of Program 2
+[,		;Start Sending DATA To Slave Through Master 
+PM-2,		;Change To AND Clear Program 2
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I106,		;Last Known Motor Move 106
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I104,		;Last Known Motor Move 104
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I104,		;Last Known Motor Move 104
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I103,		;Last Known Motor Move 103
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I102,		;Last Known Motor Move 102
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I100,		;Last Known Motor Move 100
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I99,		;Last Known Motor Move 99
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I97,		;Last Known Motor Move 97
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I95,		;Last Known Motor Move 95
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I92,		;Last Known Motor Move 92
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I89,		;Last Known Motor Move 89
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I86,		;Last Known Motor Move 86
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I83,		;Last Known Motor Move 83
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I80,		;Last Known Motor Move 80
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I76,		;Last Known Motor Move 76
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I72,		;Last Known Motor Move 72
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I68,		;Last Known Motor Move 68
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I64,		;Last Known Motor Move 64
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I59,		;Last Known Motor Move 59
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I55,		;Last Known Motor Move 55
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I50,		;Last Known Motor Move 50
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I45,		;Last Known Motor Move 45
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I40,		;Last Known Motor Move 40
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I35,		;Last Known Motor Move 35
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I30,		;Last Known Motor Move 30
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I24,		;Last Known Motor Move 24
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I19,		;Last Known Motor Move 19
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I14,		;Last Known Motor Move 14
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I8,		;Last Known Motor Move 8
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I3,		;Last Known Motor Move 3
+J3,		;Jump To Begginning Of Program 3
+],		;END Sending DATA To Slave Through Master 
+PM-2,		;Change To AND Clear Program 2
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I-3,		;Last Known Motor Move - 3
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I-8,		;Last Known Motor Move - 8
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I-14,		;Last Known Motor Move - 14
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I-19,		;Last Known Motor Move - 19
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I-24,		;Last Known Motor Move - 24
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I-30,		;Last Known Motor Move - 30
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I-35,		;Last Known Motor Move - 35
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I-40,		;Last Known Motor Move - 40
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I-45,		;Last Known Motor Move - 45
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I-50,		;Last Known Motor Move - 50
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I-55,		;Last Known Motor Move - 55
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I-59,		;Last Known Motor Move - 59
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I-64,		;Last Known Motor Move - 64
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I-68,		;Last Known Motor Move - 68
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I-72,		;Last Known Motor Move - 72
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I-76,		;Last Known Motor Move - 76
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I-80,		;Last Known Motor Move - 80
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I-83,		;Last Known Motor Move - 83
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I-86,		;Last Known Motor Move - 86
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I-89,		;Last Known Motor Move - 89
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I-92,		;Last Known Motor Move - 92
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I-95,		;Last Known Motor Move - 95
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I-97,		;Last Known Motor Move - 97
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I-99,		;Last Known Motor Move - 99
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I-100,		;Last Known Motor Move - 100
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I-102,		;Last Known Motor Move - 102
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I-103,		;Last Known Motor Move - 103
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I-104,		;Last Known Motor Move - 104
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I-104,		;Last Known Motor Move - 104
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I-106,		;Last Known Motor Move - 106
+J3,		;Jump To Begginning Of Program 3
+[,		;Start Sending DATA To Slave Through Master 
+PM-3,		;Change To AND Clear Program 3
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I-3,		;Last Known Motor Move - 3
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I-8,		;Last Known Motor Move - 8
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I-14,		;Last Known Motor Move - 14
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I-19,		;Last Known Motor Move - 19
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I-24,		;Last Known Motor Move - 24
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I-30,		;Last Known Motor Move - 30
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I-35,		;Last Known Motor Move - 35
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I-40,		;Last Known Motor Move - 40
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I-45,		;Last Known Motor Move - 45
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I-50,		;Last Known Motor Move - 50
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I-55,		;Last Known Motor Move - 55
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I-59,		;Last Known Motor Move - 59
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I-64,		;Last Known Motor Move - 64
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I-68,		;Last Known Motor Move - 68
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I-72,		;Last Known Motor Move - 72
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I-76,		;Last Known Motor Move - 76
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I-80,		;Last Known Motor Move - 80
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I-83,		;Last Known Motor Move - 83
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I-86,		;Last Known Motor Move - 86
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I-89,		;Last Known Motor Move - 89
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I-92,		;Last Known Motor Move - 92
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I-95,		;Last Known Motor Move - 95
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I-97,		;Last Known Motor Move - 97
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I-99,		;Last Known Motor Move - 99
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I-100,		;Last Known Motor Move - 100
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I-102,		;Last Known Motor Move - 102
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I-103,		;Last Known Motor Move - 103
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I-104,		;Last Known Motor Move - 104
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I-104,		;Last Known Motor Move - 104
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I-106,		;Last Known Motor Move - 106
+J4,		;Jump To Begginning Of Program 4
+],		;END Sending DATA To Slave Through Master 
+PM-3,		;Change To AND Clear Program 3
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I-106,		;Last Known Motor Move - 106
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I-104,		;Last Known Motor Move - 104
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I-104,		;Last Known Motor Move - 104
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I-103,		;Last Known Motor Move - 103
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I-102,		;Last Known Motor Move - 102
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I-100,		;Last Known Motor Move - 100
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I-99,		;Last Known Motor Move - 99
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I-97,		;Last Known Motor Move - 97
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I-95,		;Last Known Motor Move - 95
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I-92,		;Last Known Motor Move - 92
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I-89,		;Last Known Motor Move - 89
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I-86,		;Last Known Motor Move - 86
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I-83,		;Last Known Motor Move - 83
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I-80,		;Last Known Motor Move - 80
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I-76,		;Last Known Motor Move - 76
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I-72,		;Last Known Motor Move - 72
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I-68,		;Last Known Motor Move - 68
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I-64,		;Last Known Motor Move - 64
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I-59,		;Last Known Motor Move - 59
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I-55,		;Last Known Motor Move - 55
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I-50,		;Last Known Motor Move - 50
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I-45,		;Last Known Motor Move - 45
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I-40,		;Last Known Motor Move - 40
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I-35,		;Last Known Motor Move - 35
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I-30,		;Last Known Motor Move - 30
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I-24,		;Last Known Motor Move - 24
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I-19,		;Last Known Motor Move - 19
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I-14,		;Last Known Motor Move - 14
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I-8,		;Last Known Motor Move - 8
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I-3,		;Last Known Motor Move - 3
+J4,		;Jump To Begginning Of Program 4
+[,		;Start Sending DATA To Slave Through Master 
+PM-4,		;Change To AND Clear Program 4
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I-106,		;Last Known Motor Move - 106
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I-104,		;Last Known Motor Move - 104
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I-104,		;Last Known Motor Move - 104
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I-103,		;Last Known Motor Move - 103
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I-102,		;Last Known Motor Move - 102
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I-100,		;Last Known Motor Move - 100
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I-99,		;Last Known Motor Move - 99
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I-97,		;Last Known Motor Move - 97
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I-95,		;Last Known Motor Move - 95
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I-92,		;Last Known Motor Move - 92
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I-89,		;Last Known Motor Move - 89
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I-86,		;Last Known Motor Move - 86
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I-83,		;Last Known Motor Move - 83
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I-80,		;Last Known Motor Move - 80
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I-76,		;Last Known Motor Move - 76
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I-72,		;Last Known Motor Move - 72
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I-68,		;Last Known Motor Move - 68
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I-64,		;Last Known Motor Move - 64
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I-59,		;Last Known Motor Move - 59
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I-55,		;Last Known Motor Move - 55
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I-50,		;Last Known Motor Move - 50
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I-45,		;Last Known Motor Move - 45
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I-40,		;Last Known Motor Move - 40
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I-35,		;Last Known Motor Move - 35
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I-30,		;Last Known Motor Move - 30
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I-24,		;Last Known Motor Move - 24
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I-19,		;Last Known Motor Move - 19
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I-14,		;Last Known Motor Move - 14
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I-8,		;Last Known Motor Move - 8
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I-3,		;Last Known Motor Move - 3
+U99,		;END Of Continuous Index WITH Instantaneous Stop 99
+],		;END Sending DATA To Slave Through Master 
+PM-4,		;Change To AND Clear Program 4
+S1M57,		;Set Motor 1 Speed (Normal Power) = 57
+I3,		;Last Known Motor Move 3
+S1M153,		;Set Motor 1 Speed (Normal Power) = 153
+I8,		;Last Known Motor Move 8
+S1M267,		;Set Motor 1 Speed (Normal Power) = 267
+I14,		;Last Known Motor Move 14
+S1M363,		;Set Motor 1 Speed (Normal Power) = 363
+I19,		;Last Known Motor Move 19
+S1M458,		;Set Motor 1 Speed (Normal Power) = 458
+I24,		;Last Known Motor Move 24
+S1M575,		;Set Motor 1 Speed (Normal Power) = 575
+I30,		;Last Known Motor Move 30
+S1M667,		;Set Motor 1 Speed (Normal Power) = 667
+I35,		;Last Known Motor Move 35
+S1M762,		;Set Motor 1 Speed (Normal Power) = 762
+I40,		;Last Known Motor Move 40
+S1M856,		;Set Motor 1 Speed (Normal Power) = 856
+I45,		;Last Known Motor Move 45
+S1M955,		;Set Motor 1 Speed (Normal Power) = 955
+I50,		;Last Known Motor Move 50
+S1M1051,		;Set Motor 1 Speed (Normal Power) = 1051
+I55,		;Last Known Motor Move 55
+S1M1131,		;Set Motor 1 Speed (Normal Power) = 1131
+I59,		;Last Known Motor Move 59
+S1M1221,		;Set Motor 1 Speed (Normal Power) = 1221
+I64,		;Last Known Motor Move 64
+S1M1295,		;Set Motor 1 Speed (Normal Power) = 1295
+I68,		;Last Known Motor Move 68
+S1M1375,		;Set Motor 1 Speed (Normal Power) = 1375
+I72,		;Last Known Motor Move 72
+S1M1452,		;Set Motor 1 Speed (Normal Power) = 1452
+I76,		;Last Known Motor Move 76
+S1M1524,		;Set Motor 1 Speed (Normal Power) = 1524
+I80,		;Last Known Motor Move 80
+S1M1584,		;Set Motor 1 Speed (Normal Power) = 1584
+I83,		;Last Known Motor Move 83
+S1M1649,		;Set Motor 1 Speed (Normal Power) = 1649
+I86,		;Last Known Motor Move 86
+S1M1701,		;Set Motor 1 Speed (Normal Power) = 1701
+I89,		;Last Known Motor Move 89
+S1M1757,		;Set Motor 1 Speed (Normal Power) = 1757
+I92,		;Last Known Motor Move 92
+S1M1807,		;Set Motor 1 Speed (Normal Power) = 1807
+I95,		;Last Known Motor Move 95
+S1M1849,		;Set Motor 1 Speed (Normal Power) = 1849
+I97,		;Last Known Motor Move 97
+S1M1886,		;Set Motor 1 Speed (Normal Power) = 1886
+I99,		;Last Known Motor Move 99
+S1M1916,		;Set Motor 1 Speed (Normal Power) = 1916
+I100,		;Last Known Motor Move 100
+S1M1947,		;Set Motor 1 Speed (Normal Power) = 1947
+I102,		;Last Known Motor Move 102
+S1M1967,		;Set Motor 1 Speed (Normal Power) = 1967
+I103,		;Last Known Motor Move 103
+S1M1982,		;Set Motor 1 Speed (Normal Power) = 1982
+I104,		;Last Known Motor Move 104
+S1M1994,		;Set Motor 1 Speed (Normal Power) = 1994
+I104,		;Last Known Motor Move 104
+S1M1999,		;Set Motor 1 Speed (Normal Power) = 1999
+I62,		;Last Known Motor Move 62
+U92,		;END Of Continuous Index AND Using Next Index For Deceleration To Stop 92
+I44,		;Last Known Motor Move 44
+PM-0,		;Change To AND Clear Program 0
+PMA1,		;Change To Program Associate 1
+A2M5,		;Set Motor 2 AccelleratiOn = 5
+I2M400,		;Motor 2 Move 400
+P2,		;Pause Seconds =  .2
+U5,		;Output 1 ON 5
+JM1,		;Jump To Begginning Of Program X AND Come Back For More After Program X Ends. X = 1
+U4,		;Output 1 OFF 4
+I2M-400,		;Motor 2 Move - 400
+

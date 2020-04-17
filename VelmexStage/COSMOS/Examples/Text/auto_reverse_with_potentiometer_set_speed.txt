@@ -1,0 +1,18 @@
+;Example Name: AutoReverse with Potentiometer Set Speed
+;
+;F,		;VXM On-Line WITH Echo OFF 
+;PM-0,		;Change To AND Clear Program 0
+;A1M4,		;Set Motor 1 AccelleratiOn = 4
+;S1M-13,		;Set Motor 1 Analog Speed (Normal Power) = 13
+;I1M1200,		;Motor 1 Move 1200
+;I1M-1200,		;Motor 1 Move - 1200
+;rsm		;Comments not allowed after actual rsm command
+;
+;
+F,		;VXM On-Line WITH Echo OFF 
+PM-0,		;Change To AND Clear Program 0
+A1M4,		;Set Motor 1 AccelleratiOn = 4
+S1M-13,		;Set Motor 1 Analog Speed (Normal Power) = 13
+I1M1200,		;Motor 1 Move 1200
+I1M-1200,		;Motor 1 Move - 1200
+rsm

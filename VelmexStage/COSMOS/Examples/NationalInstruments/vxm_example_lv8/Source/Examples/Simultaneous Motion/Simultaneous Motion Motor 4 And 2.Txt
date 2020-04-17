@@ -1,0 +1,19 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name:	Simultaneously Move Motor 4 and Motor 2
+;Description: 
+;	1.) VXM On-Line WITH Echo OFF 
+;	2.) Change To AND Clear Program 0
+;	3.) Simultaneously Move Motor 4 and Motor 2
+;	4.) Run Program
+;
+;Actual Script seen below
+;
+F,
+PM-0,
+(I4M1000,I2M1000,)
+R

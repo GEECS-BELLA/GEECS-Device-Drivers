@@ -1,0 +1,7 @@
+E,		;VXM On-Line WITH Echo ON 
+C,		;Clear Current Program 
+(,		;Start Simultaneous Motion Command Block 
+I3M1000,		;Motor 3 Move 1000
+I2M1000,		;Motor 2 Move 1000
+),		;END Simultaneous Motion Command Block 
+R

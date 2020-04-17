@@ -1,0 +1,230 @@
+<html>
+
+<!-- Find and Replace all instances of 'prefix' with the prefix of your instrument driver 
+     Remove this note once this is complete. -->
+
+<head>
+<title>lcwave Instrument Driver Readme</title>
+</head>
+
+<body>
+<pre>
+<font face = "Times New Roman", size = 3>
+<h2>lcwave Instrument Driver Readme</h2>
+To rate this driver, go to the lcwave driver download page on the <a href = http://www.ni.com/idnet>Instrument Driver Network</a>.
+
+<h4>1. Overview</h4>
+Instrument Driver Technology:  Plug and Play
+Supported Language(s):  LabVIEW
+
+Supported Model(s):  
+WaveMaster Series, WavePro 7000A Series, WaveRunner 6000A Series, WaveRunner Xi and MXi Series, WaveSurfer 400 Series
+WaveSurfer Xs and MXs Series, Serial Data Analyzer (SDA) Series, Disk Drive Analyzer (DDA) Series, WavePro 7 Zi Series
+
+Model(s) Tested:  
+WavePro7300A, WaveSurfer 454, WaveRunner64Xi, WaveRunner 6100A, WaveSurfer44Xs, WaveMaster8500A,
+SDA6000A, and DDA5005A XXL, and others.
+
+Interface(s):  GPIB, Ethernet
+Earliest Firmware Revision Tested:  4.3.1.x
+Latest Firmware Revision Tested: 5.3.1.6
+
+Certified:  Yes
+NI Supported:  Yes
+Source Code Available:  Yes
+
+Driver Revision:  2.1
+Original Release Date: 12/8/2005  
+Current Revision Date: 08/11/2008
+
+
+<h4>2. Required Software</h4>
+Some software components need to be installed before using this instrument driver. The minimum versions of 
+these components are listed below, and can be downloaded from the Download Site.
+
+VISA 3.0
+LeCroy VICP VISA Passport (for Ethernet communication only; not required for GPIB operation)
+
+Note: 
+
+VISA has additional software requirements. For example, unless you are using a serial interface, 
+NI-VISA requires that NI-488.2 and/or NI-VXI be installed on your system. Check with VISA help for additional 
+support software and hardware requirements.
+
+The LeCroy VICP VISA Passport can be obtained from the Software Utilities section of LeCroy's website.
+
+
+<h4>3. Installation Instructions</h4>
+
+The lcwave driver should be installed under your LabVIEW installations
+instr.lib folder, in a folder called lcwave. This is most easily done by
+opening the lcwave.zip file using Winzip. From the Winzip main window,
+select Extract, and in the subsequent window find and select your LabVIEW
+instr.lib folder. The lcwave.zip archive includes path information
+beginning with the lcwave folder, so there is no need to create this folder
+yourself. Make sure that the options "All files/folders in archive" and
+"Use folder names" are selected, and then click the Extract button.
+
+Within the lcwave directory you can find the menu files and VI libraries
+that make up the instrument driver. The menu files allow you to view the
+instrument driver VIs from the Functions palette. The VI libraries contain
+the instrument driver VIs.
+
+This Readme file will also be extracted to the lcwave folder.
+
+
+<h4>4. Using the Instrument Driver</h4>
+
+LabVIEW:
+
+To verify communication with your instrument and test a typical
+programmatic instrument operation, you should first open the examples
+contained within the Examples function palette of the instrument driver.
+Look over each of the controls and set them appropriately. Generally, with
+the exception of the address field, the defaults for most controls will be
+sufficient for your first run. You will need to set the instrument resource
+name appropriately. After running the VI, check to see that reasonable data
+was returned and an error was not reported in the error cluster.
+
+After you have verified basic communication with your instrument, you might
+want to customize instrument control for your needs. If your application
+needs are similar to the Getting Started or Example VI, the simplest means
+of creating a customized VI is to save a copy of the Getting Started or
+Example VI by selecting Save As from the File menu. You can then modify
+this example to meet your specific needs.
+
+For more details, reference the <i>LabVIEW Help</i> under <i>Help » VI, Function, &
+How-To Help</i>.
+
+
+<h4>5. Known Issues</h4>
+To report issues or provide feedback about this instrument driver, please send an email to <a 
+href="mailto:instrument.drivers@ni.com">instrument.drivers@ni.com</a>.
+
+This driver supports most of the functionality common to all supported instrument series.  It does not support 
+all functionality specific to a particular instrument series.
+
+<h4>6. Revision History</h4>
+The latest version of this and other LabVIEW and LabWindows/CVI instrument drivers can be downloaded at the 
+<a href = http://www.ni.com/idnet>Instrument Driver Network</a>.
+
+<b>REV 1.0, 12/8/2005, LV 7.0</b>
+Original Release 
+
+<b>REV 1.1, 2/3/2006, LV 8.0</b>
+Modified by: Martin Hruby (Elcom), Alan Blankman (LeCroy), and Jason Hobbs (NI)
+Wait.vi:  changed name of VI to Wait for Acquisition Complete.vi.  Existing applications using Wait.vi need to be updated to call Wait for Acquisition Complete.vi.
+Fetch Waveform.vi: fixed waveform scaling problem
+_lcwave Get Descriptor.vi:  fixed issue to correctly determine the last valid point
+_lcwave Read Command Error.vi: changed ASET to ASET;*OPC?, keeping the program in synch with the instrument
+Wait for Acquisition Complete.vi: added INR? command
+_Default Instrument Setup.vi: changed CORD LO to CORD HI
+_Get Descriptor.vi: updated to support CORD HI data transfers
+_Get Waveform.vi: fixed issue of not returning the correct number of points; fixed issue with data decoding
+several VIs: cosmetic updates
+
+<b>REV 1.2, 5/5/2006, LV 7.0</b>
+Modification History: 
+Alan Blankman (LeCroy)
+Added support for new instrument series: WaveRunner Xi, WaveSurfer Xs, Serial Data Analyzers (SDA), Disk Drive Analyzers (DDA)
+Modified VIs:
+Initialize.vi updated ID Query to support new instrument series
+Default Instrument Setup: removed "BWL OFF;COMB AUTO" from the setup string; it is not supported by all scopes and not required by default
+New VIs:
+Configure Sample Mode: new VI to replace Configure Acquisition Type and Configure Sampling VIs
+Configure Channel Preprocessing: new VI supporting additional functionality
+Obsoleted VIs:
+Configure Acquisition Type: replaced by new Configure Sample Mode VI
+Configure Sampling: replaced by new Configure Sample Mode VI
+Moved VIs:
+Moved Write.vi and Read.vi from private llb to public llb and included in Utility palette and VI Tree.  These VIs can be used to send/receive commands to/from the instrument for functionality not included in the driver.
+Moved Obsoleted VIs (Configure Acquisition Type.vi and Configure Sampling.vi) to _prefix.llb.
+Replaced VIs:
+Configure Sampling.vi with new Configure Sample Mode.vi as sub VI in 
+Acquired Timed Sequence Example and Sequence Aquisition Example.
+Removed reference to Configure Acquisition Type in Fetch All Segments.vi properties documentation
+Removed obsoleted Configure Acquisition Type.vi from Fetch Min Max Waveform.vi
+
+<b>REV 2.0 12/1/2006</b> 
+Modified by Alan Blankman (LeCroy Corporation)
+This version includes no critical fixes, but includes some minor improvements as well as many useful new subVIs.
+Modified VIs:
+lcwave Initialize.vi: Fixed logic that determines which error cluster is passed.
+lcwave decode IDN query response.vi: added "Model Found" boolean indicator to simplify the error logic in Initialize.vi, added model numbers of new oscilloscopes.
+lcwave Default Instrument Setup.vi: updated VI: removed code that sets up registers for an SRQ. This will be moved to a new VI. The driver doesn’t currently include wait for SRQ functionality.
+lcwave Get Descriptor.vi: improved its ruggedness and added the decoding of the horizontal offset and trigger time.
+lcwave Fetch Waveform.vi: removed code to choose between byte vs word mode to avoid incorrect use of byte mode.
+lcwave Read Command Error.vi: Improve error reporting.
+lcwave Read Device Dependent Error.vi: Added error handling to match changes previously made to lcwave Read Command Error.vi and to improve error reporting.
+lcwave Read Execution Error.vi: Added error handling to match changes previously made to lcwave Read Command Error.vi and to improve error reporting.
+lcwave Read Single Sequence.vi: Changed VI Description, which said that the VI calls Fetch Segment. (It calls Fetch Waveform)
+lcwave VI Tree.vi: Updated to include changes.
+Lcwave Acquire Waveform.vi: Added controls to make Reset and AutoSetup optional
+ 
+New VIs:
+lcwave Configure Display Priority.vi: Controls the performance slider.  Throughput can be increased significantly when setting the priority to Analysis. Added to Configure palette.
+lcwave Configure Save Waveform.vi: Configures all controls on the oscilloscope’s “Save Waveform” screen.  Includes flexibility for entry of any trace name.
+lcwave Save Waveform.vi: Executes a Save Waveform action when saving to either a  memory trace or to disk (local to the scope or to a networked drive).  Replaces lcwave Store to Memory
+lcwave Save-Recall Instrument Setup from file.vi: Executes a Save Panel Setup or Recall Panel Setup action that saves/loads panel setup from the scopes hard drive or from a networked drive.
+lcwave Read Waveform Measurement was added as a polymorphic vi with the following subvis:
+	lcwave Read Waveform Measurement (Standard).vi: Reads back one of the “standard” waveform measurements. Does not require the user to configure a “Px” parameter.
+	lcwave Read Waveform Measurement (Px).vi: Reads back a waveform measurement configured on P1-P8
+	lcwave Read Waveform Measurement (Px Statistics).vi: Reads back the statistics on a measurement configured on P1-P8.
+lcwave Simple Example – Acquire Waveform.vi:  New example with instructions.
+lcwave decode trigtime.vi: Utility vi that's a subvi for Get Descriptor.
+lcwave Error Cluster From Error Code.vi: Included for compatibility with LV 7.0 users 
+lcwave Transfer Selected Waveform.vi: Example that downloads data from the scope without triggering or configuring.
+ 
+Obsoleted VIs:
+lcwave Store to Memory.vi: Replaced by lcwave Save Waveform.vi.  Moved to _lcwave.llb.
+
+<b>REV 2.1 08/11/2008</b>
+Modified by Alan Blankman (LeCroy Corporation)
+This version includes no critical fixes, but includes both major and minor fixes and improvements as well as several useful new subVIs.
+
+New VIs:
+lcwave Transfer File: Transfers a file from the oscilloscope's hard drive to a remote PC
+lcwave Get Screenshot: Grabs a screenshot and transfers the image data to the remote PC in a variety of image formats
+lcwave Configure Measure Mode: Configures the measurement mode to either My Measure, Standard Horizontal or Standard Vertical.  
+lcwave Configure Input Path: Selects whether to use the A or B input. (Only needed for certain WP, SDA and DDA 7Zi models.)
+lcwave Acquire and Read MyMeasurements: New example
+
+Revised VIs:
+lcwave Read Waveform Measurement (Px Statistics): Corrected parsing for non-standard parameters
+lcwave Read Waveform Measurement (Standard): Improved parsing to avoid potential Scan from String error
+lcwave Read: Removed TCP/IP case, since users should use the VICP passport for TCP/IP connections instead of NI's TCPIP passport, which isn't supported
+lcwave Write: Removed TCP/IP case, since users should use the VICP passport for TCP/IP connections instead of NI's TCPIP passport, which isn't supported
+lcwave decode IDN query response: Added models WE100H, WS24XS, M series and new WavePro, SDA and DDA 7Zi models
+lcwave Configure Channel: Added coupling options AC and DC to support probes, moved VDIV ahead of OFST for ruggedness
+lcwave Configure Coupling: Added couping options AC and DC to support probes
+lcwave Fetch Waveform: Added Custom Source ID to allow readback of traces with names not included in combo-box
+lcwave Read Single Waveform: Added Custom Source ID to allow readback of traces with names not included in combo-box
+lcwave Read Multiple Waveforms: Added Custom Source ID to allow readback of traces with names not included in combo-box
+lcwave Fetch All Segments: Revised to increase speed by not requiring separate reads for each segment.
+lcwave Configure Trigger (polymorphic): Modified subVI's for proper handling of Ext and Ext10 sources. See VI descriptions and block diagram comments for more information. Users are recommended *not* to use the "External" selection, but instead to use "Ext" or "Ext10" explicitly.
+lcwave Transfer Selected Waveform: Fix instructions to read "VICP::" instead of "VICP:"
+lcwave Fetch Max Min Waveform: Changed T0 to be "0"
+lcwave decode trigtime: Modified to work with both Hi/Lo and Lo/Ho comm_orders
+lcwave Get Descriptor: Modified to use new version of decode trigtime	
+lcwave Get Waveform: Added Custom Source ID,  inserted "+1" so that the VI also returns the last point (which happens to be off grid.)
+lcwave Sequence Acquisition: Removed autosetup, set Initialize options to False
+lcwave Acquire Waveform: Added instructions
+lcwave Acquire Waveform In Loop.vi: Added options to make a Reset and Autosetup optional, added instructions
+lcwave Initialize: Reduced timeout to 10 seconds from 30 seconds, which was unnecessarily long for Initializing.
+
+</font>
+</pre>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

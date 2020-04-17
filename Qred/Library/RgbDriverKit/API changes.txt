@@ -1,0 +1,128 @@
+**********************************************************
+********  Waves SDK / RgbDriverKit.dll API changes *******
+**********************************************************
+
+We are constantly working to improve the Software Development Kit (SDK) for our
+devices and adding new features. When changes are made to the RgbDriverKit.dll
+library, we try hard to remain compatible with your existing code. However, we
+believe that it is even more important to provide a consistent and clear
+Application Programming Interface (API). Therefore changes that may break
+compatibility with your existing code are sometimes necessary. These changes
+should not be a significant problem for your code: you can either continue to
+use the old version or make some simple changes to adapt your code for the new
+version.
+
+The following list describes all of these changes and the modifications that
+may be required in your code. 
+
+Version 2.1.2
+
+The processing step SensitivitySmoothing was renamed to CorrectPRNU. PRNU
+stands for "Photo Response Nonuniformity" and the new term more clearly
+describes what is done in this step. If you refer to this processing step in
+your code, please rename it as well.
+
+Version 2.0.7
+
+The method RestoreFactoryCalibration() in all descendents of the Calibrated-
+Spectrometer base class does not take any parameters anymore. Previously it
+was possible to choose which parts of the factory calibration should be
+restored. Now this method simply restores the complete factory calibration.
+If it is important for you to be able to restore only part of the factory
+calibration, please contact us.
+
+
+Version 2.0.6
+
+If you turn off the AdjustOffset processing step, the wavelengths and the size
+of the spectrum do not change anymore. Previously, the full raw spectrum in-
+cluding dark and offset pixels was returned. Now the dark and offset pixels are
+always removed and the spectrum is no longer shifted right when you turn off
+this processing step. The average value of the dark and offset pixels can now
+be obtained from the SpectrumData class that is returned by the method
+GetSpectrumData(). If you still really need all pixels from the raw spectrum,
+the spectrometer may be reconfigured accordingly.
+
+
+Version 2.0.0
+
+(1) Calling SetDarkValues() in CalibratedSpectrometer does not update the
+    property CalibrationTemperatureDarkSpectra anymore. If your code includes
+    a call to this method, you should include the following code afterwards:
+        if (spectrometer.CanReadTemperature)
+	    spectrometer.CalibrationTemperatureDarkSpectra
+                = spectrometer.Temperature;
+
+(2) The property UserData is replaced by LoadUserData() and SaveUserData().
+    In earlier versions the user data was loaded from the device during
+    initialization (in the Open() method) and saved when calling
+    SaveUserCalibration(). Now the user data is loaded and saved immediately
+    when these new methods are called.
+
+(3) Qwave/Qmini spectrometers are now required to have firmware version 1.5.8
+    or later. Qsticks are required to have firmware version 1.4.2 or later.
+    Please update the firmware of your spectrometers in Waves. If this causes
+    a problem for you, please contact us.
+
+
+Version 1.5.2
+
+(1) The abstract base class ExtendedSpectrometer is now split in two classes.
+    Some of the contents of the former ExtendedSpectrometer class is now in
+    CalibratedSpectrometer and some is in ThreadedCalibratedSpectrometer.
+
+    If your code has a reference to ExtendedSpectrometer, please change it to
+    ThreadedCalibratedSpectrometer. You may also consider using
+    CalibratedSpectrometer instead if you don't need the additional features
+    in ThreadedCalibratedSpectrometer.
+
+(2) The name of the method Spectrometer.GetData() was changed to
+    Spectrometer.GetSpectrum(). This was done in order to indicate more clearly
+    the difference to the new Spectrometer.GetSpectrumData() method, which also
+    returns additional metadata. The old GetData() method is still available,
+    but not documented anymore.
+    
+    This change does not break compatibility with existing code, so there is
+    nothing you need to do in this respect. We recommend using the new methods,
+    though.
+
+(3) The property CalibratedSpectrometer.DefaultCalibrationUsed is deprecated
+    now and replaced by CalibrationLoadError. It is still available, but not
+    documented and will be removed in a future version.
+    
+    If your code reads this property, please replace it with
+    (CalibrationLoadError != "").
+    For example:
+        if (spectrometer.DefaultCalibrationUsed) { ... }
+    should be replaced by:
+        if (spectrometer.CalibrationLoadError != "") { ... }
+
+(4) The SpectrometerStatus enumeration does not have the item HasData anymore.
+    The previous states Idle and HasData can now be distinguished by checking
+    the AvailableSpectra property.
+
+    If your code checks for this status value, you may check instead if the
+    status is Idle and there are one or more AvailableSpectra.
+    Example:
+        if (spectrometer.Status == SpectrometerStatus.HasData) { ... }
+    should be replaced by:
+        if (spectrometer.Status == SpectrometerStatus.Idle
+            && spectrometer.AvailableSpectra > 0) { ... }
+
+(5) The properties Spectrometer.TimeStamp and Spectrometer.LoadLevel are now
+    valid only after calling the GetData(), GetSpectrum() or GetSpectrumData()
+    method.
+    
+    If your code reads this properties, make sure you call GetSpectrum() or
+    GetSpectrumData() first.
+
+
+Version 1.2.0
+
+(1) Two properties have been renamed: SelectedProcessingSteps is now
+    ProcessingSteps and SelectableProcessingSteps is now
+    AvailableProcessingSteps.
+    
+    If your code references these properties, please change the names
+    accordingly.
+    

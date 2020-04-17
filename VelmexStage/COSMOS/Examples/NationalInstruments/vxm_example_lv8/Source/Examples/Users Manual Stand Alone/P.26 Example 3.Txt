@@ -1,0 +1,13 @@
+;**************************************************************************************************
+;*** All commands that follow a ";" until a carriage return are comments only			***
+;*** No commands or comments may follow a "run-save-memory" ("rsm") or a "run" ("R") command	***
+;*** All commands must be separated by a comma or a carriage return				***
+;**************************************************************************************************
+;
+;Example Name: Clear current program memory
+;Description: (none needed)
+;
+;Actual Script seen below
+;
+C			;Clear previous program from memory
+

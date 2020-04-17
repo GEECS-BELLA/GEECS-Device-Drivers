@@ -1,0 +1,19 @@
+;**********************************************************************************
+;*** The following example is for 3 axis matrix scan (raster scan involving 	***
+;*** motor 3 moving up and then down at each position				***
+;*** 										***
+;*** Example can be found on P.29 of users manual.				***
+;***										***
+;*** NOTE: Comments in text code not allowed after the 'R' (Run Command)	***
+;***										***
+;*** Matrix Scan Example code Written for Velmex by Cliff Nichols 08-07-02	***
+;**********************************************************************************
+I3M2000,		;Move motor 3 a distance of 2000 steps (5 rev)
+I3M-2000,		;Move motor 3 a distance of -2000 steps (-5 rev)
+I1M1600,		;Move motor 1 a distance of 1600 steps (4 rev)
+L5,			;Loop to begining 4x [(# after L)-1]
+I2M400,			;Move motor 2 a distance of 400 steps (1 rev)
+L-3,			;Loop to begining of program 2x, alternate motor direction each loop
+IA1M0,			;Return to motor 1 position zero
+IA2M0,			;Return to motor 2 position zero
+R

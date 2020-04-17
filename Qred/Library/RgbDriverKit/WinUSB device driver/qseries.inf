@@ -1,0 +1,136 @@
+; ==================================
+; INF file for Qseries spectrometers
+; ==================================
+
+[Version]
+Signature = "$Windows NT$"
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName="Qseries Driver Package"
+Class=MeasurementAndControl
+ClassGuid={79DE62A4-B772-448E-BAF9-F94CFAEEEED7}
+Provider=%ProviderName%
+CatalogFile=qseries.cat
+; Date format: MM/DD/YYYY
+DriverVer=07/10/2017,1.2.0.0
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%ProviderName% = Qseries,NTx86,NTamd64
+%CompanyLaser2000% = Laser2000,NTx86,NTamd64
+
+[Qseries.NTx86]
+%DESCRDEFAULT% =USB_Install, USB\VID_276E&PID_0200&MI_00
+%DESCRDEFAULT% =USB_Install, USB\VID_276E&PID_0200
+%DESCRQMINI% =USB_Install, USB\VID_276E&PID_0208
+%DESCRQRED% =USB_Install, USB\VID_276E&PID_0209
+%DESCRQWAVE% =USB_Install, USB\VID_276E&PID_020A
+
+[Qseries.NTamd64]
+%DESCRDEFAULT% =USB_Install, USB\VID_276E&PID_0200&MI_00
+%DESCRDEFAULT% =USB_Install, USB\VID_276E&PID_0200
+%DESCRQMINI% =USB_Install, USB\VID_276E&PID_0208
+%DESCRQRED% =USB_Install, USB\VID_276E&PID_0209
+%DESCRQWAVE% =USB_Install, USB\VID_276E&PID_020A
+
+[Laser2000.NTx86]
+%DESCRSMINI% =USB_Install, USB\VID_276E&PID_020C
+%DESCRSRED% =USB_Install, USB\VID_276E&PID_020D
+%DESCRSPECTRA% =USB_Install, USB\VID_276E&PID_020E
+
+[Laser2000.NTamd64]
+%DESCRSMINI% =USB_Install, USB\VID_276E&PID_020C
+%DESCRSRED% =USB_Install, USB\VID_276E&PID_020D
+%DESCRSPECTRA% =USB_Install, USB\VID_276E&PID_020E
+
+; ========== New device manager category =============
+
+[ClassInstall32]
+AddReg=ClassInstall_AddReg
+
+[ClassInstall_AddReg]
+HKR,,,,%DEVICEMANAGERCATEGORY%
+HKR,,Icon,,"-20"
+
+; =================== Installation ===================
+
+[USB_Install]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[USB_Install.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+[USB_Install.Wdf]
+KmdfService=WINUSB, WinUsb_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion=1.9
+
+[USB_Install.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{95A48889-5E9F-4CB7-8BC6-0850288180F1}"
+
+[USB_Install.CoInstallers]
+AddReg=CoInstallers_AddReg
+CopyFiles=CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+; ================= Source Media Section =====================
+
+[SourceDisksNames.x86]
+1 = %DISK_NAME%,,,\i386
+
+[SourceDisksNames.amd64]
+2 = %DISK_NAME%,,,\amd64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll=1
+WdfCoInstaller01009.dll=1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll=2
+WdfCoInstaller01009.dll=2
+
+[_CopyFiles_sys]
+winusb.sys
+
+[DestinationDirs]
+DefaultDestDir = 12 ; %SystemRoot%\system32\drivers
+_CopyFiles_sys = 12
+
+; =================== Strings ===================
+
+[Strings]
+ProviderName="RGB Photonics"
+DESCRDEFAULT="Qseries spectrometer"
+DESCRQMINI="Qmini"
+DESCRQRED="Qred"
+DESCRQWAVE="Qwave"
+WinUSB_SvcDesc="Qseries"
+DISK_NAME="Qseries Drivers Disk"
+DEVICEMANAGERCATEGORY="Measurement and Control"
+
+CompanyLaser2000="Laser 2000"
+DESCRSMINI="S_mini"
+DESCRSRED="S_red"
+DESCRSPECTRA="S_pectra"
