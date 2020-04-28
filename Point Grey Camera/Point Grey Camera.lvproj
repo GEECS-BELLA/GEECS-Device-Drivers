@@ -58,6 +58,8 @@
 		<Item Name="tdms image file ref.vi" Type="VI" URL="../subVis/tdms image file ref.vi"/>
 		<Item Name="load tdms image from file.vi" Type="VI" URL="../subVis/load tdms image from file.vi"/>
 		<Item Name="Image save type.ctl" Type="VI" URL="../subVis/Image save type.ctl"/>
+		<Item Name="python simple example.vi" Type="VI" URL="../../../Shared/python/python simple example.vi"/>
+		<Item Name="python simple example numeric.vi" Type="VI" URL="../../../Shared/python/python simple example numeric.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
