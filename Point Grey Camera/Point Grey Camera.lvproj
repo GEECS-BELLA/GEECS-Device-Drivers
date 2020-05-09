@@ -60,6 +60,12 @@
 		<Item Name="Image save type.ctl" Type="VI" URL="../subVis/Image save type.ctl"/>
 		<Item Name="python simple example.vi" Type="VI" URL="../../../Shared/python/python simple example.vi"/>
 		<Item Name="python simple example numeric.vi" Type="VI" URL="../../../Shared/python/python simple example numeric.vi"/>
+		<Item Name="python simple example array.vi" Type="VI" URL="../../../Shared/python/python simple example array.vi"/>
+		<Item Name="python hdf5 speed test.vi" Type="VI" URL="../../../Shared/python/python hdf5 speed test.vi"/>
+		<Item Name="ZeroMQ reply socket example.vi" Type="VI" URL="../../../Shared/ZeroMQ reply socket example.vi"/>
+		<Item Name="zeromq request example.vi" Type="VI" URL="../../../Shared/zeromq/zeromq request example.vi"/>
+		<Item Name="ZMQ PAIR sender example.vi" Type="VI" URL="../../../Shared/zeromq/ZMQ PAIR sender example.vi"/>
+		<Item Name="ZMQ PAIR receiver example.vi" Type="VI" URL="../../../Shared/zeromq/ZMQ PAIR receiver example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -151,6 +157,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
