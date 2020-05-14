@@ -66,6 +66,8 @@
 		<Item Name="zeromq request example.vi" Type="VI" URL="../../../Shared/zeromq/zeromq request example.vi"/>
 		<Item Name="ZMQ PAIR sender example.vi" Type="VI" URL="../../../Shared/zeromq/ZMQ PAIR sender example.vi"/>
 		<Item Name="ZMQ PAIR receiver example.vi" Type="VI" URL="../../../Shared/zeromq/ZMQ PAIR receiver example.vi"/>
+		<Item Name="ZMQ publisher example.vi" Type="VI" URL="../../../Shared/zeromq/ZMQ publisher example.vi"/>
+		<Item Name="ZMQ subscriber example.vi" Type="VI" URL="../../../Shared/zeromq/ZMQ subscriber example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
