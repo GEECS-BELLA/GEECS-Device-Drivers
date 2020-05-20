@@ -71,6 +71,7 @@
 		<Item Name="test large data cvt.vi" Type="VI" URL="../../../temporary not in repo/test large data cvt.vi"/>
 		<Item Name="FGV DVR set.vi" Type="VI" URL="../../../temporary not in repo/FGV DVR set.vi"/>
 		<Item Name="FGV DVR get.vi" Type="VI" URL="../../../temporary not in repo/FGV DVR get.vi"/>
+		<Item Name="python hdf5 example.vi" Type="VI" URL="../../../Shared/python/python hdf5 example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -681,7 +682,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C45BBF32-CDAB-4087-91F7-FE49B484DB84}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePointGrey.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePointGrey.exe</Property>
