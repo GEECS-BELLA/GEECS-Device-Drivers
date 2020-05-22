@@ -23,7 +23,6 @@
 		<Item Name="CamAtributes_TypDEf.ctl" Type="VI" URL="../subVis/CamAtributes_TypDEf.ctl"/>
 		<Item Name="ROI_TypDef.ctl" Type="VI" URL="../subVis/ROI_TypDef.ctl"/>
 		<Item Name="Image analysys result.ctl" Type="VI" URL="../subVis/Image analysys result.ctl"/>
-		<Item Name="online image analysis.vi" Type="VI" URL="../subVis/online image analysis.vi"/>
 		<Item Name="is it gain attribute.vi" Type="VI" URL="../subVis/is it gain attribute.vi"/>
 		<Item Name="is it trigger mode attribute.vi" Type="VI" URL="../subVis/is it trigger mode attribute.vi"/>
 		<Item Name="is this trigger delay attribute.vi" Type="VI" URL="../subVis/is this trigger delay attribute.vi"/>
@@ -45,12 +44,8 @@
 		<Item Name="w0 via 2nd mom 1D.vi" Type="VI" URL="../subVis/w0 via 2nd mom 1D.vi"/>
 		<Item Name="spot size 2D.vi" Type="VI" URL="../subVis/spot size 2D.vi"/>
 		<Item Name="create 4 corner roi.vi" Type="VI" URL="../subVis/create 4 corner roi.vi"/>
-		<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../subVis/prepare image for 2nd mom analysis.vi"/>
-		<Item Name="AcquisitionMVF.vi" Type="VI" URL="../subVis/AcquisitionMVF.vi"/>
 		<Item Name="GEECS IMAQdx set attribute.vi" Type="VI" URL="../subVis/GEECS IMAQdx set attribute.vi"/>
-		<Item Name="analysis tester.vi" Type="VI" URL="../subVis/analysis tester.vi"/>
-		<Item Name="threhsold and centroid IMAQ.vi" Type="VI" URL="../subVis/threhsold and centroid IMAQ.vi"/>
-		<Item Name="IMAQ subtract background using edges.vi" Type="VI" URL="../subVis/IMAQ subtract background using edges.vi"/>
+		<Item Name="threhsold IMAQ.vi" Type="VI" URL="../subVis/threhsold IMAQ.vi"/>
 		<Item Name="mask lineout.vi" Type="VI" URL="../subVis/mask lineout.vi"/>
 		<Item Name="calculate binning sub.vi" Type="VI" URL="../../shared/Cameras/CommonVIs/calculate binning sub.vi"/>
 		<Item Name="png path to tdms image path.vi" Type="VI" URL="../subVis/png path to tdms image path.vi"/>
@@ -158,12 +153,12 @@
 				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
-				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
@@ -429,6 +424,9 @@
 				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
 				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
 				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
 			</Item>
 			<Item Name="checkSubscriberList.vi" Type="VI" URL="../../shared/checkSubscriberList.vi"/>
 			<Item Name="connectiondata_typdef.ctl" Type="VI" URL="../../shared/connectiondata_typdef.ctl"/>
@@ -682,7 +680,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C45BBF32-CDAB-4087-91F7-FE49B484DB84}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePointGrey.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePointGrey.exe</Property>
@@ -707,7 +705,7 @@
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/online image analysis.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/online image analysis.vi</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
@@ -803,7 +801,7 @@
 				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/prepare image for 2nd mom analysis.vi</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/prepare image for 2nd mom analysis.vi</Property>
 				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
@@ -811,15 +809,15 @@
 				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/analysis tester.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/analysis tester.vi</Property>
 				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/threhsold and centroid IMAQ.vi</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/threhsold IMAQ.vi</Property>
 				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/IMAQ subtract background using edges.vi</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/IMAQ subtract background.vi</Property>
 				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
@@ -831,7 +829,7 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/AcquisitionMVF.vi</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/AcquisitionMVF.vi</Property>
 				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
