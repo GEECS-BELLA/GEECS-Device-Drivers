@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -76,7 +76,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
@@ -112,6 +111,11 @@
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -199,6 +203,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{6F36B2F8-3938-497F-9753-EB2B95A5035D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4D2F652C-3BBE-4127-A9DC-353509147C13}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LOASIS.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AE5F388C-999C-4942-B00B-8D9E6228A089}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Cam1</Property>
@@ -245,6 +250,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{5B73B8B1-D1EE-4DAC-8C52-9E6006BF4E7E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{3EE60F04-C612-4B1D-94E0-1E685E8B6E52}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LOASIS.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AC7C0FDE-4DE8-45EA-8901-C41CC1D01A3B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Cam2</Property>
@@ -285,6 +291,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{8A19E248-94D2-4892-B6E3-78D4C2F94E4E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{392A428B-E31E-4483-8EF5-F7EC0BAD7E6F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LOASIS.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A89D7950-EFAA-4150-9E89-441E6291275E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Cam3</Property>
