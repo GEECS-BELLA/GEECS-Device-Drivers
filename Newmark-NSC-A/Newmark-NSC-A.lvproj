@@ -535,7 +535,9 @@
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
-			<Item Name="PerformaxCom.dll" Type="Document" URL="../../../../../../Program Files (x86)/Arcus Technology/Drivers, Libraries, Source/Performax USB v4.01/PerformaxCom.dll"/>
+			<Item Name="PerformaxCom.dll" Type="Document" URL="PerformaxCom.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewMarkStrage" Type="Source Distribution">
