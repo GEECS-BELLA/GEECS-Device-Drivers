@@ -67,6 +67,7 @@
 		<Item Name="FGV DVR set.vi" Type="VI" URL="../../../temporary not in repo/FGV DVR set.vi"/>
 		<Item Name="FGV DVR get.vi" Type="VI" URL="../../../temporary not in repo/FGV DVR get.vi"/>
 		<Item Name="python hdf5 example.vi" Type="VI" URL="../../../Shared/python/python hdf5 example.vi"/>
+		<Item Name="MagSpecCamera.lvclass" Type="LVClass" URL="../../MagSpecCamera/MagSpecCamera.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -159,6 +160,27 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
+				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
@@ -427,6 +449,22 @@
 				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
 				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
 				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
+				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
+				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
+				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
+				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
 			</Item>
 			<Item Name="checkSubscriberList.vi" Type="VI" URL="../../shared/checkSubscriberList.vi"/>
 			<Item Name="connectiondata_typdef.ctl" Type="VI" URL="../../shared/connectiondata_typdef.ctl"/>
@@ -505,7 +543,6 @@
 			<Item Name="MoveToendOfQue.vi" Type="VI" URL="../../shared/MoveToendOfQue.vi"/>
 			<Item Name="RemoveCVTfromQueue.vi" Type="VI" URL="../../shared/RemoveCVTfromQueue.vi"/>
 			<Item Name="removeFromQueue.vi" Type="VI" URL="../../shared/removeFromQueue.vi"/>
-			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../subVis/GetCamAtributesAndTriggerMode.vi"/>
 			<Item Name="reBuildJoindCommand.vi" Type="VI" URL="../../shared/reBuildJoindCommand.vi"/>
 			<Item Name="generateEvent.vi" Type="VI" URL="../../shared/generateEvent.vi"/>
 			<Item Name="lockscanMode(DB).vi" Type="VI" URL="../../shared/lockscanMode(DB).vi"/>
@@ -628,6 +665,65 @@
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
 			<Item Name="getSeperator.vi" Type="VI" URL="../../shared/getSeperator.vi"/>
+			<Item Name="Calibration_Pixel_based.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/Calibration_Pixel_based.ctl"/>
+			<Item Name="finalCalib--Cluster.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/finalCalib--Cluster.ctl"/>
+			<Item Name="CameraSettings_File.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/CameraSettings_File.ctl"/>
+			<Item Name="2D.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/2D.ctl"/>
+			<Item Name="OneTimeCalculation.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/OneTimeCalculation.ctl"/>
+			<Item Name="CalibrationFiles.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/CalibrationFiles.ctl"/>
+			<Item Name="Settings.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/Settings.ctl"/>
+			<Item Name="CalibrationCluster.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/CalibrationCluster.ctl"/>
+			<Item Name="MagSpecCameraSubscriptions.ctl" Type="VI" URL="../../MagSpecCamera/subVis/MagSpecCameraSubscriptions.ctl"/>
+			<Item Name="SubscriberCluster_TypDEf.ctl" Type="VI" URL="../../shared/SubscriberCluster_TypDEf.ctl"/>
+			<Item Name="iniSubsciberDevice.vi" Type="VI" URL="../../shared/iniSubsciberDevice.vi"/>
+			<Item Name="getSubscriberInfo.vi" Type="VI" URL="../../shared/getSubscriberInfo.vi"/>
+			<Item Name="ReadTrajectoryCalibFile.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/ReadTrajectoryCalibFile.vi"/>
+			<Item Name="getSubArray_Bella.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/getSubArray_Bella.vi"/>
+			<Item Name="ReadCamCalibFile.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/ReadCamCalibFile.vi"/>
+			<Item Name="getfractionalX_Bella.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/getfractionalX_Bella.vi"/>
+			<Item Name="Del_First_And_last_Bella.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/Del_First_And_last_Bella.vi"/>
+			<Item Name="MagSpec_Bella.lvclass" Type="LVClass" URL="../../MagSpec_Bella/MagSpec_Bella.lvclass"/>
+			<Item Name="ImageCluster.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/ImageCluster.ctl"/>
+			<Item Name="FixedCalib.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/FixedCalib.ctl"/>
+			<Item Name="energyDependence.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/energyDependence.vi"/>
+			<Item Name="createYi_.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/createYi_.vi"/>
+			<Item Name="IntraX_.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/IntraX_.vi"/>
+			<Item Name="finalXi_.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/finalXi_.vi"/>
+			<Item Name="CamAndObj_TypDEf_Bella.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/CamAndObj_TypDEf_Bella.ctl"/>
+			<Item Name="ScreenCam2_TypDEf_Bella.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/ScreenCam2_TypDEf_Bella.ctl"/>
+			<Item Name="FlipArray.vi" Type="VI" URL="../../MagSpec_Bella/Temp/FlipArray.vi"/>
+			<Item Name="Charge Calibration_2011.vi" Type="VI" URL="../../MagAnalysis_Online/Charge Calibration Folder/Charge Calibration_2011.vi"/>
+			<Item Name="ScreenCam2_TypDEf.ctl" Type="VI" URL="../../MagAnalysis_Online/SubVis/ScreenCam2_TypDEf.ctl"/>
+			<Item Name="CamAndObj_TypDEf.ctl" Type="VI" URL="../../MagAnalysis_Online_Bella/SubVis/CamAndObj_TypDEf.ctl"/>
+			<Item Name="Filtering_2011.vi" Type="VI" URL="../../MagAnalysis_Online/Charge Calibration Folder/Filtering_2011.vi"/>
+			<Item Name="Longitudinal-Radial Distance_2011.vi" Type="VI" URL="../../MagAnalysis_Online/Charge Calibration Folder/Longitudinal-Radial Distance_2011.vi"/>
+			<Item Name="Index Matrices_2011.vi" Type="VI" URL="../../MagAnalysis_Online/Charge Calibration Folder/Index Matrices_2011.vi"/>
+			<Item Name="Brightness_2011.vi" Type="VI" URL="../../MagAnalysis_Online/Charge Calibration Folder/Brightness_2011.vi"/>
+			<Item Name="Counts to pC_2011.vi" Type="VI" URL="../../MagAnalysis_Online/Charge Calibration Folder/Counts to pC_2011.vi"/>
+			<Item Name="CalculateChargeDensity.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/CalculateChargeDensity.vi"/>
+			<Item Name="ReadPostAnaly.vi" Type="VI" URL="../../MagSpec_Bella/ProtoType/ReadPostAnaly.vi"/>
+			<Item Name="BGSub_Bella.vi" Type="VI" URL="../../MagSpec_Bella/dublicateVis/BGSub_Bella.vi"/>
+			<Item Name="IMAQ_SUM_Bella.vi" Type="VI" URL="../../MagSpec_Bella/dublicateVis/IMAQ_SUM_Bella.vi"/>
+			<Item Name="AdvBGSub_Bella.vi" Type="VI" URL="../../MagSpec_Bella/dublicateVis/AdvBGSub_Bella.vi"/>
+			<Item Name="UpDateCalNewBfield.vi" Type="VI" URL="../../MagSpecCamera/subVis/UpDateCalNewBfield.vi"/>
+			<Item Name="getSubData_Device.vi" Type="VI" URL="../../shared/getSubData_Device.vi"/>
+			<Item Name="reconCluster.vi" Type="VI" URL="../../MagAnalysis_Online/SubVis/reconCluster.vi"/>
+			<Item Name="IndexSettingsCluster.vi" Type="VI" URL="../../shared/Temp/IndexSettingsCluster.vi"/>
+			<Item Name="GETSubData.vi" Type="VI" URL="../../shared/GETSubData.vi"/>
+			<Item Name="getElementFromVData.vi" Type="VI" URL="../../shared/getElementFromVData.vi"/>
+			<Item Name="Get Cluster Element by Index__TS.vi" Type="VI" URL="../../shared/Get Cluster Element by Index__TS.vi"/>
+			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
+			<Item Name="rescaleImage.vi" Type="VI" URL="../../../General GUIs/shared/rescaleImage.vi"/>
+			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../General GUIs/shared/imagebitDepth.vi"/>
+			<Item Name="Set Settings Element by Name__ogtk_TS.vi" Type="VI" URL="../../shared/Set Settings Element by Name__ogtk_TS.vi"/>
+			<Item Name="Set SettingsCluster Element by Index__TS.vi" Type="VI" URL="../../shared/Set SettingsCluster Element by Index__TS.vi"/>
+			<Item Name="Set Cluster Element by Index__TS.vi" Type="VI" URL="../../shared/Set Cluster Element by Index__TS.vi"/>
+			<Item Name="AcquisitionMVF.vi" Type="VI" URL="../../MagSpecCamera/subVis/AcquisitionMVF.vi"/>
+			<Item Name="rawpathToInterp.vi" Type="VI" URL="../../MagSpecCamera/subVis/rawpathToInterp.vi"/>
+			<Item Name="interp img path to lineout paths.vi" Type="VI" URL="../../MagSpecCamera/subVis/interp img path to lineout paths.vi"/>
+			<Item Name="online image analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/online image analysis.vi"/>
+			<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/prepare image for 2nd mom analysis.vi"/>
+			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../subVis/GetCamAtributesAndTriggerMode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Point Grey Camera" Type="Source Distribution">

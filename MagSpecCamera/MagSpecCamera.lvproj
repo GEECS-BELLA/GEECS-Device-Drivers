@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -19,34 +19,16 @@
 		<Item Name="setMVsettingsNEW.vi" Type="VI" URL="../subVis/setMVsettingsNEW.vi"/>
 		<Item Name="setMVsettingsDevice.vi" Type="VI" URL="../subVis/setMVsettingsDevice.vi"/>
 		<Item Name="getTriggerMV.vi" Type="VI" URL="../subVis/getTriggerMV.vi"/>
-		<Item Name="CamAtributesString.vi" Type="VI" URL="../subVis/CamAtributesString.vi"/>
-		<Item Name="TriggerModeString_TypDEf.ctl" Type="VI" URL="../subVis/TriggerModeString_TypDEf.ctl"/>
-		<Item Name="CamAtributes_TypDEf.ctl" Type="VI" URL="../subVis/CamAtributes_TypDEf.ctl"/>
-		<Item Name="ROI_TypDef.ctl" Type="VI" URL="../subVis/ROI_TypDef.ctl"/>
-		<Item Name="Image analysys result.ctl" Type="VI" URL="../subVis/Image analysys result.ctl"/>
 		<Item Name="online image analysis.vi" Type="VI" URL="../subVis/online image analysis.vi"/>
-		<Item Name="is it gain attribute.vi" Type="VI" URL="../subVis/is it gain attribute.vi"/>
-		<Item Name="is it trigger mode attribute.vi" Type="VI" URL="../subVis/is it trigger mode attribute.vi"/>
-		<Item Name="is this trigger delay attribute.vi" Type="VI" URL="../subVis/is this trigger delay attribute.vi"/>
-		<Item Name="is it exposure attribute.vi" Type="VI" URL="../subVis/is it exposure attribute.vi"/>
 		<Item Name="Get Generaln Cam Attributes from DB.vi" Type="VI" URL="../../shared/Get Generaln Cam Attributes from DB.vi"/>
 		<Item Name="updateError.vi" Type="VI" URL="../../BaseDriver/updateError.vi"/>
 		<Item Name="diagError.vi" Type="VI" URL="../../BaseDriver/diagError.vi"/>
 		<Item Name="CMD_ErrorHandler.vi" Type="VI" URL="../../BaseDriver/CMD_ErrorHandler.vi"/>
-		<Item Name="setGainMVF_1.vi" Type="VI" URL="../subVis/setGainMVF_1.vi"/>
-		<Item Name="Set Attribute.vi" Type="VI" URL="../subVis/Set Attribute.vi"/>
-		<Item Name="Read Attribute Max range value.vi" Type="VI" URL="../subVis/Read Attribute Max range value.vi"/>
-		<Item Name="Compare numbers.vi" Type="VI" URL="../subVis/Compare numbers.vi"/>
-		<Item Name="Comparison.ctl" Type="VI" URL="../subVis/Comparison.ctl"/>
 		<Item Name="fwhm xy simple.vi" Type="VI" URL="../../Smaract/fwhm xy simple.vi"/>
 		<Item Name="FGV paths.vi" Type="VI" URL="../../shared/FGV paths.vi"/>
 		<Item Name="Change Path.vi" Type="VI" URL="../subVis/Change Path.vi"/>
 		<Item Name="preset cluster.ctl" Type="VI" URL="../../BaseDriver/preset cluster.ctl"/>
-		<Item Name="threshold fraction or count.vi" Type="VI" URL="../subVis/threshold fraction or count.vi"/>
-		<Item Name="w0 via 2nd mom 1D.vi" Type="VI" URL="../subVis/w0 via 2nd mom 1D.vi"/>
-		<Item Name="spot size 2D.vi" Type="VI" URL="../subVis/spot size 2D.vi"/>
 		<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
-		<Item Name="create 4 corner roi.vi" Type="VI" URL="../subVis/create 4 corner roi.vi"/>
 		<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../subVis/prepare image for 2nd mom analysis.vi"/>
 		<Item Name="rawpathToInterp.vi" Type="VI" URL="../subVis/rawpathToInterp.vi"/>
 		<Item Name="MagSpecCameraSubscriptions.ctl" Type="VI" URL="../subVis/MagSpecCameraSubscriptions.ctl"/>
@@ -68,14 +50,13 @@
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -158,6 +139,9 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
@@ -492,9 +476,6 @@
 			<Item Name="INITMultiList.vi" Type="VI" URL="../../shared/INITMultiList.vi"/>
 			<Item Name="DisplaySettableVariables.vi" Type="VI" URL="../../BaseDriver/DisplaySettableVariables.vi"/>
 			<Item Name="get child class path2.vi" Type="VI" URL="../../shared/get child class path2.vi"/>
-			<Item Name="setTriggerMVF_1.vi" Type="VI" URL="../subVis/setTriggerMVF_1.vi"/>
-			<Item Name="setExpouserMVF_1.vi" Type="VI" URL="../subVis/setExpouserMVF_1.vi"/>
-			<Item Name="setTriggerDelayMVF_1.vi" Type="VI" URL="../subVis/setTriggerDelayMVF_1.vi"/>
 			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../shared/Get Cluster Element Names__ogtk_TS.vi"/>
 			<Item Name="UpdateVariable.vi" Type="VI" URL="../../shared/UpdateVariable.vi"/>
 			<Item Name="variabledata_typdef.ctl" Type="VI" URL="../../shared/variabledata_typdef.ctl"/>
@@ -511,7 +492,6 @@
 			<Item Name="MoveToendOfQue.vi" Type="VI" URL="../../shared/MoveToendOfQue.vi"/>
 			<Item Name="RemoveCVTfromQueue.vi" Type="VI" URL="../../shared/RemoveCVTfromQueue.vi"/>
 			<Item Name="removeFromQueue.vi" Type="VI" URL="../../shared/removeFromQueue.vi"/>
-			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../subVis/GetCamAtributesAndTriggerMode.vi"/>
 			<Item Name="reBuildJoindCommand.vi" Type="VI" URL="../../shared/reBuildJoindCommand.vi"/>
 			<Item Name="generateEvent.vi" Type="VI" URL="../../shared/generateEvent.vi"/>
 			<Item Name="lockscanMode(DB).vi" Type="VI" URL="../../shared/lockscanMode(DB).vi"/>
@@ -685,6 +665,30 @@
 			<Item Name="FWHM-pixel-only.vi" Type="VI" URL="../../Point Grey Camera/FWHM-pixel-only.vi"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
 			<Item Name="getSeperator.vi" Type="VI" URL="../../shared/getSeperator.vi"/>
+			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../../Point Grey Camera/subVis/GetCamAtributesAndTriggerMode.vi"/>
+			<Item Name="setExpouserMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setExpouserMVF_1.vi"/>
+			<Item Name="setTriggerDelayMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setTriggerDelayMVF_1.vi"/>
+			<Item Name="setTriggerMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setTriggerMVF_1.vi"/>
+			<Item Name="GEECS IMAQdx set attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/GEECS IMAQdx set attribute.vi"/>
+			<Item Name="mask lineout.vi" Type="VI" URL="../../Point Grey Camera/subVis/mask lineout.vi"/>
+			<Item Name="CamAtributesString.vi" Type="VI" URL="../../Point Grey Camera/subVis/CamAtributesString.vi"/>
+			<Item Name="TriggerModeString_TypDEf.ctl" Type="VI" URL="../../Point Grey Camera/subVis/TriggerModeString_TypDEf.ctl"/>
+			<Item Name="CamAtributes_TypDEf.ctl" Type="VI" URL="../../Point Grey Camera/subVis/CamAtributes_TypDEf.ctl"/>
+			<Item Name="ROI_TypDef.ctl" Type="VI" URL="../../Point Grey Camera/subVis/ROI_TypDef.ctl"/>
+			<Item Name="Image analysys result.ctl" Type="VI" URL="../../Point Grey Camera/subVis/Image analysys result.ctl"/>
+			<Item Name="is it gain attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is it gain attribute.vi"/>
+			<Item Name="is it trigger mode attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is it trigger mode attribute.vi"/>
+			<Item Name="is this trigger delay attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is this trigger delay attribute.vi"/>
+			<Item Name="is it exposure attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is it exposure attribute.vi"/>
+			<Item Name="setGainMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setGainMVF_1.vi"/>
+			<Item Name="Set Attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/Set Attribute.vi"/>
+			<Item Name="Read Attribute Max range value.vi" Type="VI" URL="../../Point Grey Camera/subVis/Read Attribute Max range value.vi"/>
+			<Item Name="Compare numbers.vi" Type="VI" URL="../../Point Grey Camera/subVis/Compare numbers.vi"/>
+			<Item Name="Comparison.ctl" Type="VI" URL="../../Point Grey Camera/subVis/Comparison.ctl"/>
+			<Item Name="create 4 corner roi.vi" Type="VI" URL="../../Point Grey Camera/subVis/create 4 corner roi.vi"/>
+			<Item Name="spot size 2D.vi" Type="VI" URL="../../Point Grey Camera/subVis/spot size 2D.vi"/>
+			<Item Name="w0 via 2nd mom 1D.vi" Type="VI" URL="../../Point Grey Camera/subVis/w0 via 2nd mom 1D.vi"/>
+			<Item Name="threshold fraction or count.vi" Type="VI" URL="../../Point Grey Camera/subVis/threshold fraction or count.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MagSpecCamera" Type="Source Distribution">
@@ -731,6 +735,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{C87303C4-29D6-4222-9DE6-577ABDCDF74A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{ED176AAC-F4E6-4509-8B7C-F438E2B7E01A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -758,15 +763,15 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/CamAtributes_TypDEf.ctl</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/ROI_TypDef.ctl</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Image analysys result.ctl</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
@@ -774,19 +779,19 @@
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/is it gain attribute.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/is it trigger mode attribute.vi</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/is this trigger delay attribute.vi</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/is it exposure attribute.vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref"></Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
@@ -814,23 +819,23 @@
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/setGainMVF_1.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref"></Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Set Attribute.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref"></Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Read Attribute Max range value.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref"></Property>
 				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Compare numbers.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref"></Property>
 				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Comparison.ctl</Property>
+				<Property Name="Source[27].itemID" Type="Ref"></Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
@@ -854,15 +859,15 @@
 				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/threshold fraction or count.vi</Property>
+				<Property Name="Source[32].itemID" Type="Ref"></Property>
 				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/w0 via 2nd mom 1D.vi</Property>
+				<Property Name="Source[33].itemID" Type="Ref"></Property>
 				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/spot size 2D.vi</Property>
+				<Property Name="Source[34].itemID" Type="Ref"></Property>
 				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
@@ -870,7 +875,7 @@
 				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/create 4 corner roi.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref"></Property>
 				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
@@ -902,11 +907,11 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/CamAtributesString.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/TriggerModeString_TypDEf.ctl</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">40</Property>
