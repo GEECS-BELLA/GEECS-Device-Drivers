@@ -68,6 +68,7 @@
 		<Item Name="FGV DVR get.vi" Type="VI" URL="../../../temporary not in repo/FGV DVR get.vi"/>
 		<Item Name="python hdf5 example.vi" Type="VI" URL="../../../Shared/python/python hdf5 example.vi"/>
 		<Item Name="MagSpecCamera.lvclass" Type="LVClass" URL="../../MagSpecCamera/MagSpecCamera.lvclass"/>
+		<Item Name="hdf5 image file ref FGV.vi" Type="VI" URL="../subVis/hdf5 image file ref FGV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -181,6 +182,7 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
