@@ -1,0 +1,301 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Instrument Driver Readme</title>
+</head>
+<body>
+<h2>Zaber A Series Instrument Driver Readme</h2>
+<para>To rate this instrument driver, go to the driver download page on the <a  href="http://www.ni.com/idnet">Instrument Driver Network</a>.</para>
+<h4>1. Overview</h4>
+<para>
+Instrument Driver Technology: LabVIEW Plug and Play (project-style)
+<br>
+Manufacturer: Zaber Technologies
+<br>
+Supported Language(s): LabVIEW
+<br>
+Supported Model(s): 
+	A-BAR,
+	A-BLQ,
+	A-LAR,
+	A-LSQ,
+	A-LST,
+	A-LAR,
+	A-MCA, 
+	A-MCB2
+	(A-Series),
+	X-BLQ,
+	X-DMQ,
+	X-FCR,
+	X-FWR,
+	X-GLP,
+	X-GSM,
+    X-GSR,
+	X-JOY3,
+	X-LDA
+    X-LDQ,
+    X-LDM,
+	X-LHM,
+	X-LRM,
+	X-LRQ,
+	X-LSM,
+	X-LSQ,
+	X-MCB1,
+	X-MCB2,
+	X-NMS, 
+	X-RSB,
+	X-RST,
+	X-RSW,
+	X-VSR 
+	(X-Series)
+<br>
+Model(s) Tested: A-LSQ, X-MCB2, X-JOY3, X-RST, X-LDM, X-LDQ
+<br>
+Interface(s): RS232 Serial
+<br>
+Firmware Revision(s) Tested: 6.18 (A-LSQ), 6.24 (X-RST), 6.25 (X-JOY3), 6.29 (X-MCB2), 7.03 (X-LDM, X-LDQ)
+<br>
+<br>
+Certified: Yes
+<br>
+NI Supported: Yes
+<br>
+Source Code Available: Yes
+<br>
+<br>
+Driver Revision:  1.3.0
+<br>
+Original Release Date: 08/29/2014
+<br>
+Current Revision Date: 03/02/2020
+<br>
+Current Revision Release Date: 03/03/2020
+</para>
+<h4>2. Required Software</h4>
+<para>Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
+<br>
+<br>
+VISA 5.0 or later
+<br>
+<br>
+Refer to the <i>LabVIEW Help</i> for more information about software requirements. You access the <i>LabVIEW Help</i> by selecting <i>Help&raquo;Search the LabVIEW Help</i>.</para>
+<br>
+<br>
+<para>
+The Zaber A-Series Control Panel.vi example requires a CSV file which is not included.
+An example CSV file and a Python script for updating it are available for download at <a href="http://www.zaber.com/wiki/Software/ASCII_Labview_Driver">http://www.zaber.com/wiki/Software/ASCII_Labview_Driver</a>
+The CSV file and Python script are only needed by the example, and are not necessary to use the instrument driver.
+</para>
+<h4>3. Known Issues</h4>
+<para>
+To report issues or provide feedback about this instrument driver, please send an email to <a href="mailto:contact@zaber.com">contact@zaber.com</a>.</para>
+<br>
+<para></para>
+<h4>4. Revision History</h4>
+<para>The latest version of this and other LabVIEW and LabWindows/CVI instrument drivers can be downloaded at the <a href="http://www.ni.com/idnet">Instrument Driver Network</a>.<br>
+<br>
+REV 1.3.0, 03/02/2020<br>
+Updated by: Soleil Lapierre, Vancouver, BC.<br>
+<ul>
+    <li>The Set Speed and Acceleration VI has been made obsolete due to mismatched unit conversions that cannot be fixed without a breaking change. 
+		Please use the new, separate Set Speed and Set Acceleration VIs instead.
+	<li>The Convert Acceleration Units to Device Units and the Convert Device Units to Acceleration Units VIs have been made obsolete in order to make
+		the list of acceleration units of measure correspond to those of the speed and position unit conversion VIs. Please use the new Convert Acceleration 
+		to Device Units and Convert Device Units to Acceleration VIs instead. The new ones do not support units of microsteps per second squared.
+	<li>Fixed possible infinite loops in the Poll Until Idle VI and the private Read (Multiple Responses) VI if errors occur before they execute.
+</ul>
+<br>
+REV 1.2.2, 11/21/2019<br>
+Updated by: Soleil Lapierre, Vancouver, BC.<br>
+<ul>
+    <li>Fixed bugs in the Convert Acceleration Units to Device Units and the Convert Device Units to Acceleration Units VIs that were producing incorrect conversions of acceleration quantities.</li>
+</ul>
+<br>
+REV 1.2.1, 03/01/2019<br>
+Updated by: Mike McDonald, Vancouver, BC.<br>
+<ul>
+    <li>Fixed a bug in the private Read (Single Response) VI that was sometimes causing extra whitespace to appear in one of the outputs.</li>
+</ul>
+<br>
+REV 1.2, 10/05/2018<br>
+Updated by: Mike McDonald and Soleil Lapierre, Vancouver, BC.<br>
+<ul>
+    <li>Various VIs have been updated to use 64-bit integers to represent device positions, 
+    velocities and accelerations. In all cases this change should be backwards compatible,
+    but using 64 bits where optional is recommended for users of high resolution devices such 
+    as direct drive linear stages.
+        <ul>
+            <li>Added new versions of the following VIs with 64-bit inputs or outputs for 
+			    compatibility with Zaber firmware version 7 or later. In the cases where inputs
+				were changed to 64 bits, the existing VI remains 32-bit and a new polymorphic 
+				version of the VIs has been added.
+				Using the polymorphic version is recommended in new programs for future 
+				compatibility. In the cases where only new outputs were added, the new 
+				outputs are on previously unoccupied pins.
+                <ul>
+                    <li>Lockstep Move</li>
+                    <li>Lockstep Move at Velocity</li>
+                    <li>Set Virtual Axis Speed</li>
+                    <li>Virtual Axis Move</li>
+                    <li>Virtual Axis Move at Velocity</li>
+                    <li>Get Virtual Axis Info</li>
+                    <li>Set Stream Speed and Acceleration</li>
+                    <li>Stream Line</li>
+                    <li>Stream Circle</li>
+                    <li>Stream Arc</li>
+                    <li>All six unit conversion VIs under Utility / Low-Level.</li>
+                </ul>
+            <li>The Read Current Position VI can now internally handle device positions outside the range of a 32-bit integer.
+            The output type is still a double, which means that precision may be lost when dealing with very large numbers.</li>
+        </ul>
+    </li>
+	<li>Updated the private Read (Single Response).vi to handle more possible errors, including:</li>
+	     <ul>
+            <li>Validating checksums if the comm.checksum setting is enabled.</li>
+            <li>Checking that the response starts with an expected Message Type (@, !, or #).</li>
+            <li>Checking that the Reply Flag is an expected value (OK or RJ).</li>
+            <li>Returning an empty Response Cluster if the response is an Alert or Info message.</li>
+         </ul>
+	</li>
+	<li>Added the private Validate Checksum.vi.</li>
+	<li>Added a First Response Bundle output to the private Read (Multiple Responses).vi and Request.vi,
+    and added a First Response Bundle output to Send Command.vi	and First Response Data output to Get Setting.vi.</li>
+	<li>Updated all subVIs and examples to used these new outputs where applicable.</li>
+    <li>Fixed a bug in the circle part of the Streaming example; it was using the arc endpoint
+    coordinates as the circle center by accident.</li>
+	<li>Changed the Get Device IDs VI to suppress expected errors when attempting to get the
+	peripheral ID from devices that don't have one.</li>
+    <li>Corrected incorrect information in Device ID Lookup VI documentation about the location of the 
+    associated example CSV data file.</li>
+    <li>The format of the CSV file used by the Device ID Lookup VI has changed, and the online
+    downloadable example updated accordingly. The VI now supports devices that do not have a
+    resolution setting, such as direct drive stages, and will correctly report their microstep
+    size.</li>
+</ul>
+<br>
+REV 1.1, 06/20/2017<br>
+Updated by: Mike McDonald and Soleil Lapierre, Vancouver, BC.<br>
+<ul>
+	<li>Copied standard library.</li>
+	<li>Added degrees as an option for position units.</li>
+	<li>Optimized reading multiple responses to eliminate timeout.</li>
+	<li>Optimized Error Query VI to reduce communication.</li>
+	<li>Added ability to ignore warning flags or treat them as errors.</li>
+	<li>Added "Get Device IDs.vi" and "Look Up Device Properties.vi" which together
+	    provide the ability to look up device properties in CSV tables to get their names,
+	    motion types and step sizes. A Python script to generate the tables can
+		be downloaded from <a href="http://www.zaber.com/wiki/Software/ASCII_Labview_Driver">http://www.zaber.com/wiki/Software/ASCII_Labview_Driver</a>.</li>
+	<li>Added unit conversion helper VIs for position, velocity and acceleration quantities:
+		<ul>
+			<li>"Convert Position Units to Device Units.vi"</li>
+			<li>"Convert Device Units to Position Units.vi"</li>
+			<li>"Convert Speed Units to Device Units.vi"</li>
+			<li>"Convert Device Units to Speed Units.vi"</li>
+			<li>"Convert Acceleration Units to Device Units.vi"</li>
+			<li>"Convert Device Units to Acceleration Units.vi"</li>
+		</ul>
+	</li>
+	<li>Added sinusoidal movement VIs:
+		<ul>
+			<li>"Sinusoidal Move.vi"</li>
+			<li>"Sinusoidal Stop.vi"</li>
+		</ul>
+	</li>
+	<li>Added additional basic movement VIs:
+		<ul>
+			<li>"Stop.vi"</li>
+			<li>"Move at Velocity.vi"</li>
+			<li>"Check for Idle.vi"</li>
+		</ul>
+	</li>
+	<li>Added new VIs to support lockstep movement:
+		<ul>
+			<li>"Get Lockstep Info.vi"</li>
+			<li>"Enable Lockstep.vi"</li>
+			<li>"Lockstep Home.vi"</li>
+			<li>"Lockstep Move.vi"</li>
+			<li>"Lockstep Move at Velocity.vi"</li>
+			<li>"Lockstep Stop.vi"</li>
+			<li>"Disable Lockstep.vi"</li>
+		</ul>
+	</li>
+	<li>Added new VIs to support virtual axis movement:
+		<ul>
+			<li>"Get Virtual Axis Info.vi"</li>
+			<li>"Create Virtual Axis.vi"</li>
+			<li>"Set Virtual Axis Speed.vi"</li>
+			<li>"Virtual Axis Move.vi"</li>
+			<li>"Virtual Axis Move at Velocity.vi"</li>
+			<li>"Virtual Axis Stop.vi"</li>
+			<li>"Delete Virtual Axis.vi"</li>
+		</ul>
+	</li>
+	<li>Added new VIs to support streamed commands:
+		<ul>
+			<li>"Get Stream Support Info.vi"</li>
+			<li>"Open Stream.vi"</li>
+			<li>"Call Stream.vi"</li>
+			<li>"Set Stream Speed and Acceleration.vi"</li>
+			<li>"Stream Line.vi"</li>
+			<li>"Stream Arc.vi"</li>
+			<li>"Stream Circle.vi"</li>
+			<li>"Stream Delay.vi"</li>
+			<li>"Send Stream Command.vi"</li>
+			<li>"Stream Wait for Input.vi"</li>
+			<li>"Stream Write for Digital Outputs.vi"</li>
+			<li>"Close Stream.vi"</li>
+			<li>"List Stream Buffer Contents.vi"</li>
+			<li>"Erase Stream Buffer.vi"</li>
+		</ul>
+	</li>
+	<li>Added VIs for interacting with analog and digital I/O pins on standalone controller devices:
+		<ul>
+			<li>"Get IO Pin Counts.vi"</li>
+			<li>"Read Analog Inputs.vi"</li>
+			<li>"Read Digital Inputs.vi"</li>
+			<li>"Read Digital Outputs.vi"</li>
+			<li>"Write Digital Outputs.vi"</li>
+		</ul>
+	</li>
+	<li>Added force output VIs for voice coil products:
+		<ul>
+			<li>"Force.vi"</li>
+			<li>"Sinusoidal Force.vi"</li>
+			<li>"Force Off.vi"</li>
+		</ul>
+	</li>
+	<li>Added joystick configuration VIs:
+		<ul>
+			<li>"Get Joystick Axis Target.vi"</li>
+			<li>"Get Joystick Axis Translation.vi"</li>
+			<li>"Get Joystick Button Configuration.vi"</li>
+			<li>"Configure Joystick Axis Target.vi"</li>
+			<li>"Configure Joystick Axis Translation.vi"</li>
+			<li>"Configure Joystick Button.vi"</li>
+		</ul>
+	</li>
+	<li>Updated the example VIs:
+		<ul>
+			<li>Updated the Zaber A-Series Control Panel example to include displaying device
+			names and other properties, if a companion CSV file is available (see section 2 above).</li>
+			<li>Updated the Zaber A-Series Streaming example to use the new stream command VIs.</li>
+			<li>Extended the Zaber A-Series IO example to include Analog/Digital Input/Output Counts; renamed Zaber A-Series IO Ports.vi.</li>
+			<li>Extended the Zaber A-Series XY List example to handle three dimensions; renamed
+				Zaber A-Series XYZ List.vi.</li>
+			<li>Replaced the Zaber A-Series Frequency Control Cycling example with the new
+				Zaber A-Series Sinusoidal Move example, which demonstrates newer functionality.</li>
+			<li>Added a Zaber A-Series Joystick Configurator example which demonstrates how to
+				read and write Zaber joystick configuration data.</li>
+			<li>Added a Zaber A-Series Raster Scan example which generates multidimensional scan
+				patterns for Zaber stages, with optional user-defined actions at each stopping point.</li>
+		</ul>
+	</li>
+</ul>
+<br>
+<br>
+REV 1.0, 08/29/2014<br>
+Created by: Mike McDonald, Vancouver, BC.<br>
+Original release.<br>
+<br>
+</body>
+</html>
