@@ -69,6 +69,7 @@
 		<Item Name="python hdf5 example.vi" Type="VI" URL="../../../Shared/python/python hdf5 example.vi"/>
 		<Item Name="MagSpecCamera.lvclass" Type="LVClass" URL="../../MagSpecCamera/MagSpecCamera.lvclass"/>
 		<Item Name="hdf5 image file ref FGV.vi" Type="VI" URL="../subVis/hdf5 image file ref FGV.vi"/>
+		<Item Name="python hdf5 simulate multiple scans.vi" Type="VI" URL="../../../Shared/python/python hdf5 simulate multiple scans.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
