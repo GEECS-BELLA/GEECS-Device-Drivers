@@ -274,6 +274,7 @@
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
 				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -550,9 +551,9 @@
 			<Item Name="JoinGroupCommands.vi" Type="VI" URL="../../shared/JoinGroupCommands.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="AgilisPiezoStage" Type="Source Distribution">
+			<Item Name="ZaberASeries" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{26185D4D-024D-4149-836D-BB48862E2499}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">AgilisPiezoStage</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ZaberASeries</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -566,7 +567,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08EA8A6A-283B-402B-94BD-6B9A863A54EF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A7563EC8-0171-4C5C-8D07-CB1CAB1FD82B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ZaberASeries.lvclass</Property>
