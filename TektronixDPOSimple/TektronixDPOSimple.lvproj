@@ -22,7 +22,6 @@
 		<Item Name="Tektronix DPO MSO 2000 4000 Series Edge Triggered Acquisition Waveform Example.vi" Type="VI" URL="../Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Edge Triggered Acquisition Waveform Example.vi"/>
 		<Item Name="TriggerCluster.ctl" Type="VI" URL="../TypeDefs/TriggerCluster.ctl"/>
 		<Item Name="TriggerModes.ctl" Type="VI" URL="../TypeDefs/TriggerModes.ctl"/>
-		<Item Name="Tektronix TDS 3000 Series.lvlib" Type="Library" URL="../Tektronix TDS 3000 Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -584,7 +583,7 @@
 			<Item Name="TCPListener.vi" Type="VI" URL="../../shared/TCPListener.vi"/>
 			<Item Name="TCPWriter.vi" Type="VI" URL="../../shared/TCPWriter.vi"/>
 			<Item Name="Tektronix DPO MSO 2000 4000 Series.lvlib" Type="Library" URL="../Tektronix DPO MSO 2000 4000 Series/Tektronix DPO MSO 2000 4000 Series.lvlib"/>
-			<Item Name="Tektronix TDS 3000 Series.lvlib" Type="Library" URL="../../TektronixScopeSimple/GeneralScopeProgram/vi/Tektronix TDS 3000 Series/Tektronix TDS 3000 Series.lvlib"/>
+			<Item Name="Tektronix TDS 3000 Series.lvlib" Type="Library" URL="../Tektronix TDS 3000 Series.lvlib"/>
 			<Item Name="timerFGV.vi" Type="VI" URL="../../shared/timerFGV.vi"/>
 			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
 			<Item Name="TraceCVTUpdate.vi" Type="VI" URL="../../PXIdigitizer/subVis/TraceCVTUpdate.vi"/>
