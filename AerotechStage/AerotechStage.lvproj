@@ -574,6 +574,8 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
+			<Item Name="Aerotech.Ensemble.dll" Type="Document" URL="../Sample Vis/Bin/Aerotech.Ensemble.dll"/>
+			<Item Name="Aerotech.Ensemble.LabVIEW.dll" Type="Document" URL="../Sample Vis/Bin/Aerotech.Ensemble.LabVIEW.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AerotechStage" Type="Source Distribution">
