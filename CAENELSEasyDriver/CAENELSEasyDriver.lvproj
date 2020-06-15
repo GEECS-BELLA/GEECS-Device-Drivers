@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -11,31 +11,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CAENels EASY-DRIVER" Type="Folder">
-			<Item Name="Examples" Type="Folder">
-				<Item Name="Examples.mnu" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Examples/Examples.mnu"/>
-			</Item>
-			<Item Name="Public" Type="Folder">
-				<Item Name="Close" Type="Folder"/>
-				<Item Name="Configuration" Type="Folder">
-					<Item Name="ED_Configuration.mnu" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Public/Configuration/ED_Configuration.mnu"/>
-				</Item>
-				<Item Name="Initialize" Type="Folder"/>
-				<Item Name="Setpoint" Type="Folder">
-					<Item Name="ED_setpoint.mnu" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Public/Setpoint/ED_setpoint.mnu"/>
-				</Item>
-				<Item Name="Status" Type="Folder">
-					<Item Name="ED_Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Public/Status/ED_Status.mnu"/>
-				</Item>
-				<Item Name="Utility" Type="Folder"/>
-			</Item>
-			<Item Name="CAENels EASY-DRIVER.aliases" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/CAENels EASY-DRIVER.aliases"/>
-			<Item Name="CAENels EASY-DRIVER.lvlib" Type="Library" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/CAENels EASY-DRIVER.lvlib"/>
-			<Item Name="CAENels EASY-DRIVER.lvlps" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/CAENels EASY-DRIVER.lvlps"/>
-			<Item Name="CAENels EASY-DRIVER.lvproj" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/CAENels EASY-DRIVER.lvproj"/>
-			<Item Name="ED_dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/ED_dir.mnu"/>
-		</Item>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
+		<Item Name="CAENels EASY-DRIVER.lvlib" Type="Library" URL="../CAENels EASY-DRIVER.lvlib"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="CAENELSEasyDriver.lvclass" Type="LVClass" URL="../CAENELSEasyDriver.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -309,7 +286,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
@@ -320,7 +297,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -368,6 +344,8 @@
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			</Item>
 			<Item Name="CreateError.vi" Type="VI" URL="../../shared/CreateError.vi"/>
 			<Item Name="CheckIfSetCommand.vi" Type="VI" URL="../../shared/CheckIfSetCommand.vi"/>
@@ -554,6 +532,9 @@
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
+			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
+			<Item Name="reBuildJoindCommand.vi" Type="VI" URL="../../shared/reBuildJoindCommand.vi"/>
+			<Item Name="getSeperator.vi" Type="VI" URL="../../shared/getSeperator.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CAENELSEasyDriver" Type="Source Distribution">
