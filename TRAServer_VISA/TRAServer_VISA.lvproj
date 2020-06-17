@@ -17,7 +17,149 @@
 			<Item Name="StatusCluster_TypDef.ctl" Type="VI" URL="../StatusCluster_TypDef.ctl"/>
 			<Item Name="ErrorCluster_TypDef.ctl" Type="VI" URL="../ErrorCluster_TypDef.ctl"/>
 		</Item>
-		<Item Name="SMC100 Controller_Drivers" Type="Folder"/>
+		<Item Name="SMC100 Controller_Drivers" Type="Folder">
+			<Item Name="_NP_General" Type="Folder">
+				<Item Name="_Close Communications.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_Close Communications.vi"/>
+				<Item Name="_Create Instrument Channel.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_Create Instrument Channel.vi"/>
+				<Item Name="_GetStatusByte.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_GetStatusByte.vi"/>
+				<Item Name="_NP_General Tree.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_NP_General Tree.vi"/>
+				<Item Name="_Parse Instrument Channel.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_Parse Instrument Channel.vi"/>
+				<Item Name="_QueryCommand.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_QueryCommand.vi"/>
+				<Item Name="_ReadCommand.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_ReadCommand.vi"/>
+				<Item Name="_SampleQuery.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_SampleQuery.vi"/>
+				<Item Name="_SendCommand.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_SendCommand.vi"/>
+				<Item Name="Connect Newport Instrument.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/Connect Newport Instrument.vi"/>
+				<Item Name="Connect SMC100 device.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/Connect SMC100 device.vi"/>
+				<Item Name="ctl_OperatingMode.ctl" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/ctl_OperatingMode.ctl"/>
+				<Item Name="Dialog box to select a device.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/Dialog box to select a device.vi"/>
+				<Item Name="FindInstrument.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/FindInstrument.vi"/>
+				<Item Name="FindUSB.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/FindUSB.vi"/>
+				<Item Name="NP_Logging.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/NP_Logging.vi"/>
+			</Item>
+			<Item Name="Examples" Type="Folder">
+				<Item Name="Sample Query.vi" Type="VI" URL="../SMC100 Controller_Drivers/Examples.llb/Sample Query.vi"/>
+				<Item Name="wait for stop_1axis example.vi" Type="VI" URL="../SMC100 Controller_Drivers/Examples.llb/wait for stop_1axis example.vi"/>
+				<Item Name="wait for stop_1axis.vi" Type="VI" URL="../SMC100 Controller_Drivers/Examples.llb/wait for stop_1axis.vi"/>
+				<Item Name="wait for stop_3axis.vi" Type="VI" URL="../SMC100 Controller_Drivers/Examples.llb/wait for stop_3axis.vi"/>
+			</Item>
+			<Item Name="SMC100 Virtual Front Panel" Type="Folder">
+				<Item Name="Absolute Move.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Absolute Move.vi"/>
+				<Item Name="Convert Hexadecimal string to a Boolean array.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Convert Hexadecimal string to a Boolean array.vi"/>
+				<Item Name="Enter-Leave DISABLE State.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Enter-Leave DISABLE State.vi"/>
+				<Item Name="Get Current Position.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Get Current Position.vi"/>
+				<Item Name="Get Negative Software Limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Get Negative Software Limit.vi"/>
+				<Item Name="Get Positioner Error And Controller State Descriptions.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Get Positioner Error And Controller State Descriptions.vi"/>
+				<Item Name="Get Positioner Error And Controller State.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Get Positioner Error And Controller State.vi"/>
+				<Item Name="Get Positive Software Limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Get Positive Software Limit.vi"/>
+				<Item Name="Home search.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Home search.vi"/>
+				<Item Name="Relative Move.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Relative Move.vi"/>
+				<Item Name="Set Negative Software Limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Set Negative Software Limit.vi"/>
+				<Item Name="Set Positive Software Limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Set Positive Software Limit.vi"/>
+				<Item Name="SMC100 Virtual Front Panel.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/SMC100 Virtual Front Panel.vi"/>
+				<Item Name="Stop Motion.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Stop Motion.vi"/>
+			</Item>
+			<Item Name="SMC100" Type="Folder">
+				<Item Name="enable / disable keypad.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/enable / disable keypad.vi"/>
+				<Item Name="enter / leave configuration state.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/enter / leave configuration state.vi"/>
+				<Item Name="enter / leave disable state.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/enter / leave disable state.vi"/>
+				<Item Name="execute the move recorded.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/execute the move recorded.vi"/>
+				<Item Name="get absolute position.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get absolute position.vi"/>
+				<Item Name="get acceleration.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get acceleration.vi"/>
+				<Item Name="get backlash compensation.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get backlash compensation.vi"/>
+				<Item Name="get control loop state.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get control loop state.vi"/>
+				<Item Name="get controller&apos;s axis number.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get controller&apos;s axis number.vi"/>
+				<Item Name="get cut off frequency.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get cut off frequency.vi"/>
+				<Item Name="get driver voltage.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get driver voltage.vi"/>
+				<Item Name="get encoder increment.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get encoder increment.vi"/>
+				<Item Name="get following error limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get following error limit.vi"/>
+				<Item Name="get friction compensation.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get friction compensation.vi"/>
+				<Item Name="get HOME high velocity.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get HOME high velocity.vi"/>
+				<Item Name="get HOME time-out.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get HOME time-out.vi"/>
+				<Item Name="get home type.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get home type.vi"/>
+				<Item Name="get hysteresis compensation.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get hysteresis compensation.vi"/>
+				<Item Name="get jerk time.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get jerk time.vi"/>
+				<Item Name="get KD.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get KD.vi"/>
+				<Item Name="get KI.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get KI.vi"/>
+				<Item Name="get KP.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get KP.vi"/>
+				<Item Name="get motor&apos;s peak current limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get motor&apos;s peak current limit.vi"/>
+				<Item Name="get motor&apos;s rms current average time.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get motor&apos;s rms current average time.vi"/>
+				<Item Name="get motor&apos;s rms current.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get motor&apos;s rms current.vi"/>
+				<Item Name="get negative position limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get negative position limit.vi"/>
+				<Item Name="get positive position limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get positive position limit.vi"/>
+				<Item Name="get stage identifier.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get stage identifier.vi"/>
+				<Item Name="get stage reference.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get stage reference.vi"/>
+				<Item Name="get target position recorded.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get target position recorded.vi"/>
+				<Item Name="get target relative position.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get target relative position.vi"/>
+				<Item Name="get TTL outputs value.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get TTL outputs value.vi"/>
+				<Item Name="get velocity feed forward.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get velocity feed forward.vi"/>
+				<Item Name="get velocity.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get velocity.vi"/>
+				<Item Name="get version.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/get version.vi"/>
+				<Item Name="home.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/home.vi"/>
+				<Item Name="leave jogging state.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/leave jogging state.vi"/>
+				<Item Name="Move absolute.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/Move absolute.vi"/>
+				<Item Name="Move relative.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/Move relative.vi"/>
+				<Item Name="record a new target position.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/record a new target position.vi"/>
+				<Item Name="reset.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/reset.vi"/>
+				<Item Name="set acceleration.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set acceleration.vi"/>
+				<Item Name="set backlash compensation.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set backlash compensation.vi"/>
+				<Item Name="set control loop state.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set control loop state.vi"/>
+				<Item Name="set controller&apos;s axis number.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set controller&apos;s axis number.vi"/>
+				<Item Name="set cut off frequency.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set cut off frequency.vi"/>
+				<Item Name="set driver voltage.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set driver voltage.vi"/>
+				<Item Name="set encoder increment value.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set encoder increment value.vi"/>
+				<Item Name="set following error limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set following error limit.vi"/>
+				<Item Name="set friction compensation.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set friction compensation.vi"/>
+				<Item Name="set HOME high velocity.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set HOME high velocity.vi"/>
+				<Item Name="set HOME time-out.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set HOME time-out.vi"/>
+				<Item Name="set home type.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set home type.vi"/>
+				<Item Name="set hysteresis compensation.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set hysteresis compensation.vi"/>
+				<Item Name="set jerk time.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set jerk time.vi"/>
+				<Item Name="set KD.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set KD.vi"/>
+				<Item Name="set KI.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set KI.vi"/>
+				<Item Name="set KP.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set KP.vi"/>
+				<Item Name="set motor&apos;s peak current limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set motor&apos;s peak current limit.vi"/>
+				<Item Name="set motor&apos;s rms current average time.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set motor&apos;s rms current average time.vi"/>
+				<Item Name="set motor&apos;s rms current.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set motor&apos;s rms current.vi"/>
+				<Item Name="set negative position limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set negative position limit.vi"/>
+				<Item Name="set parameters from SmartStage.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set parameters from SmartStage.vi"/>
+				<Item Name="set positive position limit.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set positive position limit.vi"/>
+				<Item Name="set stage identifier.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set stage identifier.vi"/>
+				<Item Name="set TTL outputs value.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set TTL outputs value.vi"/>
+				<Item Name="set velocity feed forward.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set velocity feed forward.vi"/>
+				<Item Name="set velocity.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/set velocity.vi"/>
+				<Item Name="stop.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/stop.vi"/>
+				<Item Name="tell all configuration parameters.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell all configuration parameters.vi"/>
+				<Item Name="tell analog input value.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell analog input value.vi"/>
+				<Item Name="tell controller status.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell controller status.vi"/>
+				<Item Name="tell current position.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell current position.vi"/>
+				<Item Name="tell error string.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell error string.vi"/>
+				<Item Name="tell last error.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell last error.vi"/>
+				<Item Name="tell set point position.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell set point position.vi"/>
+				<Item Name="tell target position.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell target position.vi"/>
+				<Item Name="tell time for a relative motion.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell time for a relative motion.vi"/>
+				<Item Name="tell TTL inputs value.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100.llb/tell TTL inputs value.vi"/>
+			</Item>
+			<Item Name="SMC100_Communication" Type="Folder">
+				<Item Name="close.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Communication.llb/close.vi"/>
+				<Item Name="Get driver version.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Communication.llb/Get driver version.vi"/>
+				<Item Name="port init.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Communication.llb/port init.vi"/>
+				<Item Name="read_write.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Communication.llb/read_write.vi"/>
+				<Item Name="Version.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Communication.llb/Version.vi"/>
+			</Item>
+			<Item Name="SMC100_Simple_Contol_Example" Type="Folder">
+				<Item Name="Simple_Contol_Example.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Simple_Contol_Example.llb/Simple_Contol_Example.vi"/>
+				<Item Name="Simple_Contol_Example2.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Simple_Contol_Example.llb/Simple_Contol_Example2.vi"/>
+				<Item Name="SimpleControlExample.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Simple_Contol_Example.llb/SimpleControlExample.vi"/>
+			</Item>
+			<Item Name="Data.log" Type="Document" URL="../SMC100 Controller_Drivers/Data.log"/>
+			<Item Name="dir.mnu" Type="Document" URL="../SMC100 Controller_Drivers/dir.mnu"/>
+			<Item Name="General.mnu" Type="Document" URL="../SMC100 Controller_Drivers/General.mnu"/>
+			<Item Name="GPIO.mnu" Type="Document" URL="../SMC100 Controller_Drivers/GPIO.mnu"/>
+			<Item Name="Motion Setup.mnu" Type="Document" URL="../SMC100 Controller_Drivers/Motion Setup.mnu"/>
+			<Item Name="Motion.mnu" Type="Document" URL="../SMC100 Controller_Drivers/Motion.mnu"/>
+			<Item Name="Serial Communication.mnu" Type="Document" URL="../SMC100 Controller_Drivers/Serial Communication.mnu"/>
+			<Item Name="SMC Configuration.mnu" Type="Document" URL="../SMC100 Controller_Drivers/SMC Configuration.mnu"/>
+		</Item>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="TRAServer_VISA.lvclass" Type="LVClass" URL="../TRAServer_VISA.lvclass"/>
@@ -141,6 +283,7 @@
 				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Write.vi"/>
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Bytes At Serial Port.vi"/>
 				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Read.vi"/>
+				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
@@ -611,16 +754,6 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
-			<Item Name="port init.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Communication.llb/port init.vi"/>
-			<Item Name="_Create Instrument Channel.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_Create Instrument Channel.vi"/>
-			<Item Name="NP_Logging.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/NP_Logging.vi"/>
-			<Item Name="ctl_OperatingMode.ctl" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/ctl_OperatingMode.ctl"/>
-			<Item Name="_SendCommand.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_SendCommand.vi"/>
-			<Item Name="_Parse Instrument Channel.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_Parse Instrument Channel.vi"/>
-			<Item Name="_QueryCommand.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_QueryCommand.vi"/>
-			<Item Name="_GetStatusByte.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_GetStatusByte.vi"/>
-			<Item Name="_ReadCommand.vi" Type="VI" URL="../SMC100 Controller_Drivers/_NP_General.llb/_ReadCommand.vi"/>
-			<Item Name="read_write.vi" Type="VI" URL="../SMC100 Controller_Drivers/SMC100_Communication.llb/read_write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TRAServer_VISA" Type="Source Distribution">
