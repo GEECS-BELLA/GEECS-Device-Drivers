@@ -1,36 +1,67 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{04172DE0-7DC0-4EE7-A09C-FA339EDD735D}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI8</Property>
+	<Property Name="varPersistentID:{07A65E5B-192A-4D04-BF72-2AE24857F248}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO16</Property>
 	<Property Name="varPersistentID:{08FFA683-8F8F-4193-ADEB-5A5469314628}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO8</Property>
 	<Property Name="varPersistentID:{0C4436F4-0856-4D38-9F7C-648F4FB4BAFC}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO4</Property>
+	<Property Name="varPersistentID:{155D9377-B26B-47F5-AC16-3E5599F27DAE}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO25</Property>
 	<Property Name="varPersistentID:{1852DC44-0A13-4D0A-AAEC-7C2558288564}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI4</Property>
+	<Property Name="varPersistentID:{26225AB7-BA1E-481D-B4C0-C9385288189C}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI24</Property>
 	<Property Name="varPersistentID:{29B77CA5-C315-4C1C-82FF-1456FAC8EED7}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO13</Property>
 	<Property Name="varPersistentID:{35D90023-5565-41B5-8707-97B74F5C853E}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI5</Property>
+	<Property Name="varPersistentID:{3807EDB4-D666-402F-A7AA-088006CFA32D}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI29</Property>
 	<Property Name="varPersistentID:{3D65794F-D0B9-4AD5-93D9-B7748C4272ED}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO12</Property>
+	<Property Name="varPersistentID:{4073F667-20D8-4BBF-AAFD-A00C81C83014}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI30</Property>
 	<Property Name="varPersistentID:{45126509-BCF1-4328-B379-516A32089D59}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI9</Property>
+	<Property Name="varPersistentID:{4E7F4A56-16DB-4922-A2F4-B7E7E75231A6}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI26</Property>
 	<Property Name="varPersistentID:{50B5319C-1F5A-4AAF-94D4-4E63EE38BC49}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO9</Property>
+	<Property Name="varPersistentID:{5268C3E7-D791-4F53-B5FF-075A40273F8F}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO22</Property>
 	<Property Name="varPersistentID:{5350D588-F63B-4ACD-8024-FF55CCD3A244}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI13</Property>
 	<Property Name="varPersistentID:{554CE46A-3097-4707-9DD8-AC9B101E1982}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO2</Property>
 	<Property Name="varPersistentID:{56F9DACC-156B-404C-831E-E0307D432DEB}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI11</Property>
+	<Property Name="varPersistentID:{5707D373-32AD-4C57-870F-D269435D7257}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO24</Property>
 	<Property Name="varPersistentID:{57E532F5-8A1E-484E-B83C-93D7590D21C5}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI1</Property>
 	<Property Name="varPersistentID:{632BE2AE-7853-42F4-8D9C-A5B0B2140384}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI16</Property>
 	<Property Name="varPersistentID:{63D88FFC-019E-491C-9BF4-6FAB2819DFAF}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI14</Property>
+	<Property Name="varPersistentID:{6BE4733E-BD65-4EF4-AE6F-D8CD93AD2CCC}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO29</Property>
+	<Property Name="varPersistentID:{7682DFF1-677A-4D3E-9FE7-9C70350CACAB}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO17</Property>
 	<Property Name="varPersistentID:{7EDFC218-2ACF-49BF-9140-1163BD457441}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI15</Property>
+	<Property Name="varPersistentID:{8110775E-E821-4080-BA48-DF83119FC7B9}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO18</Property>
+	<Property Name="varPersistentID:{8202ED7D-2782-4474-985D-CBF89C2B6CE1}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI22</Property>
+	<Property Name="varPersistentID:{84C07913-79E1-45FF-BFD2-71C124F43747}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI31</Property>
 	<Property Name="varPersistentID:{8A41ED85-6D86-41C9-B4C8-1CB21C854BAB}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO11</Property>
+	<Property Name="varPersistentID:{927D642B-D9FF-4844-8869-95458C7A1F39}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI18</Property>
+	<Property Name="varPersistentID:{A2105055-62B4-413D-A307-16747ED4CFB0}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO20</Property>
 	<Property Name="varPersistentID:{A315D904-F01A-4E62-9C26-8B9EE707744C}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO15</Property>
+	<Property Name="varPersistentID:{A7F95525-4DC5-4E80-B2C7-F25674BC110E}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI25</Property>
 	<Property Name="varPersistentID:{AA72DEB2-8477-4582-BE7D-10F5F7920BFD}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO7</Property>
+	<Property Name="varPersistentID:{B635EE99-BDBE-4495-952E-7297DC597DC8}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO21</Property>
 	<Property Name="varPersistentID:{BC1A62FF-12F5-4D3F-B6C2-3464556E904F}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO10</Property>
 	<Property Name="varPersistentID:{BD284AB4-3537-4375-92EC-B3851B6B261F}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO3</Property>
 	<Property Name="varPersistentID:{BE4D4E6A-BF19-4180-B7B5-BB36357C6030}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI12</Property>
+	<Property Name="varPersistentID:{BE9FBD5B-65EA-4252-91DF-906928B6B1F7}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO19</Property>
 	<Property Name="varPersistentID:{C21784E4-FE2A-4638-88F7-5254D6F4EE51}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI10</Property>
 	<Property Name="varPersistentID:{C2336724-AF0E-477F-A31B-12C3085E3DB0}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO5</Property>
+	<Property Name="varPersistentID:{C24CD8D4-84AA-4D61-9FD7-D65EB52C121E}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO23</Property>
 	<Property Name="varPersistentID:{CDCA3585-7F38-4CAC-8384-973310747C2A}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI2</Property>
+	<Property Name="varPersistentID:{D3684393-E195-419F-9075-6A02D6E7E578}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO26</Property>
+	<Property Name="varPersistentID:{D3CA79F7-2180-4BC0-83C8-1EF9249649BC}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI17</Property>
 	<Property Name="varPersistentID:{D6EAC925-C3A7-470F-8293-55F013EE05DF}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI3</Property>
 	<Property Name="varPersistentID:{D7CC881D-AD41-4C5D-9BBE-59A3632CEB09}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI7</Property>
+	<Property Name="varPersistentID:{D8035372-EEF5-4A78-AC8C-02B97CF5DB70}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI23</Property>
 	<Property Name="varPersistentID:{DA373E79-737B-42CD-81B4-8F48926E44AD}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO6</Property>
+	<Property Name="varPersistentID:{DABA258F-B5A0-4154-8788-BFDE21590F4A}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI28</Property>
+	<Property Name="varPersistentID:{DF9578B3-9F31-4EC5-8303-CB9F2562171C}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI27</Property>
 	<Property Name="varPersistentID:{E1665409-FA77-4B8C-B7A0-97BD6D0DEEA9}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO14</Property>
+	<Property Name="varPersistentID:{E2F067BE-E67C-4784-9C02-80D7C56B8B18}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI19</Property>
+	<Property Name="varPersistentID:{E5DCD95E-205D-45EF-868E-FAB8E68EAAF8}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO30</Property>
 	<Property Name="varPersistentID:{E7DA3C9C-7555-4BE6-81D2-ADE1BF6B8F00}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI6</Property>
+	<Property Name="varPersistentID:{F3140C26-D951-4FF6-91A2-C824CE385DF1}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO27</Property>
+	<Property Name="varPersistentID:{F45D7A89-B90C-4E01-8589-4FACB2078FE7}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI21</Property>
 	<Property Name="varPersistentID:{F51C476C-1340-48D2-847F-A40B73D561DC}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO1</Property>
+	<Property Name="varPersistentID:{F8B35EDB-C569-4286-B48F-50AD5D9A0436}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI32</Property>
+	<Property Name="varPersistentID:{FB28B916-604A-4D23-86C0-C1B11421621B}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DO28</Property>
+	<Property Name="varPersistentID:{FFB4356F-7046-41C2-AC65-5572C19FA8EC}" Type="Ref">/My Computer/ProductivityModbus.lvlib/DI20</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -601,7 +632,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2A427CFD-563B-4191-8307-135712112324}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{065C4771-B345-46AC-9B00-4579E44CA96A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
