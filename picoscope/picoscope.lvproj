@@ -20,6 +20,7 @@
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="picoscope.lvclass" Type="LVClass" URL="../picoscope.lvclass"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
+		<Item Name="PicoScope5000aExampleRapidBlockBulk-ajg.vi" Type="VI" URL="../picosdk-ni-labview-examples-master/ps5000a/32-bit-examples/PicoScope5000aExampleRapidBlockBulk-ajg.vi"/>
 		<Item Name="Channel_settings_typdef.ctl" Type="VI" URL="../Subvis/Channel_settings_typdef.ctl"/>
 		<Item Name="Control 14.ctl" Type="VI" URL="../Subvis/Control 14.ctl"/>
 		<Item Name="setSettingsVert.vi" Type="VI" URL="../Subvis/setSettingsVert.vi"/>
@@ -36,7 +37,6 @@
 		<Item Name="unscale lecroy waveform.vi" Type="VI" URL="../Subvis/unscale lecroy waveform.vi"/>
 		<Item Name="TraceGUI-Info.ctl" Type="VI" URL="../../../Shared/TraceGUI-Info.ctl"/>
 		<Item Name="trigger ctl.ctl" Type="VI" URL="../LeCroy Sub VI&apos;s/trigger ctl.ctl"/>
-		<Item Name="PicoScope5000aExampleRapidBlockBulk-ajg.vi" Type="VI" URL="../picosdk-ni-labview-examples-master/ps5000a/32-bit-examples/PicoScope5000aExampleRapidBlockBulk-ajg.vi"/>
 		<Item Name="picoscope5000a acquire.vi" Type="VI" URL="../picosdk-ni-labview-examples-master/ps5000a/32-bit-examples/sub vis/picoscope5000a acquire.vi"/>
 		<Item Name="find nearest voltage range.vi" Type="VI" URL="../Subvis/find nearest voltage range.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
