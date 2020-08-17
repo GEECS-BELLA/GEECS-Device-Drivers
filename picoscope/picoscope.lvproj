@@ -11,6 +11,59 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="lib" Type="Folder">
+			<Item Name="picohrdl.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/picohrdl.dll"/>
+			<Item Name="picohrdl.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/picohrdl.lib"/>
+			<Item Name="picoipp.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/picoipp.dll"/>
+			<Item Name="pl1000.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/pl1000.dll"/>
+			<Item Name="pl1000.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/pl1000.lib"/>
+			<Item Name="plcm3.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/plcm3.dll"/>
+			<Item Name="plcm3.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/plcm3.lib"/>
+			<Item Name="ps2000.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000.dll"/>
+			<Item Name="ps2000.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000.lib"/>
+			<Item Name="ps2000a.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000a.dll"/>
+			<Item Name="ps2000a.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000a.lib"/>
+			<Item Name="ps2000aWrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000aWrap.dll"/>
+			<Item Name="ps2000aWrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000aWrap.lib"/>
+			<Item Name="ps2000Wrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000Wrap.dll"/>
+			<Item Name="ps2000Wrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps2000Wrap.lib"/>
+			<Item Name="ps3000.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000.dll"/>
+			<Item Name="ps3000.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000.lib"/>
+			<Item Name="ps3000a.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000a.dll"/>
+			<Item Name="ps3000a.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000a.lib"/>
+			<Item Name="ps3000aWrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000aWrap.dll"/>
+			<Item Name="ps3000aWrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000aWrap.lib"/>
+			<Item Name="ps3000Wrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000Wrap.dll"/>
+			<Item Name="ps3000Wrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps3000Wrap.lib"/>
+			<Item Name="ps4000.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000.dll"/>
+			<Item Name="ps4000.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000.lib"/>
+			<Item Name="ps4000a.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000a.dll"/>
+			<Item Name="ps4000a.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000a.lib"/>
+			<Item Name="ps4000aWrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000aWrap.dll"/>
+			<Item Name="ps4000aWrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000aWrap.lib"/>
+			<Item Name="ps4000Wrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000Wrap.dll"/>
+			<Item Name="ps4000Wrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps4000Wrap.lib"/>
+			<Item Name="ps5000.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000.dll"/>
+			<Item Name="ps5000.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000.lib"/>
+			<Item Name="ps5000a.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000a.dll"/>
+			<Item Name="ps5000a.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000a.lib"/>
+			<Item Name="ps5000aWrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000aWrap.dll"/>
+			<Item Name="ps5000aWrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000aWrap.lib"/>
+			<Item Name="ps5000Wrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000Wrap.dll"/>
+			<Item Name="ps5000Wrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps5000Wrap.lib"/>
+			<Item Name="ps6000.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps6000.dll"/>
+			<Item Name="ps6000.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps6000.lib"/>
+			<Item Name="ps6000a.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps6000a.dll"/>
+			<Item Name="ps6000a.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps6000a.lib"/>
+			<Item Name="ps6000Wrap.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps6000Wrap.dll"/>
+			<Item Name="ps6000Wrap.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/ps6000Wrap.lib"/>
+			<Item Name="usbdrdaq.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbdrdaq.dll"/>
+			<Item Name="usbdrdaq.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbdrdaq.lib"/>
+			<Item Name="usbpt104.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbpt104.dll"/>
+			<Item Name="usbpt104.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbpt104.lib"/>
+			<Item Name="usbtc08.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbtc08.dll"/>
+			<Item Name="usbtc08.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbtc08.lib"/>
+		</Item>
 		<Item Name="LeCroy Sub VI&apos;s" Type="Folder">
 			<Item Name="Acquire Scope data.vi" Type="VI" URL="../LeCroy Sub VI&apos;s/Acquire Scope data.vi"/>
 			<Item Name="Configure Ossiloscope Settings.vi" Type="VI" URL="../LeCroy Sub VI&apos;s/Configure Ossiloscope Settings.vi"/>
@@ -199,38 +252,6 @@
 			<Item Name="trigger ctl.ctl" Type="VI" URL="../LeCroy Sub VI&apos;s/trigger ctl.ctl"/>
 			<Item Name="picoscope5000a acquire.vi" Type="VI" URL="../picosdk-ni-labview-examples-master/ps5000a/32-bit-examples/sub vis/picoscope5000a acquire.vi"/>
 			<Item Name="find nearest voltage range.vi" Type="VI" URL="../Subvis/find nearest voltage range.vi"/>
-		</Item>
-		<Item Name="dlls" Type="Folder">
-			<Item Name="ps2000.dll" Type="Document" URL="ps2000.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps2000a.dll" Type="Document" URL="ps2000a.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps3000.dll" Type="Document" URL="ps3000.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps3000a.dll" Type="Document" URL="ps3000a.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps4000.dll" Type="Document" URL="ps4000.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps4000a.dll" Type="Document" URL="ps4000a.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps5000.dll" Type="Document" URL="ps5000.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps5000a.dll" Type="Document" URL="ps5000a.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps6000.dll" Type="Document" URL="ps6000.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps6000a.dll" Type="Document" URL="ps6000a.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="picoscope.lvclass" Type="LVClass" URL="../picoscope.lvclass"/>
@@ -588,6 +609,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -626,8 +648,42 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="BGcorrected.ctl" Type="VI" URL="../../Ztec4611/SubVis/BGcorrected.ctl"/>
+			<Item Name="BgCorrection.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/BgCorrection.vi"/>
+			<Item Name="energy.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/energy.vi"/>
+			<Item Name="Max_waveform.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/Max_waveform.vi"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
 			<Item Name="preset SQL Queries.vi" Type="VI" URL="../../../Shared/MySQL/preset SQL Queries.vi"/>
+			<Item Name="ps2000.dll" Type="Document" URL="ps2000.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps2000a.dll" Type="Document" URL="ps2000a.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps3000.dll" Type="Document" URL="ps3000.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps3000a.dll" Type="Document" URL="ps3000a.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps4000.dll" Type="Document" URL="ps4000.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps4000a.dll" Type="Document" URL="ps4000a.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps5000.dll" Type="Document" URL="ps5000.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps5000a.dll" Type="Document" URL="ps5000a.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps6000.dll" Type="Document" URL="ps6000.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ps6000a.dll" Type="Document" URL="ps6000a.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="querqSubS.vi" Type="VI" URL="../../shared/querqSubS.vi"/>
 			<Item Name="Read All Variables (DB).vi" Type="VI" URL="../../BaseDriver/Read All Variables (DB).vi"/>
 			<Item Name="Read Data.vi" Type="VI" URL="../../Public/Data/Read Data.vi"/>
@@ -644,14 +700,19 @@
 			<Item Name="return_packet_type.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
 			<Item Name="SaceScopeTrace_PXI.vi" Type="VI" URL="../../PXIdigitizer/subVis/SaceScopeTrace_PXI.vi"/>
 			<Item Name="saveHWSFile.vi" Type="VI" URL="../../PXIdigitizer/subVis/saveHWSFile.vi"/>
+			<Item Name="ScopeAnalyMain.vi" Type="VI" URL="../../shared/ScopeAnalyMain.vi"/>
+			<Item Name="scopeAnalysis.vi" Type="VI" URL="../../shared/scopeAnalysis.vi"/>
 			<Item Name="ScopeInfoToString(Array).vi" Type="VI" URL="../../shared/ScopeInfoToString(Array).vi"/>
 			<Item Name="ScopeTrace_String_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/subVis/ScopeTrace_String_TypDef.ctl"/>
+			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Scopes/scopeTrace_TypDef.ctl"/>
 			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../shared/scopeTraceInfo_TypDEf.ctl"/>
 			<Item Name="searchClusterNames.vi" Type="VI" URL="../../shared/searchClusterNames.vi"/>
 			<Item Name="server_init_data.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/server_init_data.ctl"/>
 			<Item Name="Set Cluster Element by Name__ogtk_TS.vi" Type="VI" URL="../../shared/Set Cluster Element by Name__ogtk_TS.vi"/>
 			<Item Name="Set Enum String Value__ogtk_caseINSENSITIVE.vi" Type="VI" URL="../../../Shared/Set Enum String Value__ogtk_caseINSENSITIVE.vi"/>
 			<Item Name="set record length.vi" Type="VI" URL="../../TektronixDPOSimple/set record length.vi"/>
+			<Item Name="setLinkedChannel_Scope.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/setLinkedChannel_Scope.vi"/>
+			<Item Name="setMethod.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/setMethod.vi"/>
 			<Item Name="setNum.vi" Type="VI" URL="../../shared/setNum.vi"/>
 			<Item Name="settings_TypDef.ctl" Type="VI" URL="../../TektronixDPOSimple/settings_TypDef.ctl"/>
 			<Item Name="SHA-1 Core.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Core.vi"/>
@@ -687,8 +748,10 @@
 			<Item Name="timerFGV.vi" Type="VI" URL="../../shared/timerFGV.vi"/>
 			<Item Name="ToREALCluster.vi" Type="VI" URL="../../shared/ToREALCluster.vi"/>
 			<Item Name="ToSettingsCluster.vi" Type="VI" URL="../../shared/ToSettingsCluster.vi"/>
+			<Item Name="toTraceCluster.vi" Type="VI" URL="../../shared/toTraceCluster.vi"/>
 			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
 			<Item Name="TraceCVTUpdate.vi" Type="VI" URL="../../PXIdigitizer/subVis/TraceCVTUpdate.vi"/>
+			<Item Name="trigger_50.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/trigger_50.vi"/>
 			<Item Name="UDP FGV control.ctl" Type="VI" URL="../../UDPComm/UDP FGV control.ctl"/>
 			<Item Name="UDP_FGV.ctl" Type="VI" URL="../../shared/UDP_FGV.ctl"/>
 			<Item Name="UDP_Mcast_Comm.lvlib" Type="Library" URL="../../UDPComm/UDP_Mcast_Comm.lvlib"/>
@@ -732,7 +795,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC428559-B1E4-4B96-B1B1-43A442233B98}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{569BC51E-2589-4CEB-8611-3AC1FE2E9060}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/picoscope.lvclass</Property>
@@ -769,7 +832,7 @@
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/dlls</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/lib</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
