@@ -257,6 +257,7 @@
 		<Item Name="picoscope.lvclass" Type="LVClass" URL="../picoscope.lvclass"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="PicoScope5000aExampleRapidBlockBulk-ajg.vi" Type="VI" URL="../picosdk-ni-labview-examples-master/ps5000a/32-bit-examples/PicoScope5000aExampleRapidBlockBulk-ajg.vi"/>
+		<Item Name="picoscope time axis.ctl" Type="VI" URL="../Subvis/picoscope time axis.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="instr.lib" Type="Folder">
