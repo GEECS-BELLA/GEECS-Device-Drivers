@@ -562,6 +562,10 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
+			<Item Name="CreateControllerName.vi" Type="VI" URL="../NewFocus/Sample8742UI/CreateControllerName.vi"/>
+			<Item Name="GetDeviceAddresses.vi" Type="VI" URL="../NewFocus/Device VIs/GetDeviceAddresses.vi"/>
+			<Item Name="GetModelSerial.vi" Type="VI" URL="../NewFocus/Device VIs/GetModelSerial.vi"/>
+			<Item Name="GetDiscoveredDevices.vi" Type="VI" URL="../NewFocus/Sample8742UI/GetDiscoveredDevices.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Picomotor8742dotNet" Type="Source Distribution">
