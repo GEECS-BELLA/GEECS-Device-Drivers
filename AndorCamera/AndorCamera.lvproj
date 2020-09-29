@@ -369,7 +369,7 @@
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
@@ -405,6 +405,7 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
 			<Item Name="buildResponseForUDP.vi" Type="VI" URL="../../shared/buildResponseForUDP.vi"/>
@@ -694,7 +695,6 @@
 			<Item Name="atmcd32d.dll" Type="Document" URL="../../../../../../Program Files/Andor Driver Pack 2/atmcd32d.dll"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
 			<Item Name="calculate binning sub.vi" Type="VI" URL="../../shared/Cameras/CommonVIs/calculate binning sub.vi"/>
-			<Item Name="ATMCD32D.dll" Type="Document" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/ATMCD32D.dll"/>
 			<Item Name="Image save type.ctl" Type="VI" URL="../../Point Grey Camera/subVis/Image save type.ctl"/>
 			<Item Name="threhsold IMAQ.vi" Type="VI" URL="../../Point Grey Camera/subVis/threhsold IMAQ.vi"/>
 			<Item Name="mask lineout.vi" Type="VI" URL="../../Point Grey Camera/subVis/mask lineout.vi"/>
@@ -702,6 +702,13 @@
 			<Item Name="1st or last shot of scan.ctl" Type="VI" URL="../../Point Grey Camera/subVis/1st or last shot of scan.ctl"/>
 			<Item Name="tdms image file ref.vi" Type="VI" URL="../../Point Grey Camera/subVis/tdms image file ref.vi"/>
 			<Item Name="png path to tdms image path.vi" Type="VI" URL="../../Point Grey Camera/subVis/png path to tdms image path.vi"/>
+			<Item Name="ATMCD32D.dll" Type="Document" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/ATMCD32D.dll"/>
+			<Item Name="hdf5 image file ref FGV.vi" Type="VI" URL="../../Point Grey Camera/subVis/hdf5 image file ref FGV.vi"/>
+			<Item Name="Component Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Component Generator.vi"/>
+			<Item Name="Color Table Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Color Table Generator.vi"/>
+			<Item Name="image color table presets.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.ctl"/>
+			<Item Name="image color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.vi"/>
+			<Item Name="IMAQ color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/IMAQ color table presets.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AndorCamera" Type="Source Distribution">
@@ -713,7 +720,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7E2D77CE-C078-4C8E-8295-729DF8B7EA34}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
