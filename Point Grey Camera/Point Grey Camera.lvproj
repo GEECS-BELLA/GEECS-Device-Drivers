@@ -70,6 +70,8 @@
 		<Item Name="MagSpecCamera.lvclass" Type="LVClass" URL="../../MagSpecCamera/MagSpecCamera.lvclass"/>
 		<Item Name="hdf5 image file ref FGV.vi" Type="VI" URL="../subVis/hdf5 image file ref FGV.vi"/>
 		<Item Name="python hdf5 simulate multiple scans.vi" Type="VI" URL="../../../Shared/python/python hdf5 simulate multiple scans.vi"/>
+		<Item Name="does string start with.vi" Type="VI" URL="../../../General GUIs/General-Controler/does string start with.vi"/>
+		<Item Name="MC shot tcp server.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC shot tcp server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -728,6 +730,8 @@
 			<Item Name="online image analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/online image analysis.vi"/>
 			<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/prepare image for 2nd mom analysis.vi"/>
 			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../subVis/GetCamAtributesAndTriggerMode.vi"/>
+			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Data Communication/Protocols/TCP/TCP Multiple Connections/controls/TCP Multiple Connections State.ctl"/>
+			<Item Name="MC stop FGV.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC stop FGV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Point Grey Camera" Type="Source Distribution">
