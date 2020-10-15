@@ -544,6 +544,7 @@
 			<Item Name="Write TCP data.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Write TCP data.vi"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
+			<Item Name="does string start with.vi" Type="VI" URL="../../../General GUIs/General-Controler/does string start with.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewportXPS" Type="Source Distribution">
@@ -562,7 +563,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{38DA45A5-3AA0-4743-A2DE-0B1887B3FF0F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4608796C-D0D8-4D96-B020-233F4B9EF7E6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NewportXPS.lvclass</Property>
