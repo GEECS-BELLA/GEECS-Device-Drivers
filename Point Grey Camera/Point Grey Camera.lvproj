@@ -730,8 +730,9 @@
 			<Item Name="online image analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/online image analysis.vi"/>
 			<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/prepare image for 2nd mom analysis.vi"/>
 			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../subVis/GetCamAtributesAndTriggerMode.vi"/>
-			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Data Communication/Protocols/TCP/TCP Multiple Connections/controls/TCP Multiple Connections State.ctl"/>
 			<Item Name="MC stop FGV.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC stop FGV.vi"/>
+			<Item Name="tcp shot sender queue.ctl" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot sender queue.ctl"/>
+			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../General GUIs/General-Controler/TCP Multiple Connections State.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Point Grey Camera" Type="Source Distribution">
@@ -784,7 +785,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C45BBF32-CDAB-4087-91F7-FE49B484DB84}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePointGrey.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePointGrey.exe</Property>
