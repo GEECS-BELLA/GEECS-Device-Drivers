@@ -319,7 +319,6 @@
 			<Item Name="DevicePort.vi" Type="VI" URL="../shared/DevicePort.vi"/>
 			<Item Name="DeviceType-enum.ctl" Type="VI" URL="../../Shared/TCP/DeviceType-enum.ctl"/>
 			<Item Name="DisplaySettableVariables.vi" Type="VI" URL="../BaseDriver/DisplaySettableVariables.vi"/>
-			<Item Name="does string start with.vi" Type="VI" URL="../../General GUIs/General-Controler/does string start with.vi"/>
 			<Item Name="DriverMsg.ctl" Type="VI" URL="../BaseDriver/DriverMsg.ctl"/>
 			<Item Name="enumVariable_control.ctl" Type="VI" URL="../shared/enumVariable_control.ctl"/>
 			<Item Name="FGV PATH.vi" Type="VI" URL="../shared/FGV PATH.vi"/>
@@ -452,7 +451,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6BEC6A9-9298-4BFE-9CB2-34AAB288B9EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">85</Property>
+				<Property Name="Bld_version.build" Type="Int">86</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Device.exe</Property>
