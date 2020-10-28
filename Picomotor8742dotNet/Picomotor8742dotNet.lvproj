@@ -17,6 +17,9 @@
 		<Item Name="Picomotor8742dotNet.lvclass" Type="LVClass" URL="../Picomotor8742dotNet.lvclass"/>
 		<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
 		<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+		<Item Name="Reset device tester.vi" Type="VI" URL="../Custom Commands/Reset device tester.vi"/>
+		<Item Name="DeviceIDN.vi" Type="VI" URL="../Device VIs/DeviceIDN.vi"/>
+		<Item Name="DeviceReset.vi" Type="VI" URL="../Device VIs/DeviceReset.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
