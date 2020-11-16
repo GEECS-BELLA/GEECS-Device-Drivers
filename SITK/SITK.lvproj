@@ -260,9 +260,9 @@
 		</Item>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="Point Grey Camera.lvclass" Type="LVClass" URL="../../Point Grey Camera/Point Grey Camera.lvclass"/>
-		<Item Name="Cascade512Camera.lvclass" Type="LVClass" URL="../Cascade512Camera.lvclass"/>
+		<Item Name="SITK.lvclass" Type="LVClass" URL="../SITK.lvclass"/>
 		<Item Name="trig_typdef.ctl" Type="VI" URL="../subvis/trig_typdef.ctl"/>
-		<Item Name="Device_control_Cascade521Camera.vi" Type="VI" URL="../Device_control_Cascade521Camera.vi"/>
+		<Item Name="Device_control_SITK.vi" Type="VI" URL="../Device_control_SITK.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -657,16 +657,16 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Cascade512camera" Type="Source Distribution">
+			<Item Name="SITK" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B053EEA0-9877-4FB5-9C84-8AB018475133}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Cascade512camera</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SITK</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EFE633FD-C166-467C-8560-ABE9082B3FF9}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -675,7 +675,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B59CB877-B58C-47A1-A6DB-448441D34176}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A1B8E209-F28D-42BB-8641-02439503D298}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
@@ -686,7 +686,7 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Cascade512Camera.lvclass</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SITK.lvclass</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -699,7 +699,7 @@
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
-			<Item Name="DeviceCascade512Camera" Type="EXE">
+			<Item Name="DeviceSITK" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{7B087227-4FC5-43D2-85F3-76EE2EF9A7F7}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{121F2AF6-E446-4CF4-BD27-B7A6C153329A}</Property>
@@ -709,15 +709,15 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{91527C7C-92ED-4E9A-AC0A-2A08531F13E5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DeviceCascade512Camera</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DeviceSITK</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D8BBB6BD-41AE-41E2-965F-8202E371D2C8}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DeviceCascade512Camera.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceCascade512Camera.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceSITK.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceSITK.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -725,10 +725,10 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B59CB877-B58C-47A1-A6DB-448441D34176}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A1B8E209-F28D-42BB-8641-02439503D298}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control_Cascade521Camera.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control_SITK.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -740,7 +740,7 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Cascade512Camera.lvclass</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SITK.lvclass</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
@@ -750,12 +750,12 @@
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DeviceCascade512Camera</Property>
-				<Property Name="TgtF_internalName" Type="Str">DeviceCascade512Camera</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DeviceSITK</Property>
+				<Property Name="TgtF_internalName" Type="Str">DeviceSITK</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 LBNL</Property>
-				<Property Name="TgtF_productName" Type="Str">DeviceCascade512Camera</Property>
+				<Property Name="TgtF_productName" Type="Str">DeviceSITK</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{834CC6CE-52ED-4533-AC79-889B2E9E912F}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DeviceCascade512Camera.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceSITK.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
