@@ -642,6 +642,7 @@
 			<Item Name="TCPHeaderFGV.vi" Type="VI" URL="../../shared/TCPHeaderFGV.vi"/>
 			<Item Name="TCPListener.vi" Type="VI" URL="../../shared/TCPListener.vi"/>
 			<Item Name="TCPWriter.vi" Type="VI" URL="../../shared/TCPWriter.vi"/>
+			<Item Name="Tektronix TDS 3000 Series.lvlib" Type="Library" URL="../../TektronixDPOSimple/Tektronix TDS 3000 Series.lvlib"/>
 			<Item Name="Tektronix TDS 3000 Series.lvlib" Type="Library" URL="../GeneralScopeProgram/vi/Tektronix TDS 3000 Series/Tektronix TDS 3000 Series.lvlib"/>
 			<Item Name="timerFGV.vi" Type="VI" URL="../../shared/timerFGV.vi"/>
 			<Item Name="toTraceCluster.vi" Type="VI" URL="../../shared/toTraceCluster.vi"/>
