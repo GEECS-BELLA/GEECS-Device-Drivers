@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -274,6 +274,16 @@
 				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
+				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
@@ -315,7 +325,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -356,6 +365,20 @@
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 			<Item Name="buildResponseForUDP.vi" Type="VI" URL="../../shared/buildResponseForUDP.vi"/>
 			<Item Name="checkSubscriberList.vi" Type="VI" URL="../../shared/checkSubscriberList.vi"/>
@@ -459,9 +482,7 @@
 			<Item Name="FWHM Pix.vi" Type="VI" URL="../../shared/FWHM Pix.vi"/>
 			<Item Name="fwhm xy simple.vi" Type="VI" URL="../../Smaract/fwhm xy simple.vi"/>
 			<Item Name="Image analysys result.ctl" Type="VI" URL="../../Point Grey Camera/subVis/Image analysys result.ctl"/>
-			<Item Name="online image analysis.vi" Type="VI" URL="../../Point Grey Camera/subVis/online image analysis.vi"/>
 			<Item Name="createSavingCommands.vi" Type="VI" URL="../../shared/createSavingCommands.vi"/>
-			<Item Name="AcquisitionMVF.vi" Type="VI" URL="../../Point Grey Camera/subVis/AcquisitionMVF.vi"/>
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../../shared/stop FGV control.ctl"/>
 			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../../shared/TCP_NoDelay.vi"/>
 			<Item Name="TCPHeaderFGV.vi" Type="VI" URL="../../shared/TCPHeaderFGV.vi"/>
@@ -488,7 +509,6 @@
 			<Item Name="threshold fraction or count.vi" Type="VI" URL="../../Point Grey Camera/subVis/threshold fraction or count.vi"/>
 			<Item Name="spot size 2D.vi" Type="VI" URL="../../Point Grey Camera/subVis/spot size 2D.vi"/>
 			<Item Name="w0 via 2nd mom 1D.vi" Type="VI" URL="../../Point Grey Camera/subVis/w0 via 2nd mom 1D.vi"/>
-			<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../../Point Grey Camera/subVis/prepare image for 2nd mom analysis.vi"/>
 			<Item Name="create 4 corner roi.vi" Type="VI" URL="../../Point Grey Camera/subVis/create 4 corner roi.vi"/>
 			<Item Name="Find Choice ID.vi" Type="VI" URL="../../shared/Find Choice ID.vi"/>
 			<Item Name="Filter 2D array by column names.vi" Type="VI" URL="../../shared/Filter 2D array by column names.vi"/>
@@ -563,6 +583,35 @@
 			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
 			<Item Name="GENERATEDUMMYIMAGE.vi" Type="VI" URL="../../../Shared/GENERATEDUMMYIMAGE.vi"/>
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
+			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
+			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
+			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
+			<Item Name="getSeperator.vi" Type="VI" URL="../../shared/getSeperator.vi"/>
+			<Item Name="Point Grey Camera.lvclass" Type="LVClass" URL="../../Point Grey Camera/Point Grey Camera.lvclass"/>
+			<Item Name="Image save type.ctl" Type="VI" URL="../../Point Grey Camera/subVis/Image save type.ctl"/>
+			<Item Name="TriggerModeString_TypDEf.ctl" Type="VI" URL="../../Point Grey Camera/subVis/TriggerModeString_TypDEf.ctl"/>
+			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../../Point Grey Camera/subVis/GetCamAtributesAndTriggerMode.vi"/>
+			<Item Name="Get Generaln Cam Attributes from DB.vi" Type="VI" URL="../../shared/Get Generaln Cam Attributes from DB.vi"/>
+			<Item Name="CamAtributesString.vi" Type="VI" URL="../../Point Grey Camera/subVis/CamAtributesString.vi"/>
+			<Item Name="is it exposure attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is it exposure attribute.vi"/>
+			<Item Name="is this trigger delay attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is this trigger delay attribute.vi"/>
+			<Item Name="is it trigger mode attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is it trigger mode attribute.vi"/>
+			<Item Name="is it gain attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/is it gain attribute.vi"/>
+			<Item Name="setGainMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setGainMVF_1.vi"/>
+			<Item Name="setExpouserMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setExpouserMVF_1.vi"/>
+			<Item Name="GEECS IMAQdx set attribute.vi" Type="VI" URL="../../Point Grey Camera/subVis/GEECS IMAQdx set attribute.vi"/>
+			<Item Name="Read Attribute Max range value.vi" Type="VI" URL="../../Point Grey Camera/subVis/Read Attribute Max range value.vi"/>
+			<Item Name="setTriggerDelayMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setTriggerDelayMVF_1.vi"/>
+			<Item Name="setTriggerMVF_1.vi" Type="VI" URL="../../Point Grey Camera/subVis/setTriggerMVF_1.vi"/>
+			<Item Name="2d Gaussian array.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/2d Gaussian array.vi"/>
+			<Item Name="calculate binning.vi" Type="VI" URL="../../../Shared/Image/calculate binning.vi"/>
+			<Item Name="calculate binning sub.vi" Type="VI" URL="../../shared/Cameras/CommonVIs/calculate binning sub.vi"/>
+			<Item Name="threhsold IMAQ.vi" Type="VI" URL="../../Point Grey Camera/subVis/threhsold IMAQ.vi"/>
+			<Item Name="mask lineout.vi" Type="VI" URL="../../Point Grey Camera/subVis/mask lineout.vi"/>
+			<Item Name="hdf5 image file ref FGV.vi" Type="VI" URL="../../Point Grey Camera/subVis/hdf5 image file ref FGV.vi"/>
+			<Item Name="1st or last shot of scan.ctl" Type="VI" URL="../../Point Grey Camera/subVis/1st or last shot of scan.ctl"/>
+			<Item Name="tdms image file ref.vi" Type="VI" URL="../../Point Grey Camera/subVis/tdms image file ref.vi"/>
+			<Item Name="png path to tdms image path.vi" Type="VI" URL="../../Point Grey Camera/subVis/png path to tdms image path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="USB Camera" Type="Source Distribution">
