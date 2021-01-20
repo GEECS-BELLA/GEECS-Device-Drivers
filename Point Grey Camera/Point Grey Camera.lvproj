@@ -72,6 +72,8 @@
 		<Item Name="python hdf5 simulate multiple scans.vi" Type="VI" URL="../../../Shared/python/python hdf5 simulate multiple scans.vi"/>
 		<Item Name="does string start with.vi" Type="VI" URL="../../../General GUIs/General-Controler/does string start with.vi"/>
 		<Item Name="MC shot tcp server.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC shot tcp server.vi"/>
+		<Item Name="ThorLabsCsCamera.lvclass" Type="LVClass" URL="../ThorLabsCsCamera/ThorLabsCsCamera.lvclass"/>
+		<Item Name="Device_control_ThorlabsCsCamera.vi" Type="VI" URL="../../Device_control_ThorlabsCsCamera.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -90,7 +92,7 @@
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
@@ -733,6 +735,11 @@
 			<Item Name="MC stop FGV.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC stop FGV.vi"/>
 			<Item Name="tcp shot sender queue.ctl" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot sender queue.ctl"/>
 			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../General GUIs/General-Controler/TCP Multiple Connections State.ctl"/>
+			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
+			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
+			<Item Name="tcp shot sender send data.vi" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot sender send data.vi"/>
+			<Item Name="tcp shot server send data.vi" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot server send data.vi"/>
+			<Item Name="tcp shot sender wait add connection.vi" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot sender wait add connection.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Point Grey Camera" Type="Source Distribution">
