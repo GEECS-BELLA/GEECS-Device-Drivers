@@ -72,7 +72,7 @@
 		<Item Name="python hdf5 simulate multiple scans.vi" Type="VI" URL="../../../Shared/python/python hdf5 simulate multiple scans.vi"/>
 		<Item Name="does string start with.vi" Type="VI" URL="../../../General GUIs/General-Controler/does string start with.vi"/>
 		<Item Name="MC shot tcp server.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC shot tcp server.vi"/>
-		<Item Name="ThorLabsCsCamera.lvclass" Type="LVClass" URL="../ThorLabsCsCamera/ThorLabsCsCamera.lvclass"/>
+		<Item Name="ThorLabsCsCamera.lvclass" Type="LVClass" URL="../../ThorLabsCsCamera/ThorLabsCsCamera.lvclass"/>
 		<Item Name="Device_control_ThorlabsCsCamera.vi" Type="VI" URL="../../Device_control_ThorlabsCsCamera.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
