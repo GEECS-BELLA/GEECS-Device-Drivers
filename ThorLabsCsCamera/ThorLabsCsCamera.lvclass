@@ -23,7 +23,7 @@
 	<Item Name="ThorLabsCsCamera.ctl" Type="Class Private Data" URL="ThorLabsCsCamera.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="AcquireHardware.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/AcquireHardware.vi">
+	<Item Name="AcquireHardware.vi" Type="VI" URL="../AcquireHardware.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'G!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#!!.`````]!"3!!A!!!!!!"!!1!!!!"!!!!!!!!!!!!6Q$R!!!!!!!!!!%/35V"53"*&lt;7&amp;H:3ZD&gt;'Q!1%"Q!"U*35V"55FN97&gt;F!!%!"1F*45&amp;237VB:W5A!)!!!!!!!1!%!!!!!1!!!!!!!!F*&lt;7&amp;H:3"0&gt;81!/E"Q!"Y!!"I96'BP=ERB9H.$=U.B&lt;76S93ZM&gt;G.M98.T!!!56'BP=ERB9H.$=U.B&lt;76S93"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"I96'BP=ERB9H.$=U.B&lt;76S93ZM&gt;G.M98.T!!!46'BP=ERB9H.$=U.B&lt;76S93"J&lt;A"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
@@ -32,7 +32,16 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="InitHardware.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/InitHardware.vi">
+	<Item Name="CloseHardware.vi" Type="VI" URL="../CloseHardware.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;2I&lt;X*-97*T1X.$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;2I&lt;X*-97*T1X.$97VF=G%A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'&amp;2I&lt;X*-97*T1X.$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!%V2I&lt;X*-97*T1X.$97VF=G%A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
+	<Item Name="InitHardware.vi" Type="VI" URL="../InitHardware.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;J!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!Q`````QFC;81A:'6Q&gt;'A!+!$R!!!!!!!!!!%+37VB:W5A6(FQ:1!61!=!#EFN97&gt;F)&amp;2Z='5!!$J!=!!?!!!;'&amp;2I&lt;X*-97*T1X.$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;2I&lt;X*-97*T1X.$97VF=G%A&lt;X6U!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Y1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!".5;'^S4'&amp;C=U.T1W&amp;N:8*B)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!=!"Q!*!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#3!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
@@ -41,7 +50,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
-	<Item Name="SetExposure.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/SetExposure.vi">
+	<Item Name="SetExposure.vi" Type="VI" URL="../SetExposure.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#A!-=W6U6G&amp;M&gt;75A&lt;X6U!!![1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!"25;'^S4'&amp;C=U.T1W&amp;N:8*B)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1$$`````!U&amp;S:Q!Y1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!".5;'^S4'&amp;C=U.T1W&amp;N:8*B)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!AA!!!#1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
@@ -50,7 +59,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="SetGain.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/SetGain.vi">
+	<Item Name="SetGain.vi" Type="VI" URL="../SetGain.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#A!-=W6U6G&amp;M&gt;75A&lt;X6U!!![1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!"25;'^S4'&amp;C=U.T1W&amp;N:8*B)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1$$`````!U&amp;S:Q!Y1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!".5;'^S4'&amp;C=U.T1W&amp;N:8*B)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!AA!!!#1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
@@ -59,7 +68,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="setROI.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/setROI.vi">
+	<Item Name="setROI.vi" Type="VI" URL="../setROI.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*F!!!!'!!S1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!!V'97NF1W&amp;N:8*B)'FO!!1!!!!U1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!!Z'97NF1W&amp;N:8*B)'^V&gt;!!!#U!+!!6797RV:1!*1!I!!UVJ&lt;A!*1!I!!UVB?!!01!I!#&amp;.U:8"4;8JF!!!01!I!#62P&lt;'6S97ZD:1!21!I!#X:B&lt;(6F97.U&gt;7&amp;M!"B!5!!'!!-!"!!&amp;!!9!"Q!)"6&gt;J:(2I!"J!5!!'!!-!"!!&amp;!!9!"Q!)"EBF;7&gt;I&gt;!!!'E"1!!9!!Q!%!!5!"A!(!!A(4W:G=W6U7!!;1&amp;!!"A!$!!1!"1!'!!=!#!&gt;0:G:T:82:!$E!]1!!!!!!!!!"$F*036^5?8"%:79O9X2M!#*!5!!%!!E!#A!,!!Q/&lt;X6U=(6U)'.M&gt;8.U:8)!!"*!-0````]*5W6Q:8*B&gt;'^S!!N!#A!&amp;&gt;G&amp;M&gt;75!$E!Q`````Q6W97RV:1!51$$`````#U.P&lt;7VB&lt;G1A&lt;X6U!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!")!%Q!5%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!%A!4!"1*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!"!!U!$A!0!"!!%1!6!!%!!1!"!"9#!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!*!!!##!!!!!E!!!))!!!!#1!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!&amp;Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
@@ -68,7 +77,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="SetTimeout.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/SetTimeout.vi">
+	<Item Name="SetTimeout.vi" Type="VI" URL="../SetTimeout.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;2I&lt;X*-97*T1X.$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;2I&lt;X*-97*T1X.$97VF=G%A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!#A!(4H6N:8*J9Q!Y1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!".5;'^S4'&amp;C=U.T1W&amp;N:8*B)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#1!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
@@ -77,7 +86,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="SetTrigger.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/SetTrigger.vi">
+	<Item Name="SetTrigger.vi" Type="VI" URL="../SetTrigger.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'P!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%)!]1!!!!!!!!!"%%^O4W:G6(FQ:52F:CZD&gt;'Q!+5!7!!)$&lt;W:G!G^O!!!65W6U&gt;'FO:X-O6(*J:W&gt;F=C!A&lt;X6U!$J!=!!?!!!;'&amp;2I&lt;X*-97*T1X.$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;2I&lt;X*-97*T1X.$97VF=G%A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$Y!]1!!!!!!!!!"%%^O4W:G6(FQ:52F:CZD&gt;'Q!*5!7!!)$&lt;W:G!G^O!!!15W6U&gt;'FO:X-O6(*J:W&gt;F=A!!/%"Q!"Y!!"I96'BP=ERB9H.$=U.B&lt;76S93ZM&gt;G.M98.T!!!46'BP=ERB9H.$=U.B&lt;76S93"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1)!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -86,7 +95,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="SetTriggerDelay.vi" Type="VI" URL="../../Point Grey Camera/ThorLabsCsCamera/SetTriggerDelay.vi">
+	<Item Name="SetTriggerDelay.vi" Type="VI" URL="../SetTriggerDelay.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#A!-=W6U6G&amp;M&gt;75A&lt;X6U!!![1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!"25;'^S4'&amp;C=U.T1W&amp;N:8*B)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1$$`````!U&amp;S:Q!Y1(!!(A!!'BB5;'^S4'&amp;C=U.T1W&amp;N:8*B,GRW9WRB=X-!!".5;'^S4'&amp;C=U.T1W&amp;N:8*B)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!AA!!!#1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
