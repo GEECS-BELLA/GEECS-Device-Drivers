@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Library_X86" Type="Folder" URL="../Library_X86">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Device_control_PointGrey.vi" Type="VI" URL="../../Device_control_PointGrey.vi"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
@@ -74,6 +77,7 @@
 		<Item Name="MC shot tcp server.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC shot tcp server.vi"/>
 		<Item Name="ThorLabsCsCamera.lvclass" Type="LVClass" URL="../../ThorLabsCsCamera/ThorLabsCsCamera.lvclass"/>
 		<Item Name="Device_control_ThorlabsCsCamera.vi" Type="VI" URL="../../Device_control_ThorlabsCsCamera.vi"/>
+		<Item Name="TLCamera Main.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/TLCamera Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -92,7 +96,7 @@
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
@@ -188,6 +192,15 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
+				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
+				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
+				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
+				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
@@ -740,6 +753,116 @@
 			<Item Name="tcp shot sender send data.vi" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot sender send data.vi"/>
 			<Item Name="tcp shot server send data.vi" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot server send data.vi"/>
 			<Item Name="tcp shot sender wait add connection.vi" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot sender wait add connection.vi"/>
+			<Item Name="Color Balance.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Color Balance.ctl"/>
+			<Item Name="Region of Interest.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Region of Interest.ctl"/>
+			<Item Name="Binning.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Binning.ctl"/>
+			<Item Name="Data Rate.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Data Rate.ctl"/>
+			<Item Name="Taps.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Taps.ctl"/>
+			<Item Name="Color Modes.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Color Modes.ctl"/>
+			<Item Name="Trigger Settings.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Trigger Settings.ctl"/>
+			<Item Name="Trigger Modes.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Trigger Modes.ctl"/>
+			<Item Name="Trigger Polarity.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Controls/Trigger Polarity.ctl"/>
+			<Item Name="Status - Main.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Status - Main.ctl"/>
+			<Item Name="Color Processor References.ctl" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Color Processor References.ctl"/>
+			<Item Name="Set Current Directory To Library Folder.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Set Current Directory To Library Folder.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Open TLCameraSDK.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Open TLCameraSDK.vi"/>
+			<Item Name="Discover Available Cameras.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Discover Available Cameras.vi"/>
+			<Item Name="Open TLCamera.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Open TLCamera.vi"/>
+			<Item Name="Get Parameters.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters.vi"/>
+			<Item Name="Get BinXRange.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get BinXRange.vi"/>
+			<Item Name="Get Min and Max from Range.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Min and Max from Range.vi"/>
+			<Item Name="Get BinYRange.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get BinYRange.vi"/>
+			<Item Name="Get BitDepth.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get BitDepth.vi"/>
+			<Item Name="Get BlackLevel.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get BlackLevel.vi"/>
+			<Item Name="Get BlackLevelRange.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get BlackLevelRange.vi"/>
+			<Item Name="Get CameraSensorType.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get CameraSensorType.vi"/>
+			<Item Name="Get CommunicationInterface.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get CommunicationInterface.vi"/>
+			<Item Name="Get ExposureTime_us.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get ExposureTime_us.vi"/>
+			<Item Name="Get ExposureTimeRange_us.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get ExposureTimeRange_us.vi"/>
+			<Item Name="Get FramesPerTrigger_zeroForUnlimited.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get FramesPerTrigger_zeroForUnlimited.vi"/>
+			<Item Name="Get Gain.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get Gain.vi"/>
+			<Item Name="Get GainRange.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get GainRange.vi"/>
+			<Item Name="Get IsArmed.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsArmed.vi"/>
+			<Item Name="Get IsCoolingEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsCoolingEnabled.vi"/>
+			<Item Name="Get IsCoolingSupported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsCoolingSupported.vi"/>
+			<Item Name="Get IsHotPixelCorrectionEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsHotPixelCorrectionEnabled.vi"/>
+			<Item Name="Get IsLEDOn.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsLEDOn.vi"/>
+			<Item Name="Get IsLEDSupported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsLEDSupported.vi"/>
+			<Item Name="Get IsNIRBoostEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsNIRBoostEnabled.vi"/>
+			<Item Name="Get IsNIRBoostSupported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsNIRBoostSupported.vi"/>
+			<Item Name="Get IsTapBalanceEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsTapBalanceEnabled.vi"/>
+			<Item Name="Get TriggerPolarity.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get TriggerPolarity.vi"/>
+			<Item Name="Get MaximumNumberOfFramesToQueue.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get MaximumNumberOfFramesToQueue.vi"/>
+			<Item Name="Get Model.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get Model.vi"/>
+			<Item Name="Get Name.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get Name.vi"/>
+			<Item Name="Get NumberOfQueuedFrames.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get NumberOfQueuedFrames.vi"/>
+			<Item Name="Get OperationMode.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get OperationMode.vi"/>
+			<Item Name="Get ROIAndBin.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get ROIAndBin.vi"/>
+			<Item Name="Get SensorHeight_pixels.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get SensorHeight_pixels.vi"/>
+			<Item Name="Get SensorPixelHeight_um.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get SensorPixelHeight_um.vi"/>
+			<Item Name="Get SensorWidth_pixels.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get SensorWidth_pixels.vi"/>
+			<Item Name="Get SerialNumber.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get SerialNumber.vi"/>
+			<Item Name="Get Taps.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get Taps.vi"/>
+			<Item Name="Get DataRate.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get DataRate.vi"/>
+			<Item Name="Get EEP Status.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get EEP Status.vi"/>
+			<Item Name="Get HotPixelCorrectionThreshold.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get HotPixelCorrectionThreshold.vi"/>
+			<Item Name="Get HotPixelCorrectionThresholdRange.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get HotPixelCorrectionThresholdRange.vi"/>
+			<Item Name="Get IsEEPSupported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get IsEEPSupported.vi"/>
+			<Item Name="Get ColorFilterArrayPhase.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get ColorFilterArrayPhase.vi"/>
+			<Item Name="Get PolarPhase.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get PolarPhase.vi"/>
+			<Item Name="Get All Supported DataRates.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get All Supported DataRates.vi"/>
+			<Item Name="Get Is Gain Supported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Is Gain Supported.vi"/>
+			<Item Name="Get Is BlackLevel Supported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Is BlackLevel Supported.vi"/>
+			<Item Name="Get Is Taps Supported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Is Taps Supported.vi"/>
+			<Item Name="Close TLCamera.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Close TLCamera.vi"/>
+			<Item Name="Close Color Processors.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Close Color Processors.vi"/>
+			<Item Name="Close Demosaicker.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Close Demosaicker.vi"/>
+			<Item Name="Close ColorProcessor.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Close ColorProcessor.vi"/>
+			<Item Name="Close ColorProcessorSDK.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Close ColorProcessorSDK.vi"/>
+			<Item Name="Get Camera Color Correction Matrix.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Camera Color Correction Matrix.vi"/>
+			<Item Name="Get Default White Balance Matrix.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Default White Balance Matrix.vi"/>
+			<Item Name="Initialize Color Processors.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Initialize Color Processors.vi"/>
+			<Item Name="Open Demosaicker.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Open Demosaicker.vi"/>
+			<Item Name="Open ColorProcessorSDK.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Open ColorProcessorSDK.vi"/>
+			<Item Name="Open Default ColorProcessors.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Open Default ColorProcessors.vi"/>
+			<Item Name="Validate ROI.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Validate ROI.vi"/>
+			<Item Name="Set Parameters.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters.vi"/>
+			<Item Name="Set BlackLevel.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set BlackLevel.vi"/>
+			<Item Name="Set ExposureTime_us.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set ExposureTime_us.vi"/>
+			<Item Name="Set FramesPerTrigger_zeroForUnlimited.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set FramesPerTrigger_zeroForUnlimited.vi"/>
+			<Item Name="Set Gain.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set Gain.vi"/>
+			<Item Name="Set IsCoolingEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set IsCoolingEnabled.vi"/>
+			<Item Name="Set IsHotPixelCorrectionEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set IsHotPixelCorrectionEnabled.vi"/>
+			<Item Name="Set IsLEDOn.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set IsLEDOn.vi"/>
+			<Item Name="Set IsNIRBoostEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set IsNIRBoostEnabled.vi"/>
+			<Item Name="Set IsTapBalanceEnabled.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set IsTapBalanceEnabled.vi"/>
+			<Item Name="Set TriggerPolarity.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set TriggerPolarity.vi"/>
+			<Item Name="Set MaximumNumberOfFramesToQueue.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set MaximumNumberOfFramesToQueue.vi"/>
+			<Item Name="Set Name.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set Name.vi"/>
+			<Item Name="Set OperationMode.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set OperationMode.vi"/>
+			<Item Name="Set ROIAndBin.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set ROIAndBin.vi"/>
+			<Item Name="Set Taps.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set Taps.vi"/>
+			<Item Name="Set DataRate.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set DataRate.vi"/>
+			<Item Name="Set HotPixelCorrectionThreshold.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Set Parameters/Set HotPixelCorrectionThreshold.vi"/>
+			<Item Name="Get Is DataRate Supported.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Is DataRate Supported.vi"/>
+			<Item Name="Set Color Balance.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Set Color Balance.vi"/>
+			<Item Name="Clear Color Matrices.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Clear Color Matrices.vi"/>
+			<Item Name="Insert Color Transform Matrix.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Insert Color Transform Matrix.vi"/>
+			<Item Name="OnImageFrameAvailable Event Callback - TLCamera Main Color.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/OnImageFrameAvailable Event Callback - TLCamera Main Color.vi"/>
+			<Item Name="Get Pending Frame Or Null.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Pending Frame Or Null.vi"/>
+			<Item Name="Color Process Image.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color Process Image.vi"/>
+			<Item Name="Demosaic Image.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Demosaic Image.vi"/>
+			<Item Name="Transform48To48.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Color/Transform48To48.vi"/>
+			<Item Name="Get Image Data.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Image Data.vi"/>
+			<Item Name="Get 8-bit PixMap.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get 8-bit PixMap.vi"/>
+			<Item Name="Set Trigger Settings.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Set Trigger Settings.vi"/>
+			<Item Name="Arm TLCamera.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Arm TLCamera.vi"/>
+			<Item Name="Issue Software Trigger.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Issue Software Trigger.vi"/>
+			<Item Name="Disarm TLCamera.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Disarm TLCamera.vi"/>
+			<Item Name="Close TLCameraSDK.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Close TLCameraSDK.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Point Grey Camera" Type="Source Distribution">
