@@ -1105,6 +1105,255 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A7C01D9B-C006-4B2E-ABB4-1CEF05CDC3F1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DevicePointGrey.exe</Property>
 			</Item>
+			<Item Name="ThorlabsCsCamera" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{C7C2FA2B-ED60-4836-AA33-4D17ACDBBD87}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ThorlabsCsCamera</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/ThorlabsCsCamera</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A192F619-3E84-4323-82E2-4E3F49BE6C3E}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/ThorlabsCsCamera</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/ThorlabsCsCamera/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B5FC6E3F-E902-4C20-AFB5-D227126630A5}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Password</Property>
+				<Property Name="Source[2].properties[0].value" Type="Str"></Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/ThorLabsCsCamera.lvclass</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Library_X86</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+			</Item>
+			<Item Name="Device ThorlabsCsCamera" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5C928C79-558B-4F5E-8F8C-60173DE7477E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{20CA203B-9295-4C6E-8FDD-A731E3B70F55}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{EE3C626E-C415-41AB-89CD-4531B49B154A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Device ThorlabsCsCamera</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BA496452-D200-4EB8-B2B6-63EECA7ECD54}</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceThorlabsCsCamera.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceThorlabsCsCamera.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B5FC6E3F-E902-4C20-AFB5-D227126630A5}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/organize please/ROI_TypDef.ctl</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/organize please/Image analysys result.ctl</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/online image analysis.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/organize please/is it gain attribute.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/organize please/is it trigger mode attribute.vi</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/organize please/is this trigger delay attribute.vi</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/organize please/is it exposure attribute.vi</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/organize please/Get Generaln Cam Attributes from DB.vi</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/organize please/updateError.vi</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/organize please/diagError.vi</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/organize please/CMD_ErrorHandler.vi</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/organize please/setGainMVF_1.vi</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/organize please/Set Attribute.vi</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/organize please/Read Attribute Max range value.vi</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/organize please/Compare numbers.vi</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/organize please/Comparison.ctl</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[25].type" Type="Str">VI</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/organize please/fwhm xy simple.vi</Property>
+				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[26].type" Type="Str">VI</Property>
+				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/organize please/FGV paths.vi</Property>
+				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[27].type" Type="Str">VI</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/organize please/Change Path.vi</Property>
+				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[28].type" Type="Str">VI</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/organize please/preset cluster.ctl</Property>
+				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[29].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/organize please/threshold fraction or count.vi</Property>
+				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[30].type" Type="Str">VI</Property>
+				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/organize please/w0 via 2nd mom 1D.vi</Property>
+				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[31].type" Type="Str">VI</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/organize please/spot size 2D.vi</Property>
+				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[32].type" Type="Str">VI</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/organize please/create 4 corner roi.vi</Property>
+				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].type" Type="Str">VI</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/prepare image for 2nd mom analysis.vi</Property>
+				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[34].type" Type="Str">VI</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/organize please/GEECS IMAQdx set attribute.vi</Property>
+				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[35].type" Type="Str">VI</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/organize please/threhsold IMAQ.vi</Property>
+				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[36].type" Type="Str">VI</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/IMAQ subtract background.vi</Property>
+				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[37].type" Type="Str">VI</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/organize please/mask lineout.vi</Property>
+				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[38].type" Type="Str">VI</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/AcquisitionMVF.vi</Property>
+				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[39].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/organize please/setMVsettingsNEW.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Device_control_PointGrey.vi</Property>
+				<Property Name="Source[40].type" Type="Str">VI</Property>
+				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/Device_control_ThorlabsCsCamera.vi</Property>
+				<Property Name="Source[41].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[41].type" Type="Str">VI</Property>
+				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/ThorLabsCsCamera.lvclass</Property>
+				<Property Name="Source[42].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[42].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/organize please/setMVsettingsDevice.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/organize please/getTriggerMV.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/organize please/CamAtributesString.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/organize please/TriggerModeString_TypDEf.ctl</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/organize please/CamAtributes_TypDEf.ctl</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">43</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Device point grey</Property>
+				<Property Name="TgtF_internalName" Type="Str">Device point grey</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">Device point grey</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2998A10B-52F6-4892-85E4-7DD1D8DF998D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceThorlabsCsCamera.exe</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
