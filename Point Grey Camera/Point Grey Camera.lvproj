@@ -1121,7 +1121,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B5FC6E3F-E902-4C20-AFB5-D227126630A5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CD51557D-82B6-4124-A48B-D341AA573126}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
@@ -1148,7 +1148,14 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Library_X86</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ThorLabsCsCamera.lvclass/AcquireHardware.vi</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Device ThorlabsCsCamera" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
