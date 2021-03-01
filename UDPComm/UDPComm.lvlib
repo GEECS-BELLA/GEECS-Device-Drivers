@@ -11,4 +11,5 @@
 	<Item Name="udp func glob var.vi" Type="VI" URL="../../shared/udp func glob var.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="device status func glob var.vi" Type="VI" URL="../../shared/device status func glob var.vi"/>
+	<Item Name="Accept UDP command logic.vi" Type="VI" URL="../Accept UDP command logic.vi"/>
 </Library>

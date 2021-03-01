@@ -705,6 +705,8 @@
 			<Item Name="AddorEdit Devicetype Variable.vi" Type="VI" URL="../../shared/AddorEdit Devicetype Variable.vi"/>
 			<Item Name="Get Stage Identifier.vi" Type="VI" URL="/Z/software/Review/Install/Newport/SMC100_LabVIEW_Drivers_LV10/SMC100 Controller_Drivers/SMC100 Virtual Front Panel.llb/Get Stage Identifier.vi"/>
 			<Item Name="OnOffTypeDef.ctl" Type="VI" URL="../../shared/OnOffTypeDef.ctl"/>
+			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
+			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SMC100" Type="Source Distribution">
