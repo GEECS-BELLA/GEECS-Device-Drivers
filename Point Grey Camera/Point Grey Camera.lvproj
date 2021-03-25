@@ -84,6 +84,7 @@
 		<Item Name="Hardware triggered acquisition - polling.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Hardware triggered acquisition - polling.vi"/>
 		<Item Name="compress to 8 bit slow.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit slow.vi"/>
 		<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+		<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../GUIcompressionCluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
