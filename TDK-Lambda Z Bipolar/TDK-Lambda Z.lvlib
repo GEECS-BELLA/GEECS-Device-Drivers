@@ -14,13 +14,11 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Action-Status" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
-				<Item Name="Action-Status_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Action-Status/Low Level/Action-Status_Low Level.mnu"/>
 				<Item Name="Abort Transient.vi" Type="VI" URL="../Public/Action-Status/Low Level/Abort Transient.vi"/>
 				<Item Name="Initiate Trigger.vi" Type="VI" URL="../Public/Action-Status/Low Level/Initiate Trigger.vi"/>
 				<Item Name="Send Software Trigger.vi" Type="VI" URL="../Public/Action-Status/Low Level/Send Software Trigger.vi"/>
 				<Item Name="Trigger Continuous.vi" Type="VI" URL="../Public/Action-Status/Low Level/Trigger Continuous.vi"/>
 			</Item>
-			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Query Output Status.vi" Type="VI" URL="../Public/Action-Status/Query Output Status.vi"/>
 			<Item Name="Transient Memory.vi" Type="VI" URL="../Public/Action-Status/Transient Memory.vi"/>
 			<Item Name="Transient Memory (Load).vi" Type="VI" URL="../Public/Action-Status/Transient Memory (Load).vi"/>
@@ -28,24 +26,20 @@
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Trigger" Type="Folder">
-				<Item Name="Configure_Trigger.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Configure/Trigger/Configure_Trigger.mnu"/>
 				<Item Name="Configure Trigger.vi" Type="VI" URL="../Public/Configure/Trigger/Configure Trigger.vi"/>
 				<Item Name="Configure Trigger (Voltage).vi" Type="VI" URL="../Public/Configure/Trigger/Configure Trigger (Voltage).vi"/>
 				<Item Name="Configure Trigger (Current).vi" Type="VI" URL="../Public/Configure/Trigger/Configure Trigger (Current).vi"/>
 			</Item>
 			<Item Name="Waveform" Type="Folder">
-				<Item Name="Configure_Waveform.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Configure/Waveform/Configure_Waveform.mnu"/>
 				<Item Name="Configure Waveform.vi" Type="VI" URL="../Public/Configure/Waveform/Configure Waveform.vi"/>
 				<Item Name="Configure Waveform (Voltage).vi" Type="VI" URL="../Public/Configure/Waveform/Configure Waveform (Voltage).vi"/>
 				<Item Name="Configure Waveform (Current).vi" Type="VI" URL="../Public/Configure/Waveform/Configure Waveform (Current).vi"/>
 			</Item>
 			<Item Name="List" Type="Folder">
-				<Item Name="Configure_List.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Configure/List/Configure_List.mnu"/>
 				<Item Name="Configure List.vi" Type="VI" URL="../Public/Configure/List/Configure List.vi"/>
 				<Item Name="Configure List (Voltage).vi" Type="VI" URL="../Public/Configure/List/Configure List (Voltage).vi"/>
 				<Item Name="Configure List (Current).vi" Type="VI" URL="../Public/Configure/List/Configure List (Current).vi"/>
 			</Item>
-			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Configure/Configure.mnu"/>
 			<Item Name="Configure Current Limit.vi" Type="VI" URL="../Public/Configure/Configure Current Limit.vi"/>
 			<Item Name="Configure Trigger Source and Mode.vi" Type="VI" URL="../Public/Configure/Configure Trigger Source and Mode.vi"/>
 			<Item Name="Configure Output Enabled.vi" Type="VI" URL="../Public/Configure/Configure Output Enabled.vi"/>
@@ -54,7 +48,6 @@
 			<Item Name="Configure Voltage Limit.vi" Type="VI" URL="../Public/Configure/Configure Voltage Limit.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
-			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Data/Data.mnu"/>
 			<Item Name="Read Current Output.vi" Type="VI" URL="../Public/Data/Read Current Output.vi"/>
 			<Item Name="Read Voltage Output .vi" Type="VI" URL="../Public/Data/Read Voltage Output .vi"/>
 			<Item Name="Read Power Output.vi" Type="VI" URL="../Public/Data/Read Power Output.vi"/>
@@ -62,7 +55,6 @@
 			<Item Name="Read Voltage.vi" Type="VI" URL="../Public/Data/Read Voltage.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/Public/Utility/Utility.mnu"/>
 			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
@@ -81,5 +73,4 @@
 		<Item Name="Verify Checksum.vi" Type="VI" URL="../Private/Verify Checksum.vi"/>
 		<Item Name="GEN Langv Convert Errors.vi" Type="VI" URL="../Private/GEN Langv Convert Errors.vi"/>
 	</Item>
-	<Item Name="TDK-Lambda Z Readme.htm" Type="Document" URL="/&lt;instrlib&gt;/TDK-Lambda Z/TDK-Lambda Z Readme.htm"/>
 </Library>
