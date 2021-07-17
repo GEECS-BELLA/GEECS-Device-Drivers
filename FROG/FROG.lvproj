@@ -20,6 +20,8 @@
 		<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../../shared/SubscriberDataFGV.vi"/>
 		<Item Name="TriggerEnum_TypDef.ctl" Type="VI" URL="../TriggerEnum_TypDef.ctl"/>
 		<Item Name="WriteToCVT.vi" Type="VI" URL="../../shared/WriteToCVT.vi"/>
+		<Item Name="DeviceFROG.vi" Type="VI" URL="../DeviceFROG.vi"/>
+		<Item Name="FROG.dll" Type="Document" URL="../SubVis/FROG.dll"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -324,7 +326,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -349,14 +351,19 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
-				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="IMAQ Write String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write String"/>
+				<Item Name="IMAQ Write JPEG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG String"/>
+				<Item Name="IMAQ Write PNG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG String"/>
+				<Item Name="IMAQ Write Image And Vision Info String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info String"/>
+				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
+				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
+				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
 			</Item>
 			<Item Name="Arguments to array.vi" Type="VI" URL="../../shared/Arguments to array.vi"/>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
-			<Item Name="bin.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/bin.vi"/>
 			<Item Name="buildResponseForUDP.vi" Type="VI" URL="../../shared/buildResponseForUDP.vi"/>
 			<Item Name="calculate binning.vi" Type="VI" URL="../SubVis/calculate binning.vi"/>
 			<Item Name="ChangeColorMultiList.vi" Type="VI" URL="../../shared/ChangeColorMultiList.vi"/>
@@ -387,20 +394,15 @@
 			<Item Name="DisplaySettableVariables.vi" Type="VI" URL="../../BaseDriver/DisplaySettableVariables.vi"/>
 			<Item Name="DriverMsg.ctl" Type="VI" URL="../../BaseDriver/DriverMsg.ctl"/>
 			<Item Name="enumVariable_control.ctl" Type="VI" URL="../../shared/enumVariable_control.ctl"/>
-			<Item Name="fast_flip_array.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/fast_flip_array.vi"/>
 			<Item Name="FGV PATH.vi" Type="VI" URL="../../shared/FGV PATH.vi"/>
 			<Item Name="FGV Shotnumber.vi" Type="VI" URL="../../shared/FGV Shotnumber.vi"/>
 			<Item Name="FGV Stop.vi" Type="VI" URL="../../shared/FGV Stop.vi"/>
 			<Item Name="FGV_Control.ctl" Type="VI" URL="../../shared/FGV_Control.ctl"/>
-			<Item Name="FreezeVideo.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/FreezeVideo.vi"/>
-			<Item Name="FROG.dll" Type="Document" URL="../SubVis/FROG.dll"/>
 			<Item Name="generateEvent.vi" Type="VI" URL="../../shared/generateEvent.vi"/>
 			<Item Name="get child class path2.vi" Type="VI" URL="../../shared/get child class path2.vi"/>
 			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../shared/Get Cluster Element Names__ogtk_TS.vi"/>
 			<Item Name="get cw rep rate of expt.vi" Type="VI" URL="../../shared/get cw rep rate of expt.vi"/>
 			<Item Name="get value from preset query table.vi" Type="VI" URL="../../shared/get value from preset query table.vi"/>
-			<Item Name="GetActImgMem.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetActImgMem.vi"/>
-			<Item Name="GetExposureRange.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetExposureRange.vi"/>
 			<Item Name="GetRawSocketFromConnectionID.vi" Type="VI" URL="../../shared/GetRawSocketFromConnectionID.vi"/>
 			<Item Name="getShotNumberFromPathString.vi" Type="VI" URL="../../shared/getShotNumberFromPathString.vi"/>
 			<Item Name="getTolerance.vi" Type="VI" URL="../../shared/getTolerance.vi"/>
@@ -425,17 +427,10 @@
 			<Item Name="removeFromQueue.vi" Type="VI" URL="../../shared/removeFromQueue.vi"/>
 			<Item Name="RemoveStateFromQueue.vi" Type="VI" URL="../../shared/RemoveStateFromQueue.vi"/>
 			<Item Name="ScopeInfoToString(Array).vi" Type="VI" URL="../../shared/ScopeInfoToString(Array).vi"/>
-			<Item Name="SetBlCompensation.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetBlCompensation.vi"/>
-			<Item Name="SetEdgeEnhancement.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetEdgeEnhancement.vi"/>
-			<Item Name="SetExposureTime.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetExposureTime.vi"/>
-			<Item Name="SetExternalTrigger.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetExternalTrigger.vi"/>
-			<Item Name="SetHardwareGain.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetHardwareGain.vi"/>
-			<Item Name="SetHotPixelCorrection.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetHotPixelCorrection.vi"/>
 			<Item Name="spawnViPath.vi" Type="VI" URL="../../shared/spawnViPath.vi"/>
 			<Item Name="StartAndEndCommands.vi" Type="VI" URL="../../shared/StartAndEndCommands.vi"/>
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../../shared/stop FGV control.ctl"/>
 			<Item Name="stringToMsg(SM).vi" Type="VI" URL="../../shared/stringToMsg(SM).vi"/>
-			<Item Name="subBack.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/subBack.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -476,13 +471,6 @@
 			<Item Name="getStringANdTYpE.vi" Type="VI" URL="../../shared/getStringANdTYpE.vi"/>
 			<Item Name="setNum.vi" Type="VI" URL="../../shared/setNum.vi"/>
 			<Item Name="preset cluster.ctl" Type="VI" URL="../../BaseDriver/preset cluster.ctl"/>
-			<Item Name="ExitCamera.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/ExitCamera.vi"/>
-			<Item Name="GetColorMode.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetColorMode.vi"/>
-			<Item Name="GetImageSize.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetImageSize.vi"/>
-			<Item Name="InitCamera.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/InitCamera.vi"/>
-			<Item Name="SetAllocatedImageMem.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetAllocatedImageMem.vi"/>
-			<Item Name="SetColorMode.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetColorMode.vi"/>
-			<Item Name="SetImageMem.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetImageMem.vi"/>
 			<Item Name="build load configuration commands.vi" Type="VI" URL="../../BaseDriver/build load configuration commands.vi"/>
 			<Item Name="load configuration_typdef.ctl" Type="VI" URL="../../BaseDriver/load configuration_typdef.ctl"/>
 			<Item Name="SWTrigEventReference.vi" Type="VI" URL="../../shared/GlobalVariables/SWTrigEventReference.vi"/>
@@ -562,6 +550,29 @@
 			<Item Name="Value TCP Seperator.vi" Type="VI" URL="../../../Shared/Value TCP Seperator.vi"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
+			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
+			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
+			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../../Point Grey Camera/GUIcompressionCluster.ctl"/>
+			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+			<Item Name="bin.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/bin.vi"/>
+			<Item Name="ExitCamera.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/ExitCamera.vi"/>
+			<Item Name="fast_flip_array.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/fast_flip_array.vi"/>
+			<Item Name="FreezeVideo.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/FreezeVideo.vi"/>
+			<Item Name="GetActImgMem.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetActImgMem.vi"/>
+			<Item Name="GetColorMode.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetColorMode.vi"/>
+			<Item Name="GetExposureRange.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetExposureRange.vi"/>
+			<Item Name="GetImageSize.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/GetImageSize.vi"/>
+			<Item Name="InitCamera.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/InitCamera.vi"/>
+			<Item Name="SetAllocatedImageMem.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetAllocatedImageMem.vi"/>
+			<Item Name="SetBlCompensation.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetBlCompensation.vi"/>
+			<Item Name="SetColorMode.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetColorMode.vi"/>
+			<Item Name="SetEdgeEnhancement.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetEdgeEnhancement.vi"/>
+			<Item Name="SetExposureTime.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetExposureTime.vi"/>
+			<Item Name="SetExternalTrigger.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetExternalTrigger.vi"/>
+			<Item Name="SetHardwareGain.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetHardwareGain.vi"/>
+			<Item Name="SetHotPixelCorrection.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetHotPixelCorrection.vi"/>
+			<Item Name="SetImageMem.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetImageMem.vi"/>
+			<Item Name="subBack.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/subBack.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FROG" Type="Source Distribution">
@@ -594,6 +605,83 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
+			</Item>
+			<Item Name="DeviceFROG" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{644E5B90-06EC-42BE-A50F-5706FAB10D31}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{43006749-B9DE-465C-9AFE-1DC932E0965F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{521368E5-E00C-43F5-AAF8-F73A1C12C72D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DeviceFROG</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceFROG.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceFROG.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D1CE0292-FE6E-4E8B-87F5-5246FB568BF1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DeviceFROG.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/FROG.dll</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CompressAndUpdate(IMAQ Image).vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/FROG.lvclass</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/FrogAsSubVi2.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/GetCompressionTypes.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SubscriberDataFGV.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/TriggerEnum_TypDef.ctl</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/WriteToCVT.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DeviceFROG</Property>
+				<Property Name="TgtF_internalName" Type="Str">DeviceFROG</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Wakefield Engineering</Property>
+				<Property Name="TgtF_productName" Type="Str">DeviceFROG</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{14471C70-CBED-47C8-A32C-CB24948A6BDA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceFROG.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
