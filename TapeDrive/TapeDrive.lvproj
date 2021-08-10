@@ -14,6 +14,7 @@
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="TapeDrive.lvclass" Type="LVClass" URL="../TapeDrive.lvclass"/>
+		<Item Name="TapeDriveTobi.lvclass" Type="LVClass" URL="../TapeDriveTobi/TapeDriveTobi.lvclass"/>
 		<Item Name="changeDirection(Tape).vi" Type="VI" URL="../changeDirection(Tape).vi"/>
 		<Item Name="Step(Tape).vi" Type="VI" URL="../Step(Tape).vi"/>
 		<Item Name="AquireTape.vi" Type="VI" URL="../AquireTape.vi"/>
