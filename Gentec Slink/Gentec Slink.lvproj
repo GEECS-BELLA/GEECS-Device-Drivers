@@ -601,6 +601,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{5771A1D6-CDA0-4643-A57F-5EEB275913EE}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{97DC9869-9C70-4A0F-84AC-CB75213B6740}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Device Gentec Slink</Property>
@@ -610,7 +611,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0B6F04B-F032-45CE-985D-A1D1B95E3D35}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceGentec Slink.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceGentec Slink.exe</Property>
@@ -621,7 +622,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A846BD3D-D575-4519-82E5-0AF251F77FDF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B30525FE-C5F2-442A-9599-FD33F6120048}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Gentec Slink.lvclass</Property>
@@ -665,6 +666,7 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">11</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Device Gentec Slink</Property>
 				<Property Name="TgtF_internalName" Type="Str">Device Gentec Slink</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Wakefield Engineering</Property>
