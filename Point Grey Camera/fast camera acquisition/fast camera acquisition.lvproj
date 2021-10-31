@@ -12,9 +12,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Acquire Every Image (Optimized Performance).vi" Type="VI" URL="../Acquire Every Image (Optimized Performance).vi"/>
 		<Item Name="Analyze all images in tdms file.vi" Type="VI" URL="../Analyze all images in tdms file.vi"/>
+		<Item Name="calc centroid and save to tdms.vi" Type="VI" URL="../calc centroid and save to tdms.vi"/>
 		<Item Name="load tdms image from fast acquisition app.vi" Type="VI" URL="../load tdms image from fast acquisition app.vi"/>
-		<Item Name="Stream to TDMS Files (Optimized Performance).vi" Type="VI" URL="../Stream to TDMS Files (Optimized Performance).vi"/>
-		<Item Name="TDMS Write File.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write File.vi"/>
+		<Item Name="Parallel Processing (Optimized Performance) ajg.vi" Type="VI" URL="../Parallel Processing (Optimized Performance) ajg.vi"/>
+		<Item Name="Stream to AVI Files (Optimized Performance) ajg.vi" Type="VI" URL="../Stream to AVI Files (Optimized Performance) ajg.vi"/>
+		<Item Name="Stream to Image Files (Optimized Performance) ajg.vi" Type="VI" URL="../Stream to Image Files (Optimized Performance) ajg.vi"/>
+		<Item Name="Stream to TDMS Files (Optimized Performance) ajg.vi" Type="VI" URL="../Stream to TDMS Files (Optimized Performance) ajg.vi"/>
+		<Item Name="TDMS Write File.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write File.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
@@ -46,10 +50,17 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
+				<Item Name="IMAQ AVI2 Close" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Close"/>
+				<Item Name="IMAQ AVI2 Codec Path.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Codec Path.ctl"/>
+				<Item Name="IMAQ AVI2 Create" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Create"/>
+				<Item Name="IMAQ AVI2 Get Codec Names" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Get Codec Names"/>
+				<Item Name="IMAQ AVI2 Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Refnum.ctl"/>
+				<Item Name="IMAQ AVI2 Write Frame" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Write Frame"/>
 				<Item Name="IMAQ ColorImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ColorImageToArray"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
 				<Item Name="Imaq GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq GetImageInfo"/>
+				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="IMAQ ImageToEDVR 1D CSG.vi" Type="VI" URL="/&lt;vilib&gt;/vision/EDVR.llb/IMAQ ImageToEDVR 1D CSG.vi"/>
@@ -71,6 +82,14 @@
 				<Item Name="IMAQ ImageToEDVR 3D U8.vi" Type="VI" URL="/&lt;vilib&gt;/vision/EDVR.llb/IMAQ ImageToEDVR 3D U8.vi"/>
 				<Item Name="IMAQ ImageToEDVR 3D U16.vi" Type="VI" URL="/&lt;vilib&gt;/vision/EDVR.llb/IMAQ ImageToEDVR 3D U16.vi"/>
 				<Item Name="IMAQ ImageToEDVR.vi" Type="VI" URL="/&lt;vilib&gt;/vision/EDVR.llb/IMAQ ImageToEDVR.vi"/>
+				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -90,8 +109,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="High Resolution Timer Helper.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/High Resolution Timer Helper.vi"/>
-			<Item Name="Increment Filename.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/Increment Filename.vi"/>
+			<Item Name="High Resolution Timer Helper.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/High Resolution Timer Helper.vi"/>
+			<Item Name="Increment Filename.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/Increment Filename.vi"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -101,14 +120,14 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TDMS File Initialization (Poly).vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Poly).vi"/>
-			<Item Name="TDMS File Initialization (Read).vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Read).vi"/>
-			<Item Name="TDMS File Initialization (Write).vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Write).vi"/>
-			<Item Name="TDMS Global.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Global.vi"/>
-			<Item Name="TDMS Read Data.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Read Data.ctl"/>
-			<Item Name="TDMS Start New File.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Start New File.vi"/>
-			<Item Name="TDMS Write Settings.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write Settings.ctl"/>
-			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../Shared/Threshold and Centroid Image.vi"/>
+			<Item Name="TDMS File Initialization (Poly).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Poly).vi"/>
+			<Item Name="TDMS File Initialization (Read).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Read).vi"/>
+			<Item Name="TDMS File Initialization (Write).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Write).vi"/>
+			<Item Name="TDMS Global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Global.vi"/>
+			<Item Name="TDMS Read Data.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Read Data.ctl"/>
+			<Item Name="TDMS Start New File.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Start New File.vi"/>
+			<Item Name="TDMS Write Settings.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write Settings.ctl"/>
+			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../../Shared/Threshold and Centroid Image.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Analyze image centroids tdms" Type="EXE">
@@ -186,7 +205,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{5C9D56F3-E755-408A-A44C-231CF509F579}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream to TDMS Files (Optimized Performance).vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream to TDMS Files (Optimized Performance) ajg.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
