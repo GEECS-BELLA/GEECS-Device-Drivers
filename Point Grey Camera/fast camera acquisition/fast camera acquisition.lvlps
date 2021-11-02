@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "94,142,859,625"
+ProjectExplorer.ClassicPosition[String] = "1296,67,2061,550"
 
 [AB_Cache_{E57B3323-F42F-4DD0-9BA0-BAC10AC198D4}]
 Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{E57B3"
@@ -17,14 +17,6 @@ Cache_Path[Path] Line0002 = "5-4465-46A5-AD56-A8B6F113933D}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{3B8A01C"
 Cache_Path[Path] Line0002 = "A-F14D-48FF-9693-AA9A098C9476}.txt"
 
-[AB_Cache_{6616ABDB-54F0-45E5-8BCD-6BECA358F2EE}]
-Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{6616ABD"
-Cache_Path[Path] Line0002 = "B-54F0-45E5-8BCD-6BECA358F2EE}.txt"
-
-[AB_Cache_{A820FF19-55A3-4290-94E4-F7F0913A0619}]
-Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{A820FF1"
-Cache_Path[Path] Line0002 = "9-55A3-4290-94E4-F7F0913A0619}.txt"
-
 [AB_Cache_{80960949-81E9-4E39-A968-4BADCCF96A7B}]
 Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{8096094"
 Cache_Path[Path] Line0002 = "9-81E9-4E39-A968-4BADCCF96A7B}.txt"
@@ -32,4 +24,12 @@ Cache_Path[Path] Line0002 = "9-81E9-4E39-A968-4BADCCF96A7B}.txt"
 [AB_Cache_{B500012A-1150-48AA-AD0D-639CD2A5AE75}]
 Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{B500012"
 Cache_Path[Path] Line0002 = "A-1150-48AA-AD0D-639CD2A5AE75}.txt"
+
+[AB_Cache_{6616ABDB-54F0-45E5-8BCD-6BECA358F2EE}]
+Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{6616ABD"
+Cache_Path[Path] Line0002 = "B-54F0-45E5-8BCD-6BECA358F2EE}.txt"
+
+[AB_Cache_{A820FF19-55A3-4290-94E4-F7F0913A0619}]
+Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{A820FF1"
+Cache_Path[Path] Line0002 = "9-55A3-4290-94E4-F7F0913A0619}.txt"
 

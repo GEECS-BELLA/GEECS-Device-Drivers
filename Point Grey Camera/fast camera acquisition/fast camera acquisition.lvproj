@@ -10,6 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Calculate Image Quality.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/Calculate Image Quality.vi"/>
+			<Item Name="Create Empty Temp Folder.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/Create Empty Temp Folder.vi"/>
+			<Item Name="High Resolution Timer Helper.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/High Resolution Timer Helper.vi"/>
+			<Item Name="Increment Filename.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/Increment Filename.vi"/>
+			<Item Name="TDMS Async Close.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Async Close.vi"/>
+			<Item Name="TDMS File Initialization (Poly).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Poly).vi"/>
+			<Item Name="TDMS File Initialization (Read).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Read).vi"/>
+			<Item Name="TDMS File Initialization (Write).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Write).vi"/>
+			<Item Name="TDMS Global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Global.vi"/>
+			<Item Name="TDMS Read Data.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Read Data.ctl"/>
+			<Item Name="TDMS Read File.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Read File.vi"/>
+			<Item Name="TDMS Start New File.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Start New File.vi"/>
+			<Item Name="TDMS Write Settings.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write Settings.ctl"/>
+		</Item>
 		<Item Name="Acquire Every Image (Optimized Performance).vi" Type="VI" URL="../Acquire Every Image (Optimized Performance).vi"/>
 		<Item Name="Analyze all images in tdms file.vi" Type="VI" URL="../Analyze all images in tdms file.vi"/>
 		<Item Name="calc centroid and save to tdms.vi" Type="VI" URL="../calc centroid and save to tdms.vi"/>
@@ -50,6 +65,8 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
+				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ AVI2 Close" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Close"/>
 				<Item Name="IMAQ AVI2 Codec Path.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Codec Path.ctl"/>
 				<Item Name="IMAQ AVI2 Create" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Create"/>
@@ -109,8 +126,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="High Resolution Timer Helper.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/High Resolution Timer Helper.vi"/>
-			<Item Name="Increment Filename.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/Increment Filename.vi"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -120,13 +135,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TDMS File Initialization (Poly).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Poly).vi"/>
-			<Item Name="TDMS File Initialization (Read).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Read).vi"/>
-			<Item Name="TDMS File Initialization (Write).vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS File Initialization (Write).vi"/>
-			<Item Name="TDMS Global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Global.vi"/>
-			<Item Name="TDMS Read Data.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Read Data.ctl"/>
-			<Item Name="TDMS Start New File.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Start New File.vi"/>
-			<Item Name="TDMS Write Settings.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write Settings.ctl"/>
 			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../../Shared/Threshold and Centroid Image.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -295,7 +303,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A820FF19-55A3-4290-94E4-F7F0913A0619}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Fast camera acq tdms.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/Fast camera acq tdms.exe</Property>
@@ -306,7 +314,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{83E03AF1-8332-4E7B-8839-141035E4A7AF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F593DADA-AD80-4FE8-9B8D-F6A7B45D7A2F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream to TDMS Files (Optimized Performance) ajg.vi</Property>
@@ -315,7 +323,13 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SubVIs</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Fast camera acq tdms</Property>
 				<Property Name="TgtF_internalName" Type="Str">Fast camera acq tdms</Property>
