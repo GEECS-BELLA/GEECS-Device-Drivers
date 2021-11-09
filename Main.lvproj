@@ -295,6 +295,7 @@
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../General GUIs/General-Controler/any equal.vi"/>
+			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
 			<Item Name="Arguments to array.vi" Type="VI" URL="../shared/Arguments to array.vi"/>
 			<Item Name="autoIncrement001.vi" Type="VI" URL="../../Shared/autoIncrement001.vi"/>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../shared/BasicFGV_control.ctl"/>
@@ -398,6 +399,7 @@
 			<Item Name="SQL Server Info.vi" Type="VI" URL="../../Shared/MySQL/SQL Server Info.vi"/>
 			<Item Name="StartAndEndCommands.vi" Type="VI" URL="../shared/StartAndEndCommands.vi"/>
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../shared/stop FGV control.ctl"/>
+			<Item Name="string numbers in range.vi" Type="VI" URL="../../Shared/Device Driver/string numbers in range.vi"/>
 			<Item Name="stringToMsg(SM).vi" Type="VI" URL="../shared/stringToMsg(SM).vi"/>
 			<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../shared/SubscriberDataFGV.vi"/>
 			<Item Name="SubscriberSubVi.vi" Type="VI" URL="../../Shared/TCP/SubscriberSubVi.vi"/>
@@ -451,7 +453,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6BEC6A9-9298-4BFE-9CB2-34AAB288B9EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">109</Property>
+				<Property Name="Bld_version.build" Type="Int">110</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Device.exe</Property>
