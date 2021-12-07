@@ -239,10 +239,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B500012A-1150-48AA-AD0D-639CD2A5AE75}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">fast acquire centroid only.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/fast acquire centroid only.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">fast acquire centroid only v2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/fast acquire centroid only v2.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -250,7 +250,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{83E03AF1-8332-4E7B-8839-141035E4A7AF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3A4268F7-D0D0-49DD-A707-C9A0CB2C8651}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream to TDMS Files (Optimized Performance) ajg.vi</Property>
@@ -272,7 +272,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 LBL</Property>
 				<Property Name="TgtF_productName" Type="Str">Fast camera acq</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{2E517CAF-E0E4-489F-8A37-2B7E2D4AB0CD}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">fast acquire centroid only.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">fast acquire centroid only v2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="fast camera acq avi" Type="EXE">
