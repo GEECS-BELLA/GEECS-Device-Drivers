@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -25,16 +26,18 @@
 			<Item Name="TDMS Start New File.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Start New File.vi"/>
 			<Item Name="TDMS Write Settings.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write Settings.ctl"/>
 		</Item>
+		<Item Name="Parallel centroid calc (Optimized Performance) ajg.vi" Type="VI" URL="../Parallel centroid calc (Optimized Performance) ajg.vi"/>
 		<Item Name="Acquire Every Image (Optimized Performance).vi" Type="VI" URL="../Acquire Every Image (Optimized Performance).vi"/>
 		<Item Name="Analyze all images in tdms file.vi" Type="VI" URL="../Analyze all images in tdms file.vi"/>
 		<Item Name="calc centroid and save to tdms.vi" Type="VI" URL="../calc centroid and save to tdms.vi"/>
 		<Item Name="load tdms image from fast acquisition app.vi" Type="VI" URL="../load tdms image from fast acquisition app.vi"/>
-		<Item Name="Parallel centroid calc (Optimized Performance) ajg.vi" Type="VI" URL="../Parallel centroid calc (Optimized Performance) ajg.vi"/>
 		<Item Name="Stream to AVI Files (Optimized Performance) ajg.vi" Type="VI" URL="../Stream to AVI Files (Optimized Performance) ajg.vi"/>
 		<Item Name="Stream to Image Files (Optimized Performance) ajg.vi" Type="VI" URL="../Stream to Image Files (Optimized Performance) ajg.vi"/>
 		<Item Name="Stream to TDMS Files (Optimized Performance) ajg.vi" Type="VI" URL="../Stream to TDMS Files (Optimized Performance) ajg.vi"/>
 		<Item Name="TDMS Write File.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write File.vi"/>
 		<Item Name="test tdms write read simultaneously.vi" Type="VI" URL="../test tdms write read simultaneously.vi"/>
+		<Item Name="get date time string for filename.vi" Type="VI" URL="../get date time string for filename.vi"/>
+		<Item Name="299066_camera_icon.ico" Type="Document" URL="../299066_camera_icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
@@ -178,6 +181,59 @@
 			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../../Shared/Threshold and Centroid Image.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="fast acquire centroid only" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{997D2FE5-6AA7-4B36-988F-E5B8A2F26DD3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{19D3AEFE-E9AE-46E1-A4ED-2F6E6CB76333}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{80960949-81E9-4E39-A968-4BADCCF96A7B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">fast acquire centroid only</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B500012A-1150-48AA-AD0D-639CD2A5AE75}</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">fast acquire centroid only.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/fast acquire centroid only.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/299066_camera_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F627705A-4CB0-4A9D-A4CB-8F6AF9D26956}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream to TDMS Files (Optimized Performance) ajg.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Parallel centroid calc (Optimized Performance) ajg.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Fast camera acq</Property>
+				<Property Name="TgtF_internalName" Type="Str">Fast camera acq</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 LBL</Property>
+				<Property Name="TgtF_productName" Type="Str">Fast camera acq</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2E517CAF-E0E4-489F-8A37-2B7E2D4AB0CD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">fast acquire centroid only.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Analyze image centroids tdms" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{3AF990F0-1F71-4BE6-85FD-27A199A186FF}</Property>
@@ -221,58 +277,6 @@
 				<Property Name="TgtF_productName" Type="Str">Analyze image centroids tdms</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F52443C6-EE88-4BD1-8DFA-82ACEAEA7736}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Analyze image centroids tdms.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="fast acquire centroid only" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{997D2FE5-6AA7-4B36-988F-E5B8A2F26DD3}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{19D3AEFE-E9AE-46E1-A4ED-2F6E6CB76333}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.LBL.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{80960949-81E9-4E39-A968-4BADCCF96A7B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">fast acquire centroid only</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B500012A-1150-48AA-AD0D-639CD2A5AE75}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">fast acquire centroid only v2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/fast acquire centroid only v2.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{49DE20BF-FA43-4342-A23A-B6F5A04369A8}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream to TDMS Files (Optimized Performance) ajg.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Parallel centroid calc (Optimized Performance) ajg.vi</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Fast camera acq</Property>
-				<Property Name="TgtF_internalName" Type="Str">Fast camera acq</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 LBL</Property>
-				<Property Name="TgtF_productName" Type="Str">Fast camera acq</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{2E517CAF-E0E4-489F-8A37-2B7E2D4AB0CD}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">fast acquire centroid only v2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="fast camera acq avi" Type="EXE">
