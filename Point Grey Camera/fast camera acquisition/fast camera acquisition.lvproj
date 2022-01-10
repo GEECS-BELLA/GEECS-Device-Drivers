@@ -179,6 +179,7 @@
 			<Item Name="standard deviation from power spectrum.vi" Type="VI" URL="../fourier plus standard deviation/standard deviation from power spectrum.vi"/>
 			<Item Name="standard deviations from power spectrum array.vi" Type="VI" URL="../fourier plus standard deviation/standard deviations from power spectrum array.vi"/>
 			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../../Shared/Threshold and Centroid Image.vi"/>
+			<Item Name="FGV_Stop.vi" Type="VI" URL="../../../../Shared/Device Driver/FGV_Stop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="fast acquire centroid only" Type="EXE">
@@ -197,7 +198,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B500012A-1150-48AA-AD0D-639CD2A5AE75}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">fast acquire centroid only.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/fast acquire centroid only.exe</Property>
