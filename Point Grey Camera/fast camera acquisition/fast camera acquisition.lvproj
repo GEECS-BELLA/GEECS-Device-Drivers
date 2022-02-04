@@ -27,6 +27,7 @@
 			<Item Name="TDMS Write Settings.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Vision Acquisition/NI-IMAQdx/Stream to Disk/SubVIs/TDMS Write Settings.ctl"/>
 		</Item>
 		<Item Name="Parallel centroid calc (Optimized Performance) ajg.vi" Type="VI" URL="../Parallel centroid calc (Optimized Performance) ajg.vi"/>
+		<Item Name="Low rep rate beam pointing correction from kHz images.vi" Type="VI" URL="../Low rep rate beam pointing correction from kHz images.vi"/>
 		<Item Name="Acquire Every Image (Optimized Performance).vi" Type="VI" URL="../Acquire Every Image (Optimized Performance).vi"/>
 		<Item Name="Analyze all images in tdms file.vi" Type="VI" URL="../Analyze all images in tdms file.vi"/>
 		<Item Name="calc centroid and save to tdms.vi" Type="VI" URL="../calc centroid and save to tdms.vi"/>
@@ -195,6 +196,7 @@
 			<Item Name="standard deviations from power spectrum array.vi" Type="VI" URL="../fourier plus standard deviation/standard deviations from power spectrum array.vi"/>
 			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../../Shared/Threshold and Centroid Image.vi"/>
 			<Item Name="FGV_Stop.vi" Type="VI" URL="../../../../Shared/Device Driver/FGV_Stop.vi"/>
+			<Item Name="centroid calcluation.vi" Type="VI" URL="../centroid calcluation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="fast acquire centroid only" Type="EXE">
