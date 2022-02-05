@@ -40,6 +40,7 @@
 		<Item Name="get date time string for filename.vi" Type="VI" URL="../get date time string for filename.vi"/>
 		<Item Name="299066_camera_icon.ico" Type="Document" URL="../299066_camera_icon.ico"/>
 		<Item Name="synchronize capture with burst.vi" Type="VI" URL="../synchronize capture with burst.vi"/>
+		<Item Name="calc centroid predict and correct.vi" Type="VI" URL="../calc centroid predict and correct.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
