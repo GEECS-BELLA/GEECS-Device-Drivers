@@ -85,6 +85,8 @@
 		<Item Name="compress to 8 bit slow.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit slow.vi"/>
 		<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
 		<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../GUIcompressionCluster.ctl"/>
+		<Item Name="Analyze all images in GEECS tdms file.vi" Type="VI" URL="../Analyze all images in GEECS tdms file.vi"/>
+		<Item Name="call async convert tdms to png.vi" Type="VI" URL="../call async convert tdms to png.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -198,7 +200,6 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
 				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
@@ -215,6 +216,18 @@
 				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
 				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
+				<Item Name="socket_type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_type.ctl"/>
+				<Item Name="zmq_ctx_create.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_create.vi"/>
+				<Item Name="zmq_socket.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_socket.vi"/>
+				<Item Name="zmq_bind.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_bind.vi"/>
+				<Item Name="zmq_send.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_send.vi"/>
+				<Item Name="zmq_send_multi.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_send_multi.vi"/>
+				<Item Name="socket_options.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_options.ctl"/>
+				<Item Name="zmq_connect.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_connect.vi"/>
+				<Item Name="zmq_recv.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv.vi"/>
+				<Item Name="zmq_recv_multi.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv_multi.vi"/>
+				<Item Name="zmq_close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_close.vi"/>
+				<Item Name="zmq_setsocketopt.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_setsocketopt.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
@@ -500,6 +513,8 @@
 				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
 				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="MGI Write Spreadsheet Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Spreadsheet/MGI Write Spreadsheet Behavior Enum.ctl"/>
+				<Item Name="MGI Write Spreadsheet File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Spreadsheet/MGI Write Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="checkSubscriberList.vi" Type="VI" URL="../../shared/checkSubscriberList.vi"/>
 			<Item Name="connectiondata_typdef.ctl" Type="VI" URL="../../shared/connectiondata_typdef.ctl"/>
@@ -877,6 +892,9 @@
 			<Item Name="Issue Software Trigger.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Issue Software Trigger.vi"/>
 			<Item Name="Disarm TLCamera.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Disarm TLCamera.vi"/>
 			<Item Name="Close TLCameraSDK.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Close TLCameraSDK.vi"/>
+			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
+			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
+			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../Shared/Threshold and Centroid Image.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Point Grey Camera" Type="Source Distribution">
