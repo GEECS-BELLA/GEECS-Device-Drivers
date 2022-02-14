@@ -85,7 +85,7 @@
 		<Item Name="compress to 8 bit slow.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit slow.vi"/>
 		<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
 		<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../GUIcompressionCluster.ctl"/>
-		<Item Name="Analyze all images in GEECS tdms file.vi" Type="VI" URL="../Analyze all images in GEECS tdms file.vi"/>
+		<Item Name="Convert all images in GEECS tdms file to png.vi" Type="VI" URL="../Convert all images in GEECS tdms file to png.vi"/>
 		<Item Name="call async convert tdms to png.vi" Type="VI" URL="../call async convert tdms to png.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
