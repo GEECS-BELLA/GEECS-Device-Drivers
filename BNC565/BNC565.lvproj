@@ -588,7 +588,7 @@
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
-			<Item Name="DeviceBNV565" Type="EXE">
+			<Item Name="DeviceBNC565" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{97E9E308-540F-4C90-AE02-383FF0C8CB00}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{23EE8060-FDC8-4F5D-B839-458B272129BF}</Property>
@@ -597,17 +597,17 @@
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C91088EC-6531-4C14-B1F9-9C680A068F71}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DeviceBNV565</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DeviceBNC565</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{82C7C93F-ACFC-43BA-B7BB-6354CF087239}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DeviceBNV565.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceBNV565.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceBNC565.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceBNC565.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -615,7 +615,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7CEE2E8F-6413-44F0-9175-B728B5DB06E1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{41769F23-8D95-4964-A632-9EA76198ADFF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control_BNC565.vi</Property>
@@ -640,12 +640,12 @@
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DeviceBNV565</Property>
-				<Property Name="TgtF_internalName" Type="Str">DeviceBNV565</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DeviceBNC565</Property>
+				<Property Name="TgtF_internalName" Type="Str">DeviceBNC565</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Wakefield Engineering</Property>
-				<Property Name="TgtF_productName" Type="Str">DeviceBNV565</Property>
+				<Property Name="TgtF_productName" Type="Str">DeviceBNC565</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{55470780-7416-41B2-9AC6-970441FDD365}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DeviceBNV565.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceBNC565.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
