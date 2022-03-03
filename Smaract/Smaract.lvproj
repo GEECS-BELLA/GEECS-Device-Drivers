@@ -28,6 +28,8 @@
 		<Item Name="Wait for Motion Complete.vi" Type="VI" URL="../Wait for Motion Complete.vi"/>
 		<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
 		<Item Name="Device_control_Smaract.vi" Type="VI" URL="../Device_control_Smaract.vi"/>
+		<Item Name="FGV Smaract Acquire.vi" Type="VI" URL="../../shared/FGV Smaract Acquire.vi"/>
+		<Item Name="Smaract acquire fgv.ctl" Type="VI" URL="../Smaract acquire fgv.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -620,7 +622,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83F4F99E-C176-425B-87EF-257EEDF91A85}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceSmaract.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceSmaract.exe</Property>
