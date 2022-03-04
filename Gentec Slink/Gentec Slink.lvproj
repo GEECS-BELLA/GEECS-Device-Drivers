@@ -29,6 +29,7 @@
 		<Item Name="Serial Commands Slink.ctl" Type="VI" URL="../Serial Commands Slink.ctl"/>
 		<Item Name="sclae_typdef.ctl" Type="VI" URL="../sclae_typdef.ctl"/>
 		<Item Name="Status Smart Read.vi" Type="VI" URL="../Status Smart Read.vi"/>
+		<Item Name="Simple example.vi" Type="VI" URL="../Simple example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -616,7 +617,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0B6F04B-F032-45CE-985D-A1D1B95E3D35}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceGentec Slink.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceGentec Slink.exe</Property>
@@ -721,6 +722,48 @@
 				<Property Name="TgtF_productName" Type="Str">Gentec S link example app</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{35B03696-A876-491B-8D46-C5A4BA949C3E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Gentec S link example app.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Gentec simple example" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{848AB466-A2E8-4CF6-B1BE-981FE450C836}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{779A7EF9-9588-4734-AA0B-5B3C72FE4084}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FF13BFCB-3CD9-4A8B-B56B-89E6F2756819}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Gentec simple example</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Gentec simple example</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7FF736E5-ADAC-488A-B075-4B3E25DC6DC8}</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Gentec simple example.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Gentec simple example/Gentec simple example.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Gentec simple example/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BD184DC9-8EB7-494E-92E3-F4856A2EFE20}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simple example.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Gentec simple example</Property>
+				<Property Name="TgtF_internalName" Type="Str">Gentec simple example</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Wakefield Engineering</Property>
+				<Property Name="TgtF_productName" Type="Str">Gentec simple example</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B7A44B88-D39A-441D-BADA-4FB0400C59F0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Gentec simple example.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
