@@ -1,0 +1,11 @@
+Query for all 3 axis positions; TP
+retuns 0.000,0.000,1.000\r\n
+
+
+Query for all 3 axis status (on/OFF Status); MO
+returns 1,1,1\r\n
+
+Motion status Commands, 1MD? cannot query all at the same time
+returns 1\r\n
+
+Turn off all motors at once; MF

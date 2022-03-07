@@ -18,6 +18,7 @@
 			<Item Name="Read Scale Ch 2.vi" Type="VI" URL="../Sub vis/Labview Driver for S-Link (VISA).llb/Read Scale Ch 2.vi"/>
 			<Item Name="Read.vi" Type="VI" URL="../Sub vis/Labview Driver for S-Link (VISA).llb/Read.vi"/>
 		</Item>
+		<Item Name="Simple example.vi" Type="VI" URL="../Simple example.vi"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="Device_control_Slink.vi" Type="VI" URL="../Device_control_Slink.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
@@ -29,7 +30,7 @@
 		<Item Name="Serial Commands Slink.ctl" Type="VI" URL="../Serial Commands Slink.ctl"/>
 		<Item Name="sclae_typdef.ctl" Type="VI" URL="../sclae_typdef.ctl"/>
 		<Item Name="Status Smart Read.vi" Type="VI" URL="../Status Smart Read.vi"/>
-		<Item Name="Simple example.vi" Type="VI" URL="../Simple example.vi"/>
+		<Item Name="slink read energy w termination chars.vi" Type="VI" URL="../Sub vis/slink read energy w termination chars.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -617,7 +618,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0B6F04B-F032-45CE-985D-A1D1B95E3D35}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceGentec Slink.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceGentec Slink.exe</Property>
@@ -739,7 +740,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Gentec simple example</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7FF736E5-ADAC-488A-B075-4B3E25DC6DC8}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Gentec simple example.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Gentec simple example/Gentec simple example.exe</Property>
