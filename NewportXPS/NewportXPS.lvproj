@@ -378,7 +378,6 @@
 			<Item Name="createCommandListForCommandCase.vi" Type="VI" URL="../../shared/createCommandListForCommandCase.vi"/>
 			<Item Name="FGV PATH.vi" Type="VI" URL="../../shared/FGV PATH.vi"/>
 			<Item Name="checkCVTvsSetValue.vi" Type="VI" URL="../../shared/checkCVTvsSetValue.vi"/>
-			<Item Name="Delay.vi" Type="VI" URL="../../shared/Delay.vi"/>
 			<Item Name="numericVariable_control.ctl" Type="VI" URL="../../shared/numericVariable_control.ctl"/>
 			<Item Name="Device status FGV control.ctl" Type="VI" URL="../../shared/Device status FGV control.ctl"/>
 			<Item Name="DisplaySettableVariables.vi" Type="VI" URL="../../BaseDriver/DisplaySettableVariables.vi"/>
@@ -424,8 +423,6 @@
 			<Item Name="GetCompressionTypes.vi" Type="VI" URL="../../shared/GetCompressionTypes.vi"/>
 			<Item Name="CompressAndUpdate(Numeric).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(Numeric).vi"/>
 			<Item Name="removeFromQueue.vi" Type="VI" URL="../../shared/removeFromQueue.vi"/>
-			<Item Name="Serial Commands.ctl" Type="VI" URL="../../Gentec Plink/Serial Commands.ctl"/>
-			<Item Name="Send.vi" Type="VI" URL="../../Gentec Plink/LabviewDriversForOEMLaserMonitor (VISA).llb/Send.vi"/>
 			<Item Name="CompressAndUpdate(Enum).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(Enum).vi"/>
 			<Item Name="CompressAndUpdate(ScopeTraceBinary).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(ScopeTraceBinary).vi"/>
 			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../shared/scopeTraceInfo_TypDEf.ctl"/>
@@ -456,11 +453,6 @@
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Visa Smart.vi" Type="VI" URL="../Read Visa Smart.vi"/>
-			<Item Name="Open TCP-IP.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Open TCP-IP.vi"/>
-			<Item Name="Positioner Group Position Current Get.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Position Current Get.vi"/>
-			<Item Name="Close TCP-IP.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Close TCP-IP.vi"/>
-			<Item Name="Positioner Group Move Absolute.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Move Absolute.vi"/>
 			<Item Name="BuildPresetCommands.vi" Type="VI" URL="../../shared/BuildPresetCommands.vi"/>
 			<Item Name="updateVarFromDBData.vi" Type="VI" URL="../../shared/updateVarFromDBData.vi"/>
 			<Item Name="getStringANdTYpE.vi" Type="VI" URL="../../shared/getStringANdTYpE.vi"/>
@@ -539,15 +531,10 @@
 			<Item Name="SQL Insert.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert.vi"/>
 			<Item Name="SQL Update.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Update.vi"/>
 			<Item Name="Popup with timeout.vi" Type="VI" URL="../../../Shared/Popup with timeout.vi"/>
-			<Item Name="File Open Log.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/File Open Log.vi"/>
 			<Item Name="losslessCompression.vi" Type="VI" URL="../../../Shared/losslessCompression.vi"/>
 			<Item Name="compress image to 65k_StateM.vi" Type="VI" URL="../../../Shared/TCP/compress image to 65k_StateM.vi"/>
 			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
-			<Item Name="Read TCP data.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Read TCP data.vi"/>
-			<Item Name="SuppBlank.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/SuppBlank.vi"/>
-			<Item Name="File Write Log.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/File Write Log.vi"/>
-			<Item Name="Write TCP data.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Write TCP data.vi"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
@@ -565,6 +552,16 @@
 			<Item Name="parsed device cmd.ctl" Type="VI" URL="../../shared/parsed device cmd.ctl"/>
 			<Item Name="Config case parse cmd.vi" Type="VI" URL="../../shared/Config case parse cmd.vi"/>
 			<Item Name="unbundle config parse cmd.vi" Type="VI" URL="../../shared/cluster command/unbundle config parse cmd.vi"/>
+			<Item Name="Delay.vi" Type="VI" URL="../../shared/Delay.vi"/>
+			<Item Name="Positioner Group Move Absolute.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Move Absolute.vi"/>
+			<Item Name="Positioner Group Position Current Get.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Position Current Get.vi"/>
+			<Item Name="Close TCP-IP.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Close TCP-IP.vi"/>
+			<Item Name="Open TCP-IP.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Open TCP-IP.vi"/>
+			<Item Name="Read TCP data.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Read TCP data.vi"/>
+			<Item Name="Write TCP data.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Write TCP data.vi"/>
+			<Item Name="File Open Log.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/File Open Log.vi"/>
+			<Item Name="File Write Log.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/File Write Log.vi"/>
+			<Item Name="SuppBlank.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/SuppBlank.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewportXPS" Type="Source Distribution">
