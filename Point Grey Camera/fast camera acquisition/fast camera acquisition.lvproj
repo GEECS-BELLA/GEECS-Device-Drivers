@@ -48,6 +48,8 @@
 		<Item Name="tmds_Burst_Save_Test.vi" Type="VI" URL="../tmds_Burst_Save_Test.vi"/>
 		<Item Name="Python Predict.vi" Type="VI" URL="../Python Predict.vi"/>
 		<Item Name="tdms viewer.vi" Type="VI" URL="../tdms viewer.vi"/>
+		<Item Name="Low rep rate beam pointing correction from kHz images_TBDEL.vi" Type="VI" URL="../Low rep rate beam pointing correction from kHz images_TBDEL.vi"/>
+		<Item Name="calc centroid predict and correct_TBDEL.vi" Type="VI" URL="../calc centroid predict and correct_TBDEL.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
@@ -207,6 +209,11 @@
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 			</Item>
 			<Item Name="fourier plus standard deviation HASO.vi" Type="VI" URL="../fourier plus standard deviation/fourier plus standard deviation HASO.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -225,6 +232,8 @@
 			<Item Name="Threshold and Centroid Image.vi" Type="VI" URL="../../../../Shared/Threshold and Centroid Image.vi"/>
 			<Item Name="FGV_Stop.vi" Type="VI" URL="../../../../Shared/Device Driver/FGV_Stop.vi"/>
 			<Item Name="centroid calcluation.vi" Type="VI" URL="../centroid calcluation.vi"/>
+			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../Thorlabs.MotionControl.Controls.dll"/>
+			<Item Name="Thorlabs.MotionControl.KCube.PiezoCLI.dll" Type="Document" URL="../Thorlabs.MotionControl.KCube.PiezoCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="fast acquire centroid only" Type="EXE">
