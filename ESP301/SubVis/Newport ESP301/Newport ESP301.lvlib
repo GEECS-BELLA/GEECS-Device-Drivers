@@ -10,18 +10,18 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Filter" Type="Folder">
-			<Item Name="Get Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Get Acceleration Feed-Forward Gain.vi"/>
-			<Item Name="Get Velocity Feed-Forward Gain.vi" Type="VI" URL="../Get Velocity Feed-Forward Gain.vi"/>
-			<Item Name="Set Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Set Acceleration Feed-Forward Gain.vi"/>
-			<Item Name="Set Velocity Feed-Forward Gain.vi" Type="VI" URL="../Set Velocity Feed-Forward Gain.vi"/>
+			<Item Name="Get Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Get Acceleration Feed-Forward Gain.vi"/>
+			<Item Name="Get Velocity Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Get Velocity Feed-Forward Gain.vi"/>
+			<Item Name="Set Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Set Acceleration Feed-Forward Gain.vi"/>
+			<Item Name="Set Velocity Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Set Velocity Feed-Forward Gain.vi"/>
 		</Item>
 		<Item Name="Flow Control &amp; Sequencing" Type="Folder"/>
 		<Item Name="General Mode Selection" Type="Folder">
 			<Item Name="Enable Disable Motor.vi" Type="VI" URL="../Public/General Mode Selection/Enable Disable Motor.vi"/>
-			<Item Name="Get DAC Offset.vi" Type="VI" URL="../Get DAC Offset.vi"/>
+			<Item Name="Get DAC Offset.vi" Type="VI" URL="../Public/General Mode Selection/Get DAC Offset.vi"/>
 			<Item Name="Get Motor Power Status.vi" Type="VI" URL="../Public/General Mode Selection/Get Motor Power Status.vi"/>
 			<Item Name="Reset.vi" Type="VI" URL="../Public/General Mode Selection/Reset.vi"/>
-			<Item Name="Set DAC Offset.vi" Type="VI" URL="../Set DAC Offset.vi"/>
+			<Item Name="Set DAC Offset.vi" Type="VI" URL="../Public/General Mode Selection/Set DAC Offset.vi"/>
 			<Item Name="Set Trajectory Mode.vi" Type="VI" URL="../Public/General Mode Selection/Set Trajectory Mode.vi"/>
 		</Item>
 		<Item Name="Group" Type="Folder"/>
@@ -29,13 +29,13 @@
 		<Item Name="Master Slave" Type="Folder">
 			<Item Name="Define Master Slave Relationship.vi" Type="VI" URL="../Public/Master Slave/Define Master Slave Relationship.vi"/>
 			<Item Name="Get Master-Slave Reduction Ratio.vi" Type="VI" URL="../Public/Master Slave/Get Master-Slave Reduction Ratio.vi"/>
-			<Item Name="Get Master-Slave Relationship.vi" Type="VI" URL="../Get Master-Slave Relationship.vi"/>
-			<Item Name="Get Master-Slave Velocity Update Interval.vi" Type="VI" URL="../Get Master-Slave Velocity Update Interval.vi"/>
+			<Item Name="Get Master-Slave Relationship.vi" Type="VI" URL="../Public/Master Slave/Get Master-Slave Relationship.vi"/>
+			<Item Name="Get Master-Slave Velocity Update Interval.vi" Type="VI" URL="../Public/Master Slave/Get Master-Slave Velocity Update Interval.vi"/>
 			<Item Name="Set Master-Slave Reduction Ratio.vi" Type="VI" URL="../Public/Master Slave/Set Master-Slave Reduction Ratio.vi"/>
 		</Item>
 		<Item Name="Motion And Position Control" Type="Folder">
 			<Item Name="Define Home.vi" Type="VI" URL="../Define Home.vi"/>
-			<Item Name="Move Relative.vi" Type="VI" URL="../Move Relative.vi"/>
+			<Item Name="Move Relative.vi" Type="VI" URL="../Public/Motion And Position Control/Move Relative.vi"/>
 			<Item Name="Stop Motion.vi" Type="VI" URL="../Public/Motion And Position Control/Stop Motion.vi"/>
 		</Item>
 		<Item Name="Motion Device" Type="Folder"/>
@@ -47,15 +47,15 @@
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Status/Revision Query.vi"/>
 		</Item>
 		<Item Name="Trajectory" Type="Folder">
-			<Item Name="Get Acceleration.vi" Type="VI" URL="../Get Acceleration.vi"/>
-			<Item Name="Get Deceleration.vi" Type="VI" URL="../Get Deceleration.vi"/>
-			<Item Name="Get Maximum Acceleration and Deceleration.vi" Type="VI" URL="../Get Maximum Acceleration and Deceleration.vi"/>
-			<Item Name="Get Maximum Velocity.vi" Type="VI" URL="../Get Maximum Velocity.vi"/>
+			<Item Name="Get Acceleration.vi" Type="VI" URL="../Public/Trajectory/Get Acceleration.vi"/>
+			<Item Name="Get Deceleration.vi" Type="VI" URL="../Public/Trajectory/Get Deceleration.vi"/>
+			<Item Name="Get Maximum Acceleration and Deceleration.vi" Type="VI" URL="../Public/Trajectory/Get Maximum Acceleration and Deceleration.vi"/>
+			<Item Name="Get Maximum Velocity.vi" Type="VI" URL="../Public/Trajectory/Get Maximum Velocity.vi"/>
 			<Item Name="Get Velocity.vi" Type="VI" URL="../Get Velocity.vi"/>
 			<Item Name="Set Acceleration.vi" Type="VI" URL="../Public/Trajectory/Set Acceleration.vi"/>
 			<Item Name="Set Deceleration.vi" Type="VI" URL="../Public/Trajectory/Set Deceleration.vi"/>
-			<Item Name="Set Maximum Acceleration and Deceleration.vi" Type="VI" URL="../Set Maximum Acceleration and Deceleration.vi"/>
-			<Item Name="Set Maximum Velocity.vi" Type="VI" URL="../Set Maximum Velocity.vi"/>
+			<Item Name="Set Maximum Acceleration and Deceleration.vi" Type="VI" URL="../Public/Trajectory/Set Maximum Acceleration and Deceleration.vi"/>
+			<Item Name="Set Maximum Velocity.vi" Type="VI" URL="../Public/Trajectory/Set Maximum Velocity.vi"/>
 			<Item Name="Set Velocity.vi" Type="VI" URL="../Public/Trajectory/Set Velocity.vi"/>
 		</Item>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>

@@ -15,6 +15,7 @@
 		<Item Name="Device_control_ESP301.vi" Type="VI" URL="../../Device_control_ESP301.vi"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="ESP301.lvclass" Type="LVClass" URL="../ESP301.lvclass"/>
+		<Item Name="ESP302.lvclass" Type="LVClass" URL="../ESP302.lvclass"/>
 		<Item Name="status_TypDef.ctl" Type="VI" URL="../SubVis/status_TypDef.ctl"/>
 		<Item Name="Set Motor ON.vi" Type="VI" URL="../Set Motor ON.vi"/>
 		<Item Name="Set Motor OFF.vi" Type="VI" URL="../Set Motor OFF.vi"/>
@@ -26,6 +27,9 @@
 		<Item Name="write command and read multiple.vi" Type="VI" URL="../SubVis/Newport ESP301/Private/write command and read multiple.vi"/>
 		<Item Name="testESP302.vi" Type="VI" URL="../testESP302.vi"/>
 		<Item Name="Check If Valid response.vi" Type="VI" URL="../Check If Valid response.vi"/>
+		<Item Name="Write Command and Read_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Write Command and Read_ESP302.vi"/>
+		<Item Name="Close_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Close_ESP302.vi"/>
+		<Item Name="Define Home_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Define Home_ESP302.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -519,20 +523,10 @@
 			<Item Name="Update Motor Driver Settings.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/General Mode Selection/Update Motor Driver Settings.vi"/>
 			<Item Name="Set Motor Type.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion Device/Set Motor Type.vi"/>
 			<Item Name="Get Motor Type.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion Device/Get Motor Type.vi"/>
-			<Item Name="Set Maximum Velocity.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Set Maximum Velocity.vi"/>
-			<Item Name="Get Maximum Velocity.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Maximum Velocity.vi"/>
-			<Item Name="Get Velocity Feed-Forward Gain.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Filter/Get Velocity Feed-Forward Gain.vi"/>
-			<Item Name="Set Velocity Feed-Forward Gain.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Filter/Set Velocity Feed-Forward Gain.vi"/>
 			<Item Name="Set Base Velocity For Step Motor.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Set Base Velocity For Step Motor.vi"/>
 			<Item Name="Get Base Velocity For Step Motor.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Base Velocity For Step Motor.vi"/>
-			<Item Name="Get Acceleration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Acceleration.vi"/>
-			<Item Name="Get Deceleration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Deceleration.vi"/>
 			<Item Name="Set E-stop Deceleration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Set E-stop Deceleration.vi"/>
 			<Item Name="Get E-stop Decelaration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get E-stop Decelaration.vi"/>
-			<Item Name="Set Maximum Acceleration and Deceleration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Set Maximum Acceleration and Deceleration.vi"/>
-			<Item Name="Get Maximum Acceleration and Deceleration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Maximum Acceleration and Deceleration.vi"/>
-			<Item Name="Set Acceleration Feed-Forward Gain.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Filter/Set Acceleration Feed-Forward Gain.vi"/>
-			<Item Name="Get Acceleration Feed-Forward Gain.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Filter/Get Acceleration Feed-Forward Gain.vi"/>
 			<Item Name="Set Left Travel Limit.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion Device/Set Left Travel Limit.vi"/>
 			<Item Name="Get Left Travel Limit.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion Device/Get Left Travel Limit.vi"/>
 			<Item Name="Set Right Travel Limit.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion Device/Set Right Travel Limit.vi"/>
@@ -543,8 +537,6 @@
 			<Item Name="Get Position Deadband.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Filter/Get Position Deadband.vi"/>
 			<Item Name="Set Linear Compensation.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Set Linear Compensation.vi"/>
 			<Item Name="Get Linear Compensation.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Linear Compensation.vi"/>
-			<Item Name="Set DAC Offset.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/General Mode Selection/Set DAC Offset.vi"/>
-			<Item Name="Get DAC Offset.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/General Mode Selection/Get DAC Offset.vi"/>
 			<Item Name="Set Jerk Rate.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Set Jerk Rate.vi"/>
 			<Item Name="Get Jerk Rate.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Jerk Rate.vi"/>
 			<Item Name="Update Servo Filter.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Filter/Update Servo Filter.vi"/>
@@ -582,7 +574,6 @@
 			<Item Name="Set Group E-Stop Decceleration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Group/Set Group E-Stop Decceleration.vi"/>
 			<Item Name="Get Group E-Stop Decceleration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Group/Get Group E-Stop Decceleration.vi"/>
 			<Item Name="Read Group Size.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Group/Read Group Size.vi"/>
-			<Item Name="Get Master-Slave Relationship.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Master Slave/Get Master-Slave Relationship.vi"/>
 			<Item Name="Assign DIO Bits For Jog Mode.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/IO/Assign DIO Bits For Jog Mode.vi"/>
 			<Item Name="Get DIO Bits For Jog Mode Assignement.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/IO/Get DIO Bits For Jog Mode Assignement.vi"/>
 			<Item Name="Assign DIO Bits to Execute Stored Program.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/IO/Assign DIO Bits to Execute Stored Program.vi"/>
@@ -632,7 +623,6 @@
 			<Item Name="Quit Program Mode.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Programming/Quit Program Mode.vi"/>
 			<Item Name="List Program.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Programming/List Program.vi"/>
 			<Item Name="Get Hardware Status.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Status/Get Hardware Status.vi"/>
-			<Item Name="Move Relative.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion And Position Control/Move Relative.vi"/>
 			<Item Name="Move Indefinitely.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion And Position Control/Move Indefinitely.vi"/>
 			<Item Name="Move To Nearest Index.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion And Position Control/Move To Nearest Index.vi"/>
 			<Item Name="Abort Motion.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Motion And Position Control/Abort Motion.vi"/>
@@ -659,7 +649,6 @@
 			<Item Name="Set Jog Low Speed.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Set Jog Low Speed.vi"/>
 			<Item Name="Get Jog Low Speed.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Trajectory/Get Jog Low Speed.vi"/>
 			<Item Name="Set Master-Slave Jog Velocity Update Interval.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Master Slave/Set Master-Slave Jog Velocity Update Interval.vi"/>
-			<Item Name="Get Master-Slave Velocity Update Interval.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Master Slave/Get Master-Slave Velocity Update Interval.vi"/>
 			<Item Name="Set Master-Slave Jog Velocity Scalling Coefficients.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Master Slave/Set Master-Slave Jog Velocity Scalling Coefficients.vi"/>
 			<Item Name="Get Master Slave Jog Velocity Scalling Coefficients.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Master Slave/Get Master Slave Jog Velocity Scalling Coefficients.vi"/>
 			<Item Name="Set Feedback Configuration.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/General Mode Selection/Set Feedback Configuration.vi"/>
@@ -754,6 +743,8 @@
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
 			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
 			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
+			<Item Name="Initialize_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Initialize_ESP302.vi"/>
+			<Item Name="Error Query_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Error Query_ESP302.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ESP301" Type="Source Distribution">
