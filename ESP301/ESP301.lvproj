@@ -19,17 +19,16 @@
 		<Item Name="status_TypDef.ctl" Type="VI" URL="../SubVis/status_TypDef.ctl"/>
 		<Item Name="Set Motor ON.vi" Type="VI" URL="../Set Motor ON.vi"/>
 		<Item Name="Set Motor OFF.vi" Type="VI" URL="../Set Motor OFF.vi"/>
+		<Item Name="Close_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Close_ESP302.vi"/>
+		<Item Name="Write Command and Read_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Write Command and Read_ESP302.vi"/>
+		<Item Name="testESP302.vi" Type="VI" URL="../testESP302.vi"/>
 		<Item Name="Hardware limit.ctl" Type="VI" URL="../SubVis/Hardware limit.ctl"/>
 		<Item Name="activeflag.ctl" Type="VI" URL="../SubVis/activeflag.ctl"/>
 		<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/VI Tree.vi"/>
-		<Item Name="Get Motor Power Status_all.vi" Type="VI" URL="../SubVis/Get Motor Power Status_all.vi"/>
 		<Item Name="write command and read multiple.vi" Type="VI" URL="../SubVis/Newport ESP301/Private/write command and read multiple.vi"/>
-		<Item Name="testESP302.vi" Type="VI" URL="../testESP302.vi"/>
 		<Item Name="Check If Valid response.vi" Type="VI" URL="../Check If Valid response.vi"/>
-		<Item Name="Write Command and Read_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Write Command and Read_ESP302.vi"/>
-		<Item Name="Close_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Close_ESP302.vi"/>
-		<Item Name="Define Home_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Define Home_ESP302.vi"/>
+		<Item Name="Set Motor OFF ESP302.vi" Type="VI" URL="../Set Motor OFF ESP302.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -289,6 +288,7 @@
 				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -664,7 +664,6 @@
 			<Item Name="Add and Update Devicetype Variable in DB.vi" Type="VI" URL="../../shared/Add and Update Devicetype Variable in DB.vi"/>
 			<Item Name="Read Settings Cluster.vi" Type="VI" URL="../../shared/Read Settings Cluster.vi"/>
 			<Item Name="AddorEdit Devicetype Variable.vi" Type="VI" URL="../../shared/AddorEdit Devicetype Variable.vi"/>
-			<Item Name="Read Actual Position_all.vi" Type="VI" URL="../SubVis/Newport ESP301/Public/Status/Read Actual Position_all.vi"/>
 			<Item Name="Is Value a number.vi" Type="VI" URL="../../../Shared/Is Value a number.vi"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
 			<Item Name="preset SQL Queries.vi" Type="VI" URL="../../../Shared/MySQL/preset SQL Queries.vi"/>
@@ -814,7 +813,7 @@
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/VI Tree.vi</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Get Motor Power Status_all.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/ESP301.lvclass/SubVIs/Get Motor Power Status_all.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
