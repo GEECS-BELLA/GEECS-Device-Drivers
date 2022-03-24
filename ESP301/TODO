@@ -1,0 +1,5 @@
+TODO for ESP302 and 301
+
+1. Create Device Variable (Position.Axis..) if already does not exist in the device close->Save To DB vi
+2. Async Acquire loop (Copy from Smaract)
+3. Delete ESP302 init hardware override VI and only overide the hardware wrapper driver VIs
