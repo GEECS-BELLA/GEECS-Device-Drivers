@@ -15,7 +15,7 @@
 		<Item Name="Device_control_ESP301.vi" Type="VI" URL="../../Device_control_ESP301.vi"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="ESP301.lvclass" Type="LVClass" URL="../ESP301.lvclass"/>
-		<Item Name="ESP302.lvclass" Type="LVClass" URL="../ESP302.lvclass"/>
+		<Item Name="ESP302.lvclass" Type="LVClass" URL="../../ESP302/ESP302.lvclass"/>
 		<Item Name="status_TypDef.ctl" Type="VI" URL="../SubVis/status_TypDef.ctl"/>
 		<Item Name="Set Motor ON.vi" Type="VI" URL="../Set Motor ON.vi"/>
 		<Item Name="Set Motor OFF.vi" Type="VI" URL="../Set Motor OFF.vi"/>
