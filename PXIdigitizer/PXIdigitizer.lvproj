@@ -164,8 +164,6 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
-				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
-				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
@@ -173,6 +171,13 @@
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="IMAQ Write String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write String"/>
+				<Item Name="IMAQ Write JPEG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG String"/>
+				<Item Name="IMAQ Write PNG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG String"/>
+				<Item Name="IMAQ Write Image And Vision Info String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info String"/>
+				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
+				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
+				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
@@ -727,11 +732,18 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
+			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
+			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
+			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
+			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
+			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../../Point Grey Camera/GUIcompressionCluster.ctl"/>
+			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+			<Item Name="mean.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/mean.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PXIdigitizer" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{44A0A40C-88F6-4206-8EC5-321174DCE6D7}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Added case for the background subtract that handles 0 points (does no background subtract for integration). Added setting for number of background points</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">added the mean method for analysis</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">PXIdigitizer</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -744,7 +756,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F6728FF4-6C83-45AA-B94B-D4E1C6116B6D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9E88D86F-D007-4411-ADED-212A6D51931F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
