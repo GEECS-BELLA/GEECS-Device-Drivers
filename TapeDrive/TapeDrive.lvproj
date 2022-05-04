@@ -17,7 +17,6 @@
 		<Item Name="changeDirection(Tape).vi" Type="VI" URL="../changeDirection(Tape).vi"/>
 		<Item Name="Step(Tape).vi" Type="VI" URL="../Step(Tape).vi"/>
 		<Item Name="AquireTape.vi" Type="VI" URL="../AquireTape.vi"/>
-		<Item Name="TapeTestProgram.vi" Type="VI" URL="../TapeTestProgram.vi"/>
 		<Item Name="getSalveMaster.vi" Type="VI" URL="../getSalveMaster.vi"/>
 		<Item Name="INitTape.vi" Type="VI" URL="../INitTape.vi"/>
 		<Item Name="TapeCluster_TypDEf.ctl" Type="VI" URL="../TapeCluster_TypDEf.ctl"/>
@@ -825,21 +824,21 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{7963C405-2892-4DF5-AFC4-B8571862F308}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DeviceTapeDrive</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/source/Builds Devices/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{992730FA-AEB5-4483-8FBB-96880B39E7A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceTapeDrive.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceTapeDrive.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/source/Builds Devices/Device/DeviceTapeDrive.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/source/Builds Devices/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{32CEF43B-CFE7-431D-8C10-47050A30F198}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F7A3DDB0-D043-4C4A-B9DB-B880232B4DD4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DeviceTapeDrive.vi</Property>
@@ -906,29 +905,29 @@
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/TapeTestProgram.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/AquireTape.vi</Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/AquireTape.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Step(Tape).vi</Property>
 				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Step(Tape).vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/changeDirection(Tape).vi</Property>
 				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/changeDirection(Tape).vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/TapeDrive.lvclass</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[27].type" Type="Str">VI</Property>
+				<Property Name="Source[27].type" Type="Str">Library</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/TapeDrive.lvclass</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
 				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[28].type" Type="Str">Library</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/sendAndWaitForResponse.vi</Property>
 				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[29].type" Type="Str">Library</Property>
+				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Listen to slow UDP and parse error_in sendCommand.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
