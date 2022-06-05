@@ -29,6 +29,8 @@
 		<Item Name="write command and read multiple.vi" Type="VI" URL="../SubVis/Newport ESP301/Private/write command and read multiple.vi"/>
 		<Item Name="Check If Valid response.vi" Type="VI" URL="../Check If Valid response.vi"/>
 		<Item Name="Set Motor OFF ESP302.vi" Type="VI" URL="../Set Motor OFF ESP302.vi"/>
+		<Item Name="ESP acquire FGV.vi" Type="VI" URL="../ESP acquire FGV.vi"/>
+		<Item Name="AcquireTypeDef.ctl" Type="VI" URL="../AcquireTypeDef.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -744,6 +746,8 @@
 			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
 			<Item Name="Initialize_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Initialize_ESP302.vi"/>
 			<Item Name="Error Query_ESP302.vi" Type="VI" URL="../SubVis/Newport ESP302/Error Query_ESP302.vi"/>
+			<Item Name="SQL Insert null.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert null.vi"/>
+			<Item Name="Replace empty string with NULL.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/Replace empty string with NULL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ESP301" Type="Source Distribution">
