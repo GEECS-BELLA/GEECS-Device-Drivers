@@ -573,6 +573,8 @@
 			<Item Name="SetHotPixelCorrection.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetHotPixelCorrection.vi"/>
 			<Item Name="SetImageMem.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/SetImageMem.vi"/>
 			<Item Name="subBack.vi" Type="VI" URL="../SubVis/OnlineFrog.llb/subBack.vi"/>
+			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
+			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FROG" Type="Source Distribution">

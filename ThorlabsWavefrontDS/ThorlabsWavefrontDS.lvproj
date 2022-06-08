@@ -549,6 +549,8 @@
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
 			<Item Name="TDK-Lambda Z.lvlib" Type="Library" URL="../TDK-Lambda Z.lvlib"/>
 			<Item Name="Convert Values Span.vi" Type="VI" URL="../../Phasics Camera/Convert Values Span.vi"/>
+			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
+			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ThorlabsWavefrontDS" Type="Source Distribution">

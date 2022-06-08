@@ -562,7 +562,6 @@
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
-			<Item Name="OmniDriver32.dll" Type="Document" URL="/../Program Files/Ocean Optics/OmniDriverSPAM/OOI_HOME/OmniDriver32.dll"/>
 			<Item Name="NETOmniDriver-NET40.dll" Type="Document" URL="../../../../../../Program Files (x86)/Ocean Optics/OmniDriverSPAM/OOI_HOME/NETOmniDriver-NET40.dll"/>
 			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
 			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
@@ -574,6 +573,9 @@
 			<Item Name="threshold 1d.vi" Type="VI" URL="../../HamamatsuSpectrometer/spectral analysis/threshold 1d.vi"/>
 			<Item Name="spectral broadening analysis.vi" Type="VI" URL="../../HamamatsuSpectrometer/spectral analysis/spectral broadening analysis.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
+			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
+			<Item Name="OmniDriver32.dll" Type="Document" URL="/../Program Files/Ocean Optics/OmniDriverSPAM/OOI_HOME/OmniDriver32.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="OceanOpticsSpectrometer" Type="Source Distribution">

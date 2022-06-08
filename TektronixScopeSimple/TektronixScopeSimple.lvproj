@@ -481,7 +481,7 @@
 			<Item Name="CompressAndUpdate(String).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(String).vi"/>
 			<Item Name="CompressAndUpdate_Poly.vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate_Poly.vi"/>
 			<Item Name="connectiondata_typdef.ctl" Type="VI" URL="../../shared/connectiondata_typdef.ctl"/>
-			<Item Name="coupling_TypDef.ctl" Type="VI" URL="../coupling_TypDef.ctl"/>
+			<Item Name="coupling_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/coupling_TypDef.ctl"/>
 			<Item Name="createCommandListForCommandCase.vi" Type="VI" URL="../../shared/createCommandListForCommandCase.vi"/>
 			<Item Name="CreateCommandSet.vi" Type="VI" URL="../../shared/CreateCommandSet.vi"/>
 			<Item Name="CreateError.vi" Type="VI" URL="../../shared/CreateError.vi"/>
@@ -562,6 +562,7 @@
 			<Item Name="lv_mysql_conn_send_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_data_packet.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Max_waveform.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/Max_waveform.vi"/>
+			<Item Name="mean.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/mean.vi"/>
 			<Item Name="MeasurementsCluster_TypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/MeasurementsCluster_TypDEf.ctl"/>
 			<Item Name="method_TypDef.ctl" Type="VI" URL="../../ScopeAnalysis/SubVis/method_TypDef.ctl"/>
 			<Item Name="methodCluster_TypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/methodCluster_TypDEf.ctl"/>
