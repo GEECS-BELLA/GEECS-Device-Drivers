@@ -15,6 +15,9 @@
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="NewportXPS.lvclass" Type="LVClass" URL="../NewportXPS.lvclass"/>
 		<Item Name="test cluster channels for configure cases.vi" Type="VI" URL="../../shared/cluster command/test cluster channels for configure cases.vi"/>
+		<Item Name="XPS positions FGV.vi" Type="VI" URL="../XPS positions FGV.vi"/>
+		<Item Name="XPS Acquire FGV.ctl" Type="VI" URL="../XPS Acquire FGV.ctl"/>
+		<Item Name="XPS wait for acq.vi" Type="VI" URL="../XPS wait for acq.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>

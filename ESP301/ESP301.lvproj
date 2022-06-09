@@ -31,6 +31,7 @@
 		<Item Name="Set Motor OFF ESP302.vi" Type="VI" URL="../Set Motor OFF ESP302.vi"/>
 		<Item Name="ESP acquire FGV.vi" Type="VI" URL="../ESP acquire FGV.vi"/>
 		<Item Name="AcquireTypeDef.ctl" Type="VI" URL="../AcquireTypeDef.ctl"/>
+		<Item Name="ESP wait till acq stops.vi" Type="VI" URL="../ESP wait till acq stops.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
