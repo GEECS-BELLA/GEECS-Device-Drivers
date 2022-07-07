@@ -18,6 +18,7 @@
 		<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
 		<Item Name="PowerSupply_PS300.lvclass" Type="LVClass" URL="../PowerSupply_PS300.lvclass"/>
 		<Item Name="Stanford Research PS300 Series.lvlib" Type="Library" URL="../Stanford Research PS300 Series/Stanford Research PS300 Series.lvlib"/>
+		<Item Name="Device_control_PowerSupply_PS300.vi" Type="VI" URL="../Device_control_PowerSupply_PS300.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -590,6 +591,53 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
+			</Item>
+			<Item Name="DevicePowerSupply_PS300" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{055DA1C7-B63D-473F-AF3A-28A1C4D5CB09}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{DD2E458D-330F-4639-BBE5-262ED76A42C5}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3DE82E5C-6041-4D73-AFE7-4DA997F4606F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DevicePowerSupply_PS300</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6264D3BB-110F-47FC-BEB3-4144F629C846}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DevicePowerSupply_PS300.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePowerSupply_PS300.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A13DCE46-3BD5-4580-B3BB-DB5B22CAD24E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control_PowerSupply_PS300.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/PowerSupply_PS300.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DevicePowerSupply_PS300</Property>
+				<Property Name="TgtF_internalName" Type="Str">DevicePowerSupply_PS300</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 LBL</Property>
+				<Property Name="TgtF_productName" Type="Str">DevicePowerSupply_PS300</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{679B09C0-EEA1-4484-8349-53AA1A503807}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DevicePowerSupply_PS300.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
