@@ -42,6 +42,10 @@ Supported Model(s):
 	X-LSQ,
 	X-MCB1,
 	X-MCB2,
+	X-MCC1,
+	X-MCC2,
+	X-MCC3,
+	X-MCC4,
 	X-NMS, 
 	X-RSB,
 	X-RST,
@@ -51,9 +55,9 @@ Supported Model(s):
 <br>
 Model(s) Tested: A-LSQ, X-MCB2, X-JOY3, X-RST, X-LDM, X-LDQ
 <br>
-Interface(s): RS232 Serial
+Interface(s): RS232 Serial, TCP/IP
 <br>
-Firmware Revision(s) Tested: 6.18 (A-LSQ), 6.24 (X-RST), 6.25 (X-JOY3), 6.29 (X-MCB2), 7.03 (X-LDM, X-LDQ)
+Firmware Revision(s) Tested: 6.18 (A-LSQ), 6.24 (X-RST), 6.25 (X-JOY3), 6.29 (X-MCB2), 7.03 (X-LDM, X-LDQ), 7.12 (X-MCC3)
 <br>
 <br>
 Certified: Yes
@@ -63,13 +67,13 @@ NI Supported: Yes
 Source Code Available: Yes
 <br>
 <br>
-Driver Revision:  1.3.0
+Driver Revision:  1.6.0
 <br>
 Original Release Date: 08/29/2014
 <br>
-Current Revision Date: 03/02/2020
+Current Revision Date: 10/15/2021
 <br>
-Current Revision Release Date: 03/03/2020
+Current Revision Release Date: 10/22/2021
 </para>
 <h4>2. Required Software</h4>
 <para>Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.
@@ -94,10 +98,54 @@ To report issues or provide feedback about this instrument driver, please send a
 <h4>4. Revision History</h4>
 <para>The latest version of this and other LabVIEW and LabWindows/CVI instrument drivers can be downloaded at the <a href="http://www.ni.com/idnet">Instrument Driver Network</a>.<br>
 <br>
+REV 1.6.0, 10/15/2021<br>
+Updated by: Satnam Singh Brar and Soleil Lapierre, Vancouver, BC.<br>
+<ul>
+	<li>Added a new <code>Initialize TCPIP</code> VI that allows easy connection to Zaber devices that are accessible over your network using TCP/IP.
+		This includes new Zaber X-MCC Series controllers that have an Ethernet connector, or existing RS-232 devices connected to the network using 
+		Ethernet-to-serial bridge hardware or software.
+	<li>Added a new <code>Format TCPIP VISA Resource Name</code> utility VI to assist in creating a TCP/IP connection string from a host name or IP address and a port number.
+	<li>The following simple examples have been added to show usage of the new TCP/IP VIs. They can be found in the "Example Finder"
+		<ul>
+			<li><code>Zaber A Series TCPIP Move</code>
+			<li><code>Zaber A Series TCPIP Commands and Responses</code>
+		</ul>
+	<li>Some palettes have been reorganized to eliminate empty spaces.
+	<li>Added descriptions to all controls and indicators in the example VIs.
+	<li>Data limit enforcement has been removed from all controls that previously had it. The limits still apply to devices; consult the documentation for legal values.
+	<li>Added valid range and default value documentation to all relevant controls that were missing it.
+	<li>Corrected some spelling mistakes in VI documentation.
+</ul>
+<br>
+REV 1.5.0, 07/24/2020<br>
+Updated by: Soleil Lapierre, Vancouver, BC.<br>
+<ul>
+	<li>The private Read (Single Response) VI, which is used by most other VIs in this driver, has been updated to be able to handle device responses
+		consisting of multiple packets, a possibility that was introduced to the Zaber ASCII Protocol with the launch of four-axis controllers.
+	<lI>Bug fix: The Response String Array output of the Send Command VI will now include the message type identifier character at the start of each string
+		for info and alert messages. Reply messages will omit the '@' identifier as they are the default expectation.
+</ul>
+<br>
+REV 1.4.0, 05/28/2020<br>
+Updated by: Soleil Lapierre, Vancouver, BC.<br>
+<ul>
+	<li>Multiple changes to support Zaber's new X-MCC line of controllers and new Firmware version 7:
+	<ul>
+		<li>Added the Write Analog Output and Read Analog Output VIs, as some Zaber devices now have analog output ports. The I/O example program has been 
+			updated to demonstrate the use of these VIs.
+		<li>The Enable Lockstep VI now supports having more than two axes in a lockstep group, where the device has more than two axes.
+		<li>Added the Set Lockstep Tolerance VI to allow customization of twist tolerance on multi-axis systems.
+		<li>The Open Stream VI is joined by Open Stream (FW7) VI, which takes strings for the axis inputs instead of integers in order to allow specification 
+			of lockstep groups as stream axes, and a new Open Stream (Polymorphic) VI, which selects from the other two.
+		<li>Added Stream Line On Axis Subset, Stream Circle On Axis Subset and Stream Arc On Axis Subset VIs that allow execution of these stream
+			path segments on subsets of a stream's configured axes.
+	</ul>
+</ul>
+<br>
 REV 1.3.0, 03/02/2020<br>
 Updated by: Soleil Lapierre, Vancouver, BC.<br>
 <ul>
-    <li>The Set Speed and Acceleration VI has been made obsolete due to mismatched unit conversions that cannot be fixed without a breaking change. 
+	<li>The Set Speed and Acceleration VI has been made obsolete due to mismatched unit conversions that cannot be fixed without a breaking change. 
 		Please use the new, separate Set Speed and Set Acceleration VIs instead.
 	<li>The Convert Acceleration Units to Device Units and the Convert Device Units to Acceleration Units VIs have been made obsolete in order to make
 		the list of acceleration units of measure correspond to those of the speed and position unit conversion VIs. Please use the new Convert Acceleration 

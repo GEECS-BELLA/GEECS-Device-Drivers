@@ -207,59 +207,70 @@ def generate_device_table(aCursor):
         [3] - Tuple or none - Device unit conversions as returned by get_units_for_product().
     """
 
-    dimensions = get_dimensions(aCursor);
+    dimensions = get_dimensions(aCursor)
 
-    # Get all device IDs and choose only the latest firmware version for each.
     # Motion type and position scale should never vary with firmware version.
-    devices = []
+    # But if they do, we will take the info from the latest version only.
+    deviceIds = {}
     aCursor.execute("SELECT * FROM Labview_Devices ORDER BY DeviceId, MajorVersion DESC, MinorVersion DESC, Build DESC;")
-    rows = aCursor.fetchall()
+    deviceRows = aCursor.fetchall()
 
-    if (len(rows) < 1):
+    if (len(deviceRows) < 1):
         raise IOError("No devices found in this database!")
 
-    currentId = -1
-    for row in rows:
-        dId = int(row["DeviceId"])
-        if (dId != currentId):
-            # Only take information from the highest firmware version.
-            # The LabVIEW database functionality currently does not consider firmware version part of the device identity.
-            currentId = dId; 
-            # First column is the device ID, second is the device name, third is the primary key.
-            devices.append((dId, str(row["Name"]), int(row["Id"])))
+    for deviceRow in deviceRows:
+        dId = int(deviceRow["DeviceId"])
+        deviceProductId = int(deviceRow["Id"])
 
-    numDevices = len(devices)
+        if dId not in deviceIds:
+            deviceIds[dId] = \
+            {
+                "latestProductId": deviceProductId,  # Only used for integrated devices.
+                "name": str(deviceRow["Name"]),
+                "peripherals": {}
+            }
+
+        peripheralIds = deviceIds[dId]["peripherals"]
+
+        aCursor.execute("SELECT * FROM Labview_Peripherals WHERE ParentId = " + str(deviceProductId) + " ORDER BY PeripheralId;")
+        peripheralRows = aCursor.fetchall()
+        for peripheralRow in peripheralRows:
+            pId = int(peripheralRow["PeripheralId"])
+            peripheralProductId = int(peripheralRow["Id"])
+
+            if pId not in peripheralIds:
+                peripheralIds[pId] = \
+                {
+                    "productId": peripheralProductId,
+                    "name": str(peripheralRow["Name"])
+                }
+
+
+    numDevices = len(deviceIds)
     print("Found " + str(numDevices) + " unique device IDs.")
     table = []
 
-    for i in range(0, numDevices):
-        device = devices[i]
-        deviceId = device[0]
-        deviceName = device[1]
+    for deviceId, deviceData in sorted(deviceIds.items()):
+        deviceName = deviceData["name"]
+
         msg = str(deviceId) + " = " + deviceName
 
-        peripherals = []
-        aCursor.execute("SELECT * FROM Labview_Peripherals WHERE ParentId = " + str(device[2]) + " ORDER BY PeripheralId;")
-        rows = aCursor.fetchall()
-        for row in rows:
-            # First column is the peripheral ID, second is the peripheral name, third is the primary key.
-            peripherals.append((int(row["PeripheralId"]), str(row["Name"]), int(row["Id"])))
-
+        peripherals = deviceData["peripherals"]
         numPeripherals = len(peripherals)
         if (numPeripherals < 1): # Not a controller.
-            units = get_units_for_product(aCursor, dimensions, device[2])
+            productId = deviceData["latestProductId"]
+            units = get_units_for_product(aCursor, dimensions, productId)
             table.append((deviceId, 0, deviceName, units))
         else:
             table.append((deviceId, 0, deviceName, None))
             msg += " + " + str(numPeripherals) + " peripherals:"
-            for j in range(0, numPeripherals):
-                peripheral = peripherals[j]
-                peripheralId = peripheral[0]
+            for peripheralId, peripheralData in sorted(peripherals.items()):
                 if peripheralId > 0:
-                    peripheralName = peripheral[1]
-                    msg += "\n- " + str(peripheral[0]) + " = " + str(peripheralName)
-                    units = get_units_for_product(aCursor, dimensions, peripheral[2])
-                    table.append((deviceId, peripheral[0], deviceName + " + " + peripheralName, units))
+                    peripheralName = peripheralData["name"]
+                    msg += "\n- " + str(peripheralId) + " = " + str(peripheralName)
+                    productId = peripheralData["productId"]
+                    units = get_units_for_product(aCursor, dimensions, productId)
+                    table.append((deviceId, peripheralId, deviceName + " + " + peripheralName, units))
 
         print(msg)
 
