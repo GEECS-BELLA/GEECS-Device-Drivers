@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Examples" Type="Folder">
-		<Item Name="EASY-DRIVER Example.vi" Type="VI" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Examples/EASY-DRIVER Example.vi"/>
+		<Item Name="EASY-DRIVER Example.vi" Type="VI" URL="../Examples/EASY-DRIVER Example.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Close" Type="Folder">
@@ -23,18 +23,18 @@
 		</Item>
 		<Item Name="Setpoint" Type="Folder">
 			<Item Name="ED_MRM.vi" Type="VI" URL="../Public/Setpoint/ED_MRM.vi"/>
-			<Item Name="ED_MWI.vi" Type="VI" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Public/Setpoint/ED_MWI.vi"/>
+			<Item Name="ED_MWI.vi" Type="VI" URL="../Public/Setpoint/ED_MWI.vi"/>
 		</Item>
 		<Item Name="Status" Type="Folder">
 			<Item Name="ED_MRI.vi" Type="VI" URL="../Public/Status/ED_MRI.vi"/>
 			<Item Name="ED_MRV.vi" Type="VI" URL="../Public/Status/ED_MRV.vi"/>
-			<Item Name="ED_MST.vi" Type="VI" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Public/Status/ED_MST.vi"/>
+			<Item Name="ED_MST.vi" Type="VI" URL="../Public/Status/ED_MST.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="ED_GetResponse.vi" Type="VI" URL="../Public/Utility/ED_GetResponse.vi"/>
 			<Item Name="ED_GetString.vi" Type="VI" URL="../Public/Utility/ED_GetString.vi"/>
 			<Item Name="ED_Verify_ACK.vi" Type="VI" URL="../Public/Utility/ED_Verify_ACK.vi"/>
 		</Item>
-		<Item Name="ED_VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/CAENels EASY-DRIVER/Public/ED_VI Tree.vi"/>
+		<Item Name="ED_VI Tree.vi" Type="VI" URL="../Public/ED_VI Tree.vi"/>
 	</Item>
 </Library>
