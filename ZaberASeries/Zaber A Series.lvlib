@@ -1,12 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="15008000">
+<Library LVVersion="20008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Driver for Zaber's A Series instruments 	A-BAR,	A-BLQ, A-LAR,	A-LSQ,	A-LST,	A-LAR,	A-MCA, 	A-MCB2. Also supports X-series instruments	X-BLQ,	X-DMQ,	X-FCR, X-FWR,	X-GLP,	X-GSM, X-GSR,	X-JOY3,	X-LDQ, X-LDM, X-LHM,	X-LRM,	X-LRQ,	X-LSA, X-LSM,	X-LSQ,	X-MCB1,	X-MCB2,	X-MCC1, X-MCC2, X-MCC3, X-MCC4, X-NMS, 	X-RSB,	X-RST,	X-RSW,	X-VSR.
 
 See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information.  </Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*$!!!*Q(C=\&gt;1^=BJ"%)&lt;B4SY(TFT=Q%6A([!PI)!L=)6W3%CKE#NUZ(Q4(Y!L^"7)F+^$"1LQO\VND".)4*65R;Y'W'^G?J\^U5KV@:)_[HBN?\SY4@W5KN`[JW=/Z`F8_D5@6K,(P^^`[N@B_6\D&gt;?K84P06]]\H8`&lt;LYH&lt;PP`?`\`YL'W/?LA[[]39^F*37N+!ZT?LMDEG?Z%G?Z%G?Z%%?Z%%?Z%%?Z%\OZ%\OZ%\OZ%:OZ%:OZ%:OZ,74CVTE)O?K*)MH#S6&amp;EQ,*9#B+0B*0YEE]C9&gt;$*:\%EXA34_*BC"*0YEE]C3@R-%W**`%EHM34?#B6EKS&gt;(%`CI&lt;Q#4_!*0)%H],#E!E]!#"9,#A&gt;&amp;9#DI$(Y%HM!4?0CJQ".Y!E`A#4RU+`!%HM!4?!)05_KK2'GGH2Q0:?2Y()`D=4S/B^*S0)\(]4A?R].S=DS/RU%Y#TL&amp;)=C:Z!RQ$BS0Y_&amp;,DM@R/"\(YXDIKDPE&gt;75GT&lt;34YT%]BM@Q'"\$1QE:(M.D?!S0Y;'M$)`B-4S'R`#QF!S0Y4%]"M29F/6F&amp;$-G'I/-Q0$Q6U_,V6W+EFDN`;]Z0[DK"V$^9+E@'07$I,\"[BOHPC(K#[W_A/I,ITZB^9GIA?K&amp;V186!T8S?;$N;1.N2^P3VL16&lt;5F&lt;4&amp;0`]]"R((5Y(,4@\T5-AX;\H&lt;&lt;&lt;L&gt;&lt;LN6;LF:&lt;,J2;,R?FN^96^XB\/XUP0PYY`8GEPX\ZPRO(HZ_?PG]W50T(O6GV_,\W&amp;&gt;[-_[(DWGO=;`1;1AD+.!!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*$!!!*Q(C=\&gt;1^=BJ"%)&lt;B4SY(TFT=Q%6A([!PI)!L=)6W3%CKE#NUZ(Q4(Y!L^"7)F+^$"1LQO\VND".)4*65R;Y'W'^G?J\^U5KV@:)_[HBN?\SY4@W5KN`[JW=/Z`F8_D5@6K,(P^^`[N@B_6\D&gt;?K84P06]]\H8`&lt;LYH&lt;PP`?`\`YL'W/?LA[[]39^F*37N+!ZT?LMDEG?Z%G?Z%G?Z%%?Z%%?Z%%?Z%\OZ%\OZ%\OZ%:OZ%:OZ%:OZ,74CVTE)O?K*)MH#S6&amp;EQ,*9#B+0B*0YEE]C9&gt;$*:\%EXA34_*BC"*0YEE]C3@R-%W**`%EHM34?#B6EKS&gt;(%`CI&lt;Q#4_!*0)%H],#E!E]!#"9,#A&gt;&amp;9#DI$(Y%HM!4?0CJQ".Y!E`A#4RU+`!%HM!4?!)05_KK2'GGH2Q0:?2Y()`D=4S/B^*S0)\(]4A?R].S=DS/RU%Y#TL&amp;)=C:Z!RQ$BS0Y_&amp;,DM@R/"\(YXDIKDPE&gt;75GT&lt;34YT%]BM@Q'"\$1QE:(M.D?!S0Y;'M$)`B-4S'R`#QF!S0Y4%]"M29F/6F&amp;$-G'I/-Q0$Q6U_,V6W+EFDN`;]Z0[DK"V$^9+E@'07$I,\"[BOHPC(K#[W_A/I,ITZB^9GIA?K&amp;V186!T8S?;$N;1.N2^P3VL16&lt;5F&lt;4&amp;0`]]"R((5Y(,4@\T5-AX;\H&lt;&lt;&lt;L&gt;&lt;LN6;LF:&lt;,J2;,R?FN^96^XB\/XUP0PYY`8GEPX\ZPRO(HZ_?PG]W50T(O6GV_,\W&amp;&gt;[-_[(DWGO=;`1;1AD+.!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.6.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
