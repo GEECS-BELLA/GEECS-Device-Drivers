@@ -37,6 +37,7 @@
 		<Item Name="Set SettingsCluster Element by Index__TS.vi" Type="VI" URL="../../shared/Set SettingsCluster Element by Index__TS.vi"/>
 		<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../shared/Get Cluster Element Names__ogtk_TS.vi"/>
 		<Item Name="vertical_range_typdef.ctl" Type="VI" URL="../Subvis/vertical_range_typdef.ctl"/>
+		<Item Name="ROI ScopeTrace.vi" Type="VI" URL="../Subvis/ROI ScopeTrace.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niHWS Close File.vi" Type="VI" URL="/&lt;instrlib&gt;/niHWS/nihws.llb/niHWS Close File.vi"/>
@@ -419,7 +420,6 @@
 				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -468,6 +468,7 @@
 				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
 				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="Arguments to array.vi" Type="VI" URL="../../shared/Arguments to array.vi"/>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
@@ -563,8 +564,6 @@
 			<Item Name="SaceScopeTrace_PXI.vi" Type="VI" URL="../../PXIdigitizer/subVis/SaceScopeTrace_PXI.vi"/>
 			<Item Name="additionalAnalysisCluster_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/subVis/additionalAnalysisCluster_TypDef.ctl"/>
 			<Item Name="analysisTypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/analysisTypDEf.ctl"/>
-			<Item Name="BGcorrected.ctl" Type="VI" URL="../../Ztec4611/SubVis/BGcorrected.ctl"/>
-			<Item Name="BgCorrection.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/BgCorrection.vi"/>
 			<Item Name="channelenabled_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/channelenabled_TypDef.ctl"/>
 			<Item Name="ChannelMultiPlex.vi" Type="VI" URL="../../Ztec4611/SubVis/ChannelMultiPlex.vi"/>
 			<Item Name="channels_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/subVis/channels_TypDef.ctl"/>
@@ -582,7 +581,6 @@
 			<Item Name="createSavingCommands.vi" Type="VI" URL="../../shared/createSavingCommands.vi"/>
 			<Item Name="createVariableListToSetPXI.vi" Type="VI" URL="../../PXIdigitizer/subVis/createVariableListToSetPXI.vi"/>
 			<Item Name="DB_GetNumberOfChannels.vi" Type="VI" URL="../../shared/DB_GetNumberOfChannels.vi"/>
-			<Item Name="energy.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/energy.vi"/>
 			<Item Name="EnumToRIng.vi" Type="VI" URL="../../PXIdigitizer/subVis/EnumToRIng.vi"/>
 			<Item Name="FindSettingsVariableName.vi" Type="VI" URL="../../shared/FindSettingsVariableName.vi"/>
 			<Item Name="From SettingsCluster To SpecificCluster.vi" Type="VI" URL="../../shared/From SettingsCluster To SpecificCluster.vi"/>
@@ -600,7 +598,6 @@
 			<Item Name="JoinGroupCommands.vi" Type="VI" URL="../../shared/JoinGroupCommands.vi"/>
 			<Item Name="LinkedChannelsCluster_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/subVis/LinkedChannelsCluster_TypDef.ctl"/>
 			<Item Name="matchPatternCaseInsensitive.vi" Type="VI" URL="../../shared/matchPatternCaseInsensitive.vi"/>
-			<Item Name="Max_waveform.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/Max_waveform.vi"/>
 			<Item Name="MeasurementsCluster_TypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/MeasurementsCluster_TypDEf.ctl"/>
 			<Item Name="method_TypDef.ctl" Type="VI" URL="../../ScopeAnalysis/SubVis/method_TypDef.ctl"/>
 			<Item Name="methodCluster_TypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/methodCluster_TypDEf.ctl"/>
@@ -639,7 +636,6 @@
 			<Item Name="toTraceCluster.vi" Type="VI" URL="../../shared/toTraceCluster.vi"/>
 			<Item Name="TraceCVTUpdate.vi" Type="VI" URL="../../PXIdigitizer/subVis/TraceCVTUpdate.vi"/>
 			<Item Name="Trigger.DigitalSource_TypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/Trigger.DigitalSource_TypDEf.ctl"/>
-			<Item Name="trigger_50.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/trigger_50.vi"/>
 			<Item Name="TriggerSettings_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/TriggerSettings_TypDef.ctl"/>
 			<Item Name="TriggerSource_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/TriggerSource_TypDef.ctl"/>
 			<Item Name="triggerwindowmode2_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/triggerwindowmode2_TypDef.ctl"/>
@@ -741,7 +737,10 @@
 			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
 			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../../Point Grey Camera/GUIcompressionCluster.ctl"/>
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+			<Item Name="energy.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/energy.vi"/>
+			<Item Name="trigger_50.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/trigger_50.vi"/>
 			<Item Name="mean.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/mean.vi"/>
+			<Item Name="Max_waveform.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/Max_waveform.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="USBDigitizer" Type="Source Distribution">
