@@ -764,7 +764,6 @@
 			<Item Name="online image analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/online image analysis.vi"/>
 			<Item Name="prepare image for 2nd mom analysis.vi" Type="VI" URL="../../MagSpecCamera/subVis/prepare image for 2nd mom analysis.vi"/>
 			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../subVis/GetCamAtributesAndTriggerMode.vi"/>
-			<Item Name="MC stop FGV.vi" Type="VI" URL="../../../General GUIs/General-Controler/MC stop FGV.vi"/>
 			<Item Name="tcp shot sender queue.ctl" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot sender queue.ctl"/>
 			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../General GUIs/General-Controler/TCP Multiple Connections State.ctl"/>
 			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
