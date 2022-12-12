@@ -88,6 +88,7 @@
 		<Item Name="Convert all images in GEECS tdms file to png.vi" Type="VI" URL="../Convert all images in GEECS tdms file to png.vi"/>
 		<Item Name="call async convert tdms to png.vi" Type="VI" URL="../call async convert tdms to png.vi"/>
 		<Item Name="Search Cam attributes.vi" Type="VI" URL="../Search Cam attributes.vi"/>
+		<Item Name="coerce exposure to available increment.vi" Type="VI" URL="../subVis/coerce exposure to available increment.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -936,10 +937,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C45BBF32-CDAB-4087-91F7-FE49B484DB84}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DevicePointGrey.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePointGrey.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DevicePoint Grey Camera.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePoint Grey Camera.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -947,7 +948,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F667277B-E199-47A4-8DAD-F39A66150227}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4F22A23-3B3C-4BC4-82C5-7D3280D43984}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
@@ -1065,19 +1066,19 @@
 				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/analysis tester.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/organize please/threhsold IMAQ.vi</Property>
 				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/organize please/threhsold IMAQ.vi</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/IMAQ subtract background.vi</Property>
 				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/IMAQ subtract background.vi</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/organize please/mask lineout.vi</Property>
 				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/organize please/mask lineout.vi</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/AcquisitionMVF.vi</Property>
 				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -1085,13 +1086,9 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Point Grey Camera.lvclass/AcquisitionMVF.vi</Property>
-				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Device_control_PointGrey.vi</Property>
+				<Property Name="Source[40].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
-				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/Device_control_PointGrey.vi</Property>
-				<Property Name="Source[41].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/organize please/setMVsettingsDevice.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
@@ -1112,7 +1109,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/organize please/CamAtributes_TypDEf.ctl</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">42</Property>
+				<Property Name="SourceCount" Type="Int">41</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Device point grey</Property>
@@ -1120,7 +1117,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 LBNL</Property>
 				<Property Name="TgtF_productName" Type="Str">Device point grey</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A7C01D9B-C006-4B2E-ABB4-1CEF05CDC3F1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DevicePointGrey.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DevicePoint Grey Camera.exe</Property>
 			</Item>
 			<Item Name="ThorlabsCsCamera" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{C7C2FA2B-ED60-4836-AA33-4D17ACDBBD87}</Property>
