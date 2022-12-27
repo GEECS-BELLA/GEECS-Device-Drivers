@@ -292,6 +292,7 @@
 				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../General GUIs/General-Controler/any equal.vi"/>
@@ -437,6 +438,7 @@
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../DeviceController/ZeroMQ Device Shot Client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Device" Type="EXE">
@@ -453,7 +455,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6BEC6A9-9298-4BFE-9CB2-34AAB288B9EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">113</Property>
+				<Property Name="Bld_version.build" Type="Int">114</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Device.exe</Property>
