@@ -13,6 +13,21 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Driver" Type="Folder">
+			<Item Name="dll" Type="Folder">
+				<Item Name="gclib.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/gclib.dll"/>
+				<Item Name="gclibo.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/gclibo.dll"/>
+				<Item Name="libcrypto-1_1.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/libcrypto-1_1.dll"/>
+				<Item Name="libssl-1_1.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/libssl-1_1.dll"/>
+			</Item>
+			<Item Name="gclib32" Type="Folder">
+				<Item Name="subvi" Type="Folder"/>
+				<Item Name="VIs" Type="Folder">
+					<Item Name="dir.mnu" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/dir.mnu"/>
+				</Item>
+				<Item Name="dir.mnu" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/gclib32/dir.mnu"/>
+				<Item Name="gclib32.lvlib" Type="Library" URL="/&lt;vilib&gt;/Galil/resources/gclib32/gclib32.lvlib"/>
+				<Item Name="Report.html" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/gclib32/Report.html"/>
+			</Item>
 			<Item Name="StageSelector--Enum.ctl" Type="VI" URL="../Newmark  Driver/StageSelector--Enum.ctl"/>
 			<Item Name="MoveStage.vi" Type="VI" URL="../Newmark  Driver/MoveStage.vi"/>
 			<Item Name="HomeStage.vi" Type="VI" URL="../Newmark  Driver/HomeStage.vi"/>
@@ -28,6 +43,7 @@
 		<Item Name="CmdDevice.vi" Type="VI" URL="../Newmark  Driver/CmdDevice.vi"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="Newmark-NSC-G4.lvclass" Type="LVClass" URL="../Newmark-NSC-G4.lvclass"/>
+		<Item Name="MoveStageDll.vi" Type="VI" URL="../Newmark  Driver/MoveStageDll.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
