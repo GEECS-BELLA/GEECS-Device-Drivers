@@ -732,7 +732,6 @@
 			<Item Name="IntraX_.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/IntraX_.vi"/>
 			<Item Name="finalXi_.vi" Type="VI" URL="../../MagSpec_Bella/SubVIs/finalXi_.vi"/>
 			<Item Name="CamAndObj_TypDEf_Bella.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/CamAndObj_TypDEf_Bella.ctl"/>
-			<Item Name="ScreenCam2_TypDEf_Bella.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/ScreenCam2_TypDEf_Bella.ctl"/>
 			<Item Name="FlipArray.vi" Type="VI" URL="../../MagSpec_Bella/Temp/FlipArray.vi"/>
 			<Item Name="Charge Calibration_2011.vi" Type="VI" URL="../../MagAnalysis_Online/Charge Calibration Folder/Charge Calibration_2011.vi"/>
 			<Item Name="ScreenCam2_TypDEf.ctl" Type="VI" URL="../../MagAnalysis_Online/SubVis/ScreenCam2_TypDEf.ctl"/>
