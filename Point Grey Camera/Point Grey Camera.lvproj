@@ -893,6 +893,8 @@
 			<Item Name="no timeout error.vi" Type="VI" URL="../../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
 			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
+			<Item Name="Rounding Mode.ctl" Type="VI" URL="../Set IMAQdx Camera ROI/Rounding Mode.ctl"/>
+			<Item Name="Coerce I64.vi" Type="VI" URL="../Set IMAQdx Camera ROI/Coerce I64.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Point Grey Camera" Type="Source Distribution">
