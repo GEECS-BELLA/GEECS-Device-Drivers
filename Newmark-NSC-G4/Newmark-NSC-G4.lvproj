@@ -46,6 +46,9 @@
 		<Item Name="Newmark-NSC-G4.lvclass" Type="LVClass" URL="../Newmark-NSC-G4.lvclass"/>
 		<Item Name="MoveStageDll.vi" Type="VI" URL="../Newmark  Driver/MoveStageDll.vi"/>
 		<Item Name="GetStagePositionDll.vi" Type="VI" URL="../Newmark  Driver/GetStagePositionDll.vi"/>
+		<Item Name="HomeStageDll.vi" Type="VI" URL="../Newmark  Driver/HomeStageDll.vi"/>
+		<Item Name="GetStageMotionStatusDll.vi" Type="VI" URL="../Newmark  Driver/GetStageMotionStatusDll.vi"/>
+		<Item Name="HomeState--Enum.ctl" Type="VI" URL="../Newmark  Driver/HomeState--Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -598,7 +601,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C783B3F-1579-409D-B7A7-3F2C60A1F0C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -646,7 +649,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7FD527E-295D-4A08-988A-A1BA19DE316C}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceNewmark-NSC-G4.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceNewmark-NSC-G4.exe</Property>
