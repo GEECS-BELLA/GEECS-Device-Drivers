@@ -90,6 +90,7 @@
 		<Item Name="Search Cam attributes.vi" Type="VI" URL="../Search Cam attributes.vi"/>
 		<Item Name="coerce exposure to available increment.vi" Type="VI" URL="../subVis/coerce exposure to available increment.vi"/>
 		<Item Name="python analysis testing.vi" Type="VI" URL="../python analysis testing.vi"/>
+		<Item Name="labview python test vi.vi" Type="VI" URL="../../../GEECS-Plugins/HTU tools/labview python test vi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
