@@ -11,6 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="XPS-RLD subvis" Type="Folder">
+			<Item Name="LWXPS_Close.vi" Type="VI" URL="../XPS-RLD/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/LWXPS_Close.vi"/>
+			<Item Name="LWXPS_Open.vi" Type="VI" URL="../XPS-RLD/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/LWXPS_Open.vi"/>
+			<Item Name="LWXPS_GroupMoveAbsolute.vi" Type="VI" URL="../XPS-RLD/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/LWXPS_GroupMoveAbsolute.vi"/>
+			<Item Name="LWXPS_GroupPositionCurrentGet.vi" Type="VI" URL="../XPS-RLD/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/LWXPS_GroupPositionCurrentGet.vi"/>
+		</Item>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="NewportXPS.lvclass" Type="LVClass" URL="../NewportXPS.lvclass"/>
@@ -18,6 +24,7 @@
 		<Item Name="XPS positions FGV.vi" Type="VI" URL="../XPS positions FGV.vi"/>
 		<Item Name="XPS Acquire FGV.ctl" Type="VI" URL="../XPS Acquire FGV.ctl"/>
 		<Item Name="XPS wait for acq.vi" Type="VI" URL="../XPS wait for acq.vi"/>
+		<Item Name="XPS-RLD.lvclass" Type="LVClass" URL="../../XPS-RLD/XPS-RLD.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -277,6 +284,7 @@
 				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -358,6 +366,7 @@
 				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
 				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
 			<Item Name="buildResponseForUDP.vi" Type="VI" URL="../../shared/buildResponseForUDP.vi"/>
@@ -557,7 +566,6 @@
 			<Item Name="unbundle config parse cmd.vi" Type="VI" URL="../../shared/cluster command/unbundle config parse cmd.vi"/>
 			<Item Name="Delay.vi" Type="VI" URL="../../shared/Delay.vi"/>
 			<Item Name="Positioner Group Move Absolute.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Move Absolute.vi"/>
-			<Item Name="Positioner Group Position Current Get.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Position Current Get.vi"/>
 			<Item Name="Close TCP-IP.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Close TCP-IP.vi"/>
 			<Item Name="Open TCP-IP.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Open TCP-IP.vi"/>
 			<Item Name="Read TCP data.vi" Type="VI" URL="../labview/XPS-C8 Controller/TCP Communication.llb/Read TCP data.vi"/>
@@ -565,6 +573,16 @@
 			<Item Name="File Open Log.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/File Open Log.vi"/>
 			<Item Name="File Write Log.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/File Write Log.vi"/>
 			<Item Name="SuppBlank.vi" Type="VI" URL="../labview/XPS-C8 Controller/Utilit.llb/SuppBlank.vi"/>
+			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
+			<Item Name="Reentrant tcp for data gatherer.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/Reentrant tcp for data gatherer.vi"/>
+			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
+			<Item Name="tcp read with vi time.vi" Type="VI" URL="../../../Shared/GUI_Template/tcp read with vi time.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="no timeout error.vi" Type="VI" URL="../../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
+			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
+			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
+			<Item Name="Newport.XPS.CommandInterface.dll" Type="Document" URL="../../../../../../Users/loasis.BELLANET/Downloads/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/Dll/Newport.XPS.CommandInterface.dll"/>
+			<Item Name="Positioner Group Position Current Get.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Position Current Get.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewportXPS" Type="Source Distribution">
@@ -598,6 +616,42 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
+			</Item>
+			<Item Name="XPS-RLD" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{49ABAAD2-6494-4039-93BA-E39EBEE10E86}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">XPS-RLD</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/XPS-RLD</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F958B7BC-BA13-499A-85CA-22668508541A}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/XPS-RLD</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/XPS-RLD/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F72B7AF3-BC2F-4DE8-A9C0-8EA356FBADF2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NewportXPS.lvclass</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/XPS-RLD.lvclass</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>

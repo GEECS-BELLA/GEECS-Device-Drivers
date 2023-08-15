@@ -14,6 +14,797 @@
 		<Item Name="CK_PI_driver" Type="Folder">
 			<Item Name="Poll_Status.vi" Type="VI" URL="../CK_Hexapod_Lib/Poll_Status.vi"/>
 		</Item>
+		<Item Name="C-887" Type="Folder">
+			<Item Name="LabVIEW" Type="Folder">
+				<Item Name="Low Level" Type="Folder">
+					<Item Name="Analog control" Type="Folder">
+						<Item Name="Analog FGlobal.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Analog FGlobal.vi"/>
+						<Item Name="Analog Functions.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Analog Functions.vi"/>
+						<Item Name="Analog Receive String.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Analog Receive String.vi"/>
+						<Item Name="Analog_All_VI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Analog_All_VI.vi"/>
+						<Item Name="Analog_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Analog_Configuration_Setup.vi"/>
+						<Item Name="Available Analog Commands.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Available Analog Commands.ctl"/>
+						<Item Name="Build analog value array.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Build analog value array.vi"/>
+						<Item Name="Build analog waveform.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Build analog waveform.vi"/>
+						<Item Name="Global Analog.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Global Analog.vi"/>
+						<Item Name="Initialize Global Analog.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Initialize Global Analog.vi"/>
+						<Item Name="Resulting resolution.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb/Resulting resolution.vi"/>
+					</Item>
+					<Item Name="Communication" Type="Folder">
+						<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
+						<Item Name="Available DLLs.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Available DLLs.ctl"/>
+						<Item Name="Available interfaces.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Available interfaces.ctl"/>
+						<Item Name="BDR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/BDR.vi"/>
+						<Item Name="BDR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/BDR?.vi"/>
+						<Item Name="CCT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/CCT.vi"/>
+						<Item Name="Close connection if open.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Close connection if open.vi"/>
+						<Item Name="Configuration Setup State.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Configuration Setup State.ctl"/>
+						<Item Name="ECO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/ECO?.vi"/>
+						<Item Name="Find baudrate.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Find baudrate.vi"/>
+						<Item Name="Find host address.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Find host address.vi"/>
+						<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
+						<Item Name="Get subnet.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Get subnet.vi"/>
+						<Item Name="Get Syntax In Global.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Get Syntax In Global.vi"/>
+						<Item Name="GetGCSTranslatorDLLPath.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/GetGCSTranslatorDLLPath.vi"/>
+						<Item Name="GetQMC_GetQMCA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/GetQMC_GetQMCA.vi"/>
+						<Item Name="Global DaisyChain.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Global DaisyChain.vi"/>
+						<Item Name="Global1.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Global1.vi"/>
+						<Item Name="IFC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/IFC.vi"/>
+						<Item Name="IFC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/IFC?.vi"/>
+						<Item Name="IFS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/IFS.vi"/>
+						<Item Name="IFS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/IFS?.vi"/>
+						<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
+						<Item Name="Initialize Global1.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Initialize Global1.vi"/>
+						<Item Name="Interface Settings.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Interface Settings.ctl"/>
+						<Item Name="Is DaisyChain open.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Is DaisyChain open.vi"/>
+						<Item Name="PI acquire semaphore.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI acquire semaphore.vi"/>
+						<Item Name="PI Ask for Communication Parameters.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI Ask for Communication Parameters.vi"/>
+						<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
+						<Item Name="PI Open Interface.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI Open Interface.vi"/>
+						<Item Name="PI Query.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI Query.vi"/>
+						<Item Name="PI Receive String.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI Receive String.vi"/>
+						<Item Name="PI release semaphore.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI release semaphore.vi"/>
+						<Item Name="PI Send String.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI Send String.vi"/>
+						<Item Name="PI Send.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI Send.vi"/>
+						<Item Name="PI VISA Receive Characters.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI VISA Receive Characters.vi"/>
+						<Item Name="PI_GCS3_Configuration_Setup_Connect.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI_GCS3_Configuration_Setup_Connect.vi"/>
+						<Item Name="PI_GCS3_Configuration_Setup_CSV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI_GCS3_Configuration_Setup_CSV.vi"/>
+						<Item Name="PI_GCS3_Configuration_Setup_EAX.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI_GCS3_Configuration_Setup_EAX.vi"/>
+						<Item Name="PI_GCS3_Configuration_Setup_FRF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI_GCS3_Configuration_Setup_FRF.vi"/>
+						<Item Name="PI_GCS3_Configuration_Setup_Limits.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI_GCS3_Configuration_Setup_Limits.vi"/>
+						<Item Name="PI_GCS3_Configuration_Setup_SAM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/PI_GCS3_Configuration_Setup_SAM.vi"/>
+						<Item Name="Select DaisyChain device.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Select DaisyChain device.vi"/>
+						<Item Name="Select host address.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Select host address.vi"/>
+						<Item Name="Select USB device.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Select USB device.vi"/>
+						<Item Name="Set Error Check.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Set Error Check.vi"/>
+						<Item Name="Set logging mode.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Set logging mode.vi"/>
+						<Item Name="Set Syntax In Global.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Set Syntax In Global.vi"/>
+						<Item Name="SetQMC_SetQMCA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/SetQMC_SetQMCA.vi"/>
+						<Item Name="Syntax.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Syntax.ctl"/>
+						<Item Name="Termination character.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Communication.llb/Termination character.ctl"/>
+					</Item>
+					<Item Name="Controller Algorithms" Type="Folder">
+						<Item Name="AAP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/AAP.vi"/>
+						<Item Name="FAA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FAA.vi"/>
+						<Item Name="FAM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FAM.vi"/>
+						<Item Name="FAS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FAS.vi"/>
+						<Item Name="FDG Def_Start_Results.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FDG Def_Start_Results.vi"/>
+						<Item Name="FDG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FDG.vi"/>
+						<Item Name="FDR Def_Start_Results.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FDR Def_Start_Results.vi"/>
+						<Item Name="FDR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FDR.vi"/>
+						<Item Name="FGC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FGC.vi"/>
+						<Item Name="FGC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/FGC?.vi"/>
+						<Item Name="FIO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FIO.vi"/>
+						<Item Name="FLA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FLA.vi"/>
+						<Item Name="FLM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FLM.vi"/>
+						<Item Name="FLS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FLS.vi"/>
+						<Item Name="FRC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FRC.vi"/>
+						<Item Name="FRC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/FRC?.vi"/>
+						<Item Name="FRH?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/FRH?.vi"/>
+						<Item Name="FRP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FRP.vi"/>
+						<Item Name="FRP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/FRP?.vi"/>
+						<Item Name="FRR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/FRR?.vi"/>
+						<Item Name="FRS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FRS.vi"/>
+						<Item Name="FSA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FSA.vi"/>
+						<Item Name="FSC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FSC.vi"/>
+						<Item Name="FSM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FSM.vi"/>
+						<Item Name="FSN.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/FSN.vi"/>
+						<Item Name="FSN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/FSN?.vi"/>
+						<Item Name="FSS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/FSS?.vi"/>
+						<Item Name="MVS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/MVS.vi"/>
+						<Item Name="MVS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/MVS?.vi"/>
+						<Item Name="SIC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller Algorithms.llb/SIC.vi"/>
+						<Item Name="SIC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/SIC?.vi"/>
+						<Item Name="TCI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller Algorithms.llb/TCI?.vi"/>
+					</Item>
+					<Item Name="Controller display" Type="Folder">
+						<Item Name="CLS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller display.llb/CLS.vi"/>
+						<Item Name="DSP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller display.llb/DSP.vi"/>
+						<Item Name="DSP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller display.llb/DSP?.vi"/>
+						<Item Name="HID.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller display.llb/HID.vi"/>
+						<Item Name="HID?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Controller display.llb/HID?.vi"/>
+						<Item Name="MSG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Controller display.llb/MSG.vi"/>
+					</Item>
+					<Item Name="Coordinate Systems" Type="Folder">
+						<Item Name="KCP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KCP.vi"/>
+						<Item Name="KEN.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KEN.vi"/>
+						<Item Name="KEN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Coordinate Systems.llb/KEN?.vi"/>
+						<Item Name="KET?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Coordinate Systems.llb/KET?.vi"/>
+						<Item Name="KLC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Coordinate Systems.llb/KLC?.vi"/>
+						<Item Name="KLD.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KLD.vi"/>
+						<Item Name="KLF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KLF.vi"/>
+						<Item Name="KLN.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KLN.vi"/>
+						<Item Name="KLN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Coordinate Systems.llb/KLN?.vi"/>
+						<Item Name="KLS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Coordinate Systems.llb/KLS?.vi"/>
+						<Item Name="KLT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Coordinate Systems.llb/KLT?.vi"/>
+						<Item Name="KRM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KRM.vi"/>
+						<Item Name="KSB.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KSB.vi"/>
+						<Item Name="KSD.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KSD.vi"/>
+						<Item Name="KSF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KSF.vi"/>
+						<Item Name="KST.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KST.vi"/>
+						<Item Name="KSW.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/KSW.vi"/>
+						<Item Name="MRT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/MRT.vi"/>
+						<Item Name="MRW.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Coordinate Systems.llb/MRW.vi"/>
+					</Item>
+					<Item Name="File handling" Type="Folder">
+						<Item Name="ArrayFile.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/ArrayFile.vi"/>
+						<Item Name="DLT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/DLT.vi"/>
+						<Item Name="File handler.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/File handler.vi"/>
+						<Item Name="GetDataFormat.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/GetDataFormat.vi"/>
+						<Item Name="LST?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/File handling.llb/LST?.vi"/>
+						<Item Name="MatrixIO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/MatrixIO.vi"/>
+						<Item Name="READ.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/READ.vi"/>
+						<Item Name="RTD.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/RTD.vi"/>
+						<Item Name="RTD?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/File handling.llb/RTD?.vi"/>
+						<Item Name="STD.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/STD.vi"/>
+						<Item Name="TableIO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/File handling.llb/TableIO.vi"/>
+					</Item>
+					<Item Name="General command" Type="Folder">
+						<Item Name="*IDN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/*IDN?.vi"/>
+						<Item Name="Array of LogInfo.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Array of LogInfo.ctl"/>
+						<Item Name="AxisStatus.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/AxisStatus.ctl"/>
+						<Item Name="CommandInfo.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/CommandInfo.ctl"/>
+						<Item Name="Controller names.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Controller names.ctl"/>
+						<Item Name="CSV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/CSV.vi"/>
+						<Item Name="CSV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/CSV?.vi"/>
+						<Item Name="Define connected axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Define connected axes.vi"/>
+						<Item Name="Define connected systems (Array).vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Define connected systems (Array).vi"/>
+						<Item Name="DynamicHardwareInfo.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/DynamicHardwareInfo.ctl"/>
+						<Item Name="ERR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/ERR?.vi"/>
+						<Item Name="FirmwareInfo.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/FirmwareInfo.ctl"/>
+						<Item Name="Global2 (Array).vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Global2 (Array).vi"/>
+						<Item Name="HardwareInfo.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/HardwareInfo.ctl"/>
+						<Item Name="HLP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/HLP?.vi"/>
+						<Item Name="HLT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/HLT.vi"/>
+						<Item Name="HPA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/HPA?.vi"/>
+						<Item Name="HPV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/HPV?.vi"/>
+						<Item Name="Initialize Global2.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Initialize Global2.vi"/>
+						<Item Name="LOG?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/LOG?.vi"/>
+						<Item Name="LOG_NoIndex.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/LOG_NoIndex.ctl"/>
+						<Item Name="LogInfo.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/LogInfo.ctl"/>
+						<Item Name="MAN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/MAN?.vi"/>
+						<Item Name="MemoryType.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/MemoryType.ctl"/>
+						<Item Name="MOV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/MOV?.vi"/>
+						<Item Name="MOV_C-887.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/MOV_C-887.vi"/>
+						<Item Name="MVR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/MVR.vi"/>
+						<Item Name="MWG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/MWG.vi"/>
+						<Item Name="OCV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/OCV.vi"/>
+						<Item Name="OCV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/OCV?.vi"/>
+						<Item Name="ONT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/ONT?.vi"/>
+						<Item Name="Parameter Set.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Parameter Set.ctl"/>
+						<Item Name="ParameterInfoSet.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/ParameterInfoSet.ctl"/>
+						<Item Name="POS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/POS?.vi"/>
+						<Item Name="PUN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/PUN?.vi"/>
+						<Item Name="RES.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/RES.vi"/>
+						<Item Name="RTO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/RTO.vi"/>
+						<Item Name="RTO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/RTO?.vi"/>
+						<Item Name="SAI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/SAI?.vi"/>
+						<Item Name="SPA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/SPA.vi"/>
+						<Item Name="SPA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/SPA?.vi"/>
+						<Item Name="SPV?.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/SPV?.vi"/>
+						<Item Name="Status.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/Status.ctl"/>
+						<Item Name="STP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/STP.vi"/>
+						<Item Name="STV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/STV?.vi"/>
+						<Item Name="SVO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/SVO.vi"/>
+						<Item Name="SVO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/SVO?.vi"/>
+						<Item Name="SystemStatus.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/SystemStatus.ctl"/>
+						<Item Name="UnitDescription.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/UnitDescription.ctl"/>
+						<Item Name="USG? CMD.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/USG? CMD.vi"/>
+						<Item Name="USG? HW.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/USG? HW.vi"/>
+						<Item Name="USG? PAM.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/USG? PAM.vi"/>
+						<Item Name="USG? PROP.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/USG? PROP.vi"/>
+						<Item Name="USG? SYS.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/USG? SYS.vi"/>
+						<Item Name="USG?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/USG?.vi"/>
+						<Item Name="VEL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/VEL.vi"/>
+						<Item Name="VEL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/VEL?.vi"/>
+						<Item Name="VER?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/VER?.vi"/>
+					</Item>
+					<Item Name="Joystick" Type="Folder">
+						<Item Name="Calculate joystick scaling.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/Calculate joystick scaling.vi"/>
+						<Item Name="HDT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/HDT.vi"/>
+						<Item Name="HDT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HDT?.vi"/>
+						<Item Name="HIA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/HIA.vi"/>
+						<Item Name="HIA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HIA?.vi"/>
+						<Item Name="HIB?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HIB?.vi"/>
+						<Item Name="HIE?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HIE?.vi"/>
+						<Item Name="HIL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/HIL.vi"/>
+						<Item Name="HIL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HIL?.vi"/>
+						<Item Name="HIN.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/HIN.vi"/>
+						<Item Name="HIN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HIN?.vi"/>
+						<Item Name="HIS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/HIS.vi"/>
+						<Item Name="HIS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HIS?.vi"/>
+						<Item Name="HIT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/HIT.vi"/>
+						<Item Name="HIT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/HIT?.vi"/>
+						<Item Name="JAS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/JAS?.vi"/>
+						<Item Name="JAX.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/JAX.vi"/>
+						<Item Name="JAX?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/JAX?.vi"/>
+						<Item Name="JBS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/JBS?.vi"/>
+						<Item Name="JDT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/JDT.vi"/>
+						<Item Name="JEN.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/JEN.vi"/>
+						<Item Name="JEN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/JEN?.vi"/>
+						<Item Name="JLT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/JLT.vi"/>
+						<Item Name="JLT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/JLT?.vi"/>
+						<Item Name="JON.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/JON.vi"/>
+						<Item Name="JON?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/JON?.vi"/>
+						<Item Name="Read joystick.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/Read joystick.vi"/>
+						<Item Name="Scale joystick data.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/Scale joystick data.vi"/>
+						<Item Name="SJA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/SJA.vi"/>
+						<Item Name="SJA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/SJA?.vi"/>
+						<Item Name="TNJ?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Joystick.llb/TNJ?.vi"/>
+					</Item>
+					<Item Name="Limits" Type="Folder">
+						<Item Name="ATZ.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/ATZ.vi"/>
+						<Item Name="ATZ?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/ATZ?.vi"/>
+						<Item Name="CMN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/CMN?.vi"/>
+						<Item Name="CMX?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/CMX?.vi"/>
+						<Item Name="DFH.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/DFH.vi"/>
+						<Item Name="DFH?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/DFH?.vi"/>
+						<Item Name="FED.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/FED.vi"/>
+						<Item Name="FED?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/FED?.vi"/>
+						<Item Name="FES?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/FES?.vi"/>
+						<Item Name="FNL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/FNL.vi"/>
+						<Item Name="FPH.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/FPH.vi"/>
+						<Item Name="FPH?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/FPH?.vi"/>
+						<Item Name="FPL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/FPL.vi"/>
+						<Item Name="FRF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/FRF.vi"/>
+						<Item Name="FRF?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/FRF?.vi"/>
+						<Item Name="FSF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/FSF.vi"/>
+						<Item Name="FSF?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/FSF?.vi"/>
+						<Item Name="FSR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/FSR?.vi"/>
+						<Item Name="GOH.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/GOH.vi"/>
+						<Item Name="HAR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/HAR?.vi"/>
+						<Item Name="LIM?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/LIM?.vi"/>
+						<Item Name="LSS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/LSS?.vi"/>
+						<Item Name="MNL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/MNL.vi"/>
+						<Item Name="MPL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/MPL.vi"/>
+						<Item Name="NLM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/NLM.vi"/>
+						<Item Name="NLM?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/NLM?.vi"/>
+						<Item Name="PLM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/PLM.vi"/>
+						<Item Name="PLM?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/PLM?.vi"/>
+						<Item Name="REF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/REF.vi"/>
+						<Item Name="REF?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/REF?.vi"/>
+						<Item Name="RON.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/RON.vi"/>
+						<Item Name="RON?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/RON?.vi"/>
+						<Item Name="SSL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Limits.llb/SSL.vi"/>
+						<Item Name="SSL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/SSL?.vi"/>
+						<Item Name="TMN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/TMN?.vi"/>
+						<Item Name="TMX?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/TMX?.vi"/>
+						<Item Name="TRA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/TRA?.vi"/>
+						<Item Name="TRS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Limits.llb/TRS?.vi"/>
+					</Item>
+					<Item Name="Macros" Type="Folder">
+						<Item Name="#8.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/#8.vi"/>
+						<Item Name="Define macro contents with delay.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/Define macro contents with delay.vi"/>
+						<Item Name="Define macro contents.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/Define macro contents.vi"/>
+						<Item Name="MAC BEG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/MAC BEG.vi"/>
+						<Item Name="MAC DEF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/MAC DEF.vi"/>
+						<Item Name="MAC DEF?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Macros.llb/MAC DEF?.vi"/>
+						<Item Name="MAC DEL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/MAC DEL.vi"/>
+						<Item Name="MAC END.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/MAC END.vi"/>
+						<Item Name="MAC ERR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Macros.llb/MAC ERR?.vi"/>
+						<Item Name="MAC FREE?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Macros.llb/MAC FREE?.vi"/>
+						<Item Name="MAC NSTART.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/MAC NSTART.vi"/>
+						<Item Name="MAC START.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/MAC START.vi"/>
+						<Item Name="MAC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Macros.llb/MAC?.vi"/>
+						<Item Name="RMC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Macros.llb/RMC?.vi"/>
+						<Item Name="VAR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/VAR.vi"/>
+						<Item Name="VAR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Macros.llb/VAR?.vi"/>
+						<Item Name="WAI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Macros.llb/WAI.vi"/>
+					</Item>
+					<Item Name="Old commands" Type="Folder">
+						<Item Name="#5_old.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/#5_old.vi"/>
+						<Item Name="Define connected systems.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/Define connected systems.vi"/>
+						<Item Name="HELP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/HELP.vi"/>
+						<Item Name="INI hexaxes and wait until finished.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/INI hexaxes and wait until finished.vi"/>
+						<Item Name="MOV?_old.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/MOV?_old.vi"/>
+						<Item Name="NMOV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/NMOV.vi"/>
+						<Item Name="NMVR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/NMVR.vi"/>
+						<Item Name="PMA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/PMA.vi"/>
+						<Item Name="PMA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/PMA?.vi"/>
+						<Item Name="PMI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/PMI.vi"/>
+						<Item Name="PMI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/PMI?.vi"/>
+						<Item Name="SEP?_Hex.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/SEP?_Hex.vi"/>
+						<Item Name="SEP_Hex.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/SEP_Hex.vi"/>
+						<Item Name="SPA?_Hex.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/SPA?_Hex.vi"/>
+						<Item Name="SPA?_Hex_String.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/SPA?_Hex_String.vi"/>
+						<Item Name="SPA?_String.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/SPA?_String.vi"/>
+						<Item Name="SPA_Hex.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/SPA_Hex.vi"/>
+						<Item Name="SPA_Hex_String.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/SPA_Hex_String.vi"/>
+						<Item Name="SPA_String.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/SPA_String.vi"/>
+						<Item Name="Split num query command.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/Split num query command.vi"/>
+						<Item Name="STOP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/STOP.vi"/>
+						<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
+					</Item>
+					<Item Name="Optical or Analog Input" Type="Folder">
+						<Item Name="MOV and TAV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/MOV and TAV?.vi"/>
+						<Item Name="MWG and TAV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/MWG and TAV?.vi"/>
+						<Item Name="NAV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Optical or Analog Input.llb/NAV.vi"/>
+						<Item Name="NAV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/NAV?.vi"/>
+						<Item Name="SGA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Optical or Analog Input.llb/SGA.vi"/>
+						<Item Name="SGA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/SGA?.vi"/>
+						<Item Name="TAC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/TAC?.vi"/>
+						<Item Name="TAD?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/TAD?.vi"/>
+						<Item Name="TAV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Optical or Analog Input.llb/TAV.vi"/>
+						<Item Name="TAV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/TAV?.vi"/>
+						<Item Name="TNS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/TNS?.vi"/>
+						<Item Name="TSC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/TSC?.vi"/>
+						<Item Name="TSP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Optical or Analog Input.llb/TSP.vi"/>
+						<Item Name="TSP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/TSP?.vi"/>
+					</Item>
+					<Item Name="PZT voltage" Type="Folder">
+						<Item Name="APG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/APG.vi"/>
+						<Item Name="APG?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/APG?.vi"/>
+						<Item Name="DAE?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/DAE?.vi"/>
+						<Item Name="DCO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/DCO.vi"/>
+						<Item Name="DCO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/DCO?.vi"/>
+						<Item Name="DPO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/DPO.vi"/>
+						<Item Name="DTC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/DTC.vi"/>
+						<Item Name="OAD.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/OAD.vi"/>
+						<Item Name="OAD?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/OAD?.vi"/>
+						<Item Name="OSM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/OSM.vi"/>
+						<Item Name="OSM?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/OSM?.vi"/>
+						<Item Name="OSN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/OSN?.vi"/>
+						<Item Name="OVF?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/OVF?.vi"/>
+						<Item Name="PGS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/PGS.vi"/>
+						<Item Name="POL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/POL.vi"/>
+						<Item Name="RNP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/RNP.vi"/>
+						<Item Name="SVA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/SVA.vi"/>
+						<Item Name="SVA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/SVA?.vi"/>
+						<Item Name="SVR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/SVR.vi"/>
+						<Item Name="VCO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/VCO.vi"/>
+						<Item Name="VCO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/VCO?.vi"/>
+						<Item Name="VMA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/VMA.vi"/>
+						<Item Name="VMA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/VMA?.vi"/>
+						<Item Name="VMI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/VMI.vi"/>
+						<Item Name="VMI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/VMI?.vi"/>
+						<Item Name="VOL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/PZT voltage.llb/VOL.vi"/>
+						<Item Name="VOL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/PZT voltage.llb/VOL?.vi"/>
+					</Item>
+					<Item Name="Scan support" Type="Folder">
+						<Item Name="Axis names.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Scan support.llb/Axis names.vi"/>
+						<Item Name="Calculate 1D scan positions.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Scan support.llb/Calculate 1D scan positions.vi"/>
+						<Item Name="Calculate 2D linear spiral.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Scan support.llb/Calculate 2D linear spiral.vi"/>
+						<Item Name="Calculate 2D meander.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Scan support.llb/Calculate 2D meander.vi"/>
+						<Item Name="Calculate 2D scan positions.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Scan support.llb/Calculate 2D scan positions.vi"/>
+						<Item Name="Decrease Gain?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Scan support.llb/Decrease Gain?.vi"/>
+						<Item Name="F206_Choose_SPI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Scan support.llb/F206_Choose_SPI.vi"/>
+						<Item Name="Maximum Intensity?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Scan support.llb/Maximum Intensity?.vi"/>
+						<Item Name="PIGraph3D_DLL_Functions.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Scan support.llb/PIGraph3D_DLL_Functions.vi"/>
+					</Item>
+					<Item Name="Special command" Type="Folder">
+						<Item Name="#11.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#11.vi"/>
+						<Item Name="#24_C-887.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#24_C-887.vi"/>
+						<Item Name="#27.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#27.vi"/>
+						<Item Name="#3.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#3.vi"/>
+						<Item Name="#4.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#4.vi"/>
+						<Item Name="#5.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#5.vi"/>
+						<Item Name="#6.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#6.vi"/>
+						<Item Name="#7.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/#7.vi"/>
+						<Item Name="ACC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/ACC.vi"/>
+						<Item Name="ACC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/ACC?.vi"/>
+						<Item Name="AOS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/AOS.vi"/>
+						<Item Name="AOS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/AOS?.vi"/>
+						<Item Name="AVG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/AVG.vi"/>
+						<Item Name="AVG?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/AVG?.vi"/>
+						<Item Name="BRA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/BRA.vi"/>
+						<Item Name="BRA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/BRA?.vi"/>
+						<Item Name="CAV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CAV?.vi"/>
+						<Item Name="CCL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CCL.vi"/>
+						<Item Name="CCL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CCL?.vi"/>
+						<Item Name="CCV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CCV?.vi"/>
+						<Item Name="CLR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CLR.vi"/>
+						<Item Name="CMO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CMO.vi"/>
+						<Item Name="CMO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CMO?.vi"/>
+						<Item Name="ConfigurationMemoryType.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/ConfigurationMemoryType.ctl"/>
+						<Item Name="COV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/COV?.vi"/>
+						<Item Name="CPA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CPA.vi"/>
+						<Item Name="CST.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CST.vi"/>
+						<Item Name="CST?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CST?.vi"/>
+						<Item Name="CTI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CTI.vi"/>
+						<Item Name="CTI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CTI?.vi"/>
+						<Item Name="CTO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CTO.vi"/>
+						<Item Name="CTO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CTO?.vi"/>
+						<Item Name="CTR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CTR.vi"/>
+						<Item Name="CTV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/CTV.vi"/>
+						<Item Name="CTV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/CTV?.vi"/>
+						<Item Name="DEC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DEC.vi"/>
+						<Item Name="DEC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DEC?.vi"/>
+						<Item Name="DEL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DEL.vi"/>
+						<Item Name="DEM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DEM.vi"/>
+						<Item Name="DFF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DFF.vi"/>
+						<Item Name="DFF?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DFF?.vi"/>
+						<Item Name="DIA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DIA?.vi"/>
+						<Item Name="DIO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DIO.vi"/>
+						<Item Name="DIO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DIO?.vi"/>
+						<Item Name="DIP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DIP?.vi"/>
+						<Item Name="DPA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DPA.vi"/>
+						<Item Name="DRC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DRC.vi"/>
+						<Item Name="DRC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DRC?.vi"/>
+						<Item Name="DriveStateMachine.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DriveStateMachine.ctl"/>
+						<Item Name="DRL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DRL?.vi"/>
+						<Item Name="DRR? and display data.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DRR? and display data.vi"/>
+						<Item Name="DRR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DRR?.vi"/>
+						<Item Name="DRT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DRT.vi"/>
+						<Item Name="DRT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/DRT?.vi"/>
+						<Item Name="DRV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/DRV.vi"/>
+						<Item Name="EAX.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/EAX.vi"/>
+						<Item Name="EAX?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/EAX?.vi"/>
+						<Item Name="EGE.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/EGE.vi"/>
+						<Item Name="EGE?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/EGE?.vi"/>
+						<Item Name="HDI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/HDI?.vi"/>
+						<Item Name="HDR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/HDR?.vi"/>
+						<Item Name="I2C?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/I2C?.vi"/>
+						<Item Name="IMP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/IMP.vi"/>
+						<Item Name="IMP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/IMP?.vi"/>
+						<Item Name="InterpreterConfiguration.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/InterpreterConfiguration.ctl"/>
+						<Item Name="IPR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/IPR?.vi"/>
+						<Item Name="ITD.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/ITD.vi"/>
+						<Item Name="JOG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/JOG.vi"/>
+						<Item Name="JOG?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/JOG?.vi"/>
+						<Item Name="MAR!.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/MAR!.vi"/>
+						<Item Name="MAS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/MAS.vi"/>
+						<Item Name="MAS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/MAS?.vi"/>
+						<Item Name="MOD.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/MOD.vi"/>
+						<Item Name="MOD?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/MOD?.vi"/>
+						<Item Name="ModeOfOperation.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/ModeOfOperation.ctl"/>
+						<Item Name="MOV!.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/MOV!.vi"/>
+						<Item Name="MVE.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/MVE.vi"/>
+						<Item Name="MVT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/MVT.vi"/>
+						<Item Name="MVT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/MVT?.vi"/>
+						<Item Name="OAC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/OAC.vi"/>
+						<Item Name="OAC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/OAC?.vi"/>
+						<Item Name="ODC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/ODC.vi"/>
+						<Item Name="ODC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/ODC?.vi"/>
+						<Item Name="OMA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/OMA.vi"/>
+						<Item Name="OMA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/OMA?.vi"/>
+						<Item Name="OMR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/OMR.vi"/>
+						<Item Name="ONL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/ONL.vi"/>
+						<Item Name="ONL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/ONL?.vi"/>
+						<Item Name="OpenStageEditorDialog.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/OpenStageEditorDialog.vi"/>
+						<Item Name="OVL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/OVL.vi"/>
+						<Item Name="OVL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/OVL?.vi"/>
+						<Item Name="POS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/POS.vi"/>
+						<Item Name="RBT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/RBT.vi"/>
+						<Item Name="REC RATE.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REC RATE.vi"/>
+						<Item Name="REC START.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REC START.vi"/>
+						<Item Name="REC STOP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REC STOP.vi"/>
+						<Item Name="REC TRACE.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REC TRACE.vi"/>
+						<Item Name="REC TRG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REC TRG.vi"/>
+						<Item Name="REC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REC.vi"/>
+						<Item Name="REC? DAT to Array.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC? DAT to Array.vi"/>
+						<Item Name="REC? DAT.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC? DAT.vi"/>
+						<Item Name="REC? NUM.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC? NUM.vi"/>
+						<Item Name="REC? RATE.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC? RATE.vi"/>
+						<Item Name="REC? STATE.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC? STATE.vi"/>
+						<Item Name="REC? TRACE.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC? TRACE.vi"/>
+						<Item Name="REC? TRG.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC? TRG.vi"/>
+						<Item Name="REC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC?.vi"/>
+						<Item Name="REC_OptionalParameter.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REC_OptionalParameter.vi"/>
+						<Item Name="RecorderStatus.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/RecorderStatus.ctl"/>
+						<Item Name="RecorderTraceConfiguration.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/RecorderTraceConfiguration.ctl"/>
+						<Item Name="RecorderTriggerConfiguration.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/RecorderTriggerConfiguration.ctl"/>
+						<Item Name="REL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/REL.vi"/>
+						<Item Name="REL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REL?.vi"/>
+						<Item Name="RPA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/RPA.vi"/>
+						<Item Name="RST.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/RST.vi"/>
+						<Item Name="RTR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/RTR.vi"/>
+						<Item Name="RTR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/RTR?.vi"/>
+						<Item Name="SAI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SAI.vi"/>
+						<Item Name="SAM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SAM.vi"/>
+						<Item Name="SAM?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SAM?.vi"/>
+						<Item Name="SAV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SAV.vi"/>
+						<Item Name="SCA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SCA.vi"/>
+						<Item Name="SCA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SCA?.vi"/>
+						<Item Name="SCH.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SCH.vi"/>
+						<Item Name="SCH?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SCH?.vi"/>
+						<Item Name="SCT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SCT.vi"/>
+						<Item Name="SCT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SCT?.vi"/>
+						<Item Name="SEP.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SEP.vi"/>
+						<Item Name="SEP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SEP?.vi"/>
+						<Item Name="SMA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SMA.vi"/>
+						<Item Name="SMA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SMA?.vi"/>
+						<Item Name="SMO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SMO.vi"/>
+						<Item Name="SMO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SMO?.vi"/>
+						<Item Name="SMR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SMR?.vi"/>
+						<Item Name="SMV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SMV.vi"/>
+						<Item Name="SMV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SMV?.vi"/>
+						<Item Name="SPI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SPI.vi"/>
+						<Item Name="SPI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SPI?.vi"/>
+						<Item Name="SPV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SPV.vi"/>
+						<Item Name="SRA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SRA.vi"/>
+						<Item Name="SRA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SRA?.vi"/>
+						<Item Name="SRG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SRG.vi"/>
+						<Item Name="SRG?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SRG?.vi"/>
+						<Item Name="SSA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SSA.vi"/>
+						<Item Name="SSA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SSA?.vi"/>
+						<Item Name="SSN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SSN?.vi"/>
+						<Item Name="SST.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/SST.vi"/>
+						<Item Name="SST?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/SST?.vi"/>
+						<Item Name="STA?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/STA?.vi"/>
+						<Item Name="STE.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/STE.vi"/>
+						<Item Name="STE?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/STE?.vi"/>
+						<Item Name="TCT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TCT?.vi"/>
+						<Item Name="TCV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TCV?.vi"/>
+						<Item Name="TIM.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/TIM.vi"/>
+						<Item Name="TIM?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TIM?.vi"/>
+						<Item Name="TIO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TIO?.vi"/>
+						<Item Name="TMC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TMC?.vi"/>
+						<Item Name="TMP?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TMP?.vi"/>
+						<Item Name="TNC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TNC?.vi"/>
+						<Item Name="TNR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TNR?.vi"/>
+						<Item Name="TPC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TPC?.vi"/>
+						<Item Name="TRC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TRC?.vi"/>
+						<Item Name="TRI.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/TRI.vi"/>
+						<Item Name="TRI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TRI?.vi"/>
+						<Item Name="TRO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/TRO.vi"/>
+						<Item Name="TRO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TRO?.vi"/>
+						<Item Name="TVI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/TVI?.vi"/>
+						<Item Name="UCL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/UCL.vi"/>
+						<Item Name="UCL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/UCL?.vi"/>
+						<Item Name="UserCommandLevel.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/UserCommandLevel.ctl"/>
+						<Item Name="VLS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/VLS.vi"/>
+						<Item Name="VLS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/VLS?.vi"/>
+						<Item Name="VST?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/VST?.vi"/>
+						<Item Name="WAA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/WAA.vi"/>
+						<Item Name="WPA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Special command.llb/WPA.vi"/>
+					</Item>
+					<Item Name="Support" Type="Folder">
+						<Item Name="Analyse input string for terminal.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Analyse input string for terminal.vi"/>
+						<Item Name="Assign booleans from string to axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign booleans from string to axes.vi"/>
+						<Item Name="Assign DRC values.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign DRC values.vi"/>
+						<Item Name="Assign DRT values from string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign DRT values from string.vi"/>
+						<Item Name="Assign NaN for chosen axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign NaN for chosen axes.vi"/>
+						<Item Name="Assign SPA values from string to axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign SPA values from string to axes.vi"/>
+						<Item Name="Assign status from string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign status from string.vi"/>
+						<Item Name="Assign three values from string to axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign three values from string to axes.vi"/>
+						<Item Name="Assign two values from string to axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign two values from string to axes.vi"/>
+						<Item Name="Assign values from string to axes_C-887.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Assign values from string to axes_C-887.vi"/>
+						<Item Name="Axes_settled.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Axes_settled.vi"/>
+						<Item Name="Boolean array calculations.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Boolean array calculations.vi"/>
+						<Item Name="Build channel query command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build channel query command substring.vi"/>
+						<Item Name="Build command substring_C-887.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build command substring_C-887.vi"/>
+						<Item Name="Build DIO? query command substring.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Build DIO? query command substring.vi"/>
+						<Item Name="Build HIA command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build HIA command substring.vi"/>
+						<Item Name="Build MVS command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build MVS command substring.vi"/>
+						<Item Name="Build num command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build num command substring.vi"/>
+						<Item Name="Build query command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build query command substring.vi"/>
+						<Item Name="Build REL? query command substring.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Build REL? query command substring.vi"/>
+						<Item Name="Build SPA command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build SPA command substring.vi"/>
+						<Item Name="Build SPA query command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build SPA query command substring.vi"/>
+						<Item Name="Build stringplusnum substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build stringplusnum substring.vi"/>
+						<Item Name="Build WAV command substring.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Build WAV command substring.vi"/>
+						<Item Name="ClearMotionError.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/ClearMotionError.vi"/>
+						<Item Name="Combine axes arrays.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Combine axes arrays.vi"/>
+						<Item Name="Commanded axes connected?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Commanded axes connected?.vi"/>
+						<Item Name="Commanded stage name available?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Commanded stage name available?.vi"/>
+						<Item Name="Convert error to warning.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Convert error to warning.vi"/>
+						<Item Name="Convert num array to string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Convert num array to string.vi"/>
+						<Item Name="Convert num value to syntax selection.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Convert num value to syntax selection.vi"/>
+						<Item Name="ConvertStatusRegister.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/ConvertStatusRegister.vi"/>
+						<Item Name="ConvertStatusRegistersToAxisStatusArray.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/ConvertStatusRegistersToAxisStatusArray.vi"/>
+						<Item Name="ConvertStatusRegistersToSystemStatusArray.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/ConvertStatusRegistersToSystemStatusArray.vi"/>
+						<Item Name="ConvertStatusRegisterToAxisStatus.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/ConvertStatusRegisterToAxisStatus.vi"/>
+						<Item Name="ConvertStatusRegisterToSystemStatus.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/ConvertStatusRegisterToSystemStatus.vi"/>
+						<Item Name="Count occurrences in string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Count occurrences in string.vi"/>
+						<Item Name="Create Controller Names.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Create Controller Names.vi"/>
+						<Item Name="CST handler.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/CST handler.vi"/>
+						<Item Name="Cut out additional spaces_C-887.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Cut out additional spaces_C-887.vi"/>
+						<Item Name="Decode status bit.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Decode status bit.vi"/>
+						<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
+						<Item Name="Define connected stages with dialog.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Define connected stages with dialog.vi"/>
+						<Item Name="Determine angular axis.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Determine angular axis.vi"/>
+						<Item Name="GCS3 Begin Block.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCS3 Begin Block.vi"/>
+						<Item Name="GCS3 End Block.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCS3 End Block.vi"/>
+						<Item Name="GCS3 Read Block.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCS3 Read Block.vi"/>
+						<Item Name="GCS3 Read Entries.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCS3 Read Entries.vi"/>
+						<Item Name="GCS3_Finish_Motion_Error.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCS3_Finish_Motion_Error.vi"/>
+						<Item Name="GCS3_Prepare_Motion_Error.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCS3_Prepare_Motion_Error.vi"/>
+						<Item Name="GCSArray_difference.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_difference.vi"/>
+						<Item Name="GCSArray_header.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_header.ctl"/>
+						<Item Name="GCSArray_header_action.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_header_action.ctl"/>
+						<Item Name="GCSArray_header_read.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_header_read.vi"/>
+						<Item Name="GCSArray_import.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_import.vi"/>
+						<Item Name="GCSArray_intersection.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_intersection.vi"/>
+						<Item Name="GCSArray_regex_matches.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_regex_matches.vi"/>
+						<Item Name="GCSArray_regex_range.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_regex_range.ctl"/>
+						<Item Name="GCSArray_regex_select.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_regex_select.vi"/>
+						<Item Name="GCSArray_regex_selector.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_regex_selector.ctl"/>
+						<Item Name="GCSArray_regex_string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_regex_string.vi"/>
+						<Item Name="GCSArray_valid.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_valid.vi"/>
+						<Item Name="GCSArray_valid_action.ctl" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSArray_valid_action.ctl"/>
+						<Item Name="GCSTranslateError.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/GCSTranslateError.vi"/>
+						<Item Name="General wait for movement to stop.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/General wait for movement to stop.vi"/>
+						<Item Name="Get all axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get all axes.vi"/>
+						<Item Name="Get arrays without blanks.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get arrays without blanks.vi"/>
+						<Item Name="Get Controller Name from IDN.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get Controller Name from IDN.vi"/>
+						<Item Name="Get lines and values from string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get lines and values from string.vi"/>
+						<Item Name="Get lines from string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get lines from string.vi"/>
+						<Item Name="Get Slave Device Info.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get Slave Device Info.vi"/>
+						<Item Name="Get string array size without blanks.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get string array size without blanks.vi"/>
+						<Item Name="Get total number of commanded axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Get total number of commanded axes.vi"/>
+						<Item Name="HasCommand?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/HasCommand?.vi"/>
+						<Item Name="HasCommandArray?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/HasCommandArray?.vi"/>
+						<Item Name="HasMotionError.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/HasMotionError.vi"/>
+						<Item Name="How often does string contain regular expression?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/How often does string contain regular expression?.vi"/>
+						<Item Name="Increase array size.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Increase array size.vi"/>
+						<Item Name="InMotion.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/InMotion.vi"/>
+						<Item Name="Is command present in HLP answer?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Is command present in HLP answer?.vi"/>
+						<Item Name="IsControllerBusy.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/IsControllerBusy.vi"/>
+						<Item Name="LOG?_State.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/LOG?_State.ctl"/>
+						<Item Name="Longlasting one-axis command.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Longlasting one-axis command.vi"/>
+						<Item Name="Manual VMO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Manual VMO.vi"/>
+						<Item Name="Move axes to their middle position.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Move axes to their middle position.vi"/>
+						<Item Name="Multi Axis Query.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Multi Axis Query.vi"/>
+						<Item Name="Multi Recorder Query.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Multi Recorder Query.vi"/>
+						<Item Name="Parse KLS? type answer by type.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Parse KLS? type answer by type.vi"/>
+						<Item Name="Parse qLOG Answer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Parse qLOG Answer.vi"/>
+						<Item Name="Parse qSPV Answer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Parse qSPV Answer.vi"/>
+						<Item Name="Parse qUSG CMD Answer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Parse qUSG CMD Answer.vi"/>
+						<Item Name="Parse qUSG PAM Answer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Parse qUSG PAM Answer.vi"/>
+						<Item Name="Parse qUSG SYS Answer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Parse qUSG SYS Answer.vi"/>
+						<Item Name="Parse_FRH_Type_String.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Parse_FRH_Type_String.vi"/>
+						<Item Name="ReadControllerInformation.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/ReadControllerInformation.vi"/>
+						<Item Name="Return single characters from string.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Return single characters from string.vi"/>
+						<Item Name="Return space.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Return space.vi"/>
+						<Item Name="Round with options.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Round with options.vi"/>
+						<Item Name="Select axis.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Select axis.vi"/>
+						<Item Name="Select values for chosen axes.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Select values for chosen axes.vi"/>
+						<Item Name="Select with boolean array input.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Select with boolean array input.vi"/>
+						<Item Name="Selection to String array.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Selection to String array.vi"/>
+						<Item Name="Send string and wait for answer or timeout.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Send string and wait for answer or timeout.vi"/>
+						<Item Name="Sep axes ini result in order.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Sep axes ini result in order.vi"/>
+						<Item Name="Set RON and return RON status.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Set RON and return RON status.vi"/>
+						<Item Name="Split block segments from line.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Split block segments from line.vi"/>
+						<Item Name="Split multiple axes command.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Split multiple axes command.vi"/>
+						<Item Name="Split recorder block item from answer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Split recorder block item from answer.vi"/>
+						<Item Name="Split recorder_trace block item from answer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Split recorder_trace block item from answer.vi"/>
+						<Item Name="Split text segments from line.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Split text segments from line.vi"/>
+						<Item Name="StopAllMotion.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/StopAllMotion.vi"/>
+						<Item Name="String with ASCII code conversion.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/String with ASCII code conversion.vi"/>
+						<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
+						<Item Name="Tokenizer.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Tokenizer.vi"/>
+						<Item Name="Unbunde/bundle interface clusters for PI Terminal.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Unbunde/bundle interface clusters for PI Terminal.vi"/>
+						<Item Name="Wait for answer 0 or 1 without polling.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Wait for answer 0 or 1 without polling.vi"/>
+						<Item Name="Wait for answer of longlasting command.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Wait for answer of longlasting command.vi"/>
+						<Item Name="Wait for axes to stop.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Wait for axes to stop.vi"/>
+						<Item Name="Wait for controller ready.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Support.llb/Wait for controller ready.vi"/>
+					</Item>
+					<Item Name="WaveGenerator" Type="Folder">
+						<Item Name="#9.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/#9.vi"/>
+						<Item Name="DDL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/DDL.vi"/>
+						<Item Name="DDL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/DDL?.vi"/>
+						<Item Name="DTL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/DTL?.vi"/>
+						<Item Name="GWD?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/GWD?.vi"/>
+						<Item Name="Send WG commands and wait for answers.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/Send WG commands and wait for answers.vi"/>
+						<Item Name="SWT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/SWT.vi"/>
+						<Item Name="SWT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/SWT?.vi"/>
+						<Item Name="TGA.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/TGA.vi"/>
+						<Item Name="TGC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/TGC.vi"/>
+						<Item Name="TGF.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/TGF.vi"/>
+						<Item Name="TGL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/TGL?.vi"/>
+						<Item Name="TGS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/TGS.vi"/>
+						<Item Name="TGT.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/TGT.vi"/>
+						<Item Name="TGT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/TGT?.vi"/>
+						<Item Name="TLT?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/TLT?.vi"/>
+						<Item Name="TWC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/TWC.vi"/>
+						<Item Name="TWG?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/TWG?.vi"/>
+						<Item Name="TWS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/TWS.vi"/>
+						<Item Name="TWS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/TWS?.vi"/>
+						<Item Name="WAV CFG.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WAV CFG.vi"/>
+						<Item Name="WAV.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WAV.vi"/>
+						<Item Name="WAV?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WAV?.vi"/>
+						<Item Name="WCL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WCL.vi"/>
+						<Item Name="WGC.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WGC.vi"/>
+						<Item Name="WGC?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WGC?.vi"/>
+						<Item Name="WGI?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WGI?.vi"/>
+						<Item Name="WGN?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WGN?.vi"/>
+						<Item Name="WGO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WGO.vi"/>
+						<Item Name="WGO?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WGO?.vi"/>
+						<Item Name="WGR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WGR.vi"/>
+						<Item Name="WGS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WGS?.vi"/>
+						<Item Name="WMS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WMS.vi"/>
+						<Item Name="WMS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WMS?.vi"/>
+						<Item Name="WOS.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WOS.vi"/>
+						<Item Name="WOS?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WOS?.vi"/>
+						<Item Name="WSL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WSL.vi"/>
+						<Item Name="WSL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WSL?.vi"/>
+						<Item Name="WTO.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WTO.vi"/>
+						<Item Name="WTR.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/WaveGenerator.llb/WTR.vi"/>
+						<Item Name="WTR?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/WaveGenerator.llb/WTR?.vi"/>
+					</Item>
+					<Item Name="Analog control.llb_dummy" Type="Document" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb_dummy"/>
+					<Item Name="Analog control.llb_non_dummy" Type="Document" URL="../C-887_Driver/LabVIEW/Low Level/Analog control.llb_non_dummy"/>
+					<Item Name="dir.mnu" Type="Document" URL="../C-887_Driver/LabVIEW/Low Level/dir.mnu"/>
+					<Item Name="GCSTranslator.dll" Type="Document" URL="../C-887_Driver/LabVIEW/Low Level/GCSTranslator.dll"/>
+					<Item Name="GCSTranslator_x64.dll" Type="Document" URL="../C-887_Driver/LabVIEW/Low Level/GCSTranslator_x64.dll"/>
+					<Item Name="Version.txt" Type="Document" URL="../C-887_Driver/LabVIEW/Low Level/Version.txt"/>
+				</Item>
+				<Item Name="Obsolete" Type="Folder">
+					<Item Name="C413_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C413_Configuration_Setup.vi"/>
+					<Item Name="C702_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C702_Configuration_Setup.vi"/>
+					<Item Name="C843_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C843_Configuration_Setup.vi"/>
+					<Item Name="C843_PM_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C843_PM_Configuration_Setup.vi"/>
+					<Item Name="C866_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C866_Configuration_Setup.vi"/>
+					<Item Name="C867_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C867_Configuration_Setup.vi"/>
+					<Item Name="C867_Configuration_Setup_Rev2.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C867_Configuration_Setup_Rev2.vi"/>
+					<Item Name="C867_Multiaxis_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C867_Multiaxis_Configuration_Setup.vi"/>
+					<Item Name="C877_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C877_Configuration_Setup.vi"/>
+					<Item Name="C884_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C884_Configuration_Setup.vi"/>
+					<Item Name="C885_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C885_Configuration_Setup.vi"/>
+					<Item Name="C885_SlaveDevice_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C885_SlaveDevice_Configuration_Setup.vi"/>
+					<Item Name="C886_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C886_Configuration_Setup.vi"/>
+					<Item Name="C887_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C887_Configuration_Setup.vi"/>
+					<Item Name="C891_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/C891_Configuration_Setup.vi"/>
+					<Item Name="dir.mnu" Type="Document" URL="../C-887_Driver/LabVIEW/Obsolete/dir.mnu"/>
+					<Item Name="E135_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E135_Configuration_Setup.vi"/>
+					<Item Name="E516_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E516_Configuration_Setup.vi"/>
+					<Item Name="E517_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E517_Configuration_Setup.vi"/>
+					<Item Name="E518_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E518_Configuration_Setup.vi"/>
+					<Item Name="E709_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E709_Configuration_Setup.vi"/>
+					<Item Name="E710_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E710_Configuration_Setup.vi"/>
+					<Item Name="E712_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E712_Configuration_Setup.vi"/>
+					<Item Name="E725_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E725_Configuration_Setup.vi"/>
+					<Item Name="E727_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E727_Configuration_Setup.vi"/>
+					<Item Name="E753_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E753_Configuration_Setup.vi"/>
+					<Item Name="E754_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E754_Configuration_Setup.vi"/>
+					<Item Name="E755_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E755_Configuration_Setup.vi"/>
+					<Item Name="E761_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E761_Configuration_Setup.vi"/>
+					<Item Name="E816_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E816_Configuration_Setup.vi"/>
+					<Item Name="E861_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E861_Configuration_Setup.vi"/>
+					<Item Name="E870_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E870_Configuration_Setup.vi"/>
+					<Item Name="E871_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E871_Configuration_Setup.vi"/>
+					<Item Name="E871_Configuration_Setup_Rev2.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E871_Configuration_Setup_Rev2.vi"/>
+					<Item Name="E872_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E872_Configuration_Setup.vi"/>
+					<Item Name="E873_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E873_Configuration_Setup.vi"/>
+					<Item Name="E874_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/E874_Configuration_Setup.vi"/>
+					<Item Name="F206_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/F206_Configuration_Setup.vi"/>
+					<Item Name="HydraPollux_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/HydraPollux_Configuration_Setup.vi"/>
+					<Item Name="M8X0_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/M8X0_Configuration_Setup.vi"/>
+					<Item Name="Mercury_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/Mercury_Configuration_Setup.vi"/>
+					<Item Name="Mercury_GCS_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/Mercury_GCS_Configuration_Setup.vi"/>
+					<Item Name="PI Terminal.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Obsolete/PI Terminal.vi"/>
+				</Item>
+				<Item Name="Joystick_Operation.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Joystick_Operation.vi"/>
+				<Item Name="PI_GCS2_All_VIs.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_All_VIs.vi"/>
+				<Item Name="PI_GCS2_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_Configuration_Setup.vi"/>
+				<Item Name="PI_GCS2_Sample_Application_1_Controller.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_Sample_Application_1_Controller.vi"/>
+				<Item Name="PI_GCS2_Sample_Application_2_Controllers.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_Sample_Application_2_Controllers.vi"/>
+				<Item Name="PI_GCS2_Sample_Application_Motion.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_Sample_Application_Motion.vi"/>
+				<Item Name="PI_GCS2_Sample_Application_With_Analog.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_Sample_Application_With_Analog.vi"/>
+				<Item Name="PI_GCS2_Simple_Test.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_Simple_Test.vi"/>
+				<Item Name="PI_GCS2_SlaveDevice_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS2_SlaveDevice_Configuration_Setup.vi"/>
+				<Item Name="PI_GCS3_Configuration_Setup.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS3_Configuration_Setup.vi"/>
+				<Item Name="PI_GCS3_Sample_Application_1_Controller.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS3_Sample_Application_1_Controller.vi"/>
+				<Item Name="PI_GCS3_Sample_Application_2_Controllers.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS3_Sample_Application_2_Controllers.vi"/>
+				<Item Name="PI_GCS3_Sample_Application_DataRecorder.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS3_Sample_Application_DataRecorder.vi"/>
+				<Item Name="PI_GCS3_Sample_Application_Fault_Reaction.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS3_Sample_Application_Fault_Reaction.vi"/>
+				<Item Name="PI_GCS3_Sample_Application_Motion.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS3_Sample_Application_Motion.vi"/>
+				<Item Name="PI_GCS3_Simple_Test.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PI_GCS3_Simple_Test.vi"/>
+				<Item Name="PITerminal.vi" Type="VI" URL="../C-887_Driver/LabVIEW/PITerminal.vi"/>
+				<Item Name="Show_Save_Load_XY_Data.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Show_Save_Load_XY_Data.vi"/>
+				<Item Name="SwitchToAnalogOrDigital.vi" Type="VI" URL="../C-887_Driver/LabVIEW/SwitchToAnalogOrDigital.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="DevicecontrolHexapodPI.vi" Type="VI" URL="../DevicecontrolHexapodPI.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
@@ -29,6 +820,7 @@
 		<Item Name="Test.vi" Type="VI" URL="../subvis/Test.vi"/>
 		<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
 		<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
+		<Item Name="C-887.lvclass" Type="LVClass" URL="../C-887_Driver/C-887.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -110,6 +902,49 @@
 				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
 				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
+				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
+				<Item Name="DWDT Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Waveform Duration.vi"/>
+				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
+				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
+				<Item Name="WDT Get Final Time Value DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Final Time Value DBL.vi"/>
+				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
+				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
+				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
+				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
+				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
+				<Item Name="WDT Number of Waveform Samples EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples EXT.vi"/>
+				<Item Name="WDT Number of Waveform Samples I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I16.vi"/>
+				<Item Name="WDT Number of Waveform Samples I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I32.vi"/>
+				<Item Name="WDT Number of Waveform Samples I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I8.vi"/>
+				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
+				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
@@ -371,6 +1206,7 @@
 				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 			</Item>
 			<Item Name="CreateError.vi" Type="VI" URL="../../shared/CreateError.vi"/>
 			<Item Name="DriverMsg.ctl" Type="VI" URL="../../BaseDriver/DriverMsg.ctl"/>
@@ -415,7 +1251,6 @@
 			<Item Name="ReadString.vi" Type="VI" URL="../CK_Hexapod_Lib/ReadString.vi"/>
 			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../CK_Hexapod_Lib/Cut out additional spaces.vi"/>
 			<Item Name="PollPosition.vi" Type="VI" URL="../CK_Hexapod_Lib/PollPosition.vi"/>
-			<Item Name="INI.vi" Type="VI" URL="../CK_Hexapod_Lib/INI.vi"/>
 			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../CK_Hexapod_Lib/Assign values from string to axes.vi"/>
 			<Item Name="WriteCommandTCPIP.vi" Type="VI" URL="../CK_Hexapod_Lib/WriteCommandTCPIP.vi"/>
 			<Item Name="UDP FGV control.ctl" Type="VI" URL="../../UDPComm/UDP FGV control.ctl"/>
@@ -478,7 +1313,6 @@
 			<Item Name="reBuildJoindCommand.vi" Type="VI" URL="../../shared/reBuildJoindCommand.vi"/>
 			<Item Name="getSeperator.vi" Type="VI" URL="../../shared/getSeperator.vi"/>
 			<Item Name="Build command substring.vi" Type="VI" URL="../CK_Hexapod_Lib/Build command substring.vi"/>
-			<Item Name="VMO.vi" Type="VI" URL="../CK_Hexapod_Lib/VMO.vi"/>
 			<Item Name="MOV.vi" Type="VI" URL="../CK_Hexapod_Lib/MOV.vi"/>
 			<Item Name="lockscanMode(DB).vi" Type="VI" URL="../../shared/lockscanMode(DB).vi"/>
 			<Item Name="updateError.vi" Type="VI" URL="../../BaseDriver/updateError.vi"/>
@@ -578,6 +1412,19 @@
 			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
 			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../../Point Grey Camera/GUIcompressionCluster.ctl"/>
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
+			<Item Name="Reentrant tcp for data gatherer.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/Reentrant tcp for data gatherer.vi"/>
+			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
+			<Item Name="tcp read with vi time.vi" Type="VI" URL="../../../Shared/GUI_Template/tcp read with vi time.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="no timeout error.vi" Type="VI" URL="../../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
+			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
+			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
+			<Item Name="winmm.dll" Type="Document" URL="winmm.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="INI.vi" Type="VI" URL="../CK_Hexapod_Lib/INI.vi"/>
+			<Item Name="VMO.vi" Type="VI" URL="../CK_Hexapod_Lib/VMO.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HexapodPI" Type="Source Distribution">
