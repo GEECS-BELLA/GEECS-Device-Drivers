@@ -24,6 +24,7 @@
 		<Item Name="CmdLib.dll" Type="Document" URL="../NewFocus/CmdLib.dll"/>
 		<Item Name="NpEthernet.dll" Type="Document" URL="../NewFocus/NpEthernet.dll"/>
 		<Item Name="UsbDllWrap.dll" Type="Document" URL="../NewFocus/UsbDllWrap.dll"/>
+		<Item Name="Sample8742UI.vi" Type="VI" URL="../Sample8742UI/Sample8742UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -283,6 +284,7 @@
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
 				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -363,6 +365,7 @@
 				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
 				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
 			<Item Name="buildResponseForUDP.vi" Type="VI" URL="../../shared/buildResponseForUDP.vi"/>
@@ -576,7 +579,6 @@
 			<Item Name="CreateControllerName.vi" Type="VI" URL="../NewFocus/Sample8742UI/CreateControllerName.vi"/>
 			<Item Name="GetDeviceAddresses.vi" Type="VI" URL="../NewFocus/Device VIs/GetDeviceAddresses.vi"/>
 			<Item Name="GetModelSerial.vi" Type="VI" URL="../NewFocus/Device VIs/GetModelSerial.vi"/>
-			<Item Name="GetDiscoveredDevices.vi" Type="VI" URL="../NewFocus/Sample8742UI/GetDiscoveredDevices.vi"/>
 			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
 			<Item Name="Random Number - Within Range__ogtk_CS.vi" Type="VI" URL="../../../Shared/GUI_Template/Random Number - Within Range__ogtk_CS.vi"/>
 			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../../Point Grey Camera/GUIcompressionCluster.ctl"/>
@@ -585,6 +587,31 @@
 			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
 			<Item Name="SQL Insert null.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert null.vi"/>
 			<Item Name="Replace empty string with NULL.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/Replace empty string with NULL.vi"/>
+			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
+			<Item Name="Reentrant tcp for data gatherer.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/Reentrant tcp for data gatherer.vi"/>
+			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
+			<Item Name="tcp read with vi time.vi" Type="VI" URL="../../../Shared/GUI_Template/tcp read with vi time.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="no timeout error.vi" Type="VI" URL="../../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
+			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
+			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
+			<Item Name="UIDisable.vi" Type="VI" URL="../Sample8742UI/UIDisable.vi"/>
+			<Item Name="Global Variables.vi" Type="VI" URL="../Sample8742UI/Global Variables.vi"/>
+			<Item Name="AppendToOutput.vi" Type="VI" URL="../NewFocus/AppendToOutput.vi"/>
+			<Item Name="UIEnable.vi" Type="VI" URL="../Sample8742UI/UIEnable.vi"/>
+			<Item Name="FillControllerCombo.vi" Type="VI" URL="../Sample8742UI/FillControllerCombo.vi"/>
+			<Item Name="OnDeviceSelected.vi" Type="VI" URL="../Sample8742UI/OnDeviceSelected.vi"/>
+			<Item Name="CloseDevice.vi" Type="VI" URL="../Sample8742UI/CloseDevice.vi"/>
+			<Item Name="DisplayPosition.vi" Type="VI" URL="../Sample8742UI/DisplayPosition.vi"/>
+			<Item Name="OnTimeout.vi" Type="VI" URL="../Sample8742UI/OnTimeout.vi"/>
+			<Item Name="MotionCheck.vi" Type="VI" URL="../Sample8742UI/MotionCheck.vi"/>
+			<Item Name="DisplayErrorsForMasterSlave.vi" Type="VI" URL="../Sample8742UI/DisplayErrorsForMasterSlave.vi"/>
+			<Item Name="DisplayErrorsForDevice.vi" Type="VI" URL="../Sample8742UI/DisplayErrorsForDevice.vi"/>
+			<Item Name="OnGo.vi" Type="VI" URL="../Sample8742UI/OnGo.vi"/>
+			<Item Name="RelativeMove.vi" Type="VI" URL="../Command VIs/RelativeMove.vi"/>
+			<Item Name="OnStopMotion.vi" Type="VI" URL="../Sample8742UI/OnStopMotion.vi"/>
+			<Item Name="AbortMotion.vi" Type="VI" URL="../Command VIs/AbortMotion.vi"/>
+			<Item Name="GetDiscoveredDevices.vi" Type="VI" URL="../NewFocus/Sample8742UI/GetDiscoveredDevices.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Picomotor8742dotNet" Type="Source Distribution">
