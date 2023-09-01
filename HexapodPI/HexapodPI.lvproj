@@ -218,6 +218,7 @@
 						<Item Name="VEL.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/VEL.vi"/>
 						<Item Name="VEL?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/VEL?.vi"/>
 						<Item Name="VER?.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/VER?.vi"/>
+						<Item Name="VMO-C887.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/General command.llb/VMO-C887.vi"/>
 					</Item>
 					<Item Name="Joystick" Type="Folder">
 						<Item Name="Calculate joystick scaling.vi" Type="VI" URL="../C-887_Driver/LabVIEW/Low Level/Joystick.llb/Calculate joystick scaling.vi"/>
@@ -809,6 +810,7 @@
 		<Item Name="DevicecontrolHexapodPI.vi" Type="VI" URL="../DevicecontrolHexapodPI.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="HexapodPI.lvclass" Type="LVClass" URL="../HexapodPI.lvclass"/>
+		<Item Name="RoundToThousandth.vi" Type="VI" URL="../subvis/RoundToThousandth.vi"/>
 		<Item Name="WriteCommandPoly.vi" Type="VI" URL="../CK_Hexapod_Lib/WriteCommandPoly.vi"/>
 		<Item Name="WriteCommandSerial.vi" Type="VI" URL="../CK_Hexapod_Lib/WriteCommandSerial.vi"/>
 		<Item Name="ArrayToSPI.vi" Type="VI" URL="../subvis/ArrayToSPI.vi"/>
@@ -1425,6 +1427,7 @@
 			</Item>
 			<Item Name="INI.vi" Type="VI" URL="../CK_Hexapod_Lib/INI.vi"/>
 			<Item Name="VMO.vi" Type="VI" URL="../CK_Hexapod_Lib/VMO.vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HexapodPI" Type="Source Distribution">
