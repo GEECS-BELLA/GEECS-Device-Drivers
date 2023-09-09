@@ -1,0 +1,20 @@
+SHG FROG
+Grid size is 256
+Starting with Projections
+Data in XXXX had 115 taus and 768 w's
+Data read in assuming constant wavelength
+The experimental time increment is 4.46838 fs.
+The expermental data is on a -0.0795457 nm spacing.
+The center wavelength was 400 nm.
+The FFT requires data on a 0.466239 nm spacing.
+This means that there are 5.86127 too many data points.
+
+Trace fractionally shifted to center 56.6705.
+The value of tau0 was 57
+Max of ZOFM was at 47.
+0 0.0217009
+1 0.0216619
+2 0.0216334
+
+The best error achieved was 0.0216334.
+
