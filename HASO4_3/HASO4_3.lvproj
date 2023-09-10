@@ -15,6 +15,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
+		<Item Name="DeviceHASO4_3.vi" Type="VI" URL="../DeviceHASO4_3.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="CompressAndUpdate(IMAQ Image).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(IMAQ Image).vi"/>
 		<Item Name="HASO4_3.lvclass" Type="LVClass" URL="../HASO4_3.lvclass"/>
@@ -25,7 +26,8 @@
 		<Item Name="camera_asynchrone_acquisition-ajg.vi" Type="VI" URL="../camera_asynchrone_acquisition-ajg.vi"/>
 		<Item Name="camera_asynchrone_acquisition-ajg2.vi" Type="VI" URL="../camera_asynchrone_acquisition-ajg2.vi"/>
 		<Item Name="camera_synchrone_acquisition-ajg.vi" Type="VI" URL="../camera_synchrone_acquisition-ajg.vi"/>
-		<Item Name="DeviceHASO.vi" Type="VI" URL="../DeviceHASO.vi"/>
+		<Item Name="propagation_lbl.vi" Type="VI" URL="../propagation_lbl.vi"/>
+		<Item Name="get wavefront.vi" Type="VI" URL="../get wavefront.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -605,11 +607,15 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="HAS analyzer paths.ctl" Type="VI" URL="../HAS analyzer paths.ctl"/>
+			<Item Name="pupil ajg.ctl" Type="VI" URL="../pupil ajg.ctl"/>
+			<Item Name="LVFunction_Imop_Compute_WavefrontParameters.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Functions/Compute/LVFunction_Imop_Compute_WavefrontParameters.vi"/>
+			<Item Name="LVClass_HasoSlopes Set wavelenght.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Classes/HasoSlopes/LVClass_HasoSlopes Set wavelenght.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="HASO" Type="Source Distribution">
+			<Item Name="HASO4_3" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{AC747BCD-083D-4BF1-8FBD-405E30900831}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">HASO</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HASO4_3</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
@@ -622,7 +628,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0A32369E-8F58-4FB2-AE78-DD40B242E991}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{788E0EA5-E7BB-40D6-AFBA-AB603DCE10A6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/HASO4_3.lvclass</Property>
@@ -658,7 +664,7 @@
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
-			<Item Name="DeviceHASO" Type="EXE">
+			<Item Name="DeviceHASO4_3" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{644E5B90-06EC-42BE-A50F-5706FAB10D31}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{43006749-B9DE-465C-9AFE-1DC932E0965F}</Property>
@@ -667,15 +673,15 @@
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{521368E5-E00C-43F5-AAF8-F73A1C12C72D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DeviceHASO</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DeviceHASO4_3</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DeviceHASO.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -683,7 +689,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2FF534E-FE3C-4999-A965-DEB234B6C905}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{788E0EA5-E7BB-40D6-AFBA-AB603DCE10A6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
@@ -714,18 +720,18 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/DeviceHASO.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/DeviceHASO4_3.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DeviceHASO</Property>
-				<Property Name="TgtF_internalName" Type="Str">DeviceHASO</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DeviceHASO4_3</Property>
+				<Property Name="TgtF_internalName" Type="Str">DeviceHASO4_3</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Wakefield Engineering</Property>
-				<Property Name="TgtF_productName" Type="Str">DeviceHASO</Property>
+				<Property Name="TgtF_productName" Type="Str">DeviceHASO4_3</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{14471C70-CBED-47C8-A32C-CB24948A6BDA}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DeviceHASO.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
