@@ -28,6 +28,7 @@
 		<Item Name="camera_synchrone_acquisition-ajg.vi" Type="VI" URL="../camera_synchrone_acquisition-ajg.vi"/>
 		<Item Name="propagation_lbl.vi" Type="VI" URL="../propagation_lbl.vi"/>
 		<Item Name="get wavefront.vi" Type="VI" URL="../get wavefront.vi"/>
+		<Item Name="subtract ref wavefront.vi" Type="VI" URL="../subtract ref wavefront.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -288,6 +289,7 @@
 				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -405,6 +407,15 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="LVPointDoubleTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointDoubleTypeDef.ctl"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 			<Item Name="Arguments to array.vi" Type="VI" URL="../../shared/Arguments to array.vi"/>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
@@ -611,6 +622,7 @@
 			<Item Name="pupil ajg.ctl" Type="VI" URL="../pupil ajg.ctl"/>
 			<Item Name="LVFunction_Imop_Compute_WavefrontParameters.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Functions/Compute/LVFunction_Imop_Compute_WavefrontParameters.vi"/>
 			<Item Name="LVClass_HasoSlopes Set wavelenght.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Classes/HasoSlopes/LVClass_HasoSlopes Set wavelenght.vi"/>
+			<Item Name="save HAS file as png with scaling txt file.vi" Type="VI" URL="../save HAS file as png with scaling txt file.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HASO4_3" Type="Source Distribution">
@@ -678,7 +690,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO4_3.exe</Property>
@@ -723,7 +735,13 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/DeviceHASO4_3.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/WaveKit/runtime/Win32</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DeviceHASO4_3</Property>
