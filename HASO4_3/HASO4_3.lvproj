@@ -11,8 +11,495 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="WaveKit" Type="Folder" URL="../WaveKit">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="WaveKit" Type="Folder">
+			<Item Name="Classes" Type="Folder">
+				<Item Name="Camera" Type="Folder">
+					<Item Name="Camera.lvclass" Type="LVClass" URL="../WaveKit/Classes/Camera/Camera.lvclass"/>
+					<Item Name="imop_log.txt" Type="Document" URL="../WaveKit/Classes/Camera/imop_log.txt"/>
+				</Item>
+				<Item Name="CameraSet" Type="Folder">
+					<Item Name="CameraSet.lvclass" Type="LVClass" URL="../WaveKit/Classes/CameraSet/CameraSet.lvclass"/>
+				</Item>
+				<Item Name="ClosedLoopSecurity" Type="Folder">
+					<Item Name="ClosedLoopSecurity.lvclass" Type="LVClass" URL="../WaveKit/Classes/ClosedLoopSecurity/ClosedLoopSecurity.lvclass"/>
+				</Item>
+				<Item Name="ClosedLoopSecurityActivation" Type="Folder">
+					<Item Name="ClosedLoopSecurityActivation.lvclass" Type="LVClass" URL="../WaveKit/Classes/ClosedLoopSecurityActivation/ClosedLoopSecurityActivation.lvclass"/>
+				</Item>
+				<Item Name="ClosedLoopSmoothing" Type="Folder">
+					<Item Name="ClosedLoopSmoothing.lvclass" Type="LVClass" URL="../WaveKit/Classes/ClosedLoopSmoothing/ClosedLoopSmoothing.lvclass"/>
+				</Item>
+				<Item Name="ComputePhaseSet" Type="Folder">
+					<Item Name="ComputePhaseSet.lvclass" Type="LVClass" URL="../WaveKit/Classes/ComputePhaseSet/ComputePhaseSet.lvclass"/>
+				</Item>
+				<Item Name="CorrectionDataManager" Type="Folder">
+					<Item Name="CorrectionDataManager.lvclass" Type="LVClass" URL="../WaveKit/Classes/CorrectionDataManager/CorrectionDataManager.lvclass"/>
+				</Item>
+				<Item Name="DataClient" Type="Folder">
+					<Item Name="DataClient.lvclass" Type="LVClass" URL="../WaveKit/Classes/DataClient/DataClient.lvclass"/>
+				</Item>
+				<Item Name="DataServer" Type="Folder">
+					<Item Name="DataServer.lvclass" Type="LVClass" URL="../WaveKit/Classes/DataServer/DataServer.lvclass"/>
+				</Item>
+				<Item Name="HasoConfig" Type="Folder">
+					<Item Name="HasoConfig.lvclass" Type="LVClass" URL="../WaveKit/Classes/HasoConfig/HasoConfig.lvclass"/>
+				</Item>
+				<Item Name="HasoData" Type="Folder">
+					<Item Name="HasoData.lvclass" Type="LVClass" URL="../WaveKit/Classes/HasoData/HasoData.lvclass"/>
+				</Item>
+				<Item Name="HasoEngine" Type="Folder">
+					<Item Name="HasoEngine.lvclass" Type="LVClass" URL="../WaveKit/Classes/HasoEngine/HasoEngine.lvclass"/>
+				</Item>
+				<Item Name="HasoField" Type="Folder">
+					<Item Name="HasoField.lvclass" Type="LVClass" URL="../WaveKit/Classes/HasoField/HasoField.lvclass"/>
+				</Item>
+				<Item Name="HasoSlopes" Type="Folder">
+					<Item Name="HasoSlopes.lvclass" Type="LVClass" URL="../WaveKit/Classes/HasoSlopes/HasoSlopes.lvclass"/>
+				</Item>
+				<Item Name="Image" Type="Folder">
+					<Item Name="Image.lvclass" Type="LVClass" URL="../WaveKit/Classes/Image/Image.lvclass"/>
+				</Item>
+				<Item Name="Intensity" Type="Folder">
+					<Item Name="Intensity.lvclass" Type="LVClass" URL="../WaveKit/Classes/Intensity/Intensity.lvclass"/>
+				</Item>
+				<Item Name="ModalCoef" Type="Folder">
+					<Item Name="ModalCoef.lvclass" Type="LVClass" URL="../WaveKit/Classes/ModalCoef/ModalCoef.lvclass"/>
+				</Item>
+				<Item Name="Phase" Type="Folder">
+					<Item Name="Phase.lvclass" Type="LVClass" URL="../WaveKit/Classes/Phase/Phase.lvclass"/>
+				</Item>
+				<Item Name="Pupil" Type="Folder">
+					<Item Name="Pupil.lvclass" Type="LVClass" URL="../WaveKit/Classes/Pupil/Pupil.lvclass"/>
+				</Item>
+				<Item Name="SlopesPostProcessorList" Type="Folder">
+					<Item Name="SlopesPostProcessorList.lvclass" Type="LVClass" URL="../WaveKit/Classes/SlopesPostProcessorList/SlopesPostProcessorList.lvclass"/>
+				</Item>
+				<Item Name="SurfaceFloat" Type="Folder">
+					<Item Name="SurfaceFloat.lvclass" Type="LVClass" URL="../WaveKit/Classes/SurfaceFloat/SurfaceFloat.lvclass"/>
+				</Item>
+				<Item Name="SurfaceFloatWithPupil" Type="Folder">
+					<Item Name="SurfaceFloatWithPupil.lvclass" Type="LVClass" URL="../WaveKit/Classes/SurfaceFloatWithPupil/SurfaceFloatWithPupil.lvclass"/>
+				</Item>
+				<Item Name="WavefrontCorrector" Type="Folder">
+					<Item Name="WavefrontCorrector.lvclass" Type="LVClass" URL="../WaveKit/Classes/WavefrontCorrector/WavefrontCorrector.lvclass"/>
+				</Item>
+				<Item Name="WavefrontCorrectorSet" Type="Folder">
+					<Item Name="WavefrontCorrectorSet.lvclass" Type="LVClass" URL="../WaveKit/Classes/WavefrontCorrectorSet/WavefrontCorrectorSet.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Algo choice.ctl" Type="VI" URL="../WaveKit/Controls/Algo choice.ctl"/>
+				<Item Name="AO acquisition information.ctl" Type="VI" URL="../WaveKit/Controls/AO acquisition information.ctl"/>
+				<Item Name="AO calibration.ctl" Type="VI" URL="../WaveKit/Controls/AO calibration.ctl"/>
+				<Item Name="BCK Image acquisition information.ctl" Type="VI" URL="../WaveKit/Controls/BCK Image acquisition information.ctl"/>
+				<Item Name="BFC calibration.ctl" Type="VI" URL="../WaveKit/Controls/BFC calibration.ctl"/>
+				<Item Name="Camera acquisition_mode.ctl" Type="VI" URL="../WaveKit/Controls/Camera acquisition_mode.ctl"/>
+				<Item Name="Camera config.ctl" Type="VI" URL="../WaveKit/Controls/Camera config.ctl"/>
+				<Item Name="Camera synchronisation_mode.ctl" Type="VI" URL="../WaveKit/Controls/Camera synchronisation_mode.ctl"/>
+				<Item Name="CameraAcquisitionState.ctl" Type="VI" URL="../WaveKit/Controls/CameraAcquisitionState.ctl"/>
+				<Item Name="CameraParameters.ctl" Type="VI" URL="../WaveKit/Controls/CameraParameters.ctl"/>
+				<Item Name="CameraParameters_Authorization.ctl" Type="VI" URL="../WaveKit/Controls/CameraParameters_Authorization.ctl"/>
+				<Item Name="CameraParameters_OnFlyAuthorization.ctl" Type="VI" URL="../WaveKit/Controls/CameraParameters_OnFlyAuthorization.ctl"/>
+				<Item Name="CameraParameters_Type.ctl" Type="VI" URL="../WaveKit/Controls/CameraParameters_Type.ctl"/>
+				<Item Name="CameraParametersList.ctl" Type="VI" URL="../WaveKit/Controls/CameraParametersList.ctl"/>
+				<Item Name="CameraParametersSetup.ctl" Type="VI" URL="../WaveKit/Controls/CameraParametersSetup.ctl"/>
+				<Item Name="CameraParametersSetupList.ctl" Type="VI" URL="../WaveKit/Controls/CameraParametersSetupList.ctl"/>
+				<Item Name="CameraSet.ctl" Type="VI" URL="../WaveKit/Controls/CameraSet.ctl"/>
+				<Item Name="CameraSpecifications.ctl" Type="VI" URL="../WaveKit/Controls/CameraSpecifications.ctl"/>
+				<Item Name="CasaoManagerGeneralSpecifications.ctl" Type="VI" URL="../WaveKit/Controls/CasaoManagerGeneralSpecifications.ctl"/>
+				<Item Name="CircularAutoDetectionOptions.ctl" Type="VI" URL="../WaveKit/Controls/CircularAutoDetectionOptions.ctl"/>
+				<Item Name="CircularPupilDetectionParams.ctl" Type="VI" URL="../WaveKit/Controls/CircularPupilDetectionParams.ctl"/>
+				<Item Name="ClassID.ctl" Type="VI" URL="../WaveKit/Controls/ClassID.ctl"/>
+				<Item Name="ClientServerDataID.ctl" Type="VI" URL="../WaveKit/Controls/ClientServerDataID.ctl"/>
+				<Item Name="ClientServerDataType.ctl" Type="VI" URL="../WaveKit/Controls/ClientServerDataType.ctl"/>
+				<Item Name="ClosedLoopSecurityActivationParameters.ctl" Type="VI" URL="../WaveKit/Controls/ClosedLoopSecurityActivationParameters.ctl"/>
+				<Item Name="ClosedLoopSecurityActivationResults.ctl" Type="VI" URL="../WaveKit/Controls/ClosedLoopSecurityActivationResults.ctl"/>
+				<Item Name="ClosedLoopSecurityParameters.ctl" Type="VI" URL="../WaveKit/Controls/ClosedLoopSecurityParameters.ctl"/>
+				<Item Name="ClosedLoopSmoothingParameters.ctl" Type="VI" URL="../WaveKit/Controls/ClosedLoopSmoothingParameters.ctl"/>
+				<Item Name="CorrectionShortSetup.ctl" Type="VI" URL="../WaveKit/Controls/CorrectionShortSetup.ctl"/>
+				<Item Name="Custom AO calibration acquisition setup.ctl" Type="VI" URL="../WaveKit/Controls/Custom AO calibration acquisition setup.ctl"/>
+				<Item Name="Data alignment enum.ctl" Type="VI" URL="../WaveKit/Controls/Data alignment enum.ctl"/>
+				<Item Name="DataHaso acquisition information.ctl" Type="VI" URL="../WaveKit/Controls/DataHaso acquisition information.ctl"/>
+				<Item Name="Functionnality Test ID List.ctl" Type="VI" URL="../WaveKit/Controls/Functionnality Test ID List.ctl"/>
+				<Item Name="General dimensions definition.ctl" Type="VI" URL="../WaveKit/Controls/General dimensions definition.ctl"/>
+				<Item Name="Geometric wavefront parameters.ctl" Type="VI" URL="../WaveKit/Controls/Geometric wavefront parameters.ctl"/>
+				<Item Name="Handle creation.ctl" Type="VI" URL="../WaveKit/Controls/Handle creation.ctl"/>
+				<Item Name="HAS File information.ctl" Type="VI" URL="../WaveKit/Controls/HAS File information.ctl"/>
+				<Item Name="HASO information.ctl" Type="VI" URL="../WaveKit/Controls/HASO information.ctl"/>
+				<Item Name="HasoEngine setup.ctl" Type="VI" URL="../WaveKit/Controls/HasoEngine setup.ctl"/>
+				<Item Name="HasoSpecifications.ctl" Type="VI" URL="../WaveKit/Controls/HasoSpecifications.ctl"/>
+				<Item Name="HIMG File information.ctl" Type="VI" URL="../WaveKit/Controls/HIMG File information.ctl"/>
+				<Item Name="Image acquisition information.ctl" Type="VI" URL="../WaveKit/Controls/Image acquisition information.ctl"/>
+				<Item Name="Image general information.ctl" Type="VI" URL="../WaveKit/Controls/Image general information.ctl"/>
+				<Item Name="Image information.ctl" Type="VI" URL="../WaveKit/Controls/Image information.ctl"/>
+				<Item Name="Image.ctl" Type="VI" URL="../WaveKit/Controls/Image.ctl"/>
+				<Item Name="InteractionMatrixAcquisitionParameters.ctl" Type="VI" URL="../WaveKit/Controls/InteractionMatrixAcquisitionParameters.ctl"/>
+				<Item Name="InteractionMatrixParameters.ctl" Type="VI" URL="../WaveKit/Controls/InteractionMatrixParameters.ctl"/>
+				<Item Name="InteractionMatrixToCommandMatrixParameters.ctl" Type="VI" URL="../WaveKit/Controls/InteractionMatrixToCommandMatrixParameters.ctl"/>
+				<Item Name="LegendreModalPrefs.ctl" Type="VI" URL="../WaveKit/Controls/LegendreModalPrefs.ctl"/>
+				<Item Name="LegendreProjectionPupilSetup.ctl" Type="VI" URL="../WaveKit/Controls/LegendreProjectionPupilSetup.ctl"/>
+				<Item Name="ModuleVersion.ctl" Type="VI" URL="../WaveKit/Controls/ModuleVersion.ctl"/>
+				<Item Name="ParameterID.ctl" Type="VI" URL="../WaveKit/Controls/ParameterID.ctl"/>
+				<Item Name="PhaseRetrievalCalibrationParameters.ctl" Type="VI" URL="../WaveKit/Controls/PhaseRetrievalCalibrationParameters.ctl"/>
+				<Item Name="Point2D.ctl" Type="VI" URL="../WaveKit/Controls/Point2D.ctl"/>
+				<Item Name="Point2D_signed.ctl" Type="VI" URL="../WaveKit/Controls/Point2D_signed.ctl"/>
+				<Item Name="Point2Df.ctl" Type="VI" URL="../WaveKit/Controls/Point2Df.ctl"/>
+				<Item Name="PupilDetectionMode.ctl" Type="VI" URL="../WaveKit/Controls/PupilDetectionMode.ctl"/>
+				<Item Name="PupilDetectionOption.ctl" Type="VI" URL="../WaveKit/Controls/PupilDetectionOption.ctl"/>
+				<Item Name="PupillStructToVariant.ctl" Type="VI" URL="../WaveKit/Controls/PupillStructToVariant.ctl"/>
+				<Item Name="ShortCameraSpecifications.ctl" Type="VI" URL="../WaveKit/Controls/ShortCameraSpecifications.ctl"/>
+				<Item Name="ShortHasoSpecifications.ctl" Type="VI" URL="../WaveKit/Controls/ShortHasoSpecifications.ctl"/>
+				<Item Name="ShortWavefrontCorrectorSpecifications.ctl" Type="VI" URL="../WaveKit/Controls/ShortWavefrontCorrectorSpecifications.ctl"/>
+				<Item Name="Slopes origin - SlopesPostProcessingList.ctl" Type="VI" URL="../WaveKit/Controls/Slopes origin - SlopesPostProcessingList.ctl"/>
+				<Item Name="SlopesEngineSetup.ctl" Type="VI" URL="../WaveKit/Controls/SlopesEngineSetup.ctl"/>
+				<Item Name="SlopesFromProccessing_fitting.ctl" Type="VI" URL="../WaveKit/Controls/SlopesFromProccessing_fitting.ctl"/>
+				<Item Name="SlopesPostProcessorList - Add lens.ctl" Type="VI" URL="../WaveKit/Controls/SlopesPostProcessorList - Add lens.ctl"/>
+				<Item Name="SlopesPostProcessorList - Double passage.ctl" Type="VI" URL="../WaveKit/Controls/SlopesPostProcessorList - Double passage.ctl"/>
+				<Item Name="SlopesPostProcessorList - Filter.ctl" Type="VI" URL="../WaveKit/Controls/SlopesPostProcessorList - Filter.ctl"/>
+				<Item Name="SlopesPostProcessorList - Modulator.ctl" Type="VI" URL="../WaveKit/Controls/SlopesPostProcessorList - Modulator.ctl"/>
+				<Item Name="SlopesPostProcessorList - ONE - with handle.ctl" Type="VI" URL="../WaveKit/Controls/SlopesPostProcessorList - ONE - with handle.ctl"/>
+				<Item Name="SlopesPostProcessorList - ONE - with variant.ctl" Type="VI" URL="../WaveKit/Controls/SlopesPostProcessorList - ONE - with variant.ctl"/>
+				<Item Name="SlopesPostProcessorList - ONE.ctl" Type="VI" URL="../WaveKit/Controls/SlopesPostProcessorList - ONE.ctl"/>
+				<Item Name="SlopesProcessorSetup.ctl" Type="VI" URL="../WaveKit/Controls/SlopesProcessorSetup.ctl"/>
+				<Item Name="SlopesStructToVariant.ctl" Type="VI" URL="../WaveKit/Controls/SlopesStructToVariant.ctl"/>
+				<Item Name="SquarePupilDetectionParams.ctl" Type="VI" URL="../WaveKit/Controls/SquarePupilDetectionParams.ctl"/>
+				<Item Name="StatisticsData.ctl" Type="VI" URL="../WaveKit/Controls/StatisticsData.ctl"/>
+				<Item Name="Stitching Post process Type.ctl" Type="VI" URL="../WaveKit/Controls/Stitching Post process Type.ctl"/>
+				<Item Name="StitchingAlgoSetup.ctl" Type="VI" URL="../WaveKit/Controls/StitchingAlgoSetup.ctl"/>
+				<Item Name="Struct_Image.ctl" Type="VI" URL="../WaveKit/Controls/Struct_Image.ctl"/>
+				<Item Name="Unit Test ID List.ctl" Type="VI" URL="../WaveKit/Controls/Unit Test ID List.ctl"/>
+				<Item Name="Wavefront Corrector Position State - ONE.ctl" Type="VI" URL="../WaveKit/Controls/Wavefront Corrector Position State - ONE.ctl"/>
+				<Item Name="Wavefront Corrector Position.ctl" Type="VI" URL="../WaveKit/Controls/Wavefront Corrector Position.ctl"/>
+				<Item Name="Wavefront Corrector Specifications.ctl" Type="VI" URL="../WaveKit/Controls/Wavefront Corrector Specifications.ctl"/>
+				<Item Name="Wavefront Corrector states - ONE.ctl" Type="VI" URL="../WaveKit/Controls/Wavefront Corrector states - ONE.ctl"/>
+				<Item Name="Wavefront Corrector states.ctl" Type="VI" URL="../WaveKit/Controls/Wavefront Corrector states.ctl"/>
+				<Item Name="WavefrontCorrectorSpecifications.ctl" Type="VI" URL="../WaveKit/Controls/WavefrontCorrectorSpecifications.ctl"/>
+				<Item Name="WavefrontModalReconstructionType.ctl" Type="VI" URL="../WaveKit/Controls/WavefrontModalReconstructionType.ctl"/>
+				<Item Name="WavefrontReconstructionMode.ctl" Type="VI" URL="../WaveKit/Controls/WavefrontReconstructionMode.ctl"/>
+				<Item Name="WavefrontReconstructionSeup.ctl" Type="VI" URL="../WaveKit/Controls/WavefrontReconstructionSeup.ctl"/>
+				<Item Name="ZernikeModalPrefs.ctl" Type="VI" URL="../WaveKit/Controls/ZernikeModalPrefs.ctl"/>
+				<Item Name="ZernikeProjectionPupilSetup.ctl" Type="VI" URL="../WaveKit/Controls/ZernikeProjectionPupilSetup.ctl"/>
+				<Item Name="ZonalPrefs.ctl" Type="VI" URL="../WaveKit/Controls/ZonalPrefs.ctl"/>
+			</Item>
+			<Item Name="Examples" Type="Folder">
+				<Item Name="data" Type="Folder">
+					<Item Name="config_file_haso.dat" Type="Document" URL="../WaveKit/Examples/data/config_file_haso.dat"/>
+					<Item Name="data_image.himg" Type="Document" URL="../WaveKit/Examples/data/data_image.himg"/>
+					<Item Name="data_phase_computation.has" Type="Document" URL="../WaveKit/Examples/data/data_phase_computation.has"/>
+					<Item Name="data_phase_computation_0.has" Type="Document" URL="../WaveKit/Examples/data/data_phase_computation_0.has"/>
+					<Item Name="data_phase_computation_1.has" Type="Document" URL="../WaveKit/Examples/data/data_phase_computation_1.has"/>
+					<Item Name="data_phase_computation_2.has" Type="Document" URL="../WaveKit/Examples/data/data_phase_computation_2.has"/>
+					<Item Name="data_phase_computation_3.has" Type="Document" URL="../WaveKit/Examples/data/data_phase_computation_3.has"/>
+					<Item Name="data_phase_computation_4.has" Type="Document" URL="../WaveKit/Examples/data/data_phase_computation_4.has"/>
+					<Item Name="data_phase_computation_example.has" Type="Document" URL="../WaveKit/Examples/data/data_phase_computation_example.has"/>
+				</Item>
+				<Item Name="camera_asynchrone_acquisition.vi" Type="VI" URL="../WaveKit/Examples/camera_asynchrone_acquisition.vi"/>
+				<Item Name="camera_synchrone_acquisition.vi" Type="VI" URL="../WaveKit/Examples/camera_synchrone_acquisition.vi"/>
+				<Item Name="closed_loop.vi" Type="VI" URL="../WaveKit/Examples/closed_loop.vi"/>
+				<Item Name="closed_loop_starter.vi" Type="VI" URL="../WaveKit/Examples/closed_loop_starter.vi"/>
+				<Item Name="compute_slopes_on_image.vi" Type="VI" URL="../WaveKit/Examples/compute_slopes_on_image.vi"/>
+				<Item Name="compute_slopes_on_image_starter.vi" Type="VI" URL="../WaveKit/Examples/compute_slopes_on_image_starter.vi"/>
+				<Item Name="compute_statistics_data.vi" Type="VI" URL="../WaveKit/Examples/compute_statistics_data.vi"/>
+				<Item Name="compute_statistics_data_starter.vi" Type="VI" URL="../WaveKit/Examples/compute_statistics_data_starter.vi"/>
+				<Item Name="compute_zernike_coeffs.vi" Type="VI" URL="../WaveKit/Examples/compute_zernike_coeffs.vi"/>
+				<Item Name="compute_zernike_coeffs_starter.vi" Type="VI" URL="../WaveKit/Examples/compute_zernike_coeffs_starter.vi"/>
+				<Item Name="correction_data.vi" Type="VI" URL="../WaveKit/Examples/correction_data.vi"/>
+				<Item Name="correction_data_starter.vi" Type="VI" URL="../WaveKit/Examples/correction_data_starter.vi"/>
+				<Item Name="Propagation.vi" Type="VI" URL="../WaveKit/Examples/Propagation.vi"/>
+				<Item Name="slopes_processors_list.vi" Type="VI" URL="../WaveKit/Examples/slopes_processors_list.vi"/>
+				<Item Name="slopes_processors_list_starter.vi" Type="VI" URL="../WaveKit/Examples/slopes_processors_list_starter.vi"/>
+			</Item>
+			<Item Name="Functions" Type="Folder">
+				<Item Name="Check" Type="Folder">
+					<Item Name="LVFunction_Imop_Check_ClosedLoopSecurity_Custom.vi" Type="VI" URL="../WaveKit/Functions/Check/LVFunction_Imop_Check_ClosedLoopSecurity_Custom.vi"/>
+					<Item Name="LVFunction_Imop_Check_ClosedLoopSecurity_HighLevel.vi" Type="VI" URL="../WaveKit/Functions/Check/LVFunction_Imop_Check_ClosedLoopSecurity_HighLevel.vi"/>
+					<Item Name="LVFunction_Imop_Check_ClosedLoopSecurity_LowLevel.vi" Type="VI" URL="../WaveKit/Functions/Check/LVFunction_Imop_Check_ClosedLoopSecurity_LowLevel.vi"/>
+					<Item Name="LVFunction_Imop_Check_ClosedLoopSecurity_MediumLevel.vi" Type="VI" URL="../WaveKit/Functions/Check/LVFunction_Imop_Check_ClosedLoopSecurity_MediumLevel.vi"/>
+				</Item>
+				<Item Name="Compute" Type="Folder">
+					<Item Name="LVFunction_Imop_Compute_GaussianParameters.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_GaussianParameters.vi"/>
+					<Item Name="LVFunction_Imop_Compute_GaussianParametersComplete.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_GaussianParametersComplete.vi"/>
+					<Item Name="LVFunction_Imop_Compute_LegendrePupil.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_LegendrePupil.vi"/>
+					<Item Name="LVFunction_Imop_Compute_ModalCoef.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ModalCoef.vi"/>
+					<Item Name="LVFunction_Imop_Compute_ModalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ModalWavefront.vi"/>
+					<Item Name="LVFunction_Imop_Compute_ModalZonalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ModalZonalWavefront.vi"/>
+					<Item Name="LVFunction_Imop_Compute_MTF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_MTF from HasoField.vi"/>
+					<Item Name="LVFunction_Imop_Compute_PSF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PSF from HasoField.vi"/>
+					<Item Name="LVFunction_Imop_Compute_Pupil_HasHoles.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_Pupil_HasHoles.vi"/>
+					<Item Name="LVFunction_Imop_Compute_PupilRegionsPositions.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PupilRegionsPositions.vi"/>
+					<Item Name="LVFunction_Imop_Compute_PupilRegionsStats.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PupilRegionsStats.vi"/>
+					<Item Name="LVFunction_Imop_Compute_SlopeFromCoef.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_SlopeFromCoef.vi"/>
+					<Item Name="LVFunction_Imop_Compute_Strehl from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_Strehl from HasoField.vi"/>
+					<Item Name="LVFunction_Imop_Compute_WavefrontFromCoef.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_WavefrontFromCoef.vi"/>
+					<Item Name="LVFunction_Imop_Compute_ZernikePupil.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ZernikePupil.vi"/>
+					<Item Name="LVFunction_Imop_Compute_ZonalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ZonalWavefront.vi"/>
+				</Item>
+				<Item Name="Compute from Slopes" Type="Folder">
+					<Item Name="LVFunction_Imop_SlopesCompute_ModalCoef.vi" Type="VI" URL="../WaveKit/Functions/Compute from Slopes/LVFunction_Imop_SlopesCompute_ModalCoef.vi"/>
+					<Item Name="LVFunction_Imop_SlopesCompute_ModalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute from Slopes/LVFunction_Imop_SlopesCompute_ModalWavefront.vi"/>
+					<Item Name="LVFunction_Imop_SlopesCompute_ModalZonalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute from Slopes/LVFunction_Imop_SlopesCompute_ModalZonalWavefront.vi"/>
+					<Item Name="LVFunction_Imop_SlopesCompute_ModalZonalWavefrontFromCoef.vi" Type="VI" URL="../WaveKit/Functions/Compute from Slopes/LVFunction_Imop_SlopesCompute_ModalZonalWavefrontFromCoef.vi"/>
+					<Item Name="LVFunction_Imop_SlopesCompute_ZonalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute from Slopes/LVFunction_Imop_SlopesCompute_ZonalWavefront.vi"/>
+				</Item>
+				<Item Name="File" Type="Folder">
+					<Item Name="LVFunction_Imop_Load_Positions_From_File.vi" Type="VI" URL="../WaveKit/Functions/File/LVFunction_Imop_Load_Positions_From_File.vi"/>
+				</Item>
+				<Item Name="General" Type="Folder">
+					<Item Name="LVFunction_Calculer la taille de la representation graphique d&apos;un HASO.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Calculer la taille de la representation graphique d&apos;un HASO.vi"/>
+					<Item Name="LVFunction_Determine if config file needs installer.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Determine if config file needs installer.vi"/>
+					<Item Name="LVFunction_Formatter en gras.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Formatter en gras.vi"/>
+					<Item Name="LVFunction_Get installed Camera list.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Get installed Camera list.vi"/>
+					<Item Name="LVFunction_Get installed HASO sensor list from selected folder.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Get installed HASO sensor list from selected folder.vi"/>
+					<Item Name="LVFunction_Get installed HASO sensor list.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Get installed HASO sensor list.vi"/>
+					<Item Name="LVFunction_Imop_BuildError.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_BuildError.vi"/>
+					<Item Name="LVFunction_Imop_Get Sequence Size.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_Get Sequence Size.vi"/>
+					<Item Name="LVFunction_Imop_Get Sequence.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_Get Sequence.vi"/>
+					<Item Name="LVFunction_Imop_GetExePathToAutoSpotTrackerConvertionTools.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_GetExePathToAutoSpotTrackerConvertionTools.vi"/>
+					<Item Name="LVFunction_Imop_GetExePathToConvertionTools.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_GetExePathToConvertionTools.vi"/>
+					<Item Name="LVFunction_Imop_GetHardwareConfig.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_GetHardwareConfig.vi"/>
+					<Item Name="LVFunction_Imop_GetHasoSerialNumberFromConfigFile.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_GetHasoSerialNumberFromConfigFile.vi"/>
+					<Item Name="LVFunction_Imop_GetSDKConfig.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_GetSDKConfig.vi"/>
+					<Item Name="LVFunction_Imop_GetSoftwareConfig.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_GetSoftwareConfig.vi"/>
+					<Item Name="LVFunction_Imop_IsHasoConfigFile.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Imop_IsHasoConfigFile.vi"/>
+					<Item Name="LVFunction_Pupil draw Legendre Zernike.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Pupil draw Legendre Zernike.vi"/>
+					<Item Name="LVFunction_Read reg fo haso.vi" Type="VI" URL="../WaveKit/Functions/General/LVFunction_Read reg fo haso.vi"/>
+				</Item>
+				<Item Name="InformationsFromFiles" Type="Folder">
+					<Item Name="LVFunction_Imop_CameraFile_GetFocal.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_CameraFile_GetFocal.vi"/>
+					<Item Name="LVFunction_Imop_CameraFile_GetModulePluginName.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_CameraFile_GetModulePluginName.vi"/>
+					<Item Name="LVFunction_Imop_CameraSetupFile_GetInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_CameraSetupFile_GetInformation.vi"/>
+					<Item Name="LVFunction_Imop_CameraSetupFile_GetInformationAndParamSet.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_CameraSetupFile_GetInformationAndParamSet.vi"/>
+					<Item Name="LVFunction_Imop_HAS file_GetAcquisitionInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_HAS file_GetAcquisitionInformation.vi"/>
+					<Item Name="LVFunction_Imop_HAS file_GetInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_HAS file_GetInformation.vi"/>
+					<Item Name="LVFunction_Imop_HAS file_GetSoftwareInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_HAS file_GetSoftwareInformation.vi"/>
+					<Item Name="LVFunction_Imop_HasoSetupFile_GetCameraInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_HasoSetupFile_GetCameraInformation.vi"/>
+					<Item Name="LVFunction_Imop_HasoSetupFile_GetInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_HasoSetupFile_GetInformation.vi"/>
+					<Item Name="LVFunction_Imop_HIMG file_GetInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_HIMG file_GetInformation.vi"/>
+					<Item Name="LVFunction_Imop_ModalCoef file_GetInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_ModalCoef file_GetInformation.vi"/>
+					<Item Name="LVFunction_Imop_WAvefrontCorrector_GetModulePluginName.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_WAvefrontCorrector_GetModulePluginName.vi"/>
+					<Item Name="LVFunction_Imop_WavefrontCorrectorSetupFile_GetInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_WavefrontCorrectorSetupFile_GetInformation.vi"/>
+					<Item Name="LVFunction_Imop_WavefrontCorrectorStateFile_GetInformation.vi" Type="VI" URL="../WaveKit/Functions/InformationsFromFiles/LVFunction_Imop_WavefrontCorrectorStateFile_GetInformation.vi"/>
+				</Item>
+				<Item Name="PupilProcessor" Type="Folder">
+					<Item Name="LVFunction_Imop_Pupil_ApplyNeighborExtension.vi" Type="VI" URL="../WaveKit/Functions/PupilProcessor/LVFunction_Imop_Pupil_ApplyNeighborExtension.vi"/>
+					<Item Name="LVFunction_Imop_Pupil_ApplyShutOfBoundaries.vi" Type="VI" URL="../WaveKit/Functions/PupilProcessor/LVFunction_Imop_Pupil_ApplyShutOfBoundaries.vi"/>
+				</Item>
+				<Item Name="SlopesPostProcessor" Type="Folder">
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Adder.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply Adder.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Apply Filter.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply Apply Filter.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Double Path.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply Double Path.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Modulator.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply Modulator.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply NeighborExtension.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply NeighborExtension.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply PerfectLens.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply PerfectLens.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Pupil.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply Pupil.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply PupilFromIntensityThreshold.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply PupilFromIntensityThreshold.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Scaler.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply Scaler.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply ShutOfBoundaries.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply ShutOfBoundaries.vi"/>
+					<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Substractor.vi" Type="VI" URL="../WaveKit/Functions/SlopesPostProcessor/LVFunction_Imop_SlopesPostProcessor_Apply Substractor.vi"/>
+				</Item>
+			</Item>
+			<Item Name="runtime" Type="Folder">
+				<Item Name="Win32" Type="Folder">
+					<Item Name="cilkrts20.dll" Type="Document" URL="../WaveKit/runtime/Win32/cilkrts20.dll"/>
+					<Item Name="concrt140.dll" Type="Document" URL="../WaveKit/runtime/Win32/concrt140.dll"/>
+					<Item Name="DD32.dll" Type="Document" URL="../WaveKit/runtime/Win32/DD32.dll"/>
+					<Item Name="DinkeyAdd32.dll" Type="Document" URL="../WaveKit/runtime/Win32/DinkeyAdd32.dll"/>
+					<Item Name="dpwin32.dll" Type="Document" URL="../WaveKit/runtime/Win32/dpwin32.dll"/>
+					<Item Name="imop_camera_cmu_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_camera_cmu_vc141.dll"/>
+					<Item Name="imop_camera_ebus_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_camera_ebus_vc141.dll"/>
+					<Item Name="imop_camera_pylon_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_camera_pylon_vc141.dll"/>
+					<Item Name="imop_camera_sapera_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_camera_sapera_vc141.dll"/>
+					<Item Name="imop_camera_svs_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_camera_svs_vc141.dll"/>
+					<Item Name="imop_camera_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_camera_vc141.dll"/>
+					<Item Name="imop_camera_widyvision_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_camera_widyvision_vc141.dll"/>
+					<Item Name="imop_common_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_common_vc141.dll"/>
+					<Item Name="imop_correction_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_correction_vc141.dll"/>
+					<Item Name="imop_corrector_ilaostar_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_corrector_ilaostar_vc141.dll"/>
+					<Item Name="imop_corrector_mirao52e_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_corrector_mirao52e_vc141.dll"/>
+					<Item Name="imop_corrector_slm_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_corrector_slm_vc141.dll"/>
+					<Item Name="imop_lift_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_lift_vc141.dll"/>
+					<Item Name="imop_metrology_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_metrology_vc141.dll"/>
+					<Item Name="imop_microscopy_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_microscopy_vc141.dll"/>
+					<Item Name="imop_phasediversity_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_phasediversity_vc141.dll"/>
+					<Item Name="imop_slopesprocess_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_slopesprocess_vc141.dll"/>
+					<Item Name="imop_stitching_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_stitching_vc141.dll"/>
+					<Item Name="imop_wavefrontcorrector_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_wavefrontcorrector_vc141.dll"/>
+					<Item Name="imop_wavekit_4_c_vc141_Win32.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_wavekit_4_c_vc141_Win32.dll"/>
+					<Item Name="imop_wavekit_4_cpp_vc141_Win32.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_wavekit_4_cpp_vc141_Win32.dll"/>
+					<Item Name="imop_wavekit_extended_4_c_vc141_Win32.dll" Type="Document" URL="../WaveKit/runtime/Win32/imop_wavekit_extended_4_c_vc141_Win32.dll"/>
+					<Item Name="imoptif.dll" Type="Document" URL="../WaveKit/runtime/Win32/imoptif.dll"/>
+					<Item Name="jpeg.dll" Type="Document" URL="../WaveKit/runtime/Win32/jpeg.dll"/>
+					<Item Name="kernel.cfg" Type="Document" URL="../WaveKit/runtime/Win32/kernel.cfg"/>
+					<Item Name="libimalloc.dll" Type="Document" URL="../WaveKit/runtime/Win32/libimalloc.dll"/>
+					<Item Name="libiomp5md.dll" Type="Document" URL="../WaveKit/runtime/Win32/libiomp5md.dll"/>
+					<Item Name="mirao52e.dll" Type="Document" URL="../WaveKit/runtime/Win32/mirao52e.dll"/>
+					<Item Name="mkl_avx.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_avx.dll"/>
+					<Item Name="mkl_avx2.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_avx2.dll"/>
+					<Item Name="mkl_avx512.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_avx512.dll"/>
+					<Item Name="mkl_core.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_core.dll"/>
+					<Item Name="mkl_intel_thread.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_intel_thread.dll"/>
+					<Item Name="mkl_msg.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_msg.dll"/>
+					<Item Name="mkl_p4.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_p4.dll"/>
+					<Item Name="mkl_p4m.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_p4m.dll"/>
+					<Item Name="mkl_p4m3.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_p4m3.dll"/>
+					<Item Name="mkl_vml_avx.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_avx.dll"/>
+					<Item Name="mkl_vml_avx2.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_avx2.dll"/>
+					<Item Name="mkl_vml_avx512.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_avx512.dll"/>
+					<Item Name="mkl_vml_cmpt.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_cmpt.dll"/>
+					<Item Name="mkl_vml_ia.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_ia.dll"/>
+					<Item Name="mkl_vml_p4.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_p4.dll"/>
+					<Item Name="mkl_vml_p4m.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_p4m.dll"/>
+					<Item Name="mkl_vml_p4m2.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_p4m2.dll"/>
+					<Item Name="mkl_vml_p4m3.dll" Type="Document" URL="../WaveKit/runtime/Win32/mkl_vml_p4m3.dll"/>
+					<Item Name="msvcp140.dll" Type="Document" URL="../WaveKit/runtime/Win32/msvcp140.dll"/>
+					<Item Name="msvcp140_1.dll" Type="Document" URL="../WaveKit/runtime/Win32/msvcp140_1.dll"/>
+					<Item Name="msvcp140_2.dll" Type="Document" URL="../WaveKit/runtime/Win32/msvcp140_2.dll"/>
+					<Item Name="NITLibrary_x86.dll" Type="Document" URL="../WaveKit/runtime/Win32/NITLibrary_x86.dll"/>
+					<Item Name="opencv_calib3d249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_calib3d249.dll"/>
+					<Item Name="opencv_contrib249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_contrib249.dll"/>
+					<Item Name="opencv_core249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_core249.dll"/>
+					<Item Name="opencv_features2d249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_features2d249.dll"/>
+					<Item Name="opencv_ffmpeg249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_ffmpeg249.dll"/>
+					<Item Name="opencv_flann249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_flann249.dll"/>
+					<Item Name="opencv_gpu249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_gpu249.dll"/>
+					<Item Name="opencv_highgui249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_highgui249.dll"/>
+					<Item Name="opencv_imgproc249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_imgproc249.dll"/>
+					<Item Name="opencv_legacy249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_legacy249.dll"/>
+					<Item Name="opencv_ml249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_ml249.dll"/>
+					<Item Name="opencv_nonfree249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_nonfree249.dll"/>
+					<Item Name="opencv_objdetect249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_objdetect249.dll"/>
+					<Item Name="opencv_ocl249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_ocl249.dll"/>
+					<Item Name="opencv_photo249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_photo249.dll"/>
+					<Item Name="opencv_stitching249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_stitching249.dll"/>
+					<Item Name="opencv_superres249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_superres249.dll"/>
+					<Item Name="opencv_video249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_video249.dll"/>
+					<Item Name="opencv_videostab249.dll" Type="Document" URL="../WaveKit/runtime/Win32/opencv_videostab249.dll"/>
+					<Item Name="tiff.dll" Type="Document" URL="../WaveKit/runtime/Win32/tiff.dll"/>
+					<Item Name="TML_lib.dll" Type="Document" URL="../WaveKit/runtime/Win32/TML_lib.dll"/>
+					<Item Name="tmlcomm.dll" Type="Document" URL="../WaveKit/runtime/Win32/tmlcomm.dll"/>
+					<Item Name="unins000.dat" Type="Document" URL="../WaveKit/runtime/Win32/unins000.dat"/>
+					<Item Name="unins000.exe" Type="Document" URL="../WaveKit/runtime/Win32/unins000.exe"/>
+					<Item Name="vccorlib140.dll" Type="Document" URL="../WaveKit/runtime/Win32/vccorlib140.dll"/>
+					<Item Name="vcomp100.dll" Type="Document" URL="../WaveKit/runtime/Win32/vcomp100.dll"/>
+					<Item Name="vcruntime140.dll" Type="Document" URL="../WaveKit/runtime/Win32/vcruntime140.dll"/>
+					<Item Name="WidyVisionDrivers_C_vc141.dll" Type="Document" URL="../WaveKit/runtime/Win32/WidyVisionDrivers_C_vc141.dll"/>
+					<Item Name="zlib.dll" Type="Document" URL="../WaveKit/runtime/Win32/zlib.dll"/>
+				</Item>
+				<Item Name="x64" Type="Folder">
+					<Item Name="256PCIeBoard.dll" Type="Document" URL="../WaveKit/runtime/x64/256PCIeBoard.dll"/>
+					<Item Name="512PCIeBoard.dll" Type="Document" URL="../WaveKit/runtime/x64/512PCIeBoard.dll"/>
+					<Item Name="BNSPCIeBoard.dll" Type="Document" URL="../WaveKit/runtime/x64/BNSPCIeBoard.dll"/>
+					<Item Name="cilkrts20.dll" Type="Document" URL="../WaveKit/runtime/x64/cilkrts20.dll"/>
+					<Item Name="concrt140.dll" Type="Document" URL="../WaveKit/runtime/x64/concrt140.dll"/>
+					<Item Name="DinkeyAdd64.dll" Type="Document" URL="../WaveKit/runtime/x64/DinkeyAdd64.dll"/>
+					<Item Name="dpwin64.dll" Type="Document" URL="../WaveKit/runtime/x64/dpwin64.dll"/>
+					<Item Name="imop_camera_cmu_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_camera_cmu_vc141_x64.dll"/>
+					<Item Name="imop_camera_ebus_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_camera_ebus_vc141_x64.dll"/>
+					<Item Name="imop_camera_pylon_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_camera_pylon_vc141_x64.dll"/>
+					<Item Name="imop_camera_sapera_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_camera_sapera_vc141_x64.dll"/>
+					<Item Name="imop_camera_svs_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_camera_svs_vc141_x64.dll"/>
+					<Item Name="imop_camera_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_camera_vc141_x64.dll"/>
+					<Item Name="imop_camera_widyvision_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_camera_widyvision_vc141_x64.dll"/>
+					<Item Name="imop_common_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_common_vc141_x64.dll"/>
+					<Item Name="imop_correction_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_correction_vc141_x64.dll"/>
+					<Item Name="imop_corrector_ilaostar_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_corrector_ilaostar_vc141_x64.dll"/>
+					<Item Name="imop_corrector_mirao52e_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_corrector_mirao52e_vc141_x64.dll"/>
+					<Item Name="imop_corrector_slm_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_corrector_slm_vc141_x64.dll"/>
+					<Item Name="imop_lift_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_lift_vc141_x64.dll"/>
+					<Item Name="imop_metrology_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_metrology_vc141_x64.dll"/>
+					<Item Name="imop_microscopy_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_microscopy_vc141_x64.dll"/>
+					<Item Name="imop_phasediversity_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_phasediversity_vc141_x64.dll"/>
+					<Item Name="imop_slopesprocess_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_slopesprocess_vc141_x64.dll"/>
+					<Item Name="imop_stitching_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_stitching_vc141_x64.dll"/>
+					<Item Name="imop_wavefrontcorrector_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_wavefrontcorrector_vc141_x64.dll"/>
+					<Item Name="imop_wavekit_4_c_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_wavekit_4_c_vc141_x64.dll"/>
+					<Item Name="imop_wavekit_4_cpp_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_wavekit_4_cpp_vc141_x64.dll"/>
+					<Item Name="imop_wavekit_extended_4_c_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/imop_wavekit_extended_4_c_vc141_x64.dll"/>
+					<Item Name="imoptif.dll" Type="Document" URL="../WaveKit/runtime/x64/imoptif.dll"/>
+					<Item Name="Interface.dll" Type="Document" URL="../WaveKit/runtime/x64/Interface.dll"/>
+					<Item Name="jpeg.dll" Type="Document" URL="../WaveKit/runtime/x64/jpeg.dll"/>
+					<Item Name="kernel.cfg" Type="Document" URL="../WaveKit/runtime/x64/kernel.cfg"/>
+					<Item Name="libimalloc.dll" Type="Document" URL="../WaveKit/runtime/x64/libimalloc.dll"/>
+					<Item Name="libiomp5md.dll" Type="Document" URL="../WaveKit/runtime/x64/libiomp5md.dll"/>
+					<Item Name="mirao52e.dll" Type="Document" URL="../WaveKit/runtime/x64/mirao52e.dll"/>
+					<Item Name="mkl_avx.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_avx.dll"/>
+					<Item Name="mkl_avx2.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_avx2.dll"/>
+					<Item Name="mkl_avx512.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_avx512.dll"/>
+					<Item Name="mkl_core.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_core.dll"/>
+					<Item Name="mkl_def.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_def.dll"/>
+					<Item Name="mkl_intel_thread.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_intel_thread.dll"/>
+					<Item Name="mkl_mc.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_mc.dll"/>
+					<Item Name="mkl_mc3.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_mc3.dll"/>
+					<Item Name="mkl_msg.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_msg.dll"/>
+					<Item Name="mkl_sequential.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_sequential.dll"/>
+					<Item Name="mkl_vml_avx.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_avx.dll"/>
+					<Item Name="mkl_vml_avx2.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_avx2.dll"/>
+					<Item Name="mkl_vml_avx512.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_avx512.dll"/>
+					<Item Name="mkl_vml_cmpt.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_cmpt.dll"/>
+					<Item Name="mkl_vml_def.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_def.dll"/>
+					<Item Name="mkl_vml_mc.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_mc.dll"/>
+					<Item Name="mkl_vml_mc2.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_mc2.dll"/>
+					<Item Name="mkl_vml_mc3.dll" Type="Document" URL="../WaveKit/runtime/x64/mkl_vml_mc3.dll"/>
+					<Item Name="msvcp140.dll" Type="Document" URL="../WaveKit/runtime/x64/msvcp140.dll"/>
+					<Item Name="msvcp140_1.dll" Type="Document" URL="../WaveKit/runtime/x64/msvcp140_1.dll"/>
+					<Item Name="msvcp140_2.dll" Type="Document" URL="../WaveKit/runtime/x64/msvcp140_2.dll"/>
+					<Item Name="NITLibrary_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/NITLibrary_x64.dll"/>
+					<Item Name="opencv_calib3d249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_calib3d249.dll"/>
+					<Item Name="opencv_contrib249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_contrib249.dll"/>
+					<Item Name="opencv_core249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_core249.dll"/>
+					<Item Name="opencv_features2d249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_features2d249.dll"/>
+					<Item Name="opencv_ffmpeg249_64.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_ffmpeg249_64.dll"/>
+					<Item Name="opencv_flann249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_flann249.dll"/>
+					<Item Name="opencv_gpu249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_gpu249.dll"/>
+					<Item Name="opencv_highgui249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_highgui249.dll"/>
+					<Item Name="opencv_imgproc249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_imgproc249.dll"/>
+					<Item Name="opencv_legacy249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_legacy249.dll"/>
+					<Item Name="opencv_ml249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_ml249.dll"/>
+					<Item Name="opencv_nonfree249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_nonfree249.dll"/>
+					<Item Name="opencv_objdetect249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_objdetect249.dll"/>
+					<Item Name="opencv_ocl249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_ocl249.dll"/>
+					<Item Name="opencv_photo249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_photo249.dll"/>
+					<Item Name="opencv_stitching249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_stitching249.dll"/>
+					<Item Name="opencv_superres249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_superres249.dll"/>
+					<Item Name="opencv_video249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_video249.dll"/>
+					<Item Name="opencv_videostab249.dll" Type="Document" URL="../WaveKit/runtime/x64/opencv_videostab249.dll"/>
+					<Item Name="tiff.dll" Type="Document" URL="../WaveKit/runtime/x64/tiff.dll"/>
+					<Item Name="TML_lib.dll" Type="Document" URL="../WaveKit/runtime/x64/TML_lib.dll"/>
+					<Item Name="tmlcomm.dll" Type="Document" URL="../WaveKit/runtime/x64/tmlcomm.dll"/>
+					<Item Name="unins000.dat" Type="Document" URL="../WaveKit/runtime/x64/unins000.dat"/>
+					<Item Name="unins000.exe" Type="Document" URL="../WaveKit/runtime/x64/unins000.exe"/>
+					<Item Name="vccorlib140.dll" Type="Document" URL="../WaveKit/runtime/x64/vccorlib140.dll"/>
+					<Item Name="vcomp100.dll" Type="Document" URL="../WaveKit/runtime/x64/vcomp100.dll"/>
+					<Item Name="vcruntime140.dll" Type="Document" URL="../WaveKit/runtime/x64/vcruntime140.dll"/>
+					<Item Name="wdapi1021.dll" Type="Document" URL="../WaveKit/runtime/x64/wdapi1021.dll"/>
+					<Item Name="WidyVisionDrivers_C_vc141_x64.dll" Type="Document" URL="../WaveKit/runtime/x64/WidyVisionDrivers_C_vc141_x64.dll"/>
+					<Item Name="zlib.dll" Type="Document" URL="../WaveKit/runtime/x64/zlib.dll"/>
+				</Item>
+			</Item>
+			<Item Name="Tools" Type="Folder">
+				<Item Name="AO conjugation helper Setup.ctl" Type="VI" URL="../WaveKit/Tools/AO conjugation helper Setup.ctl"/>
+				<Item Name="BestFocusParameters.ctl" Type="VI" URL="../WaveKit/Tools/BestFocusParameters.ctl"/>
+				<Item Name="Camera parameter is gettable on fly.vi" Type="VI" URL="../WaveKit/Tools/Camera parameter is gettable on fly.vi"/>
+				<Item Name="Check wavelengths value.vi" Type="VI" URL="../WaveKit/Tools/Check wavelengths value.vi"/>
+				<Item Name="CheckAndGet_Float2D_data.vi" Type="VI" URL="../WaveKit/Tools/CheckAndGet_Float2D_data.vi"/>
+				<Item Name="Compute 3D graph size from HASO dimensions.vi" Type="VI" URL="../WaveKit/Tools/Compute 3D graph size from HASO dimensions.vi"/>
+				<Item Name="File Dialog.vi" Type="VI" URL="../WaveKit/Tools/File Dialog.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="../WaveKit/Tools/File Exists__ogtk.vi"/>
+				<Item Name="Get error from National Instruments error.vi" Type="VI" URL="../WaveKit/Tools/Get error from National Instruments error.vi"/>
+				<Item Name="Get number of summed images value in CameraParameterSetup.vi" Type="VI" URL="../WaveKit/Tools/Get number of summed images value in CameraParameterSetup.vi"/>
+				<Item Name="get path to CoreEngine dll.vi" Type="VI" URL="../WaveKit/Tools/get path to CoreEngine dll.vi"/>
+				<Item Name="GetErrorMessageBoxFromDLL.vi" Type="VI" URL="../WaveKit/Tools/GetErrorMessageBoxFromDLL.vi"/>
+				<Item Name="List Directory__ogtk.vi" Type="VI" URL="../WaveKit/Tools/List Directory__ogtk.vi"/>
+				<Item Name="LVFunction_Read registry to get CoreEngineSetupFilePath.vi" Type="VI" URL="../WaveKit/Tools/LVFunction_Read registry to get CoreEngineSetupFilePath.vi"/>
+				<Item Name="Manage logger file txt.vi" Type="VI" URL="../WaveKit/Tools/Manage logger file txt.vi"/>
+				<Item Name="Parameter is settable on fly or is settable.vi" Type="VI" URL="../WaveKit/Tools/Parameter is settable on fly or is settable.vi"/>
+				<Item Name="PhaseRetrievalParameters.ctl" Type="VI" URL="../WaveKit/Tools/PhaseRetrievalParameters.ctl"/>
+				<Item Name="String_Empty buffer define by lenght.vi" Type="VI" URL="../WaveKit/Tools/String_Empty buffer define by lenght.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="../WaveKit/Tools/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../WaveKit/Tools/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="../WaveKit/Tools/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Value to timestamp.vi" Type="VI" URL="../WaveKit/Tools/Value to timestamp.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="DeviceHASO4_3.vi" Type="VI" URL="../DeviceHASO4_3.vi"/>
@@ -269,6 +756,7 @@
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
+				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Path)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
@@ -289,7 +777,6 @@
 				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
-				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -640,7 +1127,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{788E0EA5-E7BB-40D6-AFBA-AB603DCE10A6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C724936E-8A6C-4453-897A-963845312D16}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/HASO4_3.lvclass</Property>
