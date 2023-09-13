@@ -484,20 +484,20 @@
 				<Item Name="CheckAndGet_Float2D_data.vi" Type="VI" URL="../WaveKit/Tools/CheckAndGet_Float2D_data.vi"/>
 				<Item Name="Compute 3D graph size from HASO dimensions.vi" Type="VI" URL="../WaveKit/Tools/Compute 3D graph size from HASO dimensions.vi"/>
 				<Item Name="File Dialog.vi" Type="VI" URL="../WaveKit/Tools/File Dialog.vi"/>
-				<Item Name="File Exists__ogtk.vi" Type="VI" URL="../WaveKit/Tools/File Exists__ogtk.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
 				<Item Name="Get error from National Instruments error.vi" Type="VI" URL="../WaveKit/Tools/Get error from National Instruments error.vi"/>
 				<Item Name="Get number of summed images value in CameraParameterSetup.vi" Type="VI" URL="../WaveKit/Tools/Get number of summed images value in CameraParameterSetup.vi"/>
 				<Item Name="get path to CoreEngine dll.vi" Type="VI" URL="../WaveKit/Tools/get path to CoreEngine dll.vi"/>
 				<Item Name="GetErrorMessageBoxFromDLL.vi" Type="VI" URL="../WaveKit/Tools/GetErrorMessageBoxFromDLL.vi"/>
-				<Item Name="List Directory__ogtk.vi" Type="VI" URL="../WaveKit/Tools/List Directory__ogtk.vi"/>
+				<Item Name="List Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory__ogtk.vi"/>
 				<Item Name="LVFunction_Read registry to get CoreEngineSetupFilePath.vi" Type="VI" URL="../WaveKit/Tools/LVFunction_Read registry to get CoreEngineSetupFilePath.vi"/>
 				<Item Name="Manage logger file txt.vi" Type="VI" URL="../WaveKit/Tools/Manage logger file txt.vi"/>
 				<Item Name="Parameter is settable on fly or is settable.vi" Type="VI" URL="../WaveKit/Tools/Parameter is settable on fly or is settable.vi"/>
 				<Item Name="PhaseRetrievalParameters.ctl" Type="VI" URL="../WaveKit/Tools/PhaseRetrievalParameters.ctl"/>
 				<Item Name="String_Empty buffer define by lenght.vi" Type="VI" URL="../WaveKit/Tools/String_Empty buffer define by lenght.vi"/>
-				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="../WaveKit/Tools/Trim Whitespace (String Array)__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../WaveKit/Tools/Trim Whitespace (String)__ogtk.vi"/>
-				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="../WaveKit/Tools/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 				<Item Name="Value to timestamp.vi" Type="VI" URL="../WaveKit/Tools/Value to timestamp.vi"/>
 			</Item>
 		</Item>
@@ -779,6 +779,8 @@
 				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
