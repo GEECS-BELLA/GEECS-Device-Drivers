@@ -612,6 +612,7 @@
 			<Item Name="OnStopMotion.vi" Type="VI" URL="../Sample8742UI/OnStopMotion.vi"/>
 			<Item Name="AbortMotion.vi" Type="VI" URL="../Command VIs/AbortMotion.vi"/>
 			<Item Name="GetDiscoveredDevices.vi" Type="VI" URL="../NewFocus/Sample8742UI/GetDiscoveredDevices.vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Picomotor8742dotNet" Type="Source Distribution">
