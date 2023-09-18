@@ -948,21 +948,21 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{CB0224BA-6EBF-48CD-842B-987CF6B65B68}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Device point grey</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C45BBF32-CDAB-4087-91F7-FE49B484DB84}</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePoint Grey Camera.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device/DevicePoint Grey Camera.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/DevicePoint Grey Camera.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AB7144DA-365B-4FE0-A16F-70D6DFF8B929}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{02AB74FE-4CEA-4CBD-8041-0AA0CA845695}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
