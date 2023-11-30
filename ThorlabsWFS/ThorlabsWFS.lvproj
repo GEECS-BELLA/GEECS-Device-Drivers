@@ -100,6 +100,7 @@
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="ThorlabsWFS.lvclass" Type="LVClass" URL="../ThorlabsWFS.lvclass"/>
+		<Item Name="Device_ThorlabsWFS.vi" Type="VI" URL="../Device_ThorlabsWFS.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -467,15 +468,7 @@
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="IMAQ Write PNG File" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File"/>
-				<Item Name="socket_type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_type.ctl"/>
-				<Item Name="socket_options.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_options.ctl"/>
-				<Item Name="zmq_ctx_create.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_create.vi"/>
-				<Item Name="zmq_socket.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_socket.vi"/>
-				<Item Name="zmq_connect.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_connect.vi"/>
-				<Item Name="zmq_setsocketopt.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_setsocketopt.vi"/>
-				<Item Name="zmq_recv_timeout.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv_timeout.vi"/>
-				<Item Name="zmq_close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_close.vi"/>
-				<Item Name="zmq_ctx_destroy.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_destroy.vi"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="CreateError.vi" Type="VI" URL="../../shared/CreateError.vi"/>
 			<Item Name="CheckIfSetCommand.vi" Type="VI" URL="../../shared/CheckIfSetCommand.vi"/>
@@ -682,6 +675,7 @@
 			<Item Name="no timeout error.vi" Type="VI" URL="../../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
 			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ThorlabsWFS" Type="Source Distribution">
@@ -721,6 +715,59 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
+			</Item>
+			<Item Name="DeviceThorlabsWFS" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F80950B1-359D-4ECF-B1AA-B50A9E767BC6}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{27C04DF4-8A05-4DBE-8C90-81D15450B22B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0813E7E0-F4D0-469E-92EB-B1731726DB61}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DeviceThorlabsWFS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8F241ACB-A7F4-4616-BD18-CB29309CF88E}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceThorlabsWFS.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceThorlabsWFS.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C42FF0B9-4DD6-49CD-811C-064754EE686E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_ThorlabsWFS.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/ThorlabsWFS.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DeviceThorlabsWFS</Property>
+				<Property Name="TgtF_internalName" Type="Str">DeviceThorlabsWFS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 LBL</Property>
+				<Property Name="TgtF_productName" Type="Str">DeviceThorlabsWFS</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E704B6DD-A284-4EAA-B6D3-6ABE2EFCBBC9}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceThorlabsWFS.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
