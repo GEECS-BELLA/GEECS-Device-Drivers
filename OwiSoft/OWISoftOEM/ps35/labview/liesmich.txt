@@ -1,0 +1,26 @@
+PS 35 OWIS® LabView Software Version 2.01 
+-----------------------------------------
+
+Die Software-Schnittstelle ist in der Windows-Bibliothek "ps35.dll" implementiert. 
+Alle Funktionen sind in der Windows-Hilfedatei "ps35func.chm" beschrieben. 
+Die VIs aus dem LabView-SDK sind mit den entsprechenden DLL-Funktionen verknüpft. 
+Aber einige VI's sind mit 2 Funktionen aus der DLL verbunden. Zum Beispiel:
+PS35_TargetEx.vi = PS35_GetTargetEx + PS35_SetTargetEx.
+Jedes LabView-VI hat eine Kontexthilfe (STRG+H).
+
+6 kleine Beispielprogramme und eine Demoapplikation und 2 OWIS-Tools für LabView stehen zur Verfügung.
+Jede Applikation für PS35 braucht 4 Schritte (Phasen):
+1. Initialisierung (Verbindung) - mit PS35 verbinden (PS35_Connect, PS35_SimpleConnect).
+2. Vorbereitung - notwendige Parameter setzen und definierte Achsen initilialisieren (PS35_MotorInit !!!).
+3. Mit PS35 arbeiten - zum Beispiel, Arbeitsschleife starten (Positionierfunktionen, Statusabfragen).
+4. Ende - Achsen ausschalten (optional) und Verbindung zu PS35 trennen (PS35_Disconnect).
+
+Um die Demoanwendung (32-Bit) nutzen zu können, sind die folgenden Dateien erforderlich:
+- Visual C++-Laufzeitdateien
+Diese Dateien können als erforderliche Komponenten während der Installation auf einem Computer ausgefuehrt werden, auf dem Visual C++ 2010 Express Edition (oder hoeher) nicht installiert ist.
+vcredist_x86.exe - Redistributionspaket fuer Visual C++ (32-Bit) 
+
+Um die Demoanwendung (64-Bit) nutzen zu können, sind die folgenden Dateien erforderlich:
+- Visual C++-Laufzeitdateien
+Diese Dateien können als erforderliche Komponenten während der Installation auf einem Computer ausgefuehrt werden, auf dem Visual C++ 2010 Express Edition (oder hoeher) nicht installiert ist.
+vcredist_x64.exe - Redistributionspaket fuer Visual C++ (64-Bit) 
