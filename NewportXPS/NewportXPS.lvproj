@@ -583,6 +583,7 @@
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="Newport.XPS.CommandInterface.dll" Type="Document" URL="../../../../../../Users/loasis.BELLANET/Downloads/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/Dll/Newport.XPS.CommandInterface.dll"/>
 			<Item Name="Positioner Group Position Current Get.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Position Current Get.vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewportXPS" Type="Source Distribution">
