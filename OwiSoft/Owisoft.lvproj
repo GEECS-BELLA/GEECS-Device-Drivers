@@ -13,7 +13,15 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="lv82" Type="Folder">
 			<Item Name="Examples" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="ps35demo.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/ps35demo.vi"/>
+				<Item Name="GetPosition_test.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GetPosition_test.vi"/>
+				<Item Name="MoveState_test.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/MoveState_test.vi"/>
+				<Item Name="Axis_Init&amp;Go_complex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/Axis_Init&amp;Go_complex.vi"/>
+				<Item Name="GoAxis.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis.vi"/>
+				<Item Name="InitAxis.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/InitAxis.vi"/>
+				<Item Name="GoAxis_complex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis_complex.vi"/>
+				<Item Name="ShowVersion.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/ShowVersion.vi"/>
 			</Item>
 			<Item Name="functions" Type="Folder">
 				<Item Name="AxisState_Ex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/functions/AxisState_Ex.vi"/>
@@ -201,19 +209,12 @@
 				<Item Name="SetTarget_Ex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/functions/SetTarget_Ex.vi"/>
 				<Item Name="VelState_Ex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/functions/VelState_Ex.vi"/>
 			</Item>
-			<Item Name="Axis_Init&amp;Go_complex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/Axis_Init&amp;Go_complex.vi"/>
-			<Item Name="GetPosition_test.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GetPosition_test.vi"/>
-			<Item Name="GoAxis.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis.vi"/>
-			<Item Name="GoAxis_complex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis_complex.vi"/>
 			<Item Name="GoVelAxis_keys.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoVelAxis_keys.vi"/>
-			<Item Name="InitAxis.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/InitAxis.vi"/>
-			<Item Name="MoveState_test.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/MoveState_test.vi"/>
 			<Item Name="ps35.dll" Type="Document" URL="../OWISoftOEM/ps35/labview/lv82/ps35.dll"/>
 			<Item Name="ps35_exit_func.txt" Type="Document" URL="../OWISoftOEM/ps35/labview/lv82/ps35_exit_func.txt"/>
 			<Item Name="ps35tool.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/ps35tool.vi"/>
 			<Item Name="ps35tool_ttl.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/ps35tool_ttl.vi"/>
 			<Item Name="ShowAxesState.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/ShowAxesState.vi"/>
-			<Item Name="ShowVersion.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/ShowVersion.vi"/>
 			<Item Name="subAxisParam.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/subAxisParam.vi"/>
 			<Item Name="subAxisParamEx.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/subAxisParamEx.vi"/>
 			<Item Name="subAxisState.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/subAxisState.vi"/>
@@ -231,6 +232,7 @@
 		<Item Name="Axis--enum.ctl" Type="VI" URL="../Axis--enum.ctl"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
+		<Item Name="GoAxis_complex2.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis_complex2.vi"/>
 		<Item Name="OwiSoft.lvclass" Type="LVClass" URL="../OwiSoft.lvclass"/>
 		<Item Name="StageHomingType.ctl" Type="VI" URL="../StageHomingType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
