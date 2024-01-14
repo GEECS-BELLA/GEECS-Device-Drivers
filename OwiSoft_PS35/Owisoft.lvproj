@@ -209,6 +209,7 @@
 				<Item Name="SetTarget_Ex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/functions/SetTarget_Ex.vi"/>
 				<Item Name="VelState_Ex.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/functions/VelState_Ex.vi"/>
 			</Item>
+			<Item Name="GoAxis_complex2.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis_complex2.vi"/>
 			<Item Name="GoVelAxis_keys.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoVelAxis_keys.vi"/>
 			<Item Name="ps35.dll" Type="Document" URL="../OWISoftOEM/ps35/labview/lv82/ps35.dll"/>
 			<Item Name="ps35_exit_func.txt" Type="Document" URL="../OWISoftOEM/ps35/labview/lv82/ps35_exit_func.txt"/>
@@ -232,7 +233,6 @@
 		<Item Name="Axis--enum.ctl" Type="VI" URL="../Axis--enum.ctl"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
-		<Item Name="GoAxis_complex2.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis_complex2.vi"/>
 		<Item Name="OwiSoft_PS35.lvclass" Type="LVClass" URL="../OwiSoft_PS35.lvclass"/>
 		<Item Name="StageHomingType.ctl" Type="VI" URL="../StageHomingType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
