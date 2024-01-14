@@ -233,7 +233,7 @@
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="GoAxis_complex2.vi" Type="VI" URL="../OWISoftOEM/ps35/labview/lv82/GoAxis_complex2.vi"/>
-		<Item Name="OwiSoft.lvclass" Type="LVClass" URL="../OwiSoft.lvclass"/>
+		<Item Name="OwiSoft_PS35.lvclass" Type="LVClass" URL="../OwiSoft_PS35.lvclass"/>
 		<Item Name="StageHomingType.ctl" Type="VI" URL="../StageHomingType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
