@@ -566,9 +566,9 @@
 			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="NewMarkStrage" Type="Source Distribution">
+			<Item Name="conex-pp" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{506A53C3-DB9D-4118-B208-B28469C99D54}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NewMarkStrage</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">conex-pp</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -582,7 +582,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{67FEFF0F-3BC8-4F45-8C27-1F15FB4EB67C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A0F4E279-3244-44C9-A8A1-48F333BE8651}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/conex-pp.lvclass</Property>
