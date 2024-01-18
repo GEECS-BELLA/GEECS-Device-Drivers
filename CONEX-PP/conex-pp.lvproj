@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,9 +12,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
+		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="CONEX-PP-example.vi" Type="VI" URL="../standalone example/CONEX-PP-example.vi"/>
 		<Item Name="conex-pp.lvclass" Type="LVClass" URL="../conex-pp.lvclass"/>
-		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
+		<Item Name="conex_command_name.ctl" Type="VI" URL="../conex_command_name.ctl"/>
+		<Item Name="conex_state.ctl" Type="VI" URL="../conex_state.ctl"/>
+		<Item Name="get conex position from DB.vi" Type="VI" URL="../get conex position from DB.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -377,7 +381,6 @@
 			<Item Name="checkSubscriberList.vi" Type="VI" URL="../../shared/checkSubscriberList.vi"/>
 			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 			<Item Name="Close FrontPanel.vi" Type="VI" URL="../../shared/UtilsLib/VI/GUI/Close FrontPanel.vi"/>
-			<Item Name="closeDeviceReference.vi" Type="VI" URL="../../Arcus/SubVis/closeDeviceReference.vi"/>
 			<Item Name="compress image to 65k_StateM.vi" Type="VI" URL="../../../Shared/TCP/compress image to 65k_StateM.vi"/>
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
 			<Item Name="CompressAndUpdate(Enum).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(Enum).vi"/>
@@ -406,8 +409,6 @@
 			<Item Name="DisplaySettableVariables.vi" Type="VI" URL="../../BaseDriver/DisplaySettableVariables.vi"/>
 			<Item Name="DriverMsg.ctl" Type="VI" URL="../../BaseDriver/DriverMsg.ctl"/>
 			<Item Name="enumVariable_control.ctl" Type="VI" URL="../../shared/enumVariable_control.ctl"/>
-			<Item Name="errors.vi" Type="VI" URL="../../Arcus/SubVis/errors.vi"/>
-			<Item Name="errors_actions.ctl" Type="VI" URL="../../Arcus/SubVis/errors_actions.ctl"/>
 			<Item Name="FGV PATH.vi" Type="VI" URL="../../shared/FGV PATH.vi"/>
 			<Item Name="FGV Shotnumber.vi" Type="VI" URL="../../shared/FGV Shotnumber.vi"/>
 			<Item Name="FGV Stop.vi" Type="VI" URL="../../shared/FGV Stop.vi"/>
@@ -481,9 +482,6 @@
 			<Item Name="OpenUDP.vi" Type="VI" URL="../../shared/OpenUDP.vi"/>
 			<Item Name="parse shot data udp response.vi" Type="VI" URL="../../../Shared/parse shot data udp response.vi"/>
 			<Item Name="parse tcp reply and replace all device var subset.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/parse tcp reply and replace all device var subset.vi"/>
-			<Item Name="PerformaxCom.dll" Type="Document" URL="PerformaxCom.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Popup with timeout.vi" Type="VI" URL="../../../Shared/Popup with timeout.vi"/>
 			<Item Name="preset cluster.ctl" Type="VI" URL="../../BaseDriver/preset cluster.ctl"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
@@ -503,7 +501,6 @@
 			<Item Name="return_packet_type.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
 			<Item Name="ScopeInfoToString(Array).vi" Type="VI" URL="../../shared/ScopeInfoToString(Array).vi"/>
 			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../shared/scopeTraceInfo_TypDEf.ctl"/>
-			<Item Name="sendReceiveCommand.vi" Type="VI" URL="../../Arcus/SubVis/sendReceiveCommand.vi"/>
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="Serial - Settings.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
 			<Item Name="server_init_data.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/server_init_data.ctl"/>
@@ -519,9 +516,7 @@
 			<Item Name="SQL Server Info.vi" Type="VI" URL="../../../Shared/MySQL/SQL Server Info.vi"/>
 			<Item Name="SQL Update.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Update.vi"/>
 			<Item Name="StartAndEndCommands.vi" Type="VI" URL="../../shared/StartAndEndCommands.vi"/>
-			<Item Name="steps to position.vi" Type="VI" URL="../../Arcus/SubVis/steps to position.vi"/>
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../../shared/stop FGV control.ctl"/>
-			<Item Name="strByteArrayConvert.vi" Type="VI" URL="../../Arcus/SubVis/strByteArrayConvert.vi"/>
 			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
 			<Item Name="stringToMsg(SM).vi" Type="VI" URL="../../shared/stringToMsg(SM).vi"/>
 			<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../../shared/SubscriberDataFGV.vi"/>
