@@ -12,32 +12,58 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Driver" Type="Folder">
-			<Item Name="dll" Type="Folder">
-				<Item Name="gclib.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/gclib.dll"/>
-				<Item Name="gclibo.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/gclibo.dll"/>
-				<Item Name="libcrypto-1_1.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/libcrypto-1_1.dll"/>
-				<Item Name="libssl-1_1.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/libssl-1_1.dll"/>
-			</Item>
-			<Item Name="gclib32" Type="Folder">
-				<Item Name="subvi" Type="Folder"/>
-				<Item Name="VIs" Type="Folder">
-					<Item Name="dir.mnu" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/dir.mnu"/>
+		<Item Name="Galil" Type="Folder">
+			<Item Name="examples" Type="Folder">
+				<Item Name="full_examples" Type="Folder">
+					<Item Name="Analog_IO_Example.vi" Type="VI" URL="../Galil/examples/full_examples/Analog_IO_Example.vi"/>
+					<Item Name="Data_Record_Example.vi" Type="VI" URL="../Galil/examples/full_examples/Data_Record_Example.vi"/>
+					<Item Name="Digital_IO_Example.vi" Type="VI" URL="../Galil/examples/full_examples/Digital_IO_Example.vi"/>
 				</Item>
-				<Item Name="dir.mnu" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/gclib32/dir.mnu"/>
-				<Item Name="gclib32.lvlib" Type="Library" URL="/&lt;vilib&gt;/Galil/resources/gclib32/gclib32.lvlib"/>
-				<Item Name="Report.html" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/gclib32/Report.html"/>
+				<Item Name="vi_examples" Type="Folder">
+					<Item Name="example_files" Type="Folder"/>
+					<Item Name="example_GArrayDownload.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GArrayDownload.vi"/>
+					<Item Name="example_GArrayDownloadFile.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GArrayDownloadFile.vi"/>
+					<Item Name="example_GArrayUpload.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GArrayUpload.vi"/>
+					<Item Name="example_GArrayUploadFile.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GArrayUploadFile.vi"/>
+					<Item Name="example_GCommand.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GCommand.vi"/>
+					<Item Name="example_GInterrupt.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GInterrupt.vi"/>
+					<Item Name="example_GMessage.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GMessage.vi"/>
+					<Item Name="example_GMotionComplete.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GMotionComplete.vi"/>
+					<Item Name="example_GProgramDownload.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GProgramDownload.vi"/>
+					<Item Name="example_GProgramDownloadFile.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GProgramDownloadFile.vi"/>
+					<Item Name="example_GProgramUpload.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GProgramUpload.vi"/>
+					<Item Name="example_GProgramUploadFile.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GProgramUploadFile.vi"/>
+					<Item Name="example_GRecord.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GRecord.vi"/>
+					<Item Name="example_GRecordRate.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GRecordRate.vi"/>
+					<Item Name="example_GTimeout.vi" Type="VI" URL="../Galil/examples/vi_examples/example_GTimeout.vi"/>
+				</Item>
 			</Item>
-			<Item Name="StageSelector--Enum.ctl" Type="VI" URL="../Newmark  Driver/StageSelector--Enum.ctl"/>
-			<Item Name="MoveStage.vi" Type="VI" URL="../Newmark  Driver/MoveStage.vi"/>
-			<Item Name="HomeStage.vi" Type="VI" URL="../Newmark  Driver/HomeStage.vi"/>
-			<Item Name="SetStageSpeed.vi" Type="VI" URL="../Newmark  Driver/SetStageSpeed.vi"/>
-			<Item Name="GetStagePosition.vi" Type="VI" URL="../Newmark  Driver/GetStagePosition.vi"/>
-			<Item Name="InitDevice.vi" Type="VI" URL="../Newmark  Driver/InitDevice.vi"/>
-			<Item Name="SetHome.vi" Type="VI" URL="../Newmark  Driver/SetHome.vi"/>
-			<Item Name="GetStageStopped.vi" Type="VI" URL="../Newmark  Driver/GetStageStopped.vi"/>
-			<Item Name="Jog.vi" Type="VI" URL="../Newmark  Driver/Jog.vi"/>
-			<Item Name="StopStage.vi" Type="VI" URL="../Newmark  Driver/StopStage.vi"/>
+			<Item Name="resources" Type="Folder">
+				<Item Name="dll" Type="Folder">
+					<Item Name="gclib.dll" Type="Document" URL="../Galil/resources/dll/gclib.dll"/>
+					<Item Name="gclibo.dll" Type="Document" URL="../Galil/resources/dll/gclibo.dll"/>
+					<Item Name="libcrypto-1_1.dll" Type="Document" URL="../Galil/resources/dll/libcrypto-1_1.dll"/>
+					<Item Name="libssl-1_1.dll" Type="Document" URL="../Galil/resources/dll/libssl-1_1.dll"/>
+				</Item>
+				<Item Name="gclib32" Type="Folder">
+					<Item Name="subvi" Type="Folder"/>
+					<Item Name="VIs" Type="Folder">
+						<Item Name="dir.mnu" Type="Document" URL="../Galil/resources/gclib32/VIs/dir.mnu"/>
+					</Item>
+					<Item Name="dir.mnu" Type="Document" URL="../Galil/resources/gclib32/dir.mnu"/>
+					<Item Name="gclib32.lvlib" Type="Library" URL="../Galil/resources/gclib32/gclib32.lvlib"/>
+					<Item Name="Report.html" Type="Document" URL="../Galil/resources/gclib32/Report.html"/>
+				</Item>
+				<Item Name="gclibo32" Type="Folder">
+					<Item Name="subvi" Type="Folder"/>
+					<Item Name="VIs" Type="Folder">
+						<Item Name="dir.mnu" Type="Document" URL="../Galil/resources/gclibo32/VIs/dir.mnu"/>
+					</Item>
+					<Item Name="dir.mnu" Type="Document" URL="../Galil/resources/gclibo32/dir.mnu"/>
+					<Item Name="gclibo32.lvlib" Type="Library" URL="../Galil/resources/gclibo32/gclibo32.lvlib"/>
+					<Item Name="Report.html" Type="Document" URL="../Galil/resources/gclibo32/Report.html"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="CmdDevice.vi" Type="VI" URL="../Newmark  Driver/CmdDevice.vi"/>
@@ -387,6 +413,23 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="G Open.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Open.vi"/>
+				<Item Name="G Command.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Command.vi"/>
+				<Item Name="G Close.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Close.vi"/>
+				<Item Name="G Record.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Record.vi"/>
+				<Item Name="G Array Download.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Array Download.vi"/>
+				<Item Name="G Array Download File.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Array Download File.vi"/>
+				<Item Name="G Array Upload.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Array Upload.vi"/>
+				<Item Name="G Array Upload File.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Array Upload File.vi"/>
+				<Item Name="G Timeout.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Timeout.vi"/>
+				<Item Name="G Interrupt.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Interrupt.vi"/>
+				<Item Name="G Program Download.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Program Download.vi"/>
+				<Item Name="G Message.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Message.vi"/>
+				<Item Name="G Motion Complete.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Motion Complete.vi"/>
+				<Item Name="G Program Download File.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Program Download File.vi"/>
+				<Item Name="G Program Upload.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Program Upload.vi"/>
+				<Item Name="G Program Upload File.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Program Upload File.vi"/>
+				<Item Name="G Record Rate.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Record Rate.vi"/>
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="Add and Update Devicetype Variable in DB.vi" Type="VI" URL="../../shared/Add and Update Devicetype Variable in DB.vi"/>
@@ -592,6 +635,9 @@
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 			<Item Name="ServoHereToClearErrorDll.vi" Type="VI" URL="../Newmark  Driver/ServoHereToClearErrorDll.vi"/>
+			<Item Name="StageSelector--Enum.ctl" Type="VI" URL="../Newmark  Driver/StageSelector--Enum.ctl"/>
+			<Item Name="InitDevice.vi" Type="VI" URL="../Newmark  Driver/InitDevice.vi"/>
+			<Item Name="MoveStage.vi" Type="VI" URL="../Newmark  Driver/MoveStage.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Newmark-NSC-G4" Type="Source Distribution">
@@ -603,7 +649,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C783B3F-1579-409D-B7A7-3F2C60A1F0C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -612,7 +658,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{656783A4-BE38-4F81-9146-C537F7C8C2F3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F6FC938E-AA1D-4480-A3EA-5FBB91650DFD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Newmark-NSC-G4.lvclass</Property>
@@ -625,16 +671,10 @@
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Driver/dll</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Galil</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Driver/gclib32</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 			<Item Name="Newmark-NSC-G4-exe" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -675,7 +715,7 @@
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Driver</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
