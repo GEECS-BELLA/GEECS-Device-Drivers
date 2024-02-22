@@ -425,7 +425,6 @@
 				<Item Name="G Interrupt.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Interrupt.vi"/>
 				<Item Name="G Program Download.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Program Download.vi"/>
 				<Item Name="G Message.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Message.vi"/>
-				<Item Name="G Motion Complete.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Motion Complete.vi"/>
 				<Item Name="G Program Download File.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Program Download File.vi"/>
 				<Item Name="G Program Upload.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclib32/VIs/G Program Upload.vi"/>
 				<Item Name="G Program Upload File.vi" Type="VI" URL="/&lt;vilib&gt;/Galil/resources/gclibo32/VIs/G Program Upload File.vi"/>
@@ -649,7 +648,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C783B3F-1579-409D-B7A7-3F2C60A1F0C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
