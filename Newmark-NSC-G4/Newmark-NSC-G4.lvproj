@@ -75,6 +75,8 @@
 		<Item Name="HomeStageDll.vi" Type="VI" URL="../Newmark  Driver/HomeStageDll.vi"/>
 		<Item Name="GetStageMotionStatusDll.vi" Type="VI" URL="../Newmark  Driver/GetStageMotionStatusDll.vi"/>
 		<Item Name="HomeState--Enum.ctl" Type="VI" URL="../Newmark  Driver/HomeState--Enum.ctl"/>
+		<Item Name="StopAllStageDll.vi" Type="VI" URL="../Newmark  Driver/StopAllStageDll.vi"/>
+		<Item Name="AbortStageDll.vi" Type="VI" URL="../Newmark  Driver/AbortStageDll.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
