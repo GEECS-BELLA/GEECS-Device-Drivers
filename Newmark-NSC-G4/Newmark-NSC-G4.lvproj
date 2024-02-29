@@ -17,6 +17,7 @@
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="Device_control_Newmark-NSC-G4.vi" Type="VI" URL="../Device_control_Newmark-NSC-G4.vi"/>
 		<Item Name="Newmark-NSC-G4.lvclass" Type="LVClass" URL="../Newmark-NSC-G4.lvclass"/>
+		<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 		<Item Name="MoveStageDll.vi" Type="VI" URL="../Newmark  Driver/MoveStageDll.vi"/>
 		<Item Name="GetStagePositionDll.vi" Type="VI" URL="../Newmark  Driver/GetStagePositionDll.vi"/>
 		<Item Name="HomeStageDll.vi" Type="VI" URL="../Newmark  Driver/HomeStageDll.vi"/>
@@ -26,6 +27,7 @@
 		<Item Name="AbortStageDll.vi" Type="VI" URL="../Newmark  Driver/AbortStageDll.vi"/>
 		<Item Name="gclib.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/gclib.dll"/>
 		<Item Name="gclib32.lvlib" Type="Library" URL="/&lt;vilib&gt;/Galil/resources/gclib32/gclib32.lvlib"/>
+		<Item Name="SetCurrentPositionDll.vi" Type="VI" URL="../Newmark  Driver/SetCurrentPositionDll.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -583,7 +585,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C783B3F-1579-409D-B7A7-3F2C60A1F0C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -592,7 +594,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4DFC8E19-6FC4-4B42-BEEC-B3E96F588953}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0B50328A-278C-4E46-8D27-3C3E52142BBA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Newmark-NSC-G4.lvclass</Property>
