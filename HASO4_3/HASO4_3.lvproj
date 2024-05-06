@@ -872,7 +872,6 @@
 				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
 				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
-				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
@@ -926,6 +925,15 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="socket_type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_type.ctl"/>
+				<Item Name="socket_options.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_options.ctl"/>
+				<Item Name="zmq_ctx_create.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_create.vi"/>
+				<Item Name="zmq_socket.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_socket.vi"/>
+				<Item Name="zmq_connect.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_connect.vi"/>
+				<Item Name="zmq_setsocketopt.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_setsocketopt.vi"/>
+				<Item Name="zmq_recv_timeout.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv_timeout.vi"/>
+				<Item Name="zmq_close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_close.vi"/>
+				<Item Name="zmq_ctx_destroy.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_destroy.vi"/>
 			</Item>
 			<Item Name="Arguments to array.vi" Type="VI" URL="../../shared/Arguments to array.vi"/>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
@@ -1155,7 +1163,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{98C04A70-0B92-4BF5-924E-727DD5B4FB35}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B042AB7-6CAF-42B5-A86B-BF7304979681}</Property>
 				<Property Name="Source[0].newName" Type="Str">SD-</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -1202,7 +1210,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">44</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DeviceHASO4_3/DeviceHASO4_3.exe</Property>
