@@ -17,7 +17,6 @@
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="Device_control_Newmark-NSC-G4.vi" Type="VI" URL="../Device_control_Newmark-NSC-G4.vi"/>
 		<Item Name="Newmark-NSC-G4.lvclass" Type="LVClass" URL="../Newmark-NSC-G4.lvclass"/>
-		<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 		<Item Name="MoveStageDll.vi" Type="VI" URL="../Newmark  Driver/MoveStageDll.vi"/>
 		<Item Name="GetStagePositionDll.vi" Type="VI" URL="../Newmark  Driver/GetStagePositionDll.vi"/>
 		<Item Name="HomeStageDll.vi" Type="VI" URL="../Newmark  Driver/HomeStageDll.vi"/>
@@ -28,6 +27,7 @@
 		<Item Name="gclib.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/gclib.dll"/>
 		<Item Name="gclib32.lvlib" Type="Library" URL="/&lt;vilib&gt;/Galil/resources/gclib32/gclib32.lvlib"/>
 		<Item Name="SetCurrentPositionDll.vi" Type="VI" URL="../Newmark  Driver/SetCurrentPositionDll.vi"/>
+		<Item Name="SetSpeedDll.vi" Type="VI" URL="../Newmark  Driver/SetSpeedDll.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
