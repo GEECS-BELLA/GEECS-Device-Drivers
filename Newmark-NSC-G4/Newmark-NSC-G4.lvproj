@@ -27,6 +27,7 @@
 		<Item Name="gclib.dll" Type="Document" URL="/&lt;vilib&gt;/Galil/resources/dll/gclib.dll"/>
 		<Item Name="gclib32.lvlib" Type="Library" URL="/&lt;vilib&gt;/Galil/resources/gclib32/gclib32.lvlib"/>
 		<Item Name="SetCurrentPositionDll.vi" Type="VI" URL="../Newmark  Driver/SetCurrentPositionDll.vi"/>
+		<Item Name="TestCOMPortConnectionOpen.vi" Type="VI" URL="../Newmark  Driver/TestCOMPortConnectionOpen.vi"/>
 		<Item Name="SetSpeedDll.vi" Type="VI" URL="../Newmark  Driver/SetSpeedDll.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
