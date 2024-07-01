@@ -243,6 +243,10 @@
 		<Item Name="unbundle config parse cmd.vi" Type="VI" URL="../../shared/cluster command/unbundle config parse cmd.vi"/>
 		<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
 		<Item Name="parsed device cmd.ctl" Type="VI" URL="../../shared/parsed device cmd.ctl"/>
+		<Item Name="Aerotech Acq FGV.vi" Type="VI" URL="../subvis/Aerotech Acq FGV.vi"/>
+		<Item Name="Aerotech Acq FGV Control.ctl" Type="VI" URL="../subvis/Aerotech Acq FGV Control.ctl"/>
+		<Item Name="Aerotech Acq FGV Function.ctl" Type="VI" URL="../subvis/Aerotech Acq FGV Function.ctl"/>
+		<Item Name="Aerotech wait till acq stops.vi" Type="VI" URL="../subvis/Aerotech wait till acq stops.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
