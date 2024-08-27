@@ -565,16 +565,16 @@
 			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="CaenHVSupply" Type="Source Distribution">
+			<Item Name="BergozBCMRFE" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A4D18AFC-4406-4ABD-AA49-0DBDAE57FEA2}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">CaenHVSupply</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">BergozBCMRFE</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F387CF5F-151B-40D2-8704-8849FC11CB7C}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -583,7 +583,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{106E06BA-1362-4B8B-BC59-1795AF13A747}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9F1361F3-DA9A-48D8-8022-A0A111669D14}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BergozBCMRFE.lvclass</Property>
