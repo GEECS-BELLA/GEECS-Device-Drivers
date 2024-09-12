@@ -17,6 +17,7 @@
 			<Item Name="SingleValuetoArrayofSix.vi" Type="VI" URL="../subVIs/SingleValuetoArrayofSix.vi"/>
 			<Item Name="PositionToCVT.vi" Type="VI" URL="../subVIs/PositionToCVT.vi"/>
 			<Item Name="InputToArray.vi" Type="VI" URL="../subVIs/InputToArray.vi"/>
+			<Item Name="SetPivot.vi" Type="VI" URL="../subVIs/SetPivot.vi"/>
 		</Item>
 		<Item Name="C887 DLL" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
@@ -38,11 +39,11 @@
 					<Item Name="Available DLLs.ctl" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Available DLLs.ctl"/>
 					<Item Name="Available interfaces.ctl" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Available interfaces.ctl"/>
 					<Item Name="BDR.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/BDR.vi"/>
-					<Item Name="BDR?.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/BDR?.vi"/>
+					<Item Name="BDR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/BDR_Query.vi"/>
 					<Item Name="CCT.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/CCT.vi"/>
 					<Item Name="Close connection if open.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Close connection if open.vi"/>
 					<Item Name="Configuration Setup State.ctl" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Configuration Setup State.ctl"/>
-					<Item Name="ECO?.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/ECO?.vi"/>
+					<Item Name="ECO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/ECO_Query.vi"/>
 					<Item Name="Find baudrate.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Find baudrate.vi"/>
 					<Item Name="Find host address.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Find host address.vi"/>
 					<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
@@ -53,9 +54,9 @@
 					<Item Name="Global DaisyChain.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Global DaisyChain.vi"/>
 					<Item Name="Global1.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Global1.vi"/>
 					<Item Name="IFC.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/IFC.vi"/>
-					<Item Name="IFC?.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/IFC?.vi"/>
+					<Item Name="IFC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/IFC_Query.vi"/>
 					<Item Name="IFS.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/IFS.vi"/>
-					<Item Name="IFS?.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/IFS?.vi"/>
+					<Item Name="IFS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/IFS_Query.vi"/>
 					<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
 					<Item Name="Initialize Global1.vi" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Initialize Global1.vi"/>
 					<Item Name="Interface Settings.ctl" Type="VI" URL="../C887 DLL/Low Level/Communication.llb/Interface Settings.ctl"/>
@@ -96,50 +97,50 @@
 					<Item Name="FDR Def_Start_Results.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FDR Def_Start_Results.vi"/>
 					<Item Name="FDR.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FDR.vi"/>
 					<Item Name="FGC.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FGC.vi"/>
-					<Item Name="FGC?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FGC?.vi"/>
+					<Item Name="FGC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FGC_Query.vi"/>
 					<Item Name="FIO.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FIO.vi"/>
 					<Item Name="FLA.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FLA.vi"/>
 					<Item Name="FLM.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FLM.vi"/>
 					<Item Name="FLS.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FLS.vi"/>
 					<Item Name="FRC.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRC.vi"/>
-					<Item Name="FRC?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRC?.vi"/>
-					<Item Name="FRH?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRH?.vi"/>
+					<Item Name="FRC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRC_Query.vi"/>
+					<Item Name="FRH_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRH_Query.vi"/>
 					<Item Name="FRP.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRP.vi"/>
-					<Item Name="FRP?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRP?.vi"/>
-					<Item Name="FRR?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRR?.vi"/>
+					<Item Name="FRP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRP_Query.vi"/>
+					<Item Name="FRR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRR_Query.vi"/>
 					<Item Name="FRS.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FRS.vi"/>
 					<Item Name="FSA.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSA.vi"/>
 					<Item Name="FSC.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSC.vi"/>
 					<Item Name="FSM.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSM.vi"/>
 					<Item Name="FSN.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSN.vi"/>
-					<Item Name="FSN?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSN?.vi"/>
-					<Item Name="FSS?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSS?.vi"/>
+					<Item Name="FSN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSN_Query.vi"/>
+					<Item Name="FSS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/FSS_Query.vi"/>
 					<Item Name="MVS.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/MVS.vi"/>
-					<Item Name="MVS?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/MVS?.vi"/>
+					<Item Name="MVS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/MVS_Query.vi"/>
 					<Item Name="SIC.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/SIC.vi"/>
-					<Item Name="SIC?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/SIC?.vi"/>
-					<Item Name="TCI?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/TCI?.vi"/>
+					<Item Name="SIC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/SIC_Query.vi"/>
+					<Item Name="TCI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller Algorithms.llb/TCI_Query.vi"/>
 				</Item>
 				<Item Name="Controller display" Type="Folder">
 					<Item Name="CLS.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/CLS.vi"/>
 					<Item Name="DSP.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/DSP.vi"/>
-					<Item Name="DSP?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/DSP?.vi"/>
+					<Item Name="DSP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/DSP_Query.vi"/>
 					<Item Name="HID.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/HID.vi"/>
-					<Item Name="HID?.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/HID?.vi"/>
+					<Item Name="HID_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/HID_Query.vi"/>
 					<Item Name="MSG.vi" Type="VI" URL="../C887 DLL/Low Level/Controller display.llb/MSG.vi"/>
 				</Item>
 				<Item Name="Coordinate Systems" Type="Folder">
 					<Item Name="KCP.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KCP.vi"/>
 					<Item Name="KEN.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KEN.vi"/>
-					<Item Name="KEN?.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KEN?.vi"/>
-					<Item Name="KET?.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KET?.vi"/>
-					<Item Name="KLC?.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLC?.vi"/>
+					<Item Name="KEN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KEN_Query.vi"/>
+					<Item Name="KET_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KET_Query.vi"/>
+					<Item Name="KLC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLC_Query.vi"/>
 					<Item Name="KLD.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLD.vi"/>
 					<Item Name="KLF.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLF.vi"/>
 					<Item Name="KLN.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLN.vi"/>
-					<Item Name="KLN?.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLN?.vi"/>
-					<Item Name="KLS?.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLS?.vi"/>
-					<Item Name="KLT?.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLT?.vi"/>
+					<Item Name="KLN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLN_Query.vi"/>
+					<Item Name="KLS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLS_Query.vi"/>
+					<Item Name="KLT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KLT_Query.vi"/>
 					<Item Name="KRM.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KRM.vi"/>
 					<Item Name="KSB.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KSB.vi"/>
 					<Item Name="KSD.vi" Type="VI" URL="../C887 DLL/Low Level/Coordinate Systems.llb/KSD.vi"/>
@@ -154,148 +155,148 @@
 					<Item Name="DLT.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/DLT.vi"/>
 					<Item Name="File handler.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/File handler.vi"/>
 					<Item Name="GetDataFormat.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/GetDataFormat.vi"/>
-					<Item Name="LST?.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/LST?.vi"/>
+					<Item Name="LST_Query.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/LST_Query.vi"/>
 					<Item Name="MatrixIO.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/MatrixIO.vi"/>
 					<Item Name="READ.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/READ.vi"/>
 					<Item Name="RTD.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/RTD.vi"/>
-					<Item Name="RTD?.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/RTD?.vi"/>
+					<Item Name="RTD_Querys.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/RTD_Querys.vi"/>
 					<Item Name="STD.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/STD.vi"/>
 					<Item Name="TableIO.vi" Type="VI" URL="../C887 DLL/Low Level/File handling.llb/TableIO.vi"/>
 				</Item>
 				<Item Name="General command" Type="Folder">
-					<Item Name="*IDN?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/*IDN?.vi"/>
+					<Item Name="IDN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/IDN_Query.vi"/>
 					<Item Name="Array of LogInfo.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Array of LogInfo.ctl"/>
 					<Item Name="AxisStatus.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/AxisStatus.ctl"/>
 					<Item Name="CommandInfo.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/CommandInfo.ctl"/>
 					<Item Name="Controller names.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Controller names.ctl"/>
 					<Item Name="CSV.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/CSV.vi"/>
-					<Item Name="CSV?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/CSV?.vi"/>
+					<Item Name="CSV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/CSV_Query.vi"/>
 					<Item Name="Define connected axes.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Define connected axes.vi"/>
 					<Item Name="Define connected systems (Array).vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Define connected systems (Array).vi"/>
 					<Item Name="DynamicHardwareInfo.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/DynamicHardwareInfo.ctl"/>
-					<Item Name="ERR?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/ERR?.vi"/>
+					<Item Name="ERR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/ERR_Query.vi"/>
 					<Item Name="FirmwareInfo.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/FirmwareInfo.ctl"/>
 					<Item Name="Global2 (Array).vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Global2 (Array).vi"/>
 					<Item Name="HardwareInfo.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HardwareInfo.ctl"/>
-					<Item Name="HLP?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HLP?.vi"/>
+					<Item Name="HLP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HLP_Query.vi"/>
 					<Item Name="HLT.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HLT.vi"/>
-					<Item Name="HPA?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HPA?.vi"/>
-					<Item Name="HPV?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HPV?.vi"/>
+					<Item Name="HPA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HPA_Query.vi"/>
+					<Item Name="HPV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/HPV_Query.vi"/>
 					<Item Name="Initialize Global2.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Initialize Global2.vi"/>
-					<Item Name="LOG?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/LOG?.vi"/>
+					<Item Name="LOG_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/LOG_Query.vi"/>
 					<Item Name="LOG_NoIndex.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/LOG_NoIndex.ctl"/>
 					<Item Name="LogInfo.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/LogInfo.ctl"/>
-					<Item Name="MAN?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MAN?.vi"/>
+					<Item Name="MAN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MAN_Query.vi"/>
 					<Item Name="MemoryType.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MemoryType.ctl"/>
 					<Item Name="MOV.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MOV.vi"/>
-					<Item Name="MOV?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MOV?.vi"/>
+					<Item Name="MOV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MOV_Query.vi"/>
 					<Item Name="MVR.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MVR.vi"/>
 					<Item Name="MWG.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/MWG.vi"/>
 					<Item Name="OCV.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/OCV.vi"/>
-					<Item Name="OCV?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/OCV?.vi"/>
-					<Item Name="ONT?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/ONT?.vi"/>
+					<Item Name="OCV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/OCV_Query.vi"/>
+					<Item Name="ONT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/ONT_Query.vi"/>
 					<Item Name="Parameter Set.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Parameter Set.ctl"/>
 					<Item Name="ParameterInfoSet.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/ParameterInfoSet.ctl"/>
-					<Item Name="POS?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/POS?.vi"/>
-					<Item Name="PUN?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/PUN?.vi"/>
+					<Item Name="POS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/POS_Query.vi"/>
+					<Item Name="PUN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/PUN_Query.vi"/>
 					<Item Name="RES.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/RES.vi"/>
 					<Item Name="RTO.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/RTO.vi"/>
-					<Item Name="RTO?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/RTO?.vi"/>
-					<Item Name="SAI?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SAI?.vi"/>
+					<Item Name="RTO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/RTO_Query.vi"/>
+					<Item Name="SAI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SAI_Query.vi"/>
 					<Item Name="SPA.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SPA.vi"/>
-					<Item Name="SPA?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SPA?.vi"/>
+					<Item Name="SPA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SPA_Query.vi"/>
 					<Item Name="SPV.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SPV.vi"/>
-					<Item Name="SPV?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SPV?.vi"/>
+					<Item Name="SPV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SPV_Query.vi"/>
 					<Item Name="Status.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/Status.ctl"/>
 					<Item Name="STP.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/STP.vi"/>
-					<Item Name="STV?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/STV?.vi"/>
+					<Item Name="STV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/STV_Query.vi"/>
 					<Item Name="SVO.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SVO.vi"/>
-					<Item Name="SVO?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SVO?.vi"/>
+					<Item Name="SVO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SVO_Query.vi"/>
 					<Item Name="SystemStatus.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/SystemStatus.ctl"/>
 					<Item Name="UnitDescription.ctl" Type="VI" URL="../C887 DLL/Low Level/General command.llb/UnitDescription.ctl"/>
-					<Item Name="USG? CMD.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG? CMD.vi"/>
-					<Item Name="USG? HW.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG? HW.vi"/>
-					<Item Name="USG? PAM.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG? PAM.vi"/>
-					<Item Name="USG? PROP.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG? PROP.vi"/>
-					<Item Name="USG? SYS.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG? SYS.vi"/>
-					<Item Name="USG?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG?.vi"/>
+					<Item Name="USG_Query CMD.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG_Query CMD.vi"/>
+					<Item Name="USG_Query HW.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG_Query HW.vi"/>
+					<Item Name="USG_Query PAM.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG_Query PAM.vi"/>
+					<Item Name="USG_Query PROP.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG_Query PROP.vi"/>
+					<Item Name="USG_Query SYS.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG_Query SYS.vi"/>
+					<Item Name="USG_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/USG_Query.vi"/>
 					<Item Name="VEL.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/VEL.vi"/>
-					<Item Name="VEL?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/VEL?.vi"/>
-					<Item Name="VER?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/VER?.vi"/>
+					<Item Name="VEL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/VEL_Query.vi"/>
+					<Item Name="VER_Query.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/VER_Query.vi"/>
 					<Item Name="VMO.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/VMO.vi"/>
 				</Item>
 				<Item Name="Joystick" Type="Folder">
 					<Item Name="Calculate joystick scaling.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/Calculate joystick scaling.vi"/>
 					<Item Name="HDT.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HDT.vi"/>
-					<Item Name="HDT?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HDT?.vi"/>
+					<Item Name="HDT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HDT_Query.vi"/>
 					<Item Name="HIA.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIA.vi"/>
-					<Item Name="HIA?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIA?.vi"/>
-					<Item Name="HIB?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIB?.vi"/>
-					<Item Name="HIE?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIE?.vi"/>
+					<Item Name="HIA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIA_Query.vi"/>
+					<Item Name="HIB_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIB_Query.vi"/>
+					<Item Name="HIE_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIE_Query.vi"/>
 					<Item Name="HIL.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIL.vi"/>
-					<Item Name="HIL?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIL?.vi"/>
+					<Item Name="HIL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIL_Query.vi"/>
 					<Item Name="HIN.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIN.vi"/>
-					<Item Name="HIN?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIN?.vi"/>
+					<Item Name="HIN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIN_Query.vi"/>
 					<Item Name="HIS.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIS.vi"/>
-					<Item Name="HIS?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIS?.vi"/>
+					<Item Name="HIS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIS_Query.vi"/>
 					<Item Name="HIT.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIT.vi"/>
-					<Item Name="HIT?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIT?.vi"/>
-					<Item Name="JAS?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JAS?.vi"/>
+					<Item Name="HIT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/HIT_Query.vi"/>
+					<Item Name="JAS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JAS_Query.vi"/>
 					<Item Name="JAX.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JAX.vi"/>
-					<Item Name="JAX?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JAX?.vi"/>
-					<Item Name="JBS?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JBS?.vi"/>
+					<Item Name="JAX_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JAX_Query.vi"/>
+					<Item Name="JBS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JBS_Query.vi"/>
 					<Item Name="JDT.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JDT.vi"/>
 					<Item Name="JEN.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JEN.vi"/>
-					<Item Name="JEN?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JEN?.vi"/>
+					<Item Name="JEN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JEN_Query.vi"/>
 					<Item Name="JLT.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JLT.vi"/>
-					<Item Name="JLT?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JLT?.vi"/>
+					<Item Name="JLT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JLT_Query.vi"/>
 					<Item Name="JON.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JON.vi"/>
-					<Item Name="JON?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JON?.vi"/>
+					<Item Name="JON_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/JON_Query.vi"/>
 					<Item Name="Read joystick.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/Read joystick.vi"/>
 					<Item Name="Scale joystick data.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/Scale joystick data.vi"/>
 					<Item Name="SJA.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/SJA.vi"/>
-					<Item Name="SJA?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/SJA?.vi"/>
-					<Item Name="TNJ?.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/TNJ?.vi"/>
+					<Item Name="SJA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/SJA_Query.vi"/>
+					<Item Name="TNJ_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Joystick.llb/TNJ_Query.vi"/>
 				</Item>
 				<Item Name="Limits" Type="Folder">
 					<Item Name="ATZ.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/ATZ.vi"/>
-					<Item Name="ATZ?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/ATZ?.vi"/>
-					<Item Name="CMN?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/CMN?.vi"/>
-					<Item Name="CMX?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/CMX?.vi"/>
+					<Item Name="ATZ_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/ATZ_Query.vi"/>
+					<Item Name="CMN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/CMN_Query.vi"/>
+					<Item Name="CMX_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/CMX_Query.vi"/>
 					<Item Name="DFH.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/DFH.vi"/>
-					<Item Name="DFH?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/DFH?.vi"/>
+					<Item Name="DFH_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/DFH_Query.vi"/>
 					<Item Name="FED.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FED.vi"/>
-					<Item Name="FED?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FED?.vi"/>
-					<Item Name="FES?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FES?.vi"/>
+					<Item Name="FED_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FED_Query.vi"/>
+					<Item Name="FES_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FES_Query.vi"/>
 					<Item Name="FNL.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FNL.vi"/>
 					<Item Name="FPH.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FPH.vi"/>
-					<Item Name="FPH?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FPH?.vi"/>
+					<Item Name="FPH_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FPH_Query.vi"/>
 					<Item Name="FPL.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FPL.vi"/>
 					<Item Name="FRF.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FRF.vi"/>
-					<Item Name="FRF?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FRF?.vi"/>
+					<Item Name="FRF_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FRF_Query.vi"/>
 					<Item Name="FSF.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FSF.vi"/>
-					<Item Name="FSF?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FSF?.vi"/>
-					<Item Name="FSR?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FSR?.vi"/>
+					<Item Name="FSF_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FSF_Query.vi"/>
+					<Item Name="FSR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/FSR_Query.vi"/>
 					<Item Name="GOH.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/GOH.vi"/>
-					<Item Name="HAR?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/HAR?.vi"/>
-					<Item Name="LIM?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/LIM?.vi"/>
-					<Item Name="LSS?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/LSS?.vi"/>
+					<Item Name="HAR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/HAR_Query.vi"/>
+					<Item Name="LIM_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/LIM_Query.vi"/>
+					<Item Name="LSS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/LSS_Query.vi"/>
 					<Item Name="MNL.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/MNL.vi"/>
 					<Item Name="MPL.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/MPL.vi"/>
 					<Item Name="NLM.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/NLM.vi"/>
-					<Item Name="NLM?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/NLM?.vi"/>
+					<Item Name="NLM_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/NLM_Query.vi"/>
 					<Item Name="PLM.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/PLM.vi"/>
-					<Item Name="PLM?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/PLM?.vi"/>
+					<Item Name="PLM_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/PLM_Query.vi"/>
 					<Item Name="REF.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/REF.vi"/>
-					<Item Name="REF?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/REF?.vi"/>
+					<Item Name="REF_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/REF_Query.vi"/>
 					<Item Name="RON.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/RON.vi"/>
-					<Item Name="RON?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/RON?.vi"/>
+					<Item Name="RON_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/RON_Query.vi"/>
 					<Item Name="SSL.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/SSL.vi"/>
-					<Item Name="SSL?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/SSL?.vi"/>
-					<Item Name="TMN?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TMN?.vi"/>
-					<Item Name="TMX?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TMX?.vi"/>
-					<Item Name="TRA?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TRA?.vi"/>
-					<Item Name="TRS?.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TRS?.vi"/>
+					<Item Name="SSL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/SSL_Query.vi"/>
+					<Item Name="TMN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TMN_Query.vi"/>
+					<Item Name="TMX_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TMX_Query.vi"/>
+					<Item Name="TRA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TRA_Query.vi"/>
+					<Item Name="TRS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Limits.llb/TRS_Query.vi"/>
 				</Item>
 				<Item Name="Macros" Type="Folder">
 					<Item Name="#8.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/#8.vi"/>
@@ -303,17 +304,17 @@
 					<Item Name="Define macro contents.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/Define macro contents.vi"/>
 					<Item Name="MAC BEG.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC BEG.vi"/>
 					<Item Name="MAC DEF.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC DEF.vi"/>
-					<Item Name="MAC DEF?.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC DEF?.vi"/>
+					<Item Name="MAC DEF_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC DEF_Query.vi"/>
 					<Item Name="MAC DEL.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC DEL.vi"/>
 					<Item Name="MAC END.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC END.vi"/>
-					<Item Name="MAC ERR?.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC ERR?.vi"/>
-					<Item Name="MAC FREE?.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC FREE?.vi"/>
+					<Item Name="MAC ERR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC ERR_Query.vi"/>
+					<Item Name="MAC FREE_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC FREE_Query.vi"/>
 					<Item Name="MAC NSTART.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC NSTART.vi"/>
 					<Item Name="MAC START.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC START.vi"/>
-					<Item Name="MAC?.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC?.vi"/>
-					<Item Name="RMC?.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/RMC?.vi"/>
+					<Item Name="MAC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/MAC_Query.vi"/>
+					<Item Name="RMC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/RMC_Query.vi"/>
 					<Item Name="VAR.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/VAR.vi"/>
-					<Item Name="VAR?.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/VAR?.vi"/>
+					<Item Name="VAR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/VAR_Query.vi"/>
 					<Item Name="WAI.vi" Type="VI" URL="../C887 DLL/Low Level/Macros.llb/WAI.vi"/>
 				</Item>
 				<Item Name="Old commands" Type="Folder">
@@ -321,18 +322,18 @@
 					<Item Name="Define connected systems.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/Define connected systems.vi"/>
 					<Item Name="HELP.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/HELP.vi"/>
 					<Item Name="INI hexaxes and wait until finished.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/INI hexaxes and wait until finished.vi"/>
-					<Item Name="MOV?_old.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/MOV?_old.vi"/>
+					<Item Name="MOV_Query_old.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/MOV_Query_old.vi"/>
 					<Item Name="NMOV.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/NMOV.vi"/>
 					<Item Name="NMVR.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/NMVR.vi"/>
 					<Item Name="PMA.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/PMA.vi"/>
-					<Item Name="PMA?.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/PMA?.vi"/>
+					<Item Name="PMA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/PMA_Query.vi"/>
 					<Item Name="PMI.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/PMI.vi"/>
-					<Item Name="PMI?.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/PMI?.vi"/>
-					<Item Name="SEP?_Hex.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SEP?_Hex.vi"/>
+					<Item Name="PMI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/PMI_Query.vi"/>
+					<Item Name="SEP_Query_Hex.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SEP_Query_Hex.vi"/>
 					<Item Name="SEP_Hex.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SEP_Hex.vi"/>
-					<Item Name="SPA?_Hex.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA?_Hex.vi"/>
-					<Item Name="SPA?_Hex_String.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA?_Hex_String.vi"/>
-					<Item Name="SPA?_String.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA?_String.vi"/>
+					<Item Name="SPA_Query_Hex.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA_Query_Hex.vi"/>
+					<Item Name="SPA_Query_Hex_String.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA_Query_Hex_String.vi"/>
+					<Item Name="SPA_Query_String.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA_Query_String.vi"/>
 					<Item Name="SPA_Hex.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA_Hex.vi"/>
 					<Item Name="SPA_Hex_String.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA_Hex_String.vi"/>
 					<Item Name="SPA_String.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/SPA_String.vi"/>
@@ -341,49 +342,49 @@
 					<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../C887 DLL/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
 				</Item>
 				<Item Name="Optical or Analog Input" Type="Folder">
-					<Item Name="MOV and TAV?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/MOV and TAV?.vi"/>
-					<Item Name="MWG and TAV?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/MWG and TAV?.vi"/>
+					<Item Name="MOV and TAV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/MOV and TAV_Query.vi"/>
+					<Item Name="MWG and TAV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/MWG and TAV_Query.vi"/>
 					<Item Name="NAV.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/NAV.vi"/>
-					<Item Name="NAV?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/NAV?.vi"/>
+					<Item Name="NAV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/NAV_Query.vi"/>
 					<Item Name="SGA.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/SGA.vi"/>
-					<Item Name="SGA?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/SGA?.vi"/>
-					<Item Name="TAC?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TAC?.vi"/>
-					<Item Name="TAD?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TAD?.vi"/>
+					<Item Name="SGA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/SGA_Query.vi"/>
+					<Item Name="TAC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TAC_Query.vi"/>
+					<Item Name="TAD_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TAD_Query.vi"/>
 					<Item Name="TAV.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TAV.vi"/>
-					<Item Name="TAV?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TAV?.vi"/>
-					<Item Name="TNS?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TNS?.vi"/>
-					<Item Name="TSC?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TSC?.vi"/>
+					<Item Name="TAV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TAV_Query.vi"/>
+					<Item Name="TNS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TNS_Query.vi"/>
+					<Item Name="TSC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TSC_Query.vi"/>
 					<Item Name="TSP.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TSP.vi"/>
-					<Item Name="TSP?.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TSP?.vi"/>
+					<Item Name="TSP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Optical or Analog Input.llb/TSP_Query.vi"/>
 				</Item>
 				<Item Name="PZT voltage" Type="Folder">
 					<Item Name="APG.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/APG.vi"/>
-					<Item Name="APG?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/APG?.vi"/>
-					<Item Name="DAE?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/DAE?.vi"/>
+					<Item Name="APG_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/APG_Query.vi"/>
+					<Item Name="DAE_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/DAE_Query.vi"/>
 					<Item Name="DCO.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/DCO.vi"/>
-					<Item Name="DCO?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/DCO?.vi"/>
+					<Item Name="DCO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/DCO_Query.vi"/>
 					<Item Name="DPO.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/DPO.vi"/>
 					<Item Name="DTC.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/DTC.vi"/>
 					<Item Name="OAD.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OAD.vi"/>
-					<Item Name="OAD?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OAD?.vi"/>
+					<Item Name="OAD_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OAD_Query.vi"/>
 					<Item Name="OSM.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OSM.vi"/>
-					<Item Name="OSM?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OSM?.vi"/>
-					<Item Name="OSN?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OSN?.vi"/>
-					<Item Name="OVF?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OVF?.vi"/>
+					<Item Name="OSM_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OSM_Query.vi"/>
+					<Item Name="OSN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OSN_Query.vi"/>
+					<Item Name="OVF_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/OVF_Query.vi"/>
 					<Item Name="PGS.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/PGS.vi"/>
 					<Item Name="POL.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/POL.vi"/>
 					<Item Name="RNP.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/RNP.vi"/>
 					<Item Name="SVA.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/SVA.vi"/>
-					<Item Name="SVA?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/SVA?.vi"/>
+					<Item Name="SVA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/SVA_Query.vi"/>
 					<Item Name="SVR.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/SVR.vi"/>
 					<Item Name="VCO.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VCO.vi"/>
-					<Item Name="VCO?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VCO?.vi"/>
+					<Item Name="VCO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VCO_Query.vi"/>
 					<Item Name="VMA.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VMA.vi"/>
-					<Item Name="VMA?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VMA?.vi"/>
+					<Item Name="VMA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VMA_Query.vi"/>
 					<Item Name="VMI.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VMI.vi"/>
-					<Item Name="VMI?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VMI?.vi"/>
+					<Item Name="VMI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VMI_Query.vi"/>
 					<Item Name="VOL.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VOL.vi"/>
-					<Item Name="VOL?.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VOL?.vi"/>
+					<Item Name="VOL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/PZT voltage.llb/VOL_Query.vi"/>
 				</Item>
 				<Item Name="Scan support" Type="Folder">
 					<Item Name="Axis names.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Axis names.vi"/>
@@ -391,9 +392,9 @@
 					<Item Name="Calculate 2D linear spiral.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Calculate 2D linear spiral.vi"/>
 					<Item Name="Calculate 2D meander.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Calculate 2D meander.vi"/>
 					<Item Name="Calculate 2D scan positions.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Calculate 2D scan positions.vi"/>
-					<Item Name="Decrease Gain?.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Decrease Gain?.vi"/>
+					<Item Name="Decrease Gain_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Decrease Gain_Query.vi"/>
 					<Item Name="F206_Choose_SPI.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/F206_Choose_SPI.vi"/>
-					<Item Name="Maximum Intensity?.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Maximum Intensity?.vi"/>
+					<Item Name="Maximum Intensity_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/Maximum Intensity_Query.vi"/>
 					<Item Name="PIGraph3D_DLL_Functions.vi" Type="VI" URL="../C887 DLL/Low Level/Scan support.llb/PIGraph3D_DLL_Functions.vi"/>
 				</Item>
 				<Item Name="Special command" Type="Folder">
@@ -406,89 +407,89 @@
 					<Item Name="#6.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/#6.vi"/>
 					<Item Name="#7.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/#7.vi"/>
 					<Item Name="ACC.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ACC.vi"/>
-					<Item Name="ACC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ACC?.vi"/>
+					<Item Name="ACC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ACC_Query.vi"/>
 					<Item Name="AOS.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/AOS.vi"/>
-					<Item Name="AOS?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/AOS?.vi"/>
+					<Item Name="AOS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/AOS_Query.vi"/>
 					<Item Name="AVG.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/AVG.vi"/>
-					<Item Name="AVG?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/AVG?.vi"/>
+					<Item Name="AVG_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/AVG_Query.vi"/>
 					<Item Name="BRA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/BRA.vi"/>
-					<Item Name="BRA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/BRA?.vi"/>
-					<Item Name="CAV?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CAV?.vi"/>
+					<Item Name="BRA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/BRA_Query.vi"/>
+					<Item Name="CAV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CAV_Query.vi"/>
 					<Item Name="CCL.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CCL.vi"/>
-					<Item Name="CCL?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CCL?.vi"/>
-					<Item Name="CCV?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CCV?.vi"/>
+					<Item Name="CCL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CCL_Query.vi"/>
+					<Item Name="CCV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CCV_Query.vi"/>
 					<Item Name="CLR.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CLR.vi"/>
 					<Item Name="CMO.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CMO.vi"/>
-					<Item Name="CMO?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CMO?.vi"/>
+					<Item Name="CMO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CMO_Query.vi"/>
 					<Item Name="ConfigurationMemoryType.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ConfigurationMemoryType.ctl"/>
-					<Item Name="COV?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/COV?.vi"/>
+					<Item Name="COV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/COV_Query.vi"/>
 					<Item Name="CPA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CPA.vi"/>
 					<Item Name="CST.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CST.vi"/>
-					<Item Name="CST?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CST?.vi"/>
+					<Item Name="CST_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CST_Query.vi"/>
 					<Item Name="CTI.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTI.vi"/>
-					<Item Name="CTI?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTI?.vi"/>
+					<Item Name="CTI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTI_Query.vi"/>
 					<Item Name="CTO.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTO.vi"/>
-					<Item Name="CTO?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTO?.vi"/>
+					<Item Name="CTO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTO_Query.vi"/>
 					<Item Name="CTR.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTR.vi"/>
 					<Item Name="CTV.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTV.vi"/>
-					<Item Name="CTV?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTV?.vi"/>
+					<Item Name="CTV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/CTV_Query.vi"/>
 					<Item Name="DEC.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DEC.vi"/>
-					<Item Name="DEC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DEC?.vi"/>
+					<Item Name="DEC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DEC_Query.vi"/>
 					<Item Name="DEL.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DEL.vi"/>
 					<Item Name="DEM.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DEM.vi"/>
 					<Item Name="DFF.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DFF.vi"/>
-					<Item Name="DFF?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DFF?.vi"/>
-					<Item Name="DIA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DIA?.vi"/>
+					<Item Name="DFF_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DFF_Query.vi"/>
+					<Item Name="DIA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DIA_Query.vi"/>
 					<Item Name="DIO.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DIO.vi"/>
-					<Item Name="DIO?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DIO?.vi"/>
-					<Item Name="DIP?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DIP?.vi"/>
+					<Item Name="DIO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DIO_Query.vi"/>
+					<Item Name="DIP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DIP_Query.vi"/>
 					<Item Name="DPA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DPA.vi"/>
 					<Item Name="DRC.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRC.vi"/>
-					<Item Name="DRC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRC?.vi"/>
+					<Item Name="DRC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRC_Query.vi"/>
 					<Item Name="DriveStateMachine.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DriveStateMachine.ctl"/>
-					<Item Name="DRL?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRL?.vi"/>
-					<Item Name="DRR? and display data.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRR? and display data.vi"/>
-					<Item Name="DRR?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRR?.vi"/>
+					<Item Name="DRL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRL_Query.vi"/>
+					<Item Name="DRR_Query and display data.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRR_Query and display data.vi"/>
+					<Item Name="DRR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRR_Query.vi"/>
 					<Item Name="DRT.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRT.vi"/>
-					<Item Name="DRT?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRT?.vi"/>
+					<Item Name="DRT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRT_Query.vi"/>
 					<Item Name="DRV.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/DRV.vi"/>
 					<Item Name="EAX.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/EAX.vi"/>
-					<Item Name="EAX?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/EAX?.vi"/>
+					<Item Name="EAX_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/EAX_Query.vi"/>
 					<Item Name="EGE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/EGE.vi"/>
-					<Item Name="EGE?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/EGE?.vi"/>
-					<Item Name="HDI?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/HDI?.vi"/>
-					<Item Name="HDR?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/HDR?.vi"/>
-					<Item Name="I2C?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/I2C?.vi"/>
+					<Item Name="EGE_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/EGE_Query.vi"/>
+					<Item Name="HDI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/HDI_Query.vi"/>
+					<Item Name="HDR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/HDR_Query.vi"/>
+					<Item Name="I2C_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/I2C_Query.vi"/>
 					<Item Name="IMP.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/IMP.vi"/>
-					<Item Name="IMP?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/IMP?.vi"/>
+					<Item Name="IMP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/IMP_Query.vi"/>
 					<Item Name="INI.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/INI.vi"/>
 					<Item Name="InterpreterConfiguration.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/InterpreterConfiguration.ctl"/>
-					<Item Name="IPR?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/IPR?.vi"/>
+					<Item Name="IPR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/IPR_Query.vi"/>
 					<Item Name="ITD.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ITD.vi"/>
 					<Item Name="JOG.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/JOG.vi"/>
-					<Item Name="JOG?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/JOG?.vi"/>
+					<Item Name="JOG_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/JOG_Query.vi"/>
 					<Item Name="MAR!.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MAR!.vi"/>
 					<Item Name="MAS.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MAS.vi"/>
-					<Item Name="MAS?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MAS?.vi"/>
+					<Item Name="MAS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MAS_Query.vi"/>
 					<Item Name="MOD.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MOD.vi"/>
-					<Item Name="MOD?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MOD?.vi"/>
+					<Item Name="MOD_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MOD_Query.vi"/>
 					<Item Name="ModeOfOperation.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ModeOfOperation.ctl"/>
-					<Item Name="MOV!.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MOV!.vi"/>
+					<Item Name="MOV_Exclamation.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MOV_Exclamation.vi"/>
 					<Item Name="MVE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MVE.vi"/>
 					<Item Name="MVT.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MVT.vi"/>
-					<Item Name="MVT?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MVT?.vi"/>
+					<Item Name="MVT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/MVT_Query.vi"/>
 					<Item Name="OAC.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OAC.vi"/>
-					<Item Name="OAC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OAC?.vi"/>
+					<Item Name="OAC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OAC_Query.vi"/>
 					<Item Name="ODC.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ODC.vi"/>
-					<Item Name="ODC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ODC?.vi"/>
+					<Item Name="ODC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ODC_Query.vi"/>
 					<Item Name="OMA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OMA.vi"/>
-					<Item Name="OMA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OMA?.vi"/>
+					<Item Name="OMA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OMA_Query.vi"/>
 					<Item Name="OMR.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OMR.vi"/>
 					<Item Name="ONL.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ONL.vi"/>
-					<Item Name="ONL?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ONL?.vi"/>
+					<Item Name="ONL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/ONL_Query.vi"/>
 					<Item Name="OpenStageEditorDialog.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OpenStageEditorDialog.vi"/>
 					<Item Name="OVL.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OVL.vi"/>
-					<Item Name="OVL?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OVL?.vi"/>
+					<Item Name="OVL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/OVL_Query.vi"/>
 					<Item Name="POS.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/POS.vi"/>
 					<Item Name="RBT.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RBT.vi"/>
 					<Item Name="REC RATE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC RATE.vi"/>
@@ -497,79 +498,79 @@
 					<Item Name="REC TRACE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC TRACE.vi"/>
 					<Item Name="REC TRG.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC TRG.vi"/>
 					<Item Name="REC.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC.vi"/>
-					<Item Name="REC? DAT to Array.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC? DAT to Array.vi"/>
-					<Item Name="REC? DAT.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC? DAT.vi"/>
-					<Item Name="REC? NUM.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC? NUM.vi"/>
-					<Item Name="REC? RATE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC? RATE.vi"/>
-					<Item Name="REC? STATE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC? STATE.vi"/>
-					<Item Name="REC? TRACE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC? TRACE.vi"/>
-					<Item Name="REC? TRG.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC? TRG.vi"/>
-					<Item Name="REC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC?.vi"/>
+					<Item Name="REC_Query DAT to Array.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query DAT to Array.vi"/>
+					<Item Name="REC_Query DAT.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query DAT.vi"/>
+					<Item Name="REC_Query NUM.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query NUM.vi"/>
+					<Item Name="REC_Query RATE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query RATE.vi"/>
+					<Item Name="REC_Query STATE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query STATE.vi"/>
+					<Item Name="REC_Query TRACE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query TRACE.vi"/>
+					<Item Name="REC_Query TRG.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query TRG.vi"/>
+					<Item Name="REC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_Query.vi"/>
 					<Item Name="REC_OptionalParameter.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REC_OptionalParameter.vi"/>
 					<Item Name="RecorderStatus.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RecorderStatus.ctl"/>
 					<Item Name="RecorderTraceConfiguration.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RecorderTraceConfiguration.ctl"/>
 					<Item Name="RecorderTriggerConfiguration.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RecorderTriggerConfiguration.ctl"/>
 					<Item Name="REL.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REL.vi"/>
-					<Item Name="REL?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REL?.vi"/>
+					<Item Name="REL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/REL_Query.vi"/>
 					<Item Name="RPA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RPA.vi"/>
 					<Item Name="RST.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RST.vi"/>
 					<Item Name="RTR.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RTR.vi"/>
-					<Item Name="RTR?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RTR?.vi"/>
+					<Item Name="RTR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/RTR_Query.vi"/>
 					<Item Name="SAI.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SAI.vi"/>
 					<Item Name="SAM.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SAM.vi"/>
-					<Item Name="SAM?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SAM?.vi"/>
+					<Item Name="SAM_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SAM_Query.vi"/>
 					<Item Name="SAV.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SAV.vi"/>
 					<Item Name="SCA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCA.vi"/>
-					<Item Name="SCA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCA?.vi"/>
+					<Item Name="SCA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCA_Query.vi"/>
 					<Item Name="SCH.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCH.vi"/>
-					<Item Name="SCH?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCH?.vi"/>
+					<Item Name="SCH_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCH_Query.vi"/>
 					<Item Name="SCT.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCT.vi"/>
-					<Item Name="SCT?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCT?.vi"/>
+					<Item Name="SCT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SCT_Query.vi"/>
 					<Item Name="SEP.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SEP.vi"/>
-					<Item Name="SEP?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SEP?.vi"/>
+					<Item Name="SEP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SEP_Query.vi"/>
 					<Item Name="SMA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMA.vi"/>
-					<Item Name="SMA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMA?.vi"/>
+					<Item Name="SMA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMA_Query.vi"/>
 					<Item Name="SMO.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMO.vi"/>
-					<Item Name="SMO?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMO?.vi"/>
-					<Item Name="SMR?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMR?.vi"/>
+					<Item Name="SMO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMO_Query.vi"/>
+					<Item Name="SMR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMR_Query.vi"/>
 					<Item Name="SMV.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMV.vi"/>
-					<Item Name="SMV?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMV?.vi"/>
+					<Item Name="SMV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SMV_Query.vi"/>
 					<Item Name="SPI.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SPI.vi"/>
-					<Item Name="SPI?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SPI?.vi"/>
+					<Item Name="SPI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SPI_Query.vi"/>
 					<Item Name="SRA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SRA.vi"/>
-					<Item Name="SRA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SRA?.vi"/>
+					<Item Name="SRA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SRA_Query.vi"/>
 					<Item Name="SRG.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SRG.vi"/>
-					<Item Name="SRG?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SRG?.vi"/>
+					<Item Name="SRG_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SRG_Query.vi"/>
 					<Item Name="SSA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SSA.vi"/>
-					<Item Name="SSA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SSA?.vi"/>
-					<Item Name="SSN?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SSN?.vi"/>
+					<Item Name="SSA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SSA_Query.vi"/>
+					<Item Name="SSN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SSN_Query.vi"/>
 					<Item Name="SST.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SST.vi"/>
-					<Item Name="SST?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SST?.vi"/>
-					<Item Name="STA?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/STA?.vi"/>
+					<Item Name="SST_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/SST_Query.vi"/>
+					<Item Name="STA_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/STA_Query.vi"/>
 					<Item Name="STE.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/STE.vi"/>
-					<Item Name="STE?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/STE?.vi"/>
-					<Item Name="TCT?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TCT?.vi"/>
-					<Item Name="TCV?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TCV?.vi"/>
+					<Item Name="STE_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/STE_Query.vi"/>
+					<Item Name="TCT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TCT_Query.vi"/>
+					<Item Name="TCV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TCV_Query.vi"/>
 					<Item Name="TIM.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TIM.vi"/>
-					<Item Name="TIM?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TIM?.vi"/>
-					<Item Name="TIO?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TIO?.vi"/>
-					<Item Name="TMC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TMC?.vi"/>
-					<Item Name="TMP?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TMP?.vi"/>
-					<Item Name="TNC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TNC?.vi"/>
-					<Item Name="TNR?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TNR?.vi"/>
-					<Item Name="TPC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TPC?.vi"/>
-					<Item Name="TRC?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRC?.vi"/>
+					<Item Name="TIM_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TIM_Query.vi"/>
+					<Item Name="TIO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TIO_Query.vi"/>
+					<Item Name="TMC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TMC_Query.vi"/>
+					<Item Name="TMP_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TMP_Query.vi"/>
+					<Item Name="TNC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TNC_Query.vi"/>
+					<Item Name="TNR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TNR_Query.vi"/>
+					<Item Name="TPC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TPC_Query.vi"/>
+					<Item Name="TRC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRC_Query.vi"/>
 					<Item Name="TRI.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRI.vi"/>
-					<Item Name="TRI?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRI?.vi"/>
+					<Item Name="TRI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRI_Query.vi"/>
 					<Item Name="TRO.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRO.vi"/>
-					<Item Name="TRO?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRO?.vi"/>
-					<Item Name="TVI?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TVI?.vi"/>
+					<Item Name="TRO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TRO_Query.vi"/>
+					<Item Name="TVI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/TVI_Query.vi"/>
 					<Item Name="UCL.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/UCL.vi"/>
-					<Item Name="UCL?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/UCL?.vi"/>
+					<Item Name="UCL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/UCL_Query.vi"/>
 					<Item Name="UserCommandLevel.ctl" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/UserCommandLevel.ctl"/>
 					<Item Name="VLS.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/VLS.vi"/>
-					<Item Name="VLS?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/VLS?.vi"/>
-					<Item Name="VST?.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/VST?.vi"/>
+					<Item Name="VLS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/VLS_Query.vi"/>
+					<Item Name="VST_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/VST_Query.vi"/>
 					<Item Name="WAA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/WAA.vi"/>
 					<Item Name="WPA.vi" Type="VI" URL="../C887 DLL/Low Level/Special command.llb/WPA.vi"/>
 				</Item>
@@ -588,20 +589,20 @@
 					<Item Name="Boolean array calculations.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Boolean array calculations.vi"/>
 					<Item Name="Build channel query command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build channel query command substring.vi"/>
 					<Item Name="Build command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build command substring.vi"/>
-					<Item Name="Build DIO? query command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build DIO? query command substring.vi"/>
+					<Item Name="Build DIO_Query query command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build DIO_Query query command substring.vi"/>
 					<Item Name="Build HIA command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build HIA command substring.vi"/>
 					<Item Name="Build MVS command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build MVS command substring.vi"/>
 					<Item Name="Build num command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build num command substring.vi"/>
 					<Item Name="Build query command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build query command substring.vi"/>
-					<Item Name="Build REL? query command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build REL? query command substring.vi"/>
+					<Item Name="Build REL_Query query command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build REL_Query query command substring.vi"/>
 					<Item Name="Build SPA command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build SPA command substring.vi"/>
 					<Item Name="Build SPA query command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build SPA query command substring.vi"/>
 					<Item Name="Build stringplusnum substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build stringplusnum substring.vi"/>
 					<Item Name="Build WAV command substring.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Build WAV command substring.vi"/>
 					<Item Name="ClearMotionError.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/ClearMotionError.vi"/>
 					<Item Name="Combine axes arrays.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Combine axes arrays.vi"/>
-					<Item Name="Commanded axes connected?.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Commanded axes connected?.vi"/>
-					<Item Name="Commanded stage name available?.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Commanded stage name available?.vi"/>
+					<Item Name="Commanded axes connected_query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Commanded axes connected_query.vi"/>
+					<Item Name="Commanded stage name available_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Commanded stage name available_Query.vi"/>
 					<Item Name="Convert error to warning.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Convert error to warning.vi"/>
 					<Item Name="Convert num array to string.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Convert num array to string.vi"/>
 					<Item Name="Convert num value to syntax selection.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Convert num value to syntax selection.vi"/>
@@ -647,21 +648,21 @@
 					<Item Name="Get Slave Device Info.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Get Slave Device Info.vi"/>
 					<Item Name="Get string array size without blanks.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Get string array size without blanks.vi"/>
 					<Item Name="Get total number of commanded axes.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Get total number of commanded axes.vi"/>
-					<Item Name="HasCommand?.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/HasCommand?.vi"/>
-					<Item Name="HasCommandArray?.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/HasCommandArray?.vi"/>
+					<Item Name="HasCommand_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/HasCommand_Query.vi"/>
+					<Item Name="HasCommandArray_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/HasCommandArray_Query.vi"/>
 					<Item Name="HasMotionError.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/HasMotionError.vi"/>
-					<Item Name="How often does string contain regular expression?.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/How often does string contain regular expression?.vi"/>
+					<Item Name="How often does string contain regular expression_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/How often does string contain regular expression_Query.vi"/>
 					<Item Name="Increase array size.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Increase array size.vi"/>
 					<Item Name="InMotion.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/InMotion.vi"/>
-					<Item Name="Is command present in HLP answer?.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Is command present in HLP answer?.vi"/>
+					<Item Name="Is command present in HLP answer_Query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Is command present in HLP answer_Query.vi"/>
 					<Item Name="IsControllerBusy.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/IsControllerBusy.vi"/>
-					<Item Name="LOG?_State.ctl" Type="VI" URL="../C887 DLL/Low Level/Support.llb/LOG?_State.ctl"/>
+					<Item Name="LOG_Query_State.ctl" Type="VI" URL="../C887 DLL/Low Level/Support.llb/LOG_Query_State.ctl"/>
 					<Item Name="Longlasting one-axis command.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Longlasting one-axis command.vi"/>
 					<Item Name="Manual VMO.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Manual VMO.vi"/>
 					<Item Name="Move axes to their middle position.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Move axes to their middle position.vi"/>
 					<Item Name="Multi Axis Query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Multi Axis Query.vi"/>
 					<Item Name="Multi Recorder Query.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Multi Recorder Query.vi"/>
-					<Item Name="Parse KLS? type answer by type.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Parse KLS? type answer by type.vi"/>
+					<Item Name="Parse KLS_Query type answer by type.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Parse KLS_Query type answer by type.vi"/>
 					<Item Name="Parse qLOG Answer.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Parse qLOG Answer.vi"/>
 					<Item Name="Parse qSPV Answer.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Parse qSPV Answer.vi"/>
 					<Item Name="Parse qUSG CMD Answer.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Parse qUSG CMD Answer.vi"/>
@@ -813,28 +814,12 @@
 			<Item Name="Show_Save_Load_XY_Data.vi" Type="VI" URL="../C887 DLL/Show_Save_Load_XY_Data.vi"/>
 			<Item Name="SwitchToAnalogOrDigital.vi" Type="VI" URL="../C887 DLL/SwitchToAnalogOrDigital.vi"/>
 		</Item>
-		<Item Name="Public" Type="Folder">
-			<Item Name="Action-Status" Type="Folder">
-				<Item Name="Action-Status.mnu" Type="Document" URL="../CAEN PSM/Public/Action-Status/Action-Status.mnu"/>
-				<Item Name="CAEN PSM.lvlib" Type="Library" URL="../CAEN PSM/CAEN PSM.lvlib"/>
-			</Item>
-			<Item Name="Configure" Type="Folder">
-				<Item Name="Configure.mnu" Type="Document" URL="../CAEN PSM/Public/Configure/Configure.mnu"/>
-			</Item>
-			<Item Name="Data" Type="Folder">
-				<Item Name="Data.mnu" Type="Document" URL="../CAEN PSM/Public/Data/Data.mnu"/>
-			</Item>
-			<Item Name="Utility" Type="Folder">
-				<Item Name="Utility.mnu" Type="Document" URL="../CAEN PSM/Public/Utility/Utility.mnu"/>
-			</Item>
-			<Item Name="dir.mnu" Type="Document" URL="../CAEN PSM/Public/dir.mnu"/>
-		</Item>
-		<Item Name="Private" Type="Folder"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="HexapodC887.lvclass" Type="LVClass" URL="../HexapodC887.lvclass"/>
 		<Item Name="WorkingSimpleExample.vi" Type="VI" URL="../subVIs/WorkingSimpleExample.vi"/>
 		<Item Name="Connectiontype.ctl" Type="VI" URL="../SettingsTypeDef/Connectiontype.ctl"/>
+		<Item Name="Command List PI.txt" Type="Document" URL="../../../../../../Users/loasis/Desktop/Command List PI.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -1178,7 +1163,6 @@
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -1208,7 +1192,6 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
 				<Item Name="WDT Get Final Time Value DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Final Time Value DBL.vi"/>
 				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
@@ -1223,6 +1206,7 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
+			<Item Name="*IDN?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/*IDN?.vi"/>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="Add and Update Devicetype Variable in DB.vi" Type="VI" URL="../../shared/Add and Update Devicetype Variable in DB.vi"/>
 			<Item Name="AddorEdit Devicetype Variable.vi" Type="VI" URL="../../shared/AddorEdit Devicetype Variable.vi"/>
@@ -1432,16 +1416,16 @@
 			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="CaenHVSupply" Type="Source Distribution">
+			<Item Name="HexapodC887" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A4D18AFC-4406-4ABD-AA49-0DBDAE57FEA2}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">CaenHVSupply</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HexapodC887</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F387CF5F-151B-40D2-8704-8849FC11CB7C}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -1450,7 +1434,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{106E06BA-1362-4B8B-BC59-1795AF13A747}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8D457FE-030B-443C-A7E1-9673D3F2FBA9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/HexapodC887.lvclass</Property>
