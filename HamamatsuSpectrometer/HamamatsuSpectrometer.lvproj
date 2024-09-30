@@ -23,6 +23,7 @@
 		<Item Name="specu1a 1.0.0 Read Calibration.vi" Type="VI" URL="../Hamamatsu Spectrometer Driver (16-bit 1.0.0 Driver)/DLL Functions/specu1a 1.0.0 Read Calibration.vi"/>
 		<Item Name="specu1a 1.0.0 Open Pipe.vi" Type="VI" URL="../Hamamatsu Spectrometer Driver (16-bit 1.0.0 Driver)/DLL Functions/specu1a 1.0.0 Open Pipe.vi"/>
 		<Item Name="specu1a 1.0.0 Read Sensor Data-ajg.vi" Type="VI" URL="../Hamamatsu Spectrometer Driver (16-bit 1.0.0 Driver)/DLL Functions/specu1a 1.0.0 Read Sensor Data-ajg.vi"/>
+		<Item Name="Device_controlHamamatsuSpectrometer.vi" Type="VI" URL="../Device_controlHamamatsuSpectrometer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -284,6 +285,9 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
@@ -544,6 +548,10 @@
 				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
 			</Item>
 			<Item Name="CreateError.vi" Type="VI" URL="../../shared/CreateError.vi"/>
 			<Item Name="DriverMsg.ctl" Type="VI" URL="../../BaseDriver/DriverMsg.ctl"/>
@@ -665,7 +673,6 @@
 			<Item Name="specu1a 1.0.0 Param Enum to Param Cluster.vi" Type="VI" URL="../SubVis/Data Manipulation/specu1a 1.0.0 Param Enum to Param Cluster.vi"/>
 			<Item Name="specu1a 1.0.0 Param Cluster to Param Enum.vi" Type="VI" URL="../SubVis/Data Manipulation/specu1a 1.0.0 Param Cluster to Param Enum.vi"/>
 			<Item Name="FWHM-pixel-only.vi" Type="VI" URL="../../Point Grey Camera/FWHM-pixel-only.vi"/>
-			<Item Name="FWHM xy graph.vi" Type="VI" URL="../../../Shared/FWHM xy graph.vi"/>
 			<Item Name="BuildPresetCommands.vi" Type="VI" URL="../../shared/BuildPresetCommands.vi"/>
 			<Item Name="updateVarFromDBData.vi" Type="VI" URL="../../shared/updateVarFromDBData.vi"/>
 			<Item Name="getStringANdTYpE.vi" Type="VI" URL="../../shared/getStringANdTYpE.vi"/>
@@ -771,6 +778,22 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="specu1a 1.0.0 Read Sensor Data-ajg3.vi" Type="VI" URL="../../HamamatsuSpectrometerDAQ/SubVis/specu1a 1.0.0 Read Sensor Data-ajg3.vi"/>
+			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
+			<Item Name="Reentrant tcp for data gatherer.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/Reentrant tcp for data gatherer.vi"/>
+			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
+			<Item Name="tcp read with vi time.vi" Type="VI" URL="../../../Shared/GUI_Template/tcp read with vi time.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="no timeout error.vi" Type="VI" URL="../../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
+			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
+			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
+			<Item Name="interpolate xy graph options.ctl" Type="VI" URL="../spectral analysis/FWHMxygraph/xy graph/interpolate xy graph options.ctl"/>
+			<Item Name="gaussian FWHM to w0.vi" Type="VI" URL="../spectral analysis/FWHMxygraph/gaussian stuff/gaussian FWHM to w0.vi"/>
+			<Item Name="interpolate xy graph to even grid.vi" Type="VI" URL="../spectral analysis/FWHMxygraph/xy graph/interpolate xy graph to even grid.vi"/>
+			<Item Name="half width of array cut at peak.vi" Type="VI" URL="../spectral analysis/FWHMxygraph/half width of array cut at peak.vi"/>
+			<Item Name="FWHM of chosen peak in array.vi" Type="VI" URL="../spectral analysis/FWHMxygraph/FWHM of chosen peak in array.vi"/>
+			<Item Name="divide by 2.vi" Type="VI" URL="../spectral analysis/FWHMxygraph/math/divide by 2.vi"/>
+			<Item Name="FW xy graph.vi" Type="VI" URL="../spectral analysis/FWHMxygraph/FW xy graph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HamamatsuSpectrometer" Type="Source Distribution">
@@ -799,6 +822,59 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="DeviceHamamatsuSpectrometer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DD4C3FF1-F018-443C-B254-C527B4DEE046}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6E5312D3-B397-42E4-92D9-246939376088}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6ED490B4-6F32-4CE5-B023-54E6BCE59A51}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DeviceHamamatsuSpectrometer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FFCEC991-DF91-4594-B641-877BFBE3F072}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceHamamatsuSpectrometer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/DeviceHamamatsuSpectrometer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5A07ED45-9814-47B9-A0F9-465B4141D5D2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_controlHamamatsuSpectrometer.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/HamamatsuSpectrometer.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DeviceHamamatsuSpectrometer</Property>
+				<Property Name="TgtF_internalName" Type="Str">DeviceHamamatsuSpectrometer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 LBL</Property>
+				<Property Name="TgtF_productName" Type="Str">DeviceHamamatsuSpectrometer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0EDBCE85-F258-45AF-8317-30EDEC06DD5D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceHamamatsuSpectrometer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

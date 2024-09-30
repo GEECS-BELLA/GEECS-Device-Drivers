@@ -689,7 +689,7 @@
 					<Item Name="String with ASCII code conversion.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/String with ASCII code conversion.vi"/>
 					<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
 					<Item Name="Tokenizer.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Tokenizer.vi"/>
-					<Item Name="Unbunde/bundle interface clusters for PI Terminal.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Unbunde/bundle interface clusters for PI Terminal.vi"/>
+					<Item Name="Unbunde bundle interface clusters for PI Terminal.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Unbunde bundle interface clusters for PI Terminal.vi"/>
 					<Item Name="Wait for answer 0 or 1 without polling.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Wait for answer 0 or 1 without polling.vi"/>
 					<Item Name="Wait for answer of longlasting command.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Wait for answer of longlasting command.vi"/>
 					<Item Name="Wait for axes to stop.vi" Type="VI" URL="../C887 DLL/Low Level/Support.llb/Wait for axes to stop.vi"/>
@@ -698,45 +698,45 @@
 				<Item Name="WaveGenerator" Type="Folder">
 					<Item Name="#9.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/#9.vi"/>
 					<Item Name="DDL.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/DDL.vi"/>
-					<Item Name="DDL?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/DDL?.vi"/>
-					<Item Name="DTL?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/DTL?.vi"/>
-					<Item Name="GWD?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/GWD?.vi"/>
+					<Item Name="DDL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/DDL_Query.vi"/>
+					<Item Name="DTL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/DTL_Query.vi"/>
+					<Item Name="GWD_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/GWD_Query.vi"/>
 					<Item Name="Send WG commands and wait for answers.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/Send WG commands and wait for answers.vi"/>
 					<Item Name="SWT.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/SWT.vi"/>
-					<Item Name="SWT?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/SWT?.vi"/>
+					<Item Name="SWT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/SWT_Query.vi"/>
 					<Item Name="TGA.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGA.vi"/>
 					<Item Name="TGC.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGC.vi"/>
 					<Item Name="TGF.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGF.vi"/>
-					<Item Name="TGL?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGL?.vi"/>
+					<Item Name="TGL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGL_Query.vi"/>
 					<Item Name="TGS.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGS.vi"/>
 					<Item Name="TGT.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGT.vi"/>
-					<Item Name="TGT?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGT?.vi"/>
-					<Item Name="TLT?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TLT?.vi"/>
+					<Item Name="TGT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TGT_Query.vi"/>
+					<Item Name="TLT_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TLT_Query.vi"/>
 					<Item Name="TWC.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TWC.vi"/>
-					<Item Name="TWG?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TWG?.vi"/>
+					<Item Name="TWG_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TWG_Query.vi"/>
 					<Item Name="TWS.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TWS.vi"/>
-					<Item Name="TWS?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TWS?.vi"/>
+					<Item Name="TWS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/TWS_Query.vi"/>
 					<Item Name="WAV CFG.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WAV CFG.vi"/>
 					<Item Name="WAV.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WAV.vi"/>
-					<Item Name="WAV?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WAV?.vi"/>
+					<Item Name="WAV_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WAV_Query.vi"/>
 					<Item Name="WCL.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WCL.vi"/>
 					<Item Name="WGC.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGC.vi"/>
-					<Item Name="WGC?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGC?.vi"/>
-					<Item Name="WGI?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGI?.vi"/>
-					<Item Name="WGN?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGN?.vi"/>
+					<Item Name="WGC_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGC_Query.vi"/>
+					<Item Name="WGI_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGI_Query.vi"/>
+					<Item Name="WGN_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGN_Query.vi"/>
 					<Item Name="WGO.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGO.vi"/>
-					<Item Name="WGO?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGO?.vi"/>
+					<Item Name="WGO_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGO_Query.vi"/>
 					<Item Name="WGR.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGR.vi"/>
-					<Item Name="WGS?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGS?.vi"/>
+					<Item Name="WGS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WGS_Query.vi"/>
 					<Item Name="WMS.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WMS.vi"/>
-					<Item Name="WMS?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WMS?.vi"/>
+					<Item Name="WMS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WMS_Query.vi"/>
 					<Item Name="WOS.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WOS.vi"/>
-					<Item Name="WOS?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WOS?.vi"/>
+					<Item Name="WOS_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WOS_Query.vi"/>
 					<Item Name="WSL.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WSL.vi"/>
-					<Item Name="WSL?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WSL?.vi"/>
+					<Item Name="WSL_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WSL_Query.vi"/>
 					<Item Name="WTO.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WTO.vi"/>
 					<Item Name="WTR.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WTR.vi"/>
-					<Item Name="WTR?.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WTR?.vi"/>
+					<Item Name="WTR_Query.vi" Type="VI" URL="../C887 DLL/Low Level/WaveGenerator.llb/WTR_Query.vi"/>
 				</Item>
 				<Item Name="Analog control.llb_dummy" Type="Document" URL="../C887 DLL/Low Level/Analog control.llb_dummy"/>
 				<Item Name="Analog control.llb_non_dummy" Type="Document" URL="../C887 DLL/Low Level/Analog control.llb_non_dummy"/>
@@ -803,13 +803,6 @@
 			<Item Name="PI_GCS2_Sample_Application_With_Analog.vi" Type="VI" URL="../C887 DLL/PI_GCS2_Sample_Application_With_Analog.vi"/>
 			<Item Name="PI_GCS2_Simple_Test.vi" Type="VI" URL="../C887 DLL/PI_GCS2_Simple_Test.vi"/>
 			<Item Name="PI_GCS2_SlaveDevice_Configuration_Setup.vi" Type="VI" URL="../C887 DLL/PI_GCS2_SlaveDevice_Configuration_Setup.vi"/>
-			<Item Name="PI_GCS3_Configuration_Setup.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Configuration_Setup.vi"/>
-			<Item Name="PI_GCS3_Sample_Application_1_Controller.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_1_Controller.vi"/>
-			<Item Name="PI_GCS3_Sample_Application_2_Controllers.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_2_Controllers.vi"/>
-			<Item Name="PI_GCS3_Sample_Application_DataRecorder.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_DataRecorder.vi"/>
-			<Item Name="PI_GCS3_Sample_Application_Fault_Reaction.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_Fault_Reaction.vi"/>
-			<Item Name="PI_GCS3_Sample_Application_Motion.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_Motion.vi"/>
-			<Item Name="PI_GCS3_Simple_Test.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Simple_Test.vi"/>
 			<Item Name="PITerminal.vi" Type="VI" URL="../C887 DLL/PITerminal.vi"/>
 			<Item Name="Show_Save_Load_XY_Data.vi" Type="VI" URL="../C887 DLL/Show_Save_Load_XY_Data.vi"/>
 			<Item Name="SwitchToAnalogOrDigital.vi" Type="VI" URL="../C887 DLL/SwitchToAnalogOrDigital.vi"/>
@@ -1206,7 +1199,6 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
-			<Item Name="*IDN?.vi" Type="VI" URL="../C887 DLL/Low Level/General command.llb/*IDN?.vi"/>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="Add and Update Devicetype Variable in DB.vi" Type="VI" URL="../../shared/Add and Update Devicetype Variable in DB.vi"/>
 			<Item Name="AddorEdit Devicetype Variable.vi" Type="VI" URL="../../shared/AddorEdit Devicetype Variable.vi"/>
@@ -1334,6 +1326,13 @@
 			<Item Name="OpenUDP.vi" Type="VI" URL="../../shared/OpenUDP.vi"/>
 			<Item Name="parse shot data udp response.vi" Type="VI" URL="../../../Shared/parse shot data udp response.vi"/>
 			<Item Name="parse tcp reply and replace all device var subset.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/parse tcp reply and replace all device var subset.vi"/>
+			<Item Name="PI_GCS3_Configuration_Setup.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Configuration_Setup.vi"/>
+			<Item Name="PI_GCS3_Sample_Application_1_Controller.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_1_Controller.vi"/>
+			<Item Name="PI_GCS3_Sample_Application_2_Controllers.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_2_Controllers.vi"/>
+			<Item Name="PI_GCS3_Sample_Application_DataRecorder.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_DataRecorder.vi"/>
+			<Item Name="PI_GCS3_Sample_Application_Fault_Reaction.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_Fault_Reaction.vi"/>
+			<Item Name="PI_GCS3_Sample_Application_Motion.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Sample_Application_Motion.vi"/>
+			<Item Name="PI_GCS3_Simple_Test.vi" Type="VI" URL="../C887 DLL/PI_GCS3_Simple_Test.vi"/>
 			<Item Name="Popup with timeout.vi" Type="VI" URL="../../../Shared/Popup with timeout.vi"/>
 			<Item Name="preset cluster.ctl" Type="VI" URL="../../BaseDriver/preset cluster.ctl"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
@@ -1425,7 +1424,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F387CF5F-151B-40D2-8704-8849FC11CB7C}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -1434,7 +1433,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F8D457FE-030B-443C-A7E1-9673D3F2FBA9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{20A13950-9147-47BF-86FD-BEF80182523E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/HexapodC887.lvclass</Property>
@@ -1448,7 +1447,19 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/C887 DLL</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SubVIs</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
