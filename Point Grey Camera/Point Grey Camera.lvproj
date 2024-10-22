@@ -79,6 +79,7 @@
 		<Item Name="Point Grey Camera.lvclass" Type="LVClass" URL="../Point Grey Camera.lvclass"/>
 		<Item Name="MagSpecCamera.lvclass" Type="LVClass" URL="../../MagSpecCamera/MagSpecCamera.lvclass"/>
 		<Item Name="ThorLabsCsCamera.lvclass" Type="LVClass" URL="../../ThorLabsCsCamera/ThorLabsCsCamera.lvclass"/>
+		<Item Name="get time stamp.vi" Type="VI" URL="../get time stamp.vi"/>
 		<Item Name="TLCamera Main.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/TLCamera Main.vi"/>
 		<Item Name="Simple image acquisition mono - polling.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Simple image acquisition mono - polling.vi"/>
 		<Item Name="Hardware triggered acquisition - polling.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/Hardware triggered acquisition - polling.vi"/>
