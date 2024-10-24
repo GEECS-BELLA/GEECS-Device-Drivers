@@ -1,0 +1,189 @@
+The following commands are valid: 
+#3 get real position 
+#4 query status word 
+#5 request motion status 
+#6 query for position change 
+#7 request controller ready status 
+#8 query if macro is running 
+#9 Get Wave Generator Status 
+#11 request memory space for trajectory points 
+#24 stop all axes 
+#27 system abort 
+*IDN?	get device identification 
+AAP	<AxisID> <Distance> <AxisID> <Distance> ["SA" <StepSize>] ["N" <NumberOfRepetitions>] ["A" <AnalogInputID>] automated alignment part 
+ADD	<Variable> <Float1> <Float2> add two values and save result to variable (use only in macro) 
+CCL	<Level> [<PassWord>] set command level 
+CCL?	get command level 
+CPY	<Variable> <CMD?> copy a command response into a variable (use only in macro) 
+CST	{<AxisID> <StageName>} set assignment of stages to axes 
+CST?	[{<AxisID>}] get assignment of stages to axes 
+CSV?	get current syntax version 
+DEL	<uint> delay the command interpreter (in ms; use only in macro) 
+DIA?	Get DIagnosis Information [{<MeasureID>}] 
+DIO	[]{<DIOID> <OutputOn>}] Set Digital Output Lines 
+DIO?	[{<DIOID>}] Get Digital Input Lines 
+DPA	<Password> [{<AxisID> <ParameterID>}] reset parameters or settings to default values 
+DRC	{<RecTableID> <Source> <RecOptions>} set data recorder configuration 
+DRC?	[{<RecTableID>}] get data recorder configuration 
+DRL?	[{<RecTableID>}] get number of recorded points 
+DRR?	[<StartPoint> [<NumberOfPoints> [{RecTableID}]]] get recorded data values 
+DRT	{<RecTableID> <TriggerSource> <Value>} set data recorder trigger source 
+DRT?	[{<RecTableID>}] get data recorder trigger source 
+ECO?	<string> echo a string 
+ERR?	get error number 
+FDR	<Routine> <Sc Axis> <Sc Axis Range> <St Axis> <St Axis Range> ["L" <L>] ["A" <A>] ["F" <F>] ["V" <V>] ["MP1" <MP1>] ["MP2" <MP2>] ["TT" <TT>] ["CM" <CM>] ["MIIL" <MILL>] ["MAIL" <MAIL>] ["SP" <SP>] Defines a fast alignment area scan 
+FGC	<Routine> <SC Axis Center Position>	<ST Axis Center Position> Changes the center position of a gradient search routine 
+FGC?	[{<Routine>}] Gets the current center position of a gradient search routine 
+FIO	<AxisID> <Distance> <AxisID> <Distance> ["S" <LinearSpiralStepSize>] ["AR" <AngularScanSize>] ["L" <Threshold>] ["A" <AnalogInputID>] start simultaneous alignment of input and output channels 
+FLM	<AxisID> <Distance> ["L" <Threshold>] ["A" <AnalogInputID>] ["D" <ScanDirection>] start fast line scan to maximum 
+FLS	<AxisID> <Distance> ["L" <Threshold>] ["A" <AnalogInputID>] ["D" <ScanDirection>] start fast line scan to maximum, with stop 
+FRC	<Routine> {<Routine coupled>} Couples fast alignment routines to each other 
+FRC?	[{<Routine>}] Gets coupled fast alignment routines 
+FRF	[{<AxisID>}] fast reference move to reference switch 
+FRF?	[{<AxisID>}] get referencing result 
+FRH?	Lists descriptions and physical units for the routine results that can be queried with the FRR? command 
+FRP	<Routine> <Routine Action> Stops, pauses or resumes a fast alignment routine 
+FRP?	{<Routine>} Gets the current state of a fast alignment routine 
+FRR?	[<Routine> [<ResultID>]] Gets the results of a fast alignment routine 
+FRS	{<Routine>} Starts a fast alignment routine 
+FSA	<Axis1ID> <Distance1> <Axis2ID> <Distance2> ["L" <Threshold>] ["S" <ScanLineDistance>] ["SA" <StepSize>] ["A" <AnalogInputID>] start fast plane scan with automated alignment at the maximum 
+FSC	<Axis1ID> <Distance1> <Axis2ID> <Distance2> ["L" <Threshold>] ["S" <ScanLineDistance>] ["A" <AnalogInputID>] start fast plane scan to maximum, with stop 
+FSM	<Axis1ID> <Distance1> <Axis2ID> <Distance2> ["L" <Threshold>] ["S" <ScanLineDistance>] ["A" <AnalogInputID>] start fast plane scan to maximum 
+FSS?	get scanning result 
+GWD?	<AxisID> <StartPoint> <NumberOfPoints> 
+HDI?	show help on diagnosis information, received with DIA? 
+HDR?	get all data recorder options 
+HIB?	[{<HIDeviceID> <HIDeviceButton>}] get state of HID Button 
+HLP?	get list of available commands 
+HLT	[{<AxisID>}] halt motion smoothly 
+HPA?	get list of available parameters 
+HPV?	get parameter value description 
+IFC?	[{<InterfacePam>}] get current interface parameters 
+IFS	<Pswd> {<InterfacePam> <PamValue>} set interface parameters as default values 
+IFS?	[{<InterfacePam>}] get interface parameters as default values 
+IMP	<AxisID> <Amplitude> start impulse and response measurement 
+JRC	<Jump> <CMD?> <OP> <Value> jump relatively depending on condition (use only in macro) 
+KCP	<NameOfCoordinateSystem1><NameOfCoordinateSystem2> copy a coordinate system 
+KEN	<NameOfCoordinateSystem> enable a coordinate system 
+KEN?	[{<NameOfCoordinateSystem>}] get enabled coordinate systems 
+KET?	[{<TypeOfCoordinateSystem>}] get enabled coordinate systems 
+KLC?	[<NameOfCoordinateSystem1>[<NameOfCoordinateSystem2>[<Item1>[<Item2>]]]] get properties of work|tool coordinate system couples 
+KLN	<NameOfCoordinateSystem1><NameOfCoordinateSystem2> links coordinate systems to chains 
+KLN?	[{<NameOfCoordinateSystem>}] get linked coordinate system chains 
+KLS?	[<NameOfCoordinateSystem>[<Item1>[<Item2>]]] get coordinate system definitions 
+KLT?	[<StartCoordinateSystem>[<EndCoordinateSystem>]] evaluate coordinate system chains 
+KRM	<NameOfCoordinateSystem> remove an existing coordinate system 
+KSD	<NameOfCoordinateSystem>[{<AxisID> <Position>}] define a new coordinate system of type KSD 
+KSF	<NameOfCoordinateSystem> define a new coordinate system of type KSF 
+KST	<NameOfCoordinateSystem>[{<AxisID> <Position>}] define a new coordinate system of type KST 
+KSW	<NameOfCoordinateSystem>[{<AxisID> <Position>}] define a new coordinate system of type KSW 
+LIM?	[{<AxisID>}] indicate limit switches 
+MAC	MAC("DEF?" | "FREE?" | "END") | (("BEG" | "DEF" | "DEL" | "START") <MacroName>) | ("NSTART" <MacroName> <RepeatNumber>) call macro function, see User Manual 
+MAC?	[<MacroName>] list macros 
+MAN?	<command mnemonic> list on-line manual page 
+MEX	<CMD?> <OP> <Value> stop macro execution due to condition (use only in macro) 
+MOV	{<AxisID> <Position>} set target position (start absolute motion) 
+MOV?	[{<AxisID>}] get target position 
+MRT	{<AxisID> <Position>} start relative motion referring to tool coordinate system 
+MRW	{<AxisID> <Position>} start relative motion referring to work coordinate system 
+MVR	{<AxisID> <Distance>} set target relative to current position (start relative motion) 
+NAV	{<AnalogInputID> <NumberOfReadings>} set number of readings to be averaged 
+NAV?	{<AnalogInputID> <NumberOfReadings>} get number of readings to be averaged 
+NLM	{<AxisID> <LowLimit>} set low position soft limit 
+NLM?	[{<AxisID>}] get low position soft limit 
+ONT?	[{<AxisID>}] get on-target state 
+PLM	{<AxisID> <HighLimit>} set high position soft limit 
+PLM?	[{<AxisID>}] get high position soft limit 
+POS?	[{<AxisID>}] get real position 
+PUN?	[{<AxisID>}] get position unit 
+RBT	reboot system 
+RMC?	list running macros 
+RON?	[{<AxisID>}] get reference mode 
+RTR	<RecordTableRate> set record table rate (in cycles) 
+RTR?	get record table rate 
+SAI?	["ALL"] get list of current axis identifiers 
+SCT	"T" <Cycle Time> set cycle time in ms 
+SCT?	[<T>] get cycle time 
+SGA	{<AnalogInputID> <Gain>} set gain of analog input 
+SGA?	[{<AnalogInputID>}] get gain of analog input 
+SIC	<FA InputID> <calculation type> [{<calculation parameter>}] Defines calculation settings for a fast alignment input channel 
+SIC?	[{<FA InputID>}] Gets calculation settings for a fast alignment input channel 
+SPA	{<ItemID> <PamID> <PamValue>} set volatile memory parameters 
+SPA?	[{<ItemID> <PamID>}] get volatile memory parameters 
+SPI	{<PPCoordinate> <Position>} set pivot point coordinate 
+SPI?	[{<PPCoordinate>}] get pivot point coordinate 
+SRG?	<AxisID> <RegisterID> 
+SSL	{<AxisID> <SoftLimitState>} set soft limit state 
+SSL?	[{AxisID}] get soft limit state 
+SSN?	get serial number 
+SST	{<AxisID> <StepSize>} set step size 
+SST?	[{<AxisID>}] get step size 
+STA?	query status word 
+STE	<AxisID> <Amplitude> start step and response measurement 
+STP	stop all axes abruptly 
+SVO	{<AxisID> <ServoState>} set servo mode 
+SVO?	[{<AxisID>}] get servo mode 
+TAC?	tell number of analog lines 
+TAD?	[{<AnalogInputID>}] get ADC value of input signal 
+TAV?	[{<AnalogInputID>}] get analog input voltage 
+TCI?	[{<FA InputID>}] Gets calculated value of a fast alignment input channel 
+TIO?	Tell number of installed digital I/O Lines 
+TMN?	[{<AxisID>}] get minimum commandable position 
+TMX?	[{<AxisID>}] get maximum commandable position 
+TNR?	tell number of data recorder tables 
+TRA?	{<AxisID> <Position>} get travelrange in arbitraty direction 
+TRS?	[{<AxisID>}] indicate reference point switch 
+TWG?	tell number of Wave Generators 
+VAR	{<Variable> <String>} set variable value 
+VAR?	[{<Variable>}] get variable value 
+VEL	{<AxisID> <Velocity>} set closed-loop velocity 
+VEL?	[{<AxisID>}] get closed-loop velocity 
+VER?	get version 
+VLS	<SystemVelocity> set system velocity 
+VLS?	get system velocity 
+VMO?	{<AxisID> <Position>} query of target can be reached 
+VST?	list available stages 
+WAC	<CMD?> <OP> <value> Wait for Condition (use only in macro) 
+WAV	<WaveTableId> <AppendWave> <WaveType> <WaveTypeParameters> Set Waveform Definition 
+WAV?	[{<WaveTableId> <WaveParameterID>}] Get Waveform Definition 
+WCL	{<WaveTableId>} Clear Wavedata of given Waveform 
+WGC	[{<WaveGenID> <Cycles>}] Set Number of Generator Cycles 
+WGC?	[{<WaveGenID>}] Get Number Of Generator Cycles 
+WGO	{<WaveGenID> <StartMode>} Set Wave Generator Start/Stop Mode 
+WGO?	[{<WaveGenID>}] Get Wave Generator Start/Stop Mode 
+WGR	Starts Recording in Sync with Wave Generator 
+WGS?	[<WaveGenID> [<ItemID]] Get Status Information of Wave Generator 
+WMS?	[{<WaveTableId>}] Get Maximum Number of Values for the Waveform 
+WPA	<Password> [{<ItemID> <PamID>}] Save Parameters To Non-Volatile Memory 
+WSL	[{<WaveGenID> <WaveTableID>}] Set Connection of Wave Table to Wave Generator 
+WSL?	[{<WaveGenID>}] Get Connection of Wave Table to Wave Generator 
+WTR	[{<WaveGenID> <WaveTableRate> <InterpolationType>}] Set Wave Generator Table Rate 
+WTR?	[{<WaveGenID>}] Get Wave Generator Table Rate 
+end of help
+
+
+
+INIT
+PI_GCS3_Configuration_Setup_Connect.vi > Define connected axes.vi > POS?.vi > SPI? (queries the pivot coordinates) > SPI (Sets pivot coordinates) > SPV - Gets Parameters from memeory
+
+CONFIG
+VMO.vi (Checks if the move is possible or not) > MOV.vi followed by Status
+VEL.vi > VEL?.vi Velocity
+SST.vi > SST? Stepsize
+STP.vi >  abortor HLT.vi (Less abrupt)
+#5.vi > Queries to see if the acxis is moving
+#6.vi > Checks if position has changed
+#4.vi > Status information
+#3.vi > Alternative to POS?.vi 
+REF > References and check if it was done correctly
+REF?
+
+ACQUIRE
+POS?.vi
+STA?
+
+CLOSE
+RTO > RTO?. Saves the last known parameters on the memory >  Close Connection of open.vi
+
+
+
