@@ -1,9 +1,5 @@
 [ProjectWindow_Data]
-<<<<<<< Updated upstream
-ProjectExplorer.ClassicPosition[String] = "474,789,1536,1405"
-=======
-ProjectExplorer.ClassicPosition[String] = "389,997,1391,1613"
->>>>>>> Stashed changes
+ProjectExplorer.ClassicPosition[String] = "483,1073,1545,1689"
 
 [AB_Cache_{AC747BCD-083D-4BF1-8FBD-405E30900831}]
 Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
@@ -12,14 +8,6 @@ Cache_Path[Path] Line0002 = "_{AC747BCD-083D-4BF1-8FBD-405E30900831}.txt"
 [AB_Cache_{3112608E-B720-45B0-B5C6-045DC096D87F}]
 Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
 Cache_Path[Path] Line0002 = "_{3112608E-B720-45B0-B5C6-045DC096D87F}.txt"
-
-[AB_Cache_{521368E5-E00C-43F5-AAF8-F73A1C12C72D}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
-Cache_Path[Path] Line0002 = "_{521368E5-E00C-43F5-AAF8-F73A1C12C72D}.txt"
-
-[AB_Cache_{B44FA41F-2340-46BD-8F37-980CB4F9EA41}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
-Cache_Path[Path] Line0002 = "_{B44FA41F-2340-46BD-8F37-980CB4F9EA41}.txt"
 
 [AB_Cache_{521368E5-E00C-43F5-AAF8-F73A1C12C72D}]
 Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{52136"
