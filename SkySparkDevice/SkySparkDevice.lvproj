@@ -23,6 +23,7 @@
 		<Item Name="SkySparkDevice.lvclass" Type="LVClass" URL="../SkySparkDevice.lvclass"/>
 		<Item Name="PythontoArray.vi" Type="VI" URL="../Parsing SubVI/PythontoArray.vi"/>
 		<Item Name="ReplacingNames.vi" Type="VI" URL="../Parsing SubVI/ReplacingNames.vi"/>
+		<Item Name="Device_controlSkySpark.vi" Type="VI" URL="../../Device_controlSkySpark.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -365,7 +366,6 @@
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
-			<Item Name="AcquireHardware.vi" Type="VI" URL="../AcquireHardware.vi"/>
 			<Item Name="Add and Update Devicetype Variable in DB.vi" Type="VI" URL="../../shared/Add and Update Devicetype Variable in DB.vi"/>
 			<Item Name="AddorEdit Devicetype Variable.vi" Type="VI" URL="../../shared/AddorEdit Devicetype Variable.vi"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
@@ -579,7 +579,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/SkySpark</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F387CF5F-151B-40D2-8704-8849FC11CB7C}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/SkySpark</Property>
@@ -591,7 +591,7 @@
 				<Property Name="Destination[2].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/SkySpark/skyspark_python</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79C34656-8A0C-47B4-B86C-034F2163B94A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{46BA7591-6096-4403-9BA7-5D53196C25D4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SkySparkDevice.lvclass</Property>
