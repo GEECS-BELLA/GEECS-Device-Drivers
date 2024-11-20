@@ -333,7 +333,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B500012A-1150-48AA-AD0D-639CD2A5AE75}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">fast acquire centroid only.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/NI_AB_PROJECTNAME/fast acquire centroid only.exe</Property>
@@ -345,7 +345,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/299066_camera_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F627705A-4CB0-4A9D-A4CB-8F6AF9D26956}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7EAD839B-DDF8-42D6-A912-A4F4FE2B1AE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream to TDMS Files (Optimized Performance) ajg.vi</Property>
