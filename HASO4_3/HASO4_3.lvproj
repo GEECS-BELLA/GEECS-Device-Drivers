@@ -1155,7 +1155,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{202D14C0-3514-497D-9200-69EE320E9CB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AED8C79D-815C-4DF5-B1DB-627FE6F318FF}</Property>
 				<Property Name="Source[0].newName" Type="Str">SD-</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -1185,13 +1185,7 @@
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/WriteToCVT.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/WaveKit</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 			<Item Name="DeviceHASO4_3" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1207,7 +1201,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO4_3.exe</Property>
@@ -1219,7 +1213,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/phi.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F108ED3A-B01C-4BDD-89E9-92974F3DEF55}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B235A697-F0EB-49A6-953B-ED19951D6E7A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>

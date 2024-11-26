@@ -541,7 +541,6 @@
 			<Item Name="get cw rep rate of expt.vi" Type="VI" URL="../../shared/get cw rep rate of expt.vi"/>
 			<Item Name="Get database IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/Get database IP.vi"/>
 			<Item Name="Get IPs and subnet masks.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/Get IPs and subnet masks.vi"/>
-			<Item Name="get time stamp.vi" Type="VI" URL="../../Point Grey Camera/get time stamp.vi"/>
 			<Item Name="get value from preset query table.vi" Type="VI" URL="../../shared/get value from preset query table.vi"/>
 			<Item Name="GetCamAtributesAndTriggerMode.vi" Type="VI" URL="../../Point Grey Camera/subVis/GetCamAtributesAndTriggerMode.vi"/>
 			<Item Name="GetCompressionTypes.vi" Type="VI" URL="../../shared/GetCompressionTypes.vi"/>
