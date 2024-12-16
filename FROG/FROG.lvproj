@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="varPersistentID:{A193A24E-3585-4D47-9A1C-457D4E52A0EC}" Type="Ref">/My Computer/FROG.lvclass/timestamp</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -23,6 +24,7 @@
 		<Item Name="WriteToCVT.vi" Type="VI" URL="../../shared/WriteToCVT.vi"/>
 		<Item Name="DeviceFROG.vi" Type="VI" URL="../DeviceFROG.vi"/>
 		<Item Name="Add Spatial Temporal Folder Path.vi" Type="VI" URL="../SubVis/Add Spatial Temporal Folder Path.vi"/>
+		<Item Name="write_custom_timestamp.vi" Type="VI" URL="../SubVis/write_custom_timestamp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
