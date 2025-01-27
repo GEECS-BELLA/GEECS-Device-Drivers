@@ -1,3 +1,7 @@
 [My Computer]
+<<<<<<< Updated upstream
+My Computer = "192.168.6.73"
+=======
 My Computer = "192.168.14.15"
+>>>>>>> Stashed changes
 
