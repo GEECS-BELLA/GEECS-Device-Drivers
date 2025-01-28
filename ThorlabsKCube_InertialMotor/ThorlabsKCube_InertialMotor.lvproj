@@ -17,11 +17,7 @@
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="ThorlabsKCube_InertialMotor.lvclass" Type="LVClass" URL="../ThorlabsKCube_InertialMotor.lvclass"/>
-		<Item Name="SetBKValue.vi" Type="VI" URL="../SubVIs/SetBKValue.vi"/>
-		<Item Name="GetBKValue.vi" Type="VI" URL="../SubVIs/GetBKValue.vi"/>
 		<Item Name="Simple Example.vi" Type="VI" URL="../SubVIs/Simple Example.vi"/>
-		<Item Name="CommandTypeDef.ctl" Type="VI" URL="../SubVIs/CommandTypeDef.ctl"/>
-		<Item Name="9170B_9180B_Series_manual.pdf" Type="Document" URL="../9170B_9180B_Series_manual.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -294,7 +290,6 @@
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -612,19 +607,19 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SetBKValue.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GetBKValue.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/CommandTypeDef.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/9170B_9180B_Series_manual.pdf</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
