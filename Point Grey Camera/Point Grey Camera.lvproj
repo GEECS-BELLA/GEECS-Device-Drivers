@@ -501,8 +501,6 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="socket_options.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_options.ctl"/>
-				<Item Name="socket_type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_type.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -523,18 +521,7 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="zmq_bind.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_bind.vi"/>
-				<Item Name="zmq_close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_close.vi"/>
-				<Item Name="zmq_connect.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_connect.vi"/>
-				<Item Name="zmq_ctx_create.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_create.vi"/>
-				<Item Name="zmq_ctx_destroy.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_destroy.vi"/>
-				<Item Name="zmq_recv.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv.vi"/>
-				<Item Name="zmq_recv_multi.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv_multi.vi"/>
-				<Item Name="zmq_recv_timeout.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv_timeout.vi"/>
-				<Item Name="zmq_send.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_send.vi"/>
-				<Item Name="zmq_send_multi.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_send_multi.vi"/>
-				<Item Name="zmq_setsocketopt.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_setsocketopt.vi"/>
-				<Item Name="zmq_socket.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_socket.vi"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="2d Gaussian array.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/2d Gaussian array.vi"/>
@@ -697,6 +684,7 @@
 			<Item Name="Get SensorPixelHeight_um.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get SensorPixelHeight_um.vi"/>
 			<Item Name="Get SensorWidth_pixels.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get SensorWidth_pixels.vi"/>
 			<Item Name="Get SerialNumber.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get SerialNumber.vi"/>
+			<Item Name="get shot numbers from tcp array.vi" Type="VI" URL="../../MagSpecStitcher/subvis/get shot numbers from tcp array.vi"/>
 			<Item Name="Get Taps.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get Taps.vi"/>
 			<Item Name="Get TriggerPolarity.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get TriggerPolarity.vi"/>
 			<Item Name="get value from preset query table.vi" Type="VI" URL="../../shared/get value from preset query table.vi"/>
@@ -967,26 +955,27 @@
 				<Property Name="App_INI_GUID" Type="Str">{819269C0-765D-4585-8258-E4E24B5F5423}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CB0224BA-6EBF-48CD-842B-987CF6B65B68}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Device point grey</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C45BBF32-CDAB-4087-91F7-FE49B484DB84}</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">52</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePoint Grey Camera.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/DevicePoint Grey Camera.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePoint Grey Camera.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D6EE6692-FE2C-4A19-BF30-7E6C861BD159}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4D9A6DA4-73A7-49B9-9BC1-DD384E3F0131}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
