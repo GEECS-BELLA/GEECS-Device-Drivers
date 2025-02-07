@@ -514,6 +514,7 @@
 		<Item Name="phi.ico" Type="Document" URL="../phi.ico"/>
 		<Item Name="Post-Build-AllowMultipleInstances.vi" Type="VI" URL="../Post-Build-AllowMultipleInstances.vi"/>
 		<Item Name="GEECS scan path to local scan path.vi" Type="VI" URL="../GEECS scan path to local scan path.vi"/>
+		<Item Name="Get Zernike Coefficients.vi" Type="VI" URL="../SubVis/Get Zernike Coefficients.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
@@ -1128,7 +1129,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="HAS analyzer paths.ctl" Type="VI" URL="../HAS analyzer paths.ctl"/>
 			<Item Name="pupil ajg.ctl" Type="VI" URL="../pupil ajg.ctl"/>
 			<Item Name="save HAS file as png with scaling txt file.vi" Type="VI" URL="../save HAS file as png with scaling txt file.vi"/>
 			<Item Name="image color table presets.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.ctl"/>
@@ -1137,6 +1137,7 @@
 			<Item Name="image color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.vi"/>
 			<Item Name="LVFunction_Imop_Compute_WavefrontParameters.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Functions/Compute/LVFunction_Imop_Compute_WavefrontParameters.vi"/>
 			<Item Name="LVClass_HasoSlopes Set wavelenght.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Classes/HasoSlopes/LVClass_HasoSlopes Set wavelenght.vi"/>
+			<Item Name="HAS analyzer paths.ctl" Type="VI" URL="../HAS analyzer paths.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HASO4_3" Type="Source Distribution">
