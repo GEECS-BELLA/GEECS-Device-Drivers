@@ -515,6 +515,7 @@
 		<Item Name="Post-Build-AllowMultipleInstances.vi" Type="VI" URL="../Post-Build-AllowMultipleInstances.vi"/>
 		<Item Name="GEECS scan path to local scan path.vi" Type="VI" URL="../GEECS scan path to local scan path.vi"/>
 		<Item Name="Get Zernike Coefficients.vi" Type="VI" URL="../SubVis/Get Zernike Coefficients.vi"/>
+		<Item Name="Get Zernike Coefficients 2.vi" Type="VI" URL="../SubVis/Get Zernike Coefficients 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
@@ -1202,7 +1203,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">55</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO4_3.exe</Property>
