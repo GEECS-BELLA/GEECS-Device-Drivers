@@ -18,6 +18,7 @@
 		<Item Name="ReadFileSpectrumSimple.vi" Type="VI" URL="../ReadFileSpectrumSimple.vi"/>
 		<Item Name="Device_control_HamamatsuSpectrometerDAQ.vi" Type="VI" URL="../Device_control_HamamatsuSpectrometerDAQ.vi"/>
 		<Item Name="Add 1D and 2D Array.vi" Type="VI" URL="../SubVis/Add 1D and 2D Array.vi"/>
+		<Item Name="Subtract 1D and 2D Array.vi" Type="VI" URL="../SubVis/Subtract 1D and 2D Array.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
