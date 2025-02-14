@@ -224,7 +224,7 @@
 					<Item Name="LVFunction_Imop_Compute_ModalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ModalWavefront.vi"/>
 					<Item Name="LVFunction_Imop_Compute_ModalZonalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ModalZonalWavefront.vi"/>
 					<Item Name="LVFunction_Imop_Compute_MTF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_MTF from HasoField.vi"/>
-					<Item Name="LVFunction_Imop_Compute_PSF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PSF from HasoField.vi"/>
+					<Item Name="LVFunction_Imop_Compute_PSF from HasoField.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Compute_PSF from HasoField.vi"/>
 					<Item Name="LVFunction_Imop_Compute_Pupil_HasHoles.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_Pupil_HasHoles.vi"/>
 					<Item Name="LVFunction_Imop_Compute_PupilRegionsPositions.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PupilRegionsPositions.vi"/>
 					<Item Name="LVFunction_Imop_Compute_PupilRegionsStats.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PupilRegionsStats.vi"/>
@@ -508,7 +508,7 @@
 		<Item Name="camera_asynchrone_acquisition-ajg.vi" Type="VI" URL="../camera_asynchrone_acquisition-ajg.vi"/>
 		<Item Name="camera_asynchrone_acquisition-ajg2.vi" Type="VI" URL="../camera_asynchrone_acquisition-ajg2.vi"/>
 		<Item Name="camera_synchrone_acquisition-ajg.vi" Type="VI" URL="../camera_synchrone_acquisition-ajg.vi"/>
-		<Item Name="propagation_lbl.vi" Type="VI" URL="../propagation_lbl.vi"/>
+		<Item Name="propagation_lbl.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/propagation_lbl.vi"/>
 		<Item Name="get wavefront.vi" Type="VI" URL="../get wavefront.vi"/>
 		<Item Name="subtract ref wavefront.vi" Type="VI" URL="../subtract ref wavefront.vi"/>
 		<Item Name="phi.ico" Type="Document" URL="../phi.ico"/>
@@ -1130,15 +1130,81 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="pupil ajg.ctl" Type="VI" URL="../pupil ajg.ctl"/>
+			<Item Name="pupil ajg.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/pupil ajg.ctl"/>
 			<Item Name="save HAS file as png with scaling txt file.vi" Type="VI" URL="../save HAS file as png with scaling txt file.vi"/>
 			<Item Name="image color table presets.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.ctl"/>
 			<Item Name="Component Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Component Generator.vi"/>
 			<Item Name="Color Table Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Color Table Generator.vi"/>
 			<Item Name="image color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.vi"/>
-			<Item Name="HAS analyzer paths.ctl" Type="VI" URL="../HAS analyzer paths.ctl"/>
-			<Item Name="LVFunction_Imop_Compute_WavefrontParameters.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Functions/Compute/LVFunction_Imop_Compute_WavefrontParameters.vi"/>
-			<Item Name="LVClass_HasoSlopes Set wavelenght.vi" Type="VI" URL="/../Program Files (x86)/National Instruments/LabVIEW 2020/user.lib/WaveKit.lib/Classes/HasoSlopes/LVClass_HasoSlopes Set wavelenght.vi"/>
+			<Item Name="HAS analyzer paths.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HAS analyzer paths.ctl"/>
+			<Item Name="LVFunction_Imop_Compute_PSF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PSF from HasoField.vi"/>
+			<Item Name="LVFunction_Imop_Compute_WavefrontParameters.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Compute_WavefrontParameters.vi"/>
+			<Item Name="HasoField.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoField.lvclass"/>
+			<Item Name="HasoSlopes.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoSlopes.lvclass"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Adder.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Adder.vi"/>
+			<Item Name="String_Empty buffer define by lenght.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/String_Empty buffer define by lenght.vi"/>
+			<Item Name="get path to CoreEngine dll.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/get path to CoreEngine dll.vi"/>
+			<Item Name="Manage logger file txt.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Manage logger file txt.vi"/>
+			<Item Name="LVFunction_Imop_BuildError.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_BuildError.vi"/>
+			<Item Name="GetErrorMessageBoxFromDLL.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/GetErrorMessageBoxFromDLL.vi"/>
+			<Item Name="Get error from National Instruments error.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Get error from National Instruments error.vi"/>
+			<Item Name="SlopesPostProcessorList - Double passage.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Double passage.ctl"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Double Path.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Double Path.vi"/>
+			<Item Name="SlopesPostProcessorList - Filter.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Filter.ctl"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Apply Filter.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Apply Filter.vi"/>
+			<Item Name="SlopesPostProcessorList - Modulator.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Modulator.ctl"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Modulator.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Modulator.vi"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply NeighborExtension.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply NeighborExtension.vi"/>
+			<Item Name="SlopesPostProcessorList - Add lens.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Add lens.ctl"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply PerfectLens.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply PerfectLens.vi"/>
+			<Item Name="Pupil.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/Pupil.lvclass"/>
+			<Item Name="LVFunction_Imop_Pupil_ApplyNeighborExtension.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Pupil_ApplyNeighborExtension.vi"/>
+			<Item Name="LVFunction_Imop_Pupil_ApplyShutOfBoundaries.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Pupil_ApplyShutOfBoundaries.vi"/>
+			<Item Name="Point2Df.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Point2Df.ctl"/>
+			<Item Name="General dimensions definition.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/General dimensions definition.ctl"/>
+			<Item Name="Point2D.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Point2D.ctl"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Pupil.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Pupil.vi"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Scaler.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Scaler.vi"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply ShutOfBoundaries.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply ShutOfBoundaries.vi"/>
+			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Substractor.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Substractor.vi"/>
+			<Item Name="HasoConfig.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoConfig.lvclass"/>
+			<Item Name="HasoData.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoData.lvclass"/>
+			<Item Name="SlopesPostProcessorList.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList.lvclass"/>
+			<Item Name="SlopesPostProcessorList - ONE.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - ONE.ctl"/>
+			<Item Name="SlopesPostProcessorList - ONE - with handle.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - ONE - with handle.ctl"/>
+			<Item Name="SlopesPostProcessorList - ONE - with variant.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - ONE - with variant.ctl"/>
+			<Item Name="SlopesStructToVariant.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesStructToVariant.ctl"/>
+			<Item Name="Slopes origin - SlopesPostProcessingList.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Slopes origin - SlopesPostProcessingList.ctl"/>
+			<Item Name="PupillStructToVariant.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/PupillStructToVariant.ctl"/>
+			<Item Name="LVFunction_Imop_HAS file_GetInformation.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_HAS file_GetInformation.vi"/>
+			<Item Name="HAS File information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HAS File information.ctl"/>
+			<Item Name="Check wavelengths value.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Check wavelengths value.vi"/>
+			<Item Name="Value to timestamp.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Value to timestamp.vi"/>
+			<Item Name="ComputePhaseSet.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/ComputePhaseSet.lvclass"/>
+			<Item Name="WavefrontReconstructionMode.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/WavefrontReconstructionMode.ctl"/>
+			<Item Name="ZonalPrefs.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/ZonalPrefs.ctl"/>
+			<Item Name="ModalCoef.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/ModalCoef.lvclass"/>
+			<Item Name="WavefrontModalReconstructionType.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/WavefrontModalReconstructionType.ctl"/>
+			<Item Name="LegendreModalPrefs.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/LegendreModalPrefs.ctl"/>
+			<Item Name="LegendreProjectionPupilSetup.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/LegendreProjectionPupilSetup.ctl"/>
+			<Item Name="ZernikeModalPrefs.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/ZernikeModalPrefs.ctl"/>
+			<Item Name="ZernikeProjectionPupilSetup.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/ZernikeProjectionPupilSetup.ctl"/>
+			<Item Name="DataHaso acquisition information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/DataHaso acquisition information.ctl"/>
+			<Item Name="HASO information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HASO information.ctl"/>
+			<Item Name="Image information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Image information.ctl"/>
+			<Item Name="Image general information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Image general information.ctl"/>
+			<Item Name="Image acquisition information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Image acquisition information.ctl"/>
+			<Item Name="Data alignment enum.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Data alignment enum.ctl"/>
+			<Item Name="SlopesEngineSetup.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesEngineSetup.ctl"/>
+			<Item Name="File Dialog.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/File Dialog.vi"/>
+			<Item Name="Image.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/Image.lvclass"/>
+			<Item Name="LVFunction_Imop_HIMG file_GetInformation.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_HIMG file_GetInformation.vi"/>
+			<Item Name="HIMG File information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HIMG File information.ctl"/>
+			<Item Name="Phase.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/Phase.lvclass"/>
+			<Item Name="StatisticsData.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/StatisticsData.ctl"/>
+			<Item Name="CheckAndGet_Float2D_data.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/CheckAndGet_Float2D_data.vi"/>
+			<Item Name="SurfaceFloat.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/SurfaceFloat.lvclass"/>
+			<Item Name="LVFunction_Imop_Compute_ZonalWavefront.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Compute_ZonalWavefront.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HASO4_3" Type="Source Distribution">
@@ -1203,7 +1269,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">60</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO4_3.exe</Property>
