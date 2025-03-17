@@ -22,6 +22,8 @@
 		<Item Name="TriggerCluster.ctl" Type="VI" URL="../TypeDefs/TriggerCluster.ctl"/>
 		<Item Name="TriggerModes.ctl" Type="VI" URL="../TypeDefs/TriggerModes.ctl"/>
 		<Item Name="Rohde&amp;Schwarz RTx Oscilloscopes.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Rohde&amp;Schwarz RTx Oscilloscopes/Rohde&amp;Schwarz RTx Oscilloscopes.lvlib"/>
+		<Item Name="scale to 16bit signed integer.vi" Type="VI" URL="../scale to 16bit signed integer.vi"/>
+		<Item Name="Fetch Waveform.vi" Type="VI" URL="../Fetch Waveform.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="instr.lib" Type="Folder">
