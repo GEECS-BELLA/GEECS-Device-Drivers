@@ -422,10 +422,8 @@
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="Add and Update Devicetype Variable in DB.vi" Type="VI" URL="../../shared/Add and Update Devicetype Variable in DB.vi"/>
-			<Item Name="additionalAnalysisCluster_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/subVis/additionalAnalysisCluster_TypDef.ctl"/>
 			<Item Name="AddorEdit Devicetype Variable.vi" Type="VI" URL="../../shared/AddorEdit Devicetype Variable.vi"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
-			<Item Name="analysisTypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/analysisTypDEf.ctl"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
 			<Item Name="Arguments to array.vi" Type="VI" URL="../../shared/Arguments to array.vi"/>
@@ -439,7 +437,6 @@
 			<Item Name="ChangeColorMultiList.vi" Type="VI" URL="../../shared/ChangeColorMultiList.vi"/>
 			<Item Name="channel parsed cmd cluster.ctl" Type="VI" URL="../../../Shared/Device Driver/channel parsed cmd cluster.ctl"/>
 			<Item Name="channelenabled_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/channelenabled_TypDef.ctl"/>
-			<Item Name="channels_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/subVis/channels_TypDef.ctl"/>
 			<Item Name="checkCVTvsSetValue.vi" Type="VI" URL="../../shared/checkCVTvsSetValue.vi"/>
 			<Item Name="CheckIfSetCommand.vi" Type="VI" URL="../../shared/CheckIfSetCommand.vi"/>
 			<Item Name="checkIfToAcqu.vi" Type="VI" URL="../../shared/checkIfToAcqu.vi"/>
@@ -512,7 +509,6 @@
 			<Item Name="JoinGroupCommands.vi" Type="VI" URL="../../shared/JoinGroupCommands.vi"/>
 			<Item Name="limit array length (spec Cluster).vi" Type="VI" URL="../../../Shared/limit array length (spec Cluster).vi"/>
 			<Item Name="limit array length.vi" Type="VI" URL="../../../Shared/limit array length.vi"/>
-			<Item Name="LinkedChannelsCluster_TypDef.ctl" Type="VI" URL="../../PXIdigitizer/subVis/LinkedChannelsCluster_TypDef.ctl"/>
 			<Item Name="load configuration_typdef.ctl" Type="VI" URL="../../BaseDriver/load configuration_typdef.ctl"/>
 			<Item Name="lockscanMode(DB).vi" Type="VI" URL="../../shared/lockscanMode(DB).vi"/>
 			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
@@ -536,8 +532,6 @@
 			<Item Name="lv_mysql_conn_send_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_data_packet.vi"/>
 			<Item Name="matchPatternCaseInsensitive.vi" Type="VI" URL="../../shared/matchPatternCaseInsensitive.vi"/>
 			<Item Name="MeasurementsCluster_TypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/MeasurementsCluster_TypDEf.ctl"/>
-			<Item Name="method_TypDef.ctl" Type="VI" URL="../../ScopeAnalysis/SubVis/method_TypDef.ctl"/>
-			<Item Name="methodCluster_TypDEf.ctl" Type="VI" URL="../../PXIdigitizer/subVis/methodCluster_TypDEf.ctl"/>
 			<Item Name="MoveToendOfQue.vi" Type="VI" URL="../../shared/MoveToendOfQue.vi"/>
 			<Item Name="MoveUDP_TcpToEnd.vi" Type="VI" URL="../../shared/MoveUDP_TcpToEnd.vi"/>
 			<Item Name="MulticastListener.vi" Type="VI" URL="../../shared/MulticastListener.vi"/>
