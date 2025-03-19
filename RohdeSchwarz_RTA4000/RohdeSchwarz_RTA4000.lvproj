@@ -638,9 +638,9 @@
 			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="TektronixDPOSimple" Type="Source Distribution">
+			<Item Name="RohdeSchwarz_RTA4000" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{2A72AA76-E98D-4B56-A59B-D068B86BADE0}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TektronixDPOSimple</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RohdeSchwarz_RTA4000</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -655,7 +655,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EFEBF3FC-0677-4155-A42F-20451D2BBD39}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3417992B-A2A5-4854-98F1-0D638161AD24}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
@@ -668,7 +668,11 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/RohdeSchwarz_RTA4000.lvclass</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Rohde&amp;Schwarz RTx Oscilloscopes.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
