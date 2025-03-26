@@ -11,7 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Device_controlRohdeSchwarzRTA4000.vi" Type="VI" URL="../../Device_controlRohdeSchwarzRTA4000.vi"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="RohdeSchwarz_RTA4000.lvclass" Type="LVClass" URL="../RohdeSchwarz_RTA4000.lvclass"/>
@@ -23,6 +22,7 @@
 		<Item Name="Rohde&amp;Schwarz RTx Oscilloscopes.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Rohde&amp;Schwarz RTx Oscilloscopes/Rohde&amp;Schwarz RTx Oscilloscopes.lvlib"/>
 		<Item Name="scale to 16bit signed integer.vi" Type="VI" URL="../scale to 16bit signed integer.vi"/>
 		<Item Name="Fetch Waveform.vi" Type="VI" URL="../Fetch Waveform.vi"/>
+		<Item Name="Device_controlRohdeSchwarzRTA4000.vi" Type="VI" URL="../../Device_controlRohdeSchwarzRTA4000.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -675,21 +675,23 @@
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
-			<Item Name="Device RohdeSchwarz_RTA4000" Type="EXE">
+			<Item Name="DeviceRohdeSchwarz_RTA4000" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{D02B18D0-E1F8-4DC8-860F-253CA8739D49}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{87706AF2-3EB3-46D7-96CE-90689272BC8C}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A0188176-D9CE-4417-8CB0-A19F913A20F3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{781935FB-B29C-4B53-A47D-7DEEA27D9E76}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{AD031DC3-2C90-4BE9-823E-26979D383801}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Device RohdeSchwarz_RTA4000</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{EDD32F1A-E38D-4B77-9B99-46C4A452F653}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DeviceRohdeSchwarz_RTA4000</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2DB0EDDA-C9D7-4E8B-AF31-C8027B979404}</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6CF11E5D-BDD3-4308-A7A7-361F35403A17}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Device RohdeSchwarz_RTA4000.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/Device RohdeSchwarz_RTA4000.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DeviceRohdeSchwarz_RTA4000.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceRohdeSchwarz_RTA4000.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -697,59 +699,53 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E2C3C46C-3302-4C5C-8CB8-FC9E0C545F4C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F104ACAC-BA6C-4806-AD25-6BD0FC2587A9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_controlRohdeSchwarzRTA4000.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/TriggerCluster.ctl</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/TriggerModes.ctl</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Rohde&amp;Schwarz RTx Oscilloscopes.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/scale to 16bit signed integer.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/RohdeSchwarz_RTA4000.lvclass</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Fetch Waveform.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Waveform_attributes.ctl</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/TriggerCluster.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/RohdeSchwarz_RTA4000.lvclass</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/TriggerModes.ctl</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Waveform_attributes.ctl</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Rohde&amp;Schwarz RTx Oscilloscopes.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/LockFP.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/scale to 16bit signed integer.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/UnlockFP.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Fetch Waveform.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Device RohdeSchwarz_RTA4000</Property>
-				<Property Name="TgtF_internalName" Type="Str">Device RohdeSchwarz_RTA4000</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DeviceRohdeSchwarz_RTA4000</Property>
+				<Property Name="TgtF_internalName" Type="Str">DeviceRohdeSchwarz_RTA4000</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
-				<Property Name="TgtF_productName" Type="Str">Device RohdeSchwarz_RTA4000</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{6EA82FE3-77CA-44B3-BD37-0AC385982D12}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Device RohdeSchwarz_RTA4000.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">DeviceRohdeSchwarz_RTA4000</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{229D44F1-5CA6-47E7-BF7E-9361A3CB8F9F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DeviceRohdeSchwarz_RTA4000.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
