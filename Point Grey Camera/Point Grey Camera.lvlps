@@ -33,19 +33,19 @@ Cache_Path[Path] Line0002 = "261-198B-4B3B-895F-134941190C2C}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{98CEE"
 Cache_Path[Path] Line0002 = "1A8-D62B-4116-91AB-B60064DAE187}.txt"
 
-[AB_Cache_{CB0224BA-6EBF-48CD-842B-987CF6B65B68}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{CB022"
-Cache_Path[Path] Line0002 = "4BA-6EBF-48CD-842B-987CF6B65B68}.txt"
-
-[AB_Cache_{C45BBF32-CDAB-4087-91F7-FE49B484DB84}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{C45BB"
-Cache_Path[Path] Line0002 = "F32-CDAB-4087-91F7-FE49B484DB84}.txt"
-
 [AB_Cache_{02784E3C-B05C-4A39-A5B9-66CB1F1E4534}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{02784"
-Cache_Path[Path] Line0002 = "E3C-B05C-4A39-A5B9-66CB1F1E4534}.txt"
+Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
+Cache_Path[Path] Line0002 = "_{02784E3C-B05C-4A39-A5B9-66CB1F1E4534}.txt"
 
 [AB_Cache_{22E47623-C6BA-4135-9843-2009F90F00D2}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{22E47"
-Cache_Path[Path] Line0002 = "623-C6BA-4135-9843-2009F90F00D2}.txt"
+Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
+Cache_Path[Path] Line0002 = "_{22E47623-C6BA-4135-9843-2009F90F00D2}.txt"
+
+[AB_Cache_{CB0224BA-6EBF-48CD-842B-987CF6B65B68}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
+Cache_Path[Path] Line0002 = "_{CB0224BA-6EBF-48CD-842B-987CF6B65B68}.txt"
+
+[AB_Cache_{C45BBF32-CDAB-4087-91F7-FE49B484DB84}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
+Cache_Path[Path] Line0002 = "_{C45BBF32-CDAB-4087-91F7-FE49B484DB84}.txt"
 
