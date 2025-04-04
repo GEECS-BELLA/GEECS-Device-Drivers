@@ -1205,6 +1205,7 @@
 			<Item Name="CheckAndGet_Float2D_data.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/CheckAndGet_Float2D_data.vi"/>
 			<Item Name="SurfaceFloat.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/SurfaceFloat.lvclass"/>
 			<Item Name="LVFunction_Imop_Compute_ZonalWavefront.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Compute_ZonalWavefront.vi"/>
+			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HASO4_3" Type="Source Distribution">
@@ -1269,7 +1270,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">65</Property>
+				<Property Name="Bld_version.build" Type="Int">66</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO4_3.exe</Property>
