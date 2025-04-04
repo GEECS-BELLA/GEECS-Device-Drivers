@@ -802,6 +802,7 @@
 			<Item Name="half width of array cut at peak.vi" Type="VI" URL="../../HamamatsuSpectrometer/spectral analysis/FWHMxygraph/half width of array cut at peak.vi"/>
 			<Item Name="gaussian FWHM to w0.vi" Type="VI" URL="../../HamamatsuSpectrometer/spectral analysis/FWHMxygraph/gaussian stuff/gaussian FWHM to w0.vi"/>
 			<Item Name="divide by 2.vi" Type="VI" URL="../../HamamatsuSpectrometer/spectral analysis/FWHMxygraph/math/divide by 2.vi"/>
+			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HamamatsuSpectrometerDAQ" Type="Source Distribution">
@@ -813,7 +814,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{132F1DF9-C200-4757-B83B-805C34EEC1EB}</Property>
-				<Property Name="Bld_version.build" Type="Int">44</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -866,7 +867,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CF05E214-6574-4ED6-9F6C-10C16B061145}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHamamatsuSpectrometerDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHamamatsuSpectrometerDAQ.exe</Property>
