@@ -285,6 +285,17 @@
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -581,9 +592,10 @@
 			<Item Name="no timeout error.vi" Type="VI" URL="../../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
 			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
-			<Item Name="Newport.XPS.CommandInterface.dll" Type="Document" URL="../../../../../../Users/loasis.BELLANET/Downloads/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/Dll/Newport.XPS.CommandInterface.dll"/>
 			<Item Name="Positioner Group Position Current Get.vi" Type="VI" URL="../labview/XPS-C8 Controller/Positioner.llb/Positioner Group Position Current Get.vi"/>
 			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
+			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
+			<Item Name="Newport.XPS.CommandInterface.dll" Type="Document" URL="../XPS-RLD/XPS-UNIFIED/LabVIEW VIs/LabVIEW Source Code/Dll/Newport.XPS.CommandInterface.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewportXPS" Type="Source Distribution">
