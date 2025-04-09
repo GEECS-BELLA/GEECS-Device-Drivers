@@ -740,7 +740,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{674B0A10-7689-4FEA-84AF-7402EB344486}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePicomotor8742dotNet.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePicomotor8742dotNet.exe</Property>
