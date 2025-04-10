@@ -64,6 +64,11 @@
 			<Item Name="usbtc08.dll" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbtc08.dll"/>
 			<Item Name="usbtc08.lib" Type="Document" URL="../../../../../../Program Files (x86)/Pico Technology/SDK/lib/usbtc08.lib"/>
 		</Item>
+		<Item Name="EnableGUI" Type="Folder">
+			<Item Name="EnabledChannelArray.vi" Type="VI" URL="../EnableGUI/EnabledChannelArray.vi"/>
+			<Item Name="TraceCVTUpdate.vi" Type="VI" URL="../EnableGUI/TraceCVTUpdate.vi"/>
+			<Item Name="unscale lecroy waveform.vi" Type="VI" URL="../EnableGUI/unscale lecroy waveform.vi"/>
+		</Item>
 		<Item Name="LeCroy Sub VI&apos;s" Type="Folder">
 			<Item Name="Acquire Scope data.vi" Type="VI" URL="../LeCroy Sub VI&apos;s/Acquire Scope data.vi"/>
 			<Item Name="Configure Ossiloscope Settings.vi" Type="VI" URL="../LeCroy Sub VI&apos;s/Configure Ossiloscope Settings.vi"/>
@@ -300,7 +305,15 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
@@ -552,6 +565,9 @@
 				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
@@ -631,8 +647,6 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="socket_options.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_options.ctl"/>
-				<Item Name="socket_type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/socket_type.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -655,17 +669,12 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="zmq_close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_close.vi"/>
-				<Item Name="zmq_connect.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_connect.vi"/>
-				<Item Name="zmq_ctx_create.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_create.vi"/>
-				<Item Name="zmq_ctx_destroy.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_ctx_destroy.vi"/>
-				<Item Name="zmq_recv_timeout.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_recv_timeout.vi"/>
-				<Item Name="zmq_setsocketopt.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_setsocketopt.vi"/>
-				<Item Name="zmq_socket.vi" Type="VI" URL="/&lt;vilib&gt;/addons/zeromq/zmq_socket.vi"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
 			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 			<Item Name="energy.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/energy.vi"/>
 			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
 			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
@@ -774,11 +783,11 @@
 			<Item Name="TektronixDPOSimple.lvclass" Type="LVClass" URL="../../TektronixDPOSimple/TektronixDPOSimple.lvclass"/>
 			<Item Name="TimeMeasure.vi" Type="VI" URL="../../shared/TimeMeasure.vi"/>
 			<Item Name="timerFGV.vi" Type="VI" URL="../../shared/timerFGV.vi"/>
+			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 			<Item Name="ToREALCluster.vi" Type="VI" URL="../../shared/ToREALCluster.vi"/>
 			<Item Name="ToSettingsCluster.vi" Type="VI" URL="../../shared/ToSettingsCluster.vi"/>
 			<Item Name="toTraceCluster.vi" Type="VI" URL="../../shared/toTraceCluster.vi"/>
 			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
-			<Item Name="TraceCVTUpdate.vi" Type="VI" URL="../../PXIdigitizer/subVis/TraceCVTUpdate.vi"/>
 			<Item Name="trigger_50.vi" Type="VI" URL="../../ScopeAnalysis/SubVis/trigger_50.vi"/>
 			<Item Name="UDP FGV control.ctl" Type="VI" URL="../../UDPComm/UDP FGV control.ctl"/>
 			<Item Name="UDP_FGV.ctl" Type="VI" URL="../../shared/UDP_FGV.ctl"/>

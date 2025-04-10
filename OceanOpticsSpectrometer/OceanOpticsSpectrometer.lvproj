@@ -625,7 +625,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{87852DDF-15F4-4C00-8183-9F79CA94D263}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2242202F-CB47-43F4-A88F-95A3411E8656}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/OceanOpticsSpectrometer.lvclass</Property>
