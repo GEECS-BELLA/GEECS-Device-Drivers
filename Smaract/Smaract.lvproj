@@ -11,9 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Smaract.lvclass" Type="LVClass" URL="../Smaract.lvclass"/>
-		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
+		<Item Name="Device_control_Smaract.vi" Type="VI" URL="../Device_control_Smaract.vi"/>
+		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
+		<Item Name="Smaract.lvclass" Type="LVClass" URL="../Smaract.lvclass"/>
 		<Item Name="Read Visa Smart.vi" Type="VI" URL="../../../Shared/Device Driver/Read Visa Smart.vi"/>
 		<Item Name="Get Current Position.vi" Type="VI" URL="../Get Current Position.vi"/>
 		<Item Name="Get Physical Position Known.vi" Type="VI" URL="../Get Physical Position Known.vi"/>
@@ -27,7 +28,6 @@
 		<Item Name="Stop Smaract.vi" Type="VI" URL="../Stop Smaract.vi"/>
 		<Item Name="Wait for Motion Complete.vi" Type="VI" URL="../Wait for Motion Complete.vi"/>
 		<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
-		<Item Name="Device_control_Smaract.vi" Type="VI" URL="../Device_control_Smaract.vi"/>
 		<Item Name="FGV Smaract Acquire.vi" Type="VI" URL="../../shared/FGV Smaract Acquire.vi"/>
 		<Item Name="Smaract acquire fgv.ctl" Type="VI" URL="../Smaract acquire fgv.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -645,7 +645,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83F4F99E-C176-425B-87EF-257EEDF91A85}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceSmaract.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceSmaract.exe</Property>
