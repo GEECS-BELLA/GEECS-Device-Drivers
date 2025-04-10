@@ -290,6 +290,17 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -576,6 +587,7 @@
 			<Item Name="StageSelector--Enum.ctl" Type="VI" URL="../Newmark  Driver/StageSelector--Enum.ctl"/>
 			<Item Name="InitDevice.vi" Type="VI" URL="../Newmark  Driver/InitDevice.vi"/>
 			<Item Name="MoveStage.vi" Type="VI" URL="../Newmark  Driver/MoveStage.vi"/>
+			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Newmark-NSC-G4" Type="Source Distribution">
@@ -587,7 +599,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C783B3F-1579-409D-B7A7-3F2C60A1F0C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -631,7 +643,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7FD527E-295D-4A08-988A-A1BA19DE316C}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceNewmark-NSC-G4.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceNewmark-NSC-G4.exe</Property>
@@ -642,7 +654,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1DB4D209-666E-442F-BC8E-6D6F88AC16DD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0B96ADD6-0CD2-4B6C-82B4-D4A7DF7D17A2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control_Newmark-NSC-G4.vi</Property>
@@ -652,33 +664,27 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Newmark-NSC-G4.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/CmdDevice.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/CmdDevice.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/MoveStageDll.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/MoveStageDll.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/GetStagePositionDll.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/GetStagePositionDll.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBL</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Newmark-NSC-G4-exe</Property>
