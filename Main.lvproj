@@ -95,6 +95,8 @@
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
 				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
+				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
@@ -269,7 +271,24 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
+				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
+				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
+				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
+				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
+				<Item Name="IMAQ Write Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Write Custom Data"/>
+				<Item Name="IMAQ Write Image And Vision Info String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info String"/>
+				<Item Name="IMAQ Write JPEG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG String"/>
+				<Item Name="IMAQ Write PNG String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG String"/>
+				<Item Name="IMAQ Write String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write String"/>
+				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
@@ -278,6 +297,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
@@ -329,6 +349,18 @@
 			<Item Name="checkIfToAcqu.vi" Type="VI" URL="../shared/checkIfToAcqu.vi"/>
 			<Item Name="checkSubscriberList.vi" Type="VI" URL="../shared/checkSubscriberList.vi"/>
 			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="compress image to 65k_StateM.vi" Type="VI" URL="../../Shared/TCP/compress image to 65k_StateM.vi"/>
+			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../Shared/Image/compress to 8 bit imaq cast.vi"/>
+			<Item Name="CompressAndUpdate(Enum).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(Enum).vi"/>
+			<Item Name="CompressAndUpdate(IMAQ Image).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(IMAQ Image).vi"/>
+			<Item Name="CompressAndUpdate(Numeric).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(Numeric).vi"/>
+			<Item Name="CompressAndUpdate(NumericArray).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray).vi"/>
+			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
+			<Item Name="CompressAndUpdate(Path).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(Path).vi"/>
+			<Item Name="CompressAndUpdate(ScopeTrace).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(ScopeTrace).vi"/>
+			<Item Name="CompressAndUpdate(ScopeTraceBinary).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(ScopeTraceBinary).vi"/>
+			<Item Name="CompressAndUpdate(String).vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate(String).vi"/>
+			<Item Name="CompressAndUpdate_Poly.vi" Type="VI" URL="../shared/CompressAndUpdate(Poly)/CompressAndUpdate_Poly.vi"/>
 			<Item Name="connectiondata_typdef.ctl" Type="VI" URL="../shared/connectiondata_typdef.ctl"/>
 			<Item Name="createCommandListForCommandCase.vi" Type="VI" URL="../shared/createCommandListForCommandCase.vi"/>
 			<Item Name="CreateCommandSet.vi" Type="VI" URL="../shared/CreateCommandSet.vi"/>
@@ -353,6 +385,7 @@
 			<Item Name="get available tcp port.vi" Type="VI" URL="../../Shared/GUI_Template/get available tcp port.vi"/>
 			<Item Name="Get database IP.vi" Type="VI" URL="../../Shared/GUI_Template/IP and subnet/Get database IP.vi"/>
 			<Item Name="Get IPs and subnet masks.vi" Type="VI" URL="../../Shared/GUI_Template/IP and subnet/Get IPs and subnet masks.vi"/>
+			<Item Name="GetCompressionTypes.vi" Type="VI" URL="../shared/GetCompressionTypes.vi"/>
 			<Item Name="getIP.vi" Type="VI" URL="../../Shared/Device Driver/getIP.vi"/>
 			<Item Name="getIPAndPOrtFromDB.vi" Type="VI" URL="../../Shared/getIPAndPOrtFromDB.vi"/>
 			<Item Name="GetRawSocketFromConnectionID.vi" Type="VI" URL="../shared/GetRawSocketFromConnectionID.vi"/>
@@ -362,12 +395,14 @@
 			<Item Name="GetUDPCommand.vi" Type="VI" URL="../shared/GetUDPCommand.vi"/>
 			<Item Name="GetValueFromArguments.vi" Type="VI" URL="../../Shared/GetValueFromArguments.vi"/>
 			<Item Name="getVersion.vi" Type="VI" URL="../shared/getVersion.vi"/>
+			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../Point Grey Camera/GUIcompressionCluster.ctl"/>
 			<Item Name="initialize process vis.vi" Type="VI" URL="../../Shared/GUI_Template/Reentrant Multiple Progress/initialize process vis.vi"/>
 			<Item Name="INITMultiList.vi" Type="VI" URL="../shared/INITMultiList.vi"/>
 			<Item Name="Is Value a number.vi" Type="VI" URL="../../Shared/Is Value a number.vi"/>
 			<Item Name="limit array length (spec Cluster).vi" Type="VI" URL="../../Shared/limit array length (spec Cluster).vi"/>
 			<Item Name="limit array length.vi" Type="VI" URL="../../Shared/limit array length.vi"/>
 			<Item Name="lockscanMode(DB).vi" Type="VI" URL="../shared/lockscanMode(DB).vi"/>
+			<Item Name="losslessCompression.vi" Type="VI" URL="../../Shared/losslessCompression.vi"/>
 			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
 			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../Shared/MySQL/lv_mysql_conn_close.vi"/>
 			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
@@ -386,11 +421,18 @@
 			<Item Name="MoveUDP_TcpToEnd.vi" Type="VI" URL="../shared/MoveUDP_TcpToEnd.vi"/>
 			<Item Name="MulticastListener.vi" Type="VI" URL="../shared/MulticastListener.vi"/>
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="no timeout error.vi" Type="VI" URL="../../Shared/GUI_Template/udp.llb/no timeout error.vi"/>
 			<Item Name="NrOfDigest StateM.vi" Type="VI" URL="../../Shared/NrOfDigest StateM.vi"/>
 			<Item Name="numericVariable_control.ctl" Type="VI" URL="../shared/numericVariable_control.ctl"/>
 			<Item Name="ok_packet_metadata.ctl" Type="VI" URL="../../Shared/MySQL/typedefs/ok_packet_metadata.ctl"/>
 			<Item Name="onlySendTCpString.vi" Type="VI" URL="../../Shared/TCP/onlySendTCpString.vi"/>
+			<Item Name="OnOffTypeDef.ctl" Type="VI" URL="../shared/OnOffTypeDef.ctl"/>
 			<Item Name="OpenUDP.vi" Type="VI" URL="../shared/OpenUDP.vi"/>
 			<Item Name="parse shot data udp response.vi" Type="VI" URL="../../Shared/parse shot data udp response.vi"/>
 			<Item Name="parse tcp reply and replace all device var subset.vi" Type="VI" URL="../../Shared/GUI_Template/Reentrant Multiple Progress/parse tcp reply and replace all device var subset.vi"/>
@@ -408,6 +450,8 @@
 			<Item Name="RemoveStateFromQueue.vi" Type="VI" URL="../shared/RemoveStateFromQueue.vi"/>
 			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
 			<Item Name="return_packet_type.ctl" Type="VI" URL="../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
+			<Item Name="ScopeInfoToString(Array).vi" Type="VI" URL="../shared/ScopeInfoToString(Array).vi"/>
+			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../shared/scopeTraceInfo_TypDEf.ctl"/>
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="server_init_data.ctl" Type="VI" URL="../../Shared/MySQL/typedefs/server_init_data.ctl"/>
 			<Item Name="Set Enum String Value__ogtk_caseINSENSITIVE.vi" Type="VI" URL="../../Shared/Set Enum String Value__ogtk_caseINSENSITIVE.vi"/>
@@ -437,6 +481,7 @@
 			<Item Name="TCPListener.vi" Type="VI" URL="../shared/TCPListener.vi"/>
 			<Item Name="TCPWriter.vi" Type="VI" URL="../shared/TCPWriter.vi"/>
 			<Item Name="timerFGV.vi" Type="VI" URL="../shared/timerFGV.vi"/>
+			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../Shared/type definition/trace_TypDef.ctl"/>
 			<Item Name="UDP FGV control.ctl" Type="VI" URL="../UDPComm/UDP FGV control.ctl"/>
 			<Item Name="UDP_FGV.ctl" Type="VI" URL="../shared/UDP_FGV.ctl"/>
 			<Item Name="UDP_Mcast_Comm.lvlib" Type="Library" URL="../UDPComm/UDP_Mcast_Comm.lvlib"/>
@@ -456,6 +501,7 @@
 			<Item Name="WaitForDeviceName.vi" Type="VI" URL="../shared/WaitForDeviceName.vi"/>
 			<Item Name="wholeRowToVAriant.vi" Type="VI" URL="../../Shared/MySQL/subVIs/wholeRowToVAriant.vi"/>
 			<Item Name="WriterSubVi.vi" Type="VI" URL="../shared/WriterSubVi.vi"/>
+			<Item Name="WriteToCVT.vi" Type="VI" URL="../shared/WriteToCVT.vi"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
