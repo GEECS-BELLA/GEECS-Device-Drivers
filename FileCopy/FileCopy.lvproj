@@ -286,6 +286,7 @@
 				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
+				<Item Name="MGI Natural Sort.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Natural Sort.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -561,7 +562,6 @@
 			<Item Name="compress to 8 bit imaq cast.vi" Type="VI" URL="../../../Shared/Image/compress to 8 bit imaq cast.vi"/>
 			<Item Name="Are two within tolerance of each other.vi" Type="VI" URL="../../../Shared/Device Driver/Are two within tolerance of each other.vi"/>
 			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
-			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
 			<Item Name="Reentrant tcp for data gatherer.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/Reentrant tcp for data gatherer.vi"/>
 			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
@@ -620,7 +620,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6DDC4277-B3B5-403F-85D8-37A0A454D885}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceFileCopy.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceFileCopy.exe</Property>
