@@ -55,6 +55,7 @@
 				</Item>
 				<Item Name="HasoSlopes" Type="Folder">
 					<Item Name="HasoSlopes.lvclass" Type="LVClass" URL="../WaveKit/Classes/HasoSlopes/HasoSlopes.lvclass"/>
+					<Item Name="LVClass_HasoSlopes Set Pupil.vi" Type="VI" URL="../WaveKit/Classes/HasoSlopes/LVClass_HasoSlopes Set Pupil.vi"/>
 				</Item>
 				<Item Name="Image" Type="Folder">
 					<Item Name="Image.lvclass" Type="LVClass" URL="../WaveKit/Classes/Image/Image.lvclass"/>
@@ -1271,7 +1272,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">72</Property>
+				<Property Name="Bld_version.build" Type="Int">73</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHASO4_3.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHASO4_3.exe</Property>
