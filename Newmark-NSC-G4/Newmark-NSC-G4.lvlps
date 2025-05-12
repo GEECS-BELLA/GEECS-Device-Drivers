@@ -1,13 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "924,2566,1573,2945"
-
-[AB_Cache_{74A25979-E09F-419F-B55E-B59EAF8B607E}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{74A25"
-Cache_Path[Path] Line0002 = "979-E09F-419F-B55E-B59EAF8B607E}.txt"
-
-[AB_Cache_{A7FD527E-295D-4A08-988A-A1BA19DE316C}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{A7FD5"
-Cache_Path[Path] Line0002 = "27E-295D-4A08-988A-A1BA19DE316C}.txt"
+ProjectExplorer.ClassicPosition[String] = "601,700,1250,1079"
 
 [AB_Cache_{FB6E2B7B-402D-4C66-B9E5-6012D56668A6}]
 Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{FB6E2"
@@ -16,4 +8,12 @@ Cache_Path[Path] Line0002 = "B7B-402D-4C66-B9E5-6012D56668A6}.txt"
 [AB_Cache_{6C783B3F-1579-409D-B7A7-3F2C60A1F0C6}]
 Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{6C783"
 Cache_Path[Path] Line0002 = "B3F-1579-409D-B7A7-3F2C60A1F0C6}.txt"
+
+[AB_Cache_{74A25979-E09F-419F-B55E-B59EAF8B607E}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{74A25"
+Cache_Path[Path] Line0002 = "979-E09F-419F-B55E-B59EAF8B607E}.txt"
+
+[AB_Cache_{A7FD527E-295D-4A08-988A-A1BA19DE316C}]
+Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{A7FD5"
+Cache_Path[Path] Line0002 = "27E-295D-4A08-988A-A1BA19DE316C}.txt"
 
