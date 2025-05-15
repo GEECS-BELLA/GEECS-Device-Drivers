@@ -18,20 +18,19 @@ See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Action-Status" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
-				<Item Name="Action-Status_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Low Level/Action-Status_Low Level.mnu"/>
 				<Item Name="Check for Idle.vi" Type="VI" URL="../Public/Action-Status/Low Level/Check for Idle.vi"/>
 				<Item Name="Poll Until Idle.vi" Type="VI" URL="../Public/Action-Status/Low Level/Poll Until Idle.vi"/>
 				<Item Name="Send Command.vi" Type="VI" URL="../Public/Action-Status/Low Level/Send Command.vi"/>
 				<Item Name="Send Stream Command.vi" Type="VI" URL="../Public/Action-Status/Low Level/Send Stream Command.vi"/>
+				<Item Name="Action-Status_Low Level.mnu" Type="Document" URL="../Public/Action-Status/Low Level/Action-Status_Low Level.mnu"/>
 			</Item>
 			<Item Name="Force" Type="Folder">
-				<Item Name="Action-Status_Force.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Force/Action-Status_Force.mnu"/>
 				<Item Name="Force.vi" Type="VI" URL="../Public/Action-Status/Force/Force.vi"/>
 				<Item Name="Sinusoidal Force.vi" Type="VI" URL="../Public/Action-Status/Force/Sinusoidal Force.vi"/>
 				<Item Name="Force Off.vi" Type="VI" URL="../Public/Action-Status/Force/Force Off.vi"/>
+				<Item Name="Action-Status_Force.mnu" Type="Document" URL="../Public/Action-Status/Force/Action-Status_Force.mnu"/>
 			</Item>
 			<Item Name="Lockstep" Type="Folder">
-				<Item Name="Action-Status_Lockstep.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Lockstep/Action-Status_Lockstep.mnu"/>
 				<Item Name="Lockstep Home.vi" Type="VI" URL="../Public/Action-Status/Lockstep/Lockstep Home.vi"/>
 				<Item Name="Lockstep Move (Polymorphic).vi" Type="VI" URL="../Public/Action-Status/Lockstep/Lockstep Move (Polymorphic).vi"/>
 				<Item Name="Lockstep Move.vi" Type="VI" URL="../Public/Action-Status/Lockstep/Lockstep Move.vi"/>
@@ -40,9 +39,9 @@ See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information
 				<Item Name="Lockstep Move at Velocity.vi" Type="VI" URL="../Public/Action-Status/Lockstep/Lockstep Move at Velocity.vi"/>
 				<Item Name="Lockstep Move at Velocity (FW7).vi" Type="VI" URL="../Public/Action-Status/Lockstep/Lockstep Move at Velocity (FW7).vi"/>
 				<Item Name="Lockstep Stop.vi" Type="VI" URL="../Public/Action-Status/Lockstep/Lockstep Stop.vi"/>
+				<Item Name="Action-Status_Lockstep.mnu" Type="Document" URL="../Public/Action-Status/Lockstep/Action-Status_Lockstep.mnu"/>
 			</Item>
 			<Item Name="Streaming" Type="Folder">
-				<Item Name="Action-Status_Streaming.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Streaming/Action-Status_Streaming.mnu"/>
 				<Item Name="Call Stream.vi" Type="VI" URL="../Public/Action-Status/Streaming/Call Stream.vi"/>
 				<Item Name="Open Stream (Polymorphic).vi" Type="VI" URL="../Public/Action-Status/Streaming/Open Stream (Polymorphic).vi"/>
 				<Item Name="Open Stream.vi" Type="VI" URL="../Public/Action-Status/Streaming/Open Stream.vi"/>
@@ -69,9 +68,9 @@ See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information
 				<Item Name="Stream Write Digital Outputs.vi" Type="VI" URL="../Public/Action-Status/Streaming/Stream Write Digital Outputs.vi"/>
 				<Item Name="Close Stream.vi" Type="VI" URL="../Public/Action-Status/Streaming/Close Stream.vi"/>
 				<Item Name="Erase Stream Buffer.vi" Type="VI" URL="../Public/Action-Status/Streaming/Erase Stream Buffer.vi"/>
+				<Item Name="Action-Status_Streaming.mnu" Type="Document" URL="../Public/Action-Status/Streaming/Action-Status_Streaming.mnu"/>
 			</Item>
 			<Item Name="Virtual Axis" Type="Folder">
-				<Item Name="Action-Status_Virtual Axis.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Virtual Axis/Action-Status_Virtual Axis.mnu"/>
 				<Item Name="Virtual Axis Move (Polymorphic).vi" Type="VI" URL="../Public/Action-Status/Virtual Axis/Virtual Axis Move (Polymorphic).vi"/>
 				<Item Name="Virtual Axis Move.vi" Type="VI" URL="../Public/Action-Status/Virtual Axis/Virtual Axis Move.vi"/>
 				<Item Name="Virtual Axis Move (FW7).vi" Type="VI" URL="../Public/Action-Status/Virtual Axis/Virtual Axis Move (FW7).vi"/>
@@ -79,39 +78,40 @@ See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information
 				<Item Name="Virtual Axis Move at Velocity.vi" Type="VI" URL="../Public/Action-Status/Virtual Axis/Virtual Axis Move at Velocity.vi"/>
 				<Item Name="Virtual Axis Move at Velocity (FW7).vi" Type="VI" URL="../Public/Action-Status/Virtual Axis/Virtual Axis Move at Velocity (FW7).vi"/>
 				<Item Name="Virtual Axis Stop.vi" Type="VI" URL="../Public/Action-Status/Virtual Axis/Virtual Axis Stop.vi"/>
+				<Item Name="Action-Status_Virtual Axis.mnu" Type="Document" URL="../Public/Action-Status/Virtual Axis/Action-Status_Virtual Axis.mnu"/>
 			</Item>
 			<Item Name="IO" Type="Folder">
-				<Item Name="Action-Status_IO.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/IO/Action-Status_IO.mnu"/>
 				<Item Name="Write Analog Outputs.vi" Type="VI" URL="../Public/Action-Status/IO/Write Analog Outputs.vi"/>
 				<Item Name="Write Digital Outputs.vi" Type="VI" URL="../Public/Action-Status/IO/Write Digital Outputs.vi"/>
+				<Item Name="Action-Status_IO.mnu" Type="Document" URL="../Public/Action-Status/IO/Action-Status_IO.mnu"/>
 			</Item>
-			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Home.vi" Type="VI" URL="../Public/Action-Status/Home.vi"/>
 			<Item Name="Move.vi" Type="VI" URL="../Public/Action-Status/Move.vi"/>
 			<Item Name="Move at Velocity.vi" Type="VI" URL="../Public/Action-Status/Move at Velocity.vi"/>
 			<Item Name="Stop.vi" Type="VI" URL="../Public/Action-Status/Stop.vi"/>
 			<Item Name="Sinusoidal Move.vi" Type="VI" URL="../Public/Action-Status/Sinusoidal Move.vi"/>
 			<Item Name="Sinusoidal Stop.vi" Type="VI" URL="../Public/Action-Status/Sinusoidal Stop.vi"/>
+			<Item Name="Action-Status.mnu" Type="Document" URL="../Public/Action-Status/Action-Status.mnu"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
-				<Item Name="Configure_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Configure/Low Level/Configure_Low Level.mnu"/>
 				<Item Name="Change Setting.vi" Type="VI" URL="../Public/Configure/Low Level/Change Setting.vi"/>
+				<Item Name="Configure_Low Level.mnu" Type="Document" URL="../Public/Configure/Low Level/Configure_Low Level.mnu"/>
 			</Item>
 			<Item Name="Lockstep" Type="Folder">
-				<Item Name="Configure_Lockstep.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Configure/Lockstep/Configure_Lockstep.mnu"/>
 				<Item Name="Enable Lockstep.vi" Type="VI" URL="../Public/Configure/Lockstep/Enable Lockstep.vi"/>
 				<Item Name="Disable Lockstep.vi" Type="VI" URL="../Public/Configure/Lockstep/Disable Lockstep.vi"/>
 				<Item Name="Set Lockstep Tolerance.vi" Type="VI" URL="../Public/Configure/Lockstep/Set Lockstep Tolerance.vi"/>
+				<Item Name="Configure_Lockstep.mnu" Type="Document" URL="../Public/Configure/Lockstep/Configure_Lockstep.mnu"/>
 			</Item>
 			<Item Name="Joystick" Type="Folder">
-				<Item Name="Configure_Joystick.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Configure/Joystick/Configure_Joystick.mnu"/>
 				<Item Name="Configure Joystick Axis Target.vi" Type="VI" URL="../Public/Configure/Joystick/Configure Joystick Axis Target.vi"/>
 				<Item Name="Configure Joystick Axis Translation.vi" Type="VI" URL="../Public/Configure/Joystick/Configure Joystick Axis Translation.vi"/>
 				<Item Name="Configure Joystick Button.vi" Type="VI" URL="../Public/Configure/Joystick/Configure Joystick Button.vi"/>
+				<Item Name="Configure_Joystick.mnu" Type="Document" URL="../Public/Configure/Joystick/Configure_Joystick.mnu"/>
 			</Item>
 			<Item Name="Virtual Axis" Type="Folder">
-				<Item Name="Configure_Virtual Axis.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Configure/Virtual Axis/Configure_Virtual Axis.mnu"/>
+				<Item Name="Configure_Virtual Axis.mnu" Type="Document" URL="../Public/Configure/Virtual Axis/Configure_Virtual Axis.mnu"/>
 				<Item Name="Create Virtual Axis.vi" Type="VI" URL="../Public/Configure/Virtual Axis/Create Virtual Axis.vi"/>
 				<Item Name="Create Virtual Axis (by Angle).vi" Type="VI" URL="../Public/Configure/Virtual Axis/Create Virtual Axis (by Angle).vi"/>
 				<Item Name="Create Virtual Axis (by Ratio).vi" Type="VI" URL="../Public/Configure/Virtual Axis/Create Virtual Axis (by Ratio).vi"/>
@@ -120,49 +120,47 @@ See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information
 				<Item Name="Set Virtual Axis Speed (FW7).vi" Type="VI" URL="../Public/Configure/Virtual Axis/Set Virtual Axis Speed (FW7).vi"/>
 				<Item Name="Delete Virtual Axis.vi" Type="VI" URL="../Public/Configure/Virtual Axis/Delete Virtual Axis.vi"/>
 			</Item>
-			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Configure/Configure.mnu"/>
 			<Item Name="Set Acceleration.vi" Type="VI" URL="../Public/Configure/Set Acceleration.vi"/>
 			<Item Name="Set Speed.vi" Type="VI" URL="../Public/Configure/Set Speed.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
-				<Item Name="Data_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Low Level/Data_Low Level.mnu"/>
 				<Item Name="Get Setting.vi" Type="VI" URL="../Public/Data/Low Level/Get Setting.vi"/>
+				<Item Name="Data_Low Level.mnu" Type="Document" URL="../Public/Data/Low Level/Data_Low Level.mnu"/>
 			</Item>
 			<Item Name="IO" Type="Folder">
-				<Item Name="Data_IO.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/IO/Data_IO.mnu"/>
 				<Item Name="Get IO Pin Counts.vi" Type="VI" URL="../Public/Data/IO/Get IO Pin Counts.vi"/>
 				<Item Name="Read Analog Inputs.vi" Type="VI" URL="../Public/Data/IO/Read Analog Inputs.vi"/>
 				<Item Name="Read Analog Outputs.vi" Type="VI" URL="../Public/Data/IO/Read Analog Outputs.vi"/>
 				<Item Name="Read Digital Inputs.vi" Type="VI" URL="../Public/Data/IO/Read Digital Inputs.vi"/>
 				<Item Name="Read Digital Outputs.vi" Type="VI" URL="../Public/Data/IO/Read Digital Outputs.vi"/>
+				<Item Name="Data_IO.mnu" Type="Document" URL="../Public/Data/IO/Data_IO.mnu"/>
 			</Item>
 			<Item Name="Joystick" Type="Folder">
-				<Item Name="Data_Joystick.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Joystick/Data_Joystick.mnu"/>
 				<Item Name="Get Joystick Axis Target.vi" Type="VI" URL="../Public/Data/Joystick/Get Joystick Axis Target.vi"/>
 				<Item Name="Get Joystick Axis Translation.vi" Type="VI" URL="../Public/Data/Joystick/Get Joystick Axis Translation.vi"/>
 				<Item Name="Get Joystick Button Configuration.vi" Type="VI" URL="../Public/Data/Joystick/Get Joystick Button Configuration.vi"/>
+				<Item Name="Data_Joystick.mnu" Type="Document" URL="../Public/Data/Joystick/Data_Joystick.mnu"/>
 			</Item>
 			<Item Name="Lockstep" Type="Folder">
-				<Item Name="Data_Lockstep.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Lockstep/Data_Lockstep.mnu"/>
 				<Item Name="Get Lockstep Info.vi" Type="VI" URL="../Public/Data/Lockstep/Get Lockstep Info.vi"/>
+				<Item Name="Data_Lockstep.mnu" Type="Document" URL="../Public/Data/Lockstep/Data_Lockstep.mnu"/>
 			</Item>
 			<Item Name="Streaming" Type="Folder">
-				<Item Name="Data_Streaming.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Streaming/Data_Streaming.mnu"/>
 				<Item Name="Get Stream Support Info.vi" Type="VI" URL="../Public/Data/Streaming/Get Stream Support Info.vi"/>
 				<Item Name="List Stream Buffer Contents.vi" Type="VI" URL="../Public/Data/Streaming/List Stream Buffer Contents.vi"/>
+				<Item Name="Data_Streaming.mnu" Type="Document" URL="../Public/Data/Streaming/Data_Streaming.mnu"/>
 			</Item>
 			<Item Name="Virtual Axis" Type="Folder">
-				<Item Name="Data_Virtual Axis.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Virtual Axis/Data_Virtual Axis.mnu"/>
 				<Item Name="Get Virtual Axis Info.vi" Type="VI" URL="../Public/Data/Virtual Axis/Get Virtual Axis Info.vi"/>
+				<Item Name="Data_Virtual Axis.mnu" Type="Document" URL="../Public/Data/Virtual Axis/Data_Virtual Axis.mnu"/>
 			</Item>
-			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Data.mnu"/>
 			<Item Name="Detect Devices.vi" Type="VI" URL="../Public/Data/Detect Devices.vi"/>
 			<Item Name="Read Current Position.vi" Type="VI" URL="../Public/Data/Read Current Position.vi"/>
+			<Item Name="Data.mnu" Type="Document" URL="../Public/Data/Data.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
-				<Item Name="Utility_Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Utility/Low Level/Utility_Low Level.mnu"/>
 				<Item Name="Convert Position Units to Device Units.vi" Type="VI" URL="../Public/Utility/Low Level/Convert Position Units to Device Units.vi"/>
 				<Item Name="Convert Speed Units to Device Units.vi" Type="VI" URL="../Public/Utility/Low Level/Convert Speed Units to Device Units.vi"/>
 				<Item Name="Convert Device Units to Position Units (Polymorphic).vi" Type="VI" URL="../Public/Utility/Low Level/Convert Device Units to Position Units (Polymorphic).vi"/>
@@ -176,14 +174,15 @@ See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information
 				<Item Name="Convert Device Units to Acceleration (Polymorphic).vi" Type="VI" URL="../Public/Utility/Low Level/Convert Device Units to Acceleration (Polymorphic).vi"/>
 				<Item Name="Convert Device Units to Acceleration.vi" Type="VI" URL="../Public/Utility/Low Level/Convert Device Units to Acceleration.vi"/>
 				<Item Name="Format TCPIP VISA Resource Name.vi" Type="VI" URL="../Public/Utility/Low Level/Format TCPIP VISA Resource Name.vi"/>
+				<Item Name="Utility_Low Level.mnu" Type="Document" URL="../Public/Utility/Low Level/Utility_Low Level.mnu"/>
 			</Item>
-			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Utility/Utility.mnu"/>
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
 			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
 			<Item Name="Get Device IDs.vi" Type="VI" URL="../Public/Utility/Get Device IDs.vi"/>
 			<Item Name="Look Up Device Properties.vi" Type="VI" URL="../Public/Utility/Look Up Device Properties.vi"/>
+			<Item Name="Utility.mnu" Type="Document" URL="../Public/Utility/Utility.mnu"/>
 		</Item>
 		<Item Name="Obsolete" Type="Folder">
 			<Item Name="Set Speed and Acceleration.vi" Type="VI" URL="../Public/Obsolete/Set Speed and Acceleration.vi"/>
@@ -213,5 +212,4 @@ See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information
 		<Item Name="Write.vi" Type="VI" URL="../Private/Write.vi"/>
 		<Item Name="Sanitize Device and Axis String.vi" Type="VI" URL="../Private/Sanitize Device and Axis String.vi"/>
 	</Item>
-	<Item Name="Zaber A Series Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Zaber A Series/Zaber A Series Readme.html"/>
 </Library>
