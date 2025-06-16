@@ -16,6 +16,7 @@
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="PythonMathDevice.lvclass" Type="LVClass" URL="../PythonMathDevice.lvclass"/>
 		<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../../DeviceController/ZeroMQ Device Shot Client.vi"/>
+		<Item Name="Path to Script.vi" Type="VI" URL="../subvis/Path to Script.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -565,9 +566,9 @@
 			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="ManualParameterNumeric" Type="Source Distribution">
+			<Item Name="PythonMathDevice" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{4D98C67A-ED37-42CA-8E30-544F972A990D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ManualParameterNumeric</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">PythonMathDevice</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -582,7 +583,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A59171CA-6D05-4A05-9F8F-46AF2BD6A70D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FBDAECDA-A24D-438F-8689-41BC6F8634C0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PythonMathDevice.lvclass</Property>
