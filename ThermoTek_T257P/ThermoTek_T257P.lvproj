@@ -604,7 +604,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A122B9FB-5CE2-4CCD-9F51-8D739558E1BE}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -613,7 +613,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5CB96C68-63B0-404A-8490-3CB7B9F94FFD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{184131A3-362E-420F-A991-82AD579B8398}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
