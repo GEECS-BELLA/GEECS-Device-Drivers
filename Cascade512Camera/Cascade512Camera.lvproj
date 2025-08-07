@@ -684,6 +684,7 @@
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 				<Item Name="MGI Write Spreadsheet File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Spreadsheet/MGI Write Spreadsheet File.vi"/>
 				<Item Name="MGI Write Spreadsheet Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Spreadsheet/MGI Write Spreadsheet Behavior Enum.ctl"/>
+				<Item Name="CameraGetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetTemp.vi"/>
 			</Item>
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="get available tcp port.vi" Type="VI" URL="../../../Shared/GUI_Template/get available tcp port.vi"/>
@@ -766,7 +767,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D8BBB6BD-41AE-41E2-965F-8202E371D2C8}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceCascade512Camera.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceCascade512Camera.exe</Property>
