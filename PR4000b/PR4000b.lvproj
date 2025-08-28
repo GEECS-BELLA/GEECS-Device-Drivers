@@ -19,6 +19,7 @@
 		<Item Name="stringToValueUnits.vi" Type="VI" URL="../stringToValueUnits.vi"/>
 		<Item Name="units_typDef.ctl" Type="VI" URL="../units_typDef.ctl"/>
 		<Item Name="Read Visa Smart.vi" Type="VI" URL="../../shared/Read Visa Smart.vi"/>
+		<Item Name="NewVisaRead.vi" Type="VI" URL="../../MKS4000b/NewVisaRead.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -623,7 +624,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40C2A426-5538-424E-A0E3-53745952AE30}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePR4000b.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DevicePR4000b.exe</Property>
