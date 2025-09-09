@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -28,6 +29,7 @@
 			<Item Name="load configuration_typdef.ctl" Type="VI" URL="../BaseDriver/load configuration_typdef.ctl"/>
 			<Item Name="Reentrant tcp for data gatherer.vi" Type="VI" URL="../../Shared/GUI_Template/Reentrant Multiple Progress/Reentrant tcp for data gatherer.vi"/>
 			<Item Name="Set Cluster Element by Index__TS.vi" Type="VI" URL="../shared/Set Cluster Element by Index__TS.vi"/>
+			<Item Name="sendTCPString.vi" Type="VI" URL="../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../shared/TCP_NoDelay.vi"/>
 			<Item Name="timestamp_path.vi" Type="VI" URL="../../Shared/timestamp_path.vi"/>
 		</Item>
@@ -245,6 +247,7 @@
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -266,7 +269,6 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -303,10 +305,6 @@
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -322,9 +320,14 @@
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
 				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../General GUIs/General-Controler/any equal.vi"/>
@@ -332,13 +335,10 @@
 			<Item Name="Arguments to array.vi" Type="VI" URL="../shared/Arguments to array.vi"/>
 			<Item Name="autoIncrement001.vi" Type="VI" URL="../../Shared/autoIncrement001.vi"/>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../shared/BasicFGV_control.ctl"/>
-			<Item Name="buildResponseForUDP.vi" Type="VI" URL="../shared/buildResponseForUDP.vi"/>
 			<Item Name="ByteToVariant.vi" Type="VI" URL="../../Shared/MySQL/ByteToVariant.vi"/>
 			<Item Name="CallsendTCPString.vi" Type="VI" URL="../../Shared/TCP/CallsendTCPString.vi"/>
-			<Item Name="ChangeColorMultiList.vi" Type="VI" URL="../shared/ChangeColorMultiList.vi"/>
 			<Item Name="checkCVTvsSetValue.vi" Type="VI" URL="../shared/checkCVTvsSetValue.vi"/>
 			<Item Name="CheckIfSetCommand.vi" Type="VI" URL="../shared/CheckIfSetCommand.vi"/>
-			<Item Name="checkIfToAcqu.vi" Type="VI" URL="../shared/checkIfToAcqu.vi"/>
 			<Item Name="checkSubscriberList.vi" Type="VI" URL="../shared/checkSubscriberList.vi"/>
 			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../Shared/TCP/clearTCPBufferSerial.vi"/>
 			<Item Name="compress image to 65k_StateM.vi" Type="VI" URL="../../Shared/TCP/compress image to 65k_StateM.vi"/>
@@ -364,7 +364,6 @@
 			<Item Name="DeviceNameFGV.vi" Type="VI" URL="../shared/DeviceNameFGV.vi"/>
 			<Item Name="DevicePort.vi" Type="VI" URL="../shared/DevicePort.vi"/>
 			<Item Name="DeviceType-enum.ctl" Type="VI" URL="../../Shared/TCP/DeviceType-enum.ctl"/>
-			<Item Name="DisplaySettableVariables.vi" Type="VI" URL="../BaseDriver/DisplaySettableVariables.vi"/>
 			<Item Name="DriverMsg.ctl" Type="VI" URL="../BaseDriver/DriverMsg.ctl"/>
 			<Item Name="enumVariable_control.ctl" Type="VI" URL="../shared/enumVariable_control.ctl"/>
 			<Item Name="FGV PATH.vi" Type="VI" URL="../shared/FGV PATH.vi"/>
@@ -384,12 +383,9 @@
 			<Item Name="getShotNumberFromPathString.vi" Type="VI" URL="../shared/getShotNumberFromPathString.vi"/>
 			<Item Name="getStringANdTYpE.vi" Type="VI" URL="../shared/getStringANdTYpE.vi"/>
 			<Item Name="getTolerance.vi" Type="VI" URL="../shared/getTolerance.vi"/>
-			<Item Name="GetUDPCommand.vi" Type="VI" URL="../shared/GetUDPCommand.vi"/>
 			<Item Name="GetValueFromArguments.vi" Type="VI" URL="../../Shared/GetValueFromArguments.vi"/>
-			<Item Name="getVersion.vi" Type="VI" URL="../shared/getVersion.vi"/>
 			<Item Name="GUIcompressionCluster.ctl" Type="VI" URL="../Point Grey Camera/GUIcompressionCluster.ctl"/>
 			<Item Name="initialize process vis.vi" Type="VI" URL="../../Shared/GUI_Template/Reentrant Multiple Progress/initialize process vis.vi"/>
-			<Item Name="INITMultiList.vi" Type="VI" URL="../shared/INITMultiList.vi"/>
 			<Item Name="Is Value a number.vi" Type="VI" URL="../../Shared/Is Value a number.vi"/>
 			<Item Name="limit array length (spec Cluster).vi" Type="VI" URL="../../Shared/limit array length (spec Cluster).vi"/>
 			<Item Name="limit array length.vi" Type="VI" URL="../../Shared/limit array length.vi"/>
@@ -437,14 +433,10 @@
 			<Item Name="readTCP.vi" Type="VI" URL="../../Shared/TCP/readTCP.vi"/>
 			<Item Name="reentrant tcp data get sub vi.vi" Type="VI" URL="../../Shared/GUI_Template/Reentrant Multiple Progress/reentrant tcp data get sub vi.vi"/>
 			<Item Name="removeConnection.vi" Type="VI" URL="../shared/removeConnection.vi"/>
-			<Item Name="RemoveCVTfromQueue.vi" Type="VI" URL="../shared/RemoveCVTfromQueue.vi"/>
-			<Item Name="removeFromQueue.vi" Type="VI" URL="../shared/removeFromQueue.vi"/>
-			<Item Name="RemoveStateFromQueue.vi" Type="VI" URL="../shared/RemoveStateFromQueue.vi"/>
 			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
 			<Item Name="return_packet_type.ctl" Type="VI" URL="../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
 			<Item Name="ScopeInfoToString(Array).vi" Type="VI" URL="../shared/ScopeInfoToString(Array).vi"/>
 			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../shared/scopeTraceInfo_TypDEf.ctl"/>
-			<Item Name="sendTCPString.vi" Type="VI" URL="../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="server_init_data.ctl" Type="VI" URL="../../Shared/MySQL/typedefs/server_init_data.ctl"/>
 			<Item Name="Set Enum String Value__ogtk_caseINSENSITIVE.vi" Type="VI" URL="../../Shared/Set Enum String Value__ogtk_caseINSENSITIVE.vi"/>
 			<Item Name="setNum.vi" Type="VI" URL="../shared/setNum.vi"/>
@@ -462,10 +454,6 @@
 			<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../shared/SubscriberDataFGV.vi"/>
 			<Item Name="SubscriberSubVi.vi" Type="VI" URL="../../Shared/TCP/SubscriberSubVi.vi"/>
 			<Item Name="SWTrigEventReference.vi" Type="VI" URL="../shared/GlobalVariables/SWTrigEventReference.vi"/>
-			<Item Name="SWTrigMulticastListener.vi" Type="VI" URL="../shared/SWTrigMulticastListener.vi"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="tcp new data cluster.ctl" Type="VI" URL="../../Shared/GUI_Template/GUI_master/tcp new data cluster.ctl"/>
 			<Item Name="tcp read with vi time.vi" Type="VI" URL="../../Shared/GUI_Template/tcp read with vi time.vi"/>
 			<Item Name="tcp_new_data_event.ctl" Type="VI" URL="../../Shared/GUI_Template/GUI_master/tcp_new_data_event.ctl"/>
@@ -483,8 +471,6 @@
 			<Item Name="UDPresHistory.vi" Type="VI" URL="../../Shared/UDPresHistory.vi"/>
 			<Item Name="UDPWriter.vi" Type="VI" URL="../shared/UDPWriter.vi"/>
 			<Item Name="updateError.vi" Type="VI" URL="../BaseDriver/updateError.vi"/>
-			<Item Name="updateHistoryUDP.vi" Type="VI" URL="../shared/updateHistoryUDP.vi"/>
-			<Item Name="updateresHistoryUDP.vi" Type="VI" URL="../shared/updateresHistoryUDP.vi"/>
 			<Item Name="updateVarFromDBData.vi" Type="VI" URL="../shared/updateVarFromDBData.vi"/>
 			<Item Name="UpdateVariable.vi" Type="VI" URL="../shared/UpdateVariable.vi"/>
 			<Item Name="Value TCP Seperator.vi" Type="VI" URL="../../Shared/Value TCP Seperator.vi"/>
@@ -498,6 +484,22 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ZeroMQ Device Shot Client.vi" Type="VI" URL="../DeviceController/ZeroMQ Device Shot Client.vi"/>
+			<Item Name="GetUDPCommand.vi" Type="VI" URL="../shared/GetUDPCommand.vi"/>
+			<Item Name="RemoveStateFromQueue.vi" Type="VI" URL="../shared/RemoveStateFromQueue.vi"/>
+			<Item Name="INITMultiList.vi" Type="VI" URL="../shared/INITMultiList.vi"/>
+			<Item Name="ChangeColorMultiList.vi" Type="VI" URL="../shared/ChangeColorMultiList.vi"/>
+			<Item Name="updateresHistoryUDP.vi" Type="VI" URL="../shared/updateresHistoryUDP.vi"/>
+			<Item Name="updateHistoryUDP.vi" Type="VI" URL="../shared/updateHistoryUDP.vi"/>
+			<Item Name="DisplaySettableVariables.vi" Type="VI" URL="../BaseDriver/DisplaySettableVariables.vi"/>
+			<Item Name="RemoveCVTfromQueue.vi" Type="VI" URL="../shared/RemoveCVTfromQueue.vi"/>
+			<Item Name="removeFromQueue.vi" Type="VI" URL="../shared/removeFromQueue.vi"/>
+			<Item Name="checkIfToAcqu.vi" Type="VI" URL="../shared/checkIfToAcqu.vi"/>
+			<Item Name="buildResponseForUDP.vi" Type="VI" URL="../shared/buildResponseForUDP.vi"/>
+			<Item Name="getVersion.vi" Type="VI" URL="../shared/getVersion.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SWTrigMulticastListener.vi" Type="VI" URL="../shared/SWTrigMulticastListener.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Device" Type="EXE">
@@ -514,7 +516,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6BEC6A9-9298-4BFE-9CB2-34AAB288B9EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">132</Property>
+				<Property Name="Bld_version.build" Type="Int">135</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Device.exe</Property>
@@ -527,7 +529,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/subvi/Device_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0EF8284F-1AB7-4F57-8786-0F3A555A8EA5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{952D6537-019E-4272-829E-F52F7038E9BB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
