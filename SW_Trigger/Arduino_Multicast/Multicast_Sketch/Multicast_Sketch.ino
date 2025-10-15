@@ -6,15 +6,15 @@
 // CONFIGURATION
 // =============================
 
-// MAC address for your Ethernet shield (must be unique on your network)
-byte mac[] = { 0xA8, 0x61, 0x0A, 0xAE, 0x02, 0x29 };
-
-// Static IPv4 address for Arduino
-IPAddress ip(192, 168, 1, 177); // <-- CHANGE to fit your network
+byte mac[]    = { 0xA8, 0x61, 0x0A, 0xAE, 0x02, 0x29 };
+IPAddress ip(192, 168, 14, 10);
+IPAddress dns(192, 168, 13, 4);       // Usually your router's IP
+IPAddress gateway(192, 168, 14, 1);   // Router IP
+IPAddress subnet(255, 255, 255, 192);   // Your network mask
 
 // Multicast group & port
-IPAddress multicastIP(239, 255, 0, 1); // <-- CHANGE if needed
-unsigned int multicastPort = 5000;
+IPAddress multicastIP(234, 5, 6, 21); // <-- CHANGE if needed
+unsigned int multicastPort = 64545;
 
 // Trigger pin
 const int triggerPin = 2; // digital pin for external trigger
@@ -33,7 +33,8 @@ void setup() {
   Serial.begin(9600);
 
   // Setup Ethernet
-  Ethernet.begin(mac, ip);
+  Ethernet.begin(mac, ip, dns, gateway, subnet);
+  delay(2000);
   Udp.begin(multicastPort);
 
   // Setup trigger pin
@@ -61,11 +62,11 @@ void loop() {
 }
 
 void sendSWTRIG() {
-  for (int i = 0; i < 3; i++) {
+  for (int i = 0; i < 1; i++) {
     Udp.beginPacket(multicastIP, multicastPort);
     Udp.write("SWTRIG");
     Udp.endPacket();
-    delay(msgSpacing); // 3 ms between packets
+    //delay(msgSpacing); // 3 ms between packets
   }
-  Serial.println("SWTRIG sent 3x");
+  Serial.println("SWTRIG");
 }
