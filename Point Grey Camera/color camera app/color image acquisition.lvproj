@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Acquire Every Image.vi" Type="VI" URL="/N/Software/GEECS/Temp/color image acq/Acquire Every Image.vi"/>
+		<Item Name="Acquire Every Image.vi" Type="VI" URL="../Acquire Every Image.vi"/>
 		<Item Name="dx Grab simple.vi" Type="VI" URL="../dx Grab simple.vi"/>
 		<Item Name="Grab with Bayer Decoding -ajg.vi" Type="VI" URL="../Grab with Bayer Decoding -ajg.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -122,21 +122,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Temp/color image acq</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/color image acq</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6E260F4B-37C2-4A03-9A37-F76511391984}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Color camera.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Temp/color image acq/Color camera.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/color image acq/Color camera.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Temp/color image acq/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/apps/color image acq/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88B4A662-12AF-45BC-9064-6BC08D533F4D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{060B8F4C-81F7-470A-8889-86B424D5E1D4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Grab with Bayer Decoding -ajg.vi</Property>
