@@ -12,6 +12,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
+		<Item Name="Device_TapeDrive.vi" Type="VI" URL="../../Device_TapeDrive.vi"/>
+		<Item Name="DeviceTapeDriveOLD.vi" Type="VI" URL="../../DeviceTapeDriveOLD.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="TapeDrive.lvclass" Type="LVClass" URL="../TapeDrive.lvclass"/>
 		<Item Name="changeDirection(Tape).vi" Type="VI" URL="../changeDirection(Tape).vi"/>
@@ -39,7 +41,6 @@
 		<Item Name="Send command and listen to fast UDP.vi" Type="VI" URL="../../../Shared/Send command and listen to fast UDP.vi"/>
 		<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
 		<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
-		<Item Name="DeviceTapeDrive.vi" Type="VI" URL="../../DeviceTapeDrive.vi"/>
 		<Item Name="sendAndWaitForResponse.vi" Type="VI" URL="../subVi/sendAndWaitForResponse.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -851,7 +852,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{992730FA-AEB5-4483-8FBB-96880B39E7A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceTapeDrive.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceTapeDrive.exe</Property>
@@ -862,11 +863,10 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E38FE27D-CD5E-4BAA-B742-D9F24C06A03A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E02F061D-C84A-41D0-93C3-DCE40A1F7C1B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DeviceTapeDrive.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DeviceTapeDriveOLD.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Move Absolute.vi</Property>
@@ -956,6 +956,10 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Listen to slow UDP and parse error_in sendCommand.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Device_TapeDrive.vi</Property>
+				<Property Name="Source[30].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Send command and listen to fast UDP.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
@@ -980,7 +984,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Set Cluster Element by Index__TS.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">30</Property>
+				<Property Name="SourceCount" Type="Int">31</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DeviceTapeDrive</Property>
