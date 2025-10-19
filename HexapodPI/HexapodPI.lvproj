@@ -1448,102 +1448,18 @@
 			<Item Name="PI acquire semaphore.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/PI acquire semaphore.vi"/>
 			<Item Name="PI Send String.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/PI Send String.vi"/>
 			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
-			<Item Name="GetGCSTranslatorDLLPath.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/GetGCSTranslatorDLLPath.vi"/>
 			<Item Name="Global DaisyChain.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/Global DaisyChain.vi"/>
 			<Item Name="Get lines from string.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Get lines from string.vi"/>
-			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Cut out additional spaces.vi"/>
 			<Item Name="Analog Functions.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Analog control.llb/Analog Functions.vi"/>
-			<Item Name="Available Analog Commands.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Analog control.llb/Available Analog Commands.ctl"/>
-			<Item Name="String with ASCII code conversion.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/String with ASCII code conversion.vi"/>
 			<Item Name="PI Receive String.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/PI Receive String.vi"/>
-			<Item Name="Analog Receive String.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Analog control.llb/Analog Receive String.vi"/>
-			<Item Name="PI VISA Receive Characters.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/PI VISA Receive Characters.vi"/>
 			<Item Name="PI release semaphore.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/PI release semaphore.vi"/>
 			<Item Name="Build query command substring.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="Get all axes.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Get all axes.vi"/>
 			<Item Name="Global2 (Array).vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/Global2 (Array).vi"/>
 			<Item Name="Controller names.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/Controller names.ctl"/>
 			<Item Name="Return space.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Return space.vi"/>
-			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Assign values from string to axes.vi"/>
-			<Item Name="Get lines and values from string.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Get lines and values from string.vi"/>
-			<Item Name="Convert num value to syntax selection.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Convert num value to syntax selection.vi"/>
-			<Item Name="Get arrays without blanks.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Get arrays without blanks.vi"/>
-			<Item Name="Multi Axis Query.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Multi Axis Query.vi"/>
-			<Item Name="Assign booleans from string to axes.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Assign booleans from string to axes.vi"/>
-			<Item Name="ModeOfOperation.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/ModeOfOperation.ctl"/>
-			<Item Name="Status.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/Status.ctl"/>
-			<Item Name="Get Syntax In Global.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/Get Syntax In Global.vi"/>
-			<Item Name="Assign status from string.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Assign status from string.vi"/>
-			<Item Name="Build SPA query command substring.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Build SPA query command substring.vi"/>
-			<Item Name="Assign SPA values from string to axes.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Assign SPA values from string to axes.vi"/>
-			<Item Name="Count occurrences in string.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Count occurrences in string.vi"/>
-			<Item Name="Parse_FRH_Type_String.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Parse_FRH_Type_String.vi"/>
-			<Item Name="Assign two values from string to axes.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Assign two values from string to axes.vi"/>
-			<Item Name="Assign three values from string to axes.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Assign three values from string to axes.vi"/>
-			<Item Name="LOG_NoIndex.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/LOG_NoIndex.ctl"/>
-			<Item Name="Array of LogInfo.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/Array of LogInfo.ctl"/>
-			<Item Name="LogInfo.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/LogInfo.ctl"/>
-			<Item Name="Parse qLOG Answer.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Parse qLOG Answer.vi"/>
-			<Item Name="GCS3 Read Block.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCS3 Read Block.vi"/>
-			<Item Name="GCS3 Begin Block.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCS3 Begin Block.vi"/>
-			<Item Name="GCS3 End Block.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCS3 End Block.vi"/>
-			<Item Name="GCS3 Read Entries.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCS3 Read Entries.vi"/>
-			<Item Name="CommandInfo.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/CommandInfo.ctl"/>
-			<Item Name="Parse qUSG CMD Answer.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Parse qUSG CMD Answer.vi"/>
-			<Item Name="ParameterInfoSet.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/ParameterInfoSet.ctl"/>
-			<Item Name="Parse qUSG PAM Answer.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Parse qUSG PAM Answer.vi"/>
-			<Item Name="UnitDescription.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/UnitDescription.ctl"/>
-			<Item Name="Parse qUSG SYS Answer.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Parse qUSG SYS Answer.vi"/>
-			<Item Name="Assign DRC values.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Assign DRC values.vi"/>
-			<Item Name="TableIO.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/File handling.llb/TableIO.vi"/>
-			<Item Name="GCSArray_regex_selector.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_regex_selector.ctl"/>
-			<Item Name="GCSArray_regex_range.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_regex_range.ctl"/>
-			<Item Name="GCSArray_regex_select.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_regex_select.vi"/>
-			<Item Name="GCSArray_regex_string.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_regex_string.vi"/>
-			<Item Name="GCSArray_valid.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_valid.vi"/>
-			<Item Name="GCSArray_valid_action.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_valid_action.ctl"/>
-			<Item Name="GCSArray_header_read.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_header_read.vi"/>
-			<Item Name="GCSArray_header.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_header.ctl"/>
-			<Item Name="GCSArray_header_action.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_header_action.ctl"/>
-			<Item Name="GCSArray_regex_matches.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_regex_matches.vi"/>
-			<Item Name="GCSArray_difference.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_difference.vi"/>
-			<Item Name="GCSArray_intersection.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_intersection.vi"/>
-			<Item Name="GCSArray_import.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/GCSArray_import.vi"/>
-			<Item Name="Build command substring.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Build command substring.vi"/>
-			<Item Name="Build channel query command substring.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Build channel query command substring.vi"/>
-			<Item Name="MOV.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/MOV.vi"/>
-			<Item Name="PI Send.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Communication.llb/PI Send.vi"/>
-			<Item Name="General wait for movement to stop.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/General wait for movement to stop.vi"/>
-			<Item Name="Global Analog.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Analog control.llb/Global Analog.vi"/>
-			<Item Name="Wait for axes to stop.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Wait for axes to stop.vi"/>
-			<Item Name="InMotion.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/InMotion.vi"/>
-			<Item Name="#5.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/#5.vi"/>
-			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
-			<Item Name="#5_old.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Old commands.llb/#5_old.vi"/>
-			<Item Name="#24.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/#24.vi"/>
-			<Item Name="MWG.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/General command.llb/MWG.vi"/>
-			<Item Name="SGA.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Optical or Analog Input.llb/SGA.vi"/>
-			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
-			<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
-			<Item Name="Show_Save_Load_XY_Data.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Show_Save_Load_XY_Data.vi"/>
-			<Item Name="Axis names.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Scan support.llb/Axis names.vi"/>
-			<Item Name="File handler.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/File handling.llb/File handler.vi"/>
-			<Item Name="GetDataFormat.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/File handling.llb/GetDataFormat.vi"/>
-			<Item Name="MatrixIO.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/File handling.llb/MatrixIO.vi"/>
-			<Item Name="InterpreterConfiguration.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/InterpreterConfiguration.ctl"/>
-			<Item Name="Split text segments from line.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Split text segments from line.vi"/>
-			<Item Name="REC_OptionalParameter.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/REC_OptionalParameter.vi"/>
-			<Item Name="Multi Recorder Query.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Multi Recorder Query.vi"/>
-			<Item Name="Split recorder block item from answer.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Split recorder block item from answer.vi"/>
-			<Item Name="Split block segments from line.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Split block segments from line.vi"/>
-			<Item Name="Tokenizer.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Tokenizer.vi"/>
-			<Item Name="RecorderStatus.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/RecorderStatus.ctl"/>
-			<Item Name="RecorderTraceConfiguration.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/RecorderTraceConfiguration.ctl"/>
-			<Item Name="Split recorder_trace block item from answer.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Split recorder_trace block item from answer.vi"/>
-			<Item Name="RecorderTriggerConfiguration.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/RecorderTriggerConfiguration.ctl"/>
-			<Item Name="UserCommandLevel.ctl" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Special command.llb/UserCommandLevel.ctl"/>
-			<Item Name="Convert num array to string.vi" Type="VI" URL="../../../../../../ProgramData/PI/LabVIEW/Low Level/Support.llb/Convert num array to string.vi"/>
 			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
+			<Item Name="DeviceNameTCPWrite.vi" Type="VI" URL="../../../Shared/DeviceNameTCPWrite.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HexapodPI" Type="Source Distribution">
