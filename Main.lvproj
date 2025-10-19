@@ -37,6 +37,7 @@
 		<Item Name="Allowed root paths.vi" Type="VI" URL="../../Shared/Allowed root paths.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../Device_control.vi"/>
+		<Item Name="DeviceNameTCPWriteWithStateMachine.vi" Type="VI" URL="../../Shared/DeviceNameTCPWriteWithStateMachine.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
