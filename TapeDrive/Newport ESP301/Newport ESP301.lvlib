@@ -10,10 +10,10 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Filter" Type="Folder">
-			<Item Name="Get Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Get Acceleration Feed-Forward Gain.vi"/>
-			<Item Name="Get Velocity Feed-Forward Gain.vi" Type="VI" URL="../Get Velocity Feed-Forward Gain.vi"/>
-			<Item Name="Set Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Set Acceleration Feed-Forward Gain.vi"/>
-			<Item Name="Set Velocity Feed-Forward Gain.vi" Type="VI" URL="../Set Velocity Feed-Forward Gain.vi"/>
+			<Item Name="Get Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Get Acceleration Feed-Forward Gain.vi"/>
+			<Item Name="Get Velocity Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Get Velocity Feed-Forward Gain.vi"/>
+			<Item Name="Set Acceleration Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Set Acceleration Feed-Forward Gain.vi"/>
+			<Item Name="Set Velocity Feed-Forward Gain.vi" Type="VI" URL="../Public/Filter/Set Velocity Feed-Forward Gain.vi"/>
 		</Item>
 		<Item Name="Flow Control &amp; Sequencing" Type="Folder"/>
 		<Item Name="General Mode Selection" Type="Folder">
