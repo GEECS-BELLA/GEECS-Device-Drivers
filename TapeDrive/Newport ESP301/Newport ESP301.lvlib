@@ -47,11 +47,11 @@
 			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Status/Revision Query.vi"/>
 		</Item>
 		<Item Name="Trajectory" Type="Folder">
-			<Item Name="Get Acceleration.vi" Type="VI" URL="../Get Acceleration.vi"/>
+			<Item Name="Get Acceleration.vi" Type="VI" URL="../Public/Trajectory/Get Acceleration.vi"/>
 			<Item Name="Get Deceleration.vi" Type="VI" URL="../Get Deceleration.vi"/>
 			<Item Name="Get Maximum Acceleration and Deceleration.vi" Type="VI" URL="../Get Maximum Acceleration and Deceleration.vi"/>
 			<Item Name="Get Maximum Velocity.vi" Type="VI" URL="../Get Maximum Velocity.vi"/>
-			<Item Name="Get Velocity.vi" Type="VI" URL="../Get Velocity.vi"/>
+			<Item Name="Get Velocity.vi" Type="VI" URL="../Public/Trajectory/Get Velocity.vi"/>
 			<Item Name="Set Acceleration.vi" Type="VI" URL="../Public/Trajectory/Set Acceleration.vi"/>
 			<Item Name="Set Deceleration.vi" Type="VI" URL="../Public/Trajectory/Set Deceleration.vi"/>
 			<Item Name="Set Maximum Acceleration and Deceleration.vi" Type="VI" URL="../Set Maximum Acceleration and Deceleration.vi"/>
