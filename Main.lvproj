@@ -32,8 +32,6 @@
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../shared/TCP_NoDelay.vi"/>
 			<Item Name="timestamp_path.vi" Type="VI" URL="../../Shared/timestamp_path.vi"/>
-			<Item Name="DeviceNameTCPWrite.vi" Type="VI" URL="../../Shared/DeviceNameTCPWrite.vi"/>
-			<Item Name="DeviceNameTCPWriteWithStateMachine.vi" Type="VI" URL="../../Shared/DeviceNameTCPWriteWithStateMachine.vi"/>
 		</Item>
 		<Item Name="Allowed root paths.vi" Type="VI" URL="../../Shared/Allowed root paths.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../BaseDriver/BaseDriver.lvclass"/>
@@ -589,7 +587,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6BEC6A9-9298-4BFE-9CB2-34AAB288B9EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">147</Property>
+				<Property Name="Bld_version.build" Type="Int">137</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Device.exe</Property>
