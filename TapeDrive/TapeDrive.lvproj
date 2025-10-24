@@ -207,8 +207,6 @@
 		</Item>
 		<Item Name="vis" Type="Folder">
 			<Item Name="changeDirection(Tape).vi" Type="VI" URL="../changeDirection(Tape).vi"/>
-			<Item Name="Step(Tape).vi" Type="VI" URL="../Step(Tape).vi"/>
-			<Item Name="AquireTape.vi" Type="VI" URL="../AquireTape.vi"/>
 			<Item Name="getSalveMaster.vi" Type="VI" URL="../getSalveMaster.vi"/>
 			<Item Name="INitTape.vi" Type="VI" URL="../INitTape.vi"/>
 			<Item Name="TapeCluster_TypDEf.ctl" Type="VI" URL="../TapeCluster_TypDEf.ctl"/>
@@ -240,6 +238,7 @@
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="TapeDrive.lvclass" Type="LVClass" URL="../TapeDrive.lvclass"/>
 		<Item Name="Newport ESP301.lvlib" Type="Library" URL="../Newport ESP301/Newport ESP301.lvlib"/>
+		<Item Name="TapeDriveAliasSubscriptionNames.ctl" Type="VI" URL="../subVi/TapeDriveAliasSubscriptionNames.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -679,7 +678,7 @@
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/vis/Step(Tape).vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/TapeDrive.lvclass/Step(Tape).vi</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -688,7 +687,7 @@
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/vis/AquireTape.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/TapeDrive.lvclass/AquireTape.vi</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -812,11 +811,11 @@
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/vis/AquireTape.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/TapeDrive.lvclass/AquireTape.vi</Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/vis/Step(Tape).vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/TapeDrive.lvclass/Step(Tape).vi</Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
