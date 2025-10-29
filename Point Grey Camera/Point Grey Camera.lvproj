@@ -877,6 +877,7 @@
 			<Item Name="tcp shot server send data.vi" Type="VI" URL="../../../General GUIs/General-Controler/tcp shot server send data.vi"/>
 			<Item Name="tcp_new_data_event.ctl" Type="VI" URL="../../../Shared/GUI_Template/GUI_master/tcp_new_data_event.ctl"/>
 			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../../shared/TCP_NoDelay.vi"/>
+			<Item Name="TCPDeviceNameRead.vi" Type="VI" URL="../../../General GUIs/General-Controler/TCPDeviceNameRead.vi"/>
 			<Item Name="TCPHeaderFGV.vi" Type="VI" URL="../../shared/TCPHeaderFGV.vi"/>
 			<Item Name="TCPListener.vi" Type="VI" URL="../../shared/TCPListener.vi"/>
 			<Item Name="TCPWriter.vi" Type="VI" URL="../../shared/TCPWriter.vi"/>
