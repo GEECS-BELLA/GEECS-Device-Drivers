@@ -649,8 +649,6 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 			<Item Name="get shot numbers from tcp array.vi" Type="VI" URL="../../MagSpecStitcher/subvis/get shot numbers from tcp array.vi"/>
-			<Item Name="DeviceNameTCPWrite.vi" Type="VI" URL="../../../Shared/DeviceNameTCPWrite.vi"/>
-			<Item Name="DeviceNameTCPWriteWithStateMachine.vi" Type="VI" URL="../../../Shared/DeviceNameTCPWriteWithStateMachine.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TapeDrive" Type="Source Distribution">
