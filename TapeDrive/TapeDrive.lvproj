@@ -212,7 +212,6 @@
 			<Item Name="TapeCluster_TypDEf.ctl" Type="VI" URL="../TapeCluster_TypDEf.ctl"/>
 			<Item Name="changeRedRatio.vi" Type="VI" URL="../changeRedRatio.vi"/>
 			<Item Name="CloseTApe.vi" Type="VI" URL="../CloseTApe.vi"/>
-			<Item Name="setMaxVelo.vi" Type="VI" URL="../setMaxVelo.vi"/>
 			<Item Name="2DArray_updateCVT.vi" Type="VI" URL="../../shared/2DArray_updateCVT.vi"/>
 			<Item Name="Direction_TypDef.ctl" Type="VI" URL="../Direction_TypDef.ctl"/>
 			<Item Name="TapeEncoderSubVi.vi" Type="VI" URL="../DAQEncoder/TapeEncoderSubVi.vi"/>
@@ -590,7 +589,6 @@
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
-				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Read (Counter DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter DBL 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Create Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/task.llb/DAQmx Create Task.vi"/>
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
@@ -665,7 +663,7 @@
 				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E03B9AB-1E3E-4BA9-B569-CDBC4A44E33E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4878CE0A-D48D-4F15-94BA-D69A89CED2F0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TapeDrive.lvclass</Property>
@@ -694,7 +692,6 @@
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/vis/TapeEncoderSubVi.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/vis/Move Indefinitely.vi</Property>
@@ -735,7 +732,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{992730FA-AEB5-4483-8FBB-96880B39E7A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceTapeDrive.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/DeviceTapeDrive.exe</Property>
@@ -781,7 +778,7 @@
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/vis/setMaxVelo.vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/TapeDrive.lvclass/setMaxVelo.vi</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
