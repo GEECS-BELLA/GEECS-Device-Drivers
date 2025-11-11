@@ -518,6 +518,7 @@
 		<Item Name="Get Zernike Coefficients 2.vi" Type="VI" URL="../SubVis/Get Zernike Coefficients 2.vi"/>
 		<Item Name="Compare ShotNumber from MC and Path.vi" Type="VI" URL="../SubVis/Compare ShotNumber from MC and Path.vi"/>
 		<Item Name="Zonal Stats to CVT.vi" Type="VI" URL="../SubVis/Zonal Stats to CVT.vi"/>
+		<Item Name="ILAO_BeamShaper.lvclass" Type="LVClass" URL="../../ILAO_BeamShaper/ILAO_BeamShaper/ILAO_BeamShaper.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Replace File Extension.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Replace File Extension.vi"/>
