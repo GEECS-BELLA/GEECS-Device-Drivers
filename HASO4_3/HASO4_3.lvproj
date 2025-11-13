@@ -1351,6 +1351,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{B9D617A6-723D-4F13-9407-B2F8EAB32ECC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{661EA129-5992-4D4B-B34D-286AC8D41FCB}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DeviceILAO_BeamShaper</Property>
@@ -1359,7 +1360,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0DD6E-F5F8-4DBD-B079-A33752051EF6}</Property>
-				<Property Name="Bld_version.build" Type="Int">81</Property>
+				<Property Name="Bld_version.build" Type="Int">82</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceILAO_BeamShaper.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceILAO_BeamShaper.exe</Property>
@@ -1371,7 +1372,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ILAO_BeamShaper.lvclass/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A0C541BD-6311-4E34-B37D-5714DC689A3C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BEFFCE38-18DD-48AF-B722-EBAD5F4B79EF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
