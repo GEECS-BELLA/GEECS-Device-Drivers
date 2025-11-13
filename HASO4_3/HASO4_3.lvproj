@@ -1218,6 +1218,9 @@
 			<Item Name="parsed device cmd.ctl" Type="VI" URL="../../shared/parsed device cmd.ctl"/>
 			<Item Name="Config case parse cmd.vi" Type="VI" URL="../../shared/Config case parse cmd.vi"/>
 			<Item Name="unbundle config parse cmd.vi" Type="VI" URL="../../shared/cluster command/unbundle config parse cmd.vi"/>
+			<Item Name="Update Variable.vi" Type="VI" URL="../../../Shared/MySQL/Update Variable.vi"/>
+			<Item Name="SQL Insert null.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert null.vi"/>
+			<Item Name="Replace empty string with NULL.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/Replace empty string with NULL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HASO4_3" Type="Source Distribution">
@@ -1359,7 +1362,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0DD6E-F5F8-4DBD-B079-A33752051EF6}</Property>
-				<Property Name="Bld_version.build" Type="Int">81</Property>
+				<Property Name="Bld_version.build" Type="Int">83</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceILAO_BeamShaper.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceILAO_BeamShaper.exe</Property>
@@ -1371,7 +1374,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ILAO_BeamShaper.lvclass/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A0C541BD-6311-4E34-B37D-5714DC689A3C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC491D28-F8A9-4F5F-B45C-BCB46A90FA25}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
