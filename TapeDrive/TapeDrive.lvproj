@@ -238,6 +238,7 @@
 		<Item Name="TapeDrive.lvclass" Type="LVClass" URL="../TapeDrive.lvclass"/>
 		<Item Name="Newport ESP301.lvlib" Type="Library" URL="../Newport ESP301/Newport ESP301.lvlib"/>
 		<Item Name="TapeDriveAliasSubscriptionNames.ctl" Type="VI" URL="../subVi/TapeDriveAliasSubscriptionNames.ctl"/>
+		<Item Name="network stream reconnect.vi" Type="VI" URL="../subVi/network stream reconnect.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
