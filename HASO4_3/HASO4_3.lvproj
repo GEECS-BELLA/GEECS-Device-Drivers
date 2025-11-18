@@ -1362,7 +1362,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0DD6E-F5F8-4DBD-B079-A33752051EF6}</Property>
-				<Property Name="Bld_version.build" Type="Int">83</Property>
+				<Property Name="Bld_version.build" Type="Int">84</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceILAO_BeamShaper.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceILAO_BeamShaper.exe</Property>
