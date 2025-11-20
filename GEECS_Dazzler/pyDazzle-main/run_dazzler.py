@@ -36,8 +36,7 @@ def main(filepath, order2, order3, order4, threshold):
         # Load updated settings into the dazzler
         #dazzler.new_settings.update(settings)
 
-        # Ensure centralwl is set properly
-        print(f"New settings in dazzler: {dazzler.new_settings}")  # Debug print
+        #print(f"New settings in dazzler: {dazzler.new_settings}")  # Debug print
 
         # Print transmitted energy
         transmitted_energy = dazzler.calc_laser_energy()
@@ -87,7 +86,7 @@ def main(filepath, order2, order3, order4, threshold):
 
 if __name__ == '__main__':
     if len(sys.argv) != 6:
-        print(f"Usage: {sys.argv[0]} <filepath> <order2> <order3> <order4> <threshold>")
+        print(f"Wrong number of arguments, Usage: {sys.argv[0]} <filepath> <order2> <order3> <order4> <threshold>")
         sys.exit(1)
 
     filepath = sys.argv[1]
