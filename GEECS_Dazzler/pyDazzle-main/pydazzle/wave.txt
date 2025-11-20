@@ -1,0 +1,113 @@
+amplitude=0
+position=800.000000
+width=90.0
+hposition=797.000000
+hwidth=36.428571
+hdepth=0.48
+phase=0
+delay=4675.324675
+order2=24100.000000
+order3=-40000.000000
+order4=-1000000.0
+centralwl=802.000000
+auto=0
+addwaveform=0
+frommemory=0
+combamp=1.000000
+combphase=0.000000
+power=0.359447
+cg=1
+lmemory=0
+cep=0.000000
+
+!The following is ONLY a reminder of your settings when the wave was saved.
+!They are NOT called back when loading the saved waveform.
+
+#DazCurrent_s
+[Trig&Mode]
+
+!Repetition_mode : Continuous or Single WF mode
+Repetition_mode = {{{One waveform after  trigger and delay}}}
+
+!Trigger_Mode : Internal or External Source
+Trigger_Mode = {{{External Source}}}
+
+!Delay_Mode : Programmable or No Delay
+Delay_Mode = {{{Programmable Trigger Delay}}}
+
+!S1_output : Item currently selected for S1 output
+S1_output = 2
+
+!delay1 : High level duration (Internal trigger) (us)
+delay1 = +109.800000E+0
+
+!delay2 : (1/Repfreq) - delay1 (Internal trigger only) (us)
+delay2 = +99.890200E+3
+
+!S2_output :  Item currently selected for S2 output
+S2_output = 0
+
+!tprog : Ac propagation time between transducer and optical in face (us)
+tprog = +7.500000E+0
+
+!trig_to_las : Delay between trigger and optical events
+trig_to_las = +150.000000E+0
+
+!trig_on_prev : Trigger is derived from previous optical event
+trig_on_prev = 0
+
+!delay : Desired Trigger Delay (us)
+delay = +109.800000E+0
+
+!trigina : Trigger blocking period (us)
+trigina = +500.000000E-3
+
+!waveform_selection : WF buffer used for RF out (0:A;1:B)
+waveform_selection = {{{waveform 0}}}
+
+!S3_output : (optional) Item currently selected for S3 output
+S3_output = 0
+
+!S4_output :  (optional) Item currently selected for S4 output
+S4_output = 0
+
+!FreqDivider : (optional) Override U16 limit of counter in HW (none,1,2,4,8)
+FreqDivider = "none"
+
+!GatingRatio : Length of gating signal vs t_xtal (1: use all the xtal length)
+GatingRatio = -1.000000E+0
+
+
+[Filter]
+
+!lambda : Current center wavelength of filter (nm)
+lambda = +800.000000E+0
+
+!Norm : Normalization constant - used for constant gain
+Norm = +60.377728E-3
+
+!Lambda_min : Minimum wavelength that the Xstal can diffract (nm)
+Lambda_min = +668.000000E+0
+
+!Lambda_max : Maximum wavelength that the Xstal can diffract (nm)
+Lambda_max = +932.000000E+0
+
+!FFmin : Min Filter Frequency limit (MHz)
+FFmin = +30.000000E+0
+
+!FFmax : Max Filter Frequency limit (MHz)
+FFmax = +90.000000E+0
+
+!FFswi : (optional) Switch frequency for switched filters (MHz)
+FFswi = +0.000000E+0
+
+!tunable : (optional) Indicates wether the filter in HW is programmable or not
+tunable = 0
+
+!Filtered : (optional) Filter correction is active
+Filtered = 1
+
+!filter : Calibration data of filter
+filter = {{{+620.000000E+0}	{+6.162000E+0}}	{{+670.000000E+0}	{+6.162000E+0}}	{{+680.000000E+0}	{+6.220000E+0}}	{{+690.000000E+0}	{+6.277000E+0}}	{{+700.000000E+0}	{+6.329000E+0}}	{{+710.000000E+0}	{+6.384000E+0}}	{{+720.000000E+0}	{+6.436000E+0}}	{{+730.000000E+0}	{+6.487000E+0}}	{{+740.000000E+0}	{+6.540000E+0}}	{{+750.000000E+0}	{+6.590000E+0}}	{{+760.000000E+0}	{+6.646000E+0}}	{{+770.000000E+0}	{+6.704000E+0}}	{{+780.000000E+0}	{+6.759000E+0}}	{{+790.000000E+0}	{+6.818000E+0}}	{{+800.000000E+0}	{+6.880000E+0}}	{{+810.000000E+0}	{+6.941000E+0}}	{{+820.000000E+0}	{+7.004000E+0}}	{{+830.000000E+0}	{+7.071000E+0}}	{{+840.000000E+0}	{+7.138000E+0}}	{{+850.000000E+0}	{+7.207000E+0}}	{{+860.000000E+0}	{+7.277000E+0}}	{{+870.000000E+0}	{+7.352000E+0}}	{{+880.000000E+0}	{+7.429000E+0}}	{{+890.000000E+0}	{+7.510000E+0}}	{{+900.000000E+0}	{+7.598000E+0}}	{{+910.000000E+0}	{+7.688000E+0}}	{{+920.000000E+0}	{+7.781000E+0}}	{{+930.000000E+0}	{+7.878000E+0}}	{{+980.000000E+0}	{+7.878000E+0}}}
+
+
