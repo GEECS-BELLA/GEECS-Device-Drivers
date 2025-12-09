@@ -36,6 +36,7 @@
 		<Item Name="Allowed root paths.vi" Type="VI" URL="../../Shared/Allowed root paths.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="Device_control.vi" Type="VI" URL="../Device_control.vi"/>
+		<Item Name="read all vision timestamps of files in a folder.vi" Type="VI" URL="../Point Grey Camera/read all vision timestamps of files in a folder.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -387,6 +388,8 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="IMAQ Get Custom Keys" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Get Custom Keys"/>
+				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 			</Item>
 			<Item Name="2 IPs same subnet check.vi" Type="VI" URL="../../Shared/GUI_Template/IP and subnet/2 IPs same subnet check.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../General GUIs/General-Controler/any equal.vi"/>
@@ -571,6 +574,7 @@
 			<Item Name="SQL Insert.vi" Type="VI" URL="../../General GUIs/Database Manager/SubVIs/SQL Insert.vi"/>
 			<Item Name="SQL Update.vi" Type="VI" URL="../../General GUIs/Database Manager/SubVIs/SQL Update.vi"/>
 			<Item Name="Popup with timeout.vi" Type="VI" URL="../../Shared/Popup with timeout.vi"/>
+			<Item Name="Read vision info keys.vi" Type="VI" URL="../Point Grey Camera/Read vision info keys.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Device" Type="EXE">
@@ -587,7 +591,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6BEC6A9-9298-4BFE-9CB2-34AAB288B9EF}</Property>
-				<Property Name="Bld_version.build" Type="Int">139</Property>
+				<Property Name="Bld_version.build" Type="Int">140</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Device.exe</Property>
