@@ -25,6 +25,7 @@
 		<Item Name="NpEthernet.dll" Type="Document" URL="../NewFocus/NpEthernet.dll"/>
 		<Item Name="UsbDllWrap.dll" Type="Document" URL="../NewFocus/UsbDllWrap.dll"/>
 		<Item Name="Sample8742UI.vi" Type="VI" URL="../Sample8742UI/Sample8742UI.vi"/>
+		<Item Name="ChannelToDeviceAddress.vi" Type="VI" URL="../ChannelToDeviceAddress.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
