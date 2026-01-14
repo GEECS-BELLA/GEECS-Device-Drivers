@@ -631,7 +631,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{325C2052-8BAD-4485-BDF1-F55485127A17}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{367FBA9E-5801-4B8A-8A5E-6A3F673B9778}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FROG.lvclass</Property>
@@ -688,7 +688,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceFROG.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device/DeviceFROG.exe</Property>
