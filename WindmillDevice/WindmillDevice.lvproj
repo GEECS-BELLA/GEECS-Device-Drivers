@@ -609,9 +609,9 @@
 			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Arcus" Type="Source Distribution">
+			<Item Name="WindmillDevice" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{AB14B1DB-6612-4DA1-A666-13058E22ED62}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Arcus</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">WindmillDevice</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
@@ -625,7 +625,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9C348EA2-1FF1-4C5C-A8F2-5B43001417E6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0009FA8A-A356-4765-8208-63492E29FF4D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/WindmillDevice.lvclass</Property>
