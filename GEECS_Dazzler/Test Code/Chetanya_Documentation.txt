@@ -1,0 +1,160 @@
+
+
+Dazzler Delay Optimization & Peak Power Evaluation
+
+This script provides a command-line wrapper around the Dazzler model to modify phase polynomial terms, optimize the linear delay, and evaluate the resulting temporal peak power of an ultrafast laser pulse.
+
+It is designed for automated pulse-shaping workflows, parameter scans, and programmatic validation of Dazzler wave files.
+
+⸻
+
+What This Script Does
+
+Given an existing Dazzler “wave” file, the script:
+	1.	Reads the original wave file
+	2.	Overwrites 2nd–4th order phase terms (order2, order3, order4)
+	3.	Optimizes the linear delay term
+	4.	Computes the temporal electric field
+	5.	Evaluates the peak power
+	6.	Rejects the change if peak power is below a user-defined threshold
+	7.	Otherwise writes a new wave file with updated values
+	8.	Optionally prints the same data table produced by plot_laser()
+
+The original wave file is never modified.
+
+⸻
+
+Requirements
+
+Python
+	•	Python 3.8+
+
+Dependencies
+	•	numpy
+	•	pydazzle (local module)
+	•	Supporting modules:
+	•	utils.py (must contain load_dazzler_file)
+	•	pydazzle.py (must define the Dazzler class)
+
+Make sure these files are on your PYTHONPATH or located in the same directory.
+
+⸻
+
+File Overview
+
+dazzler_opt_delay_peak_power.py   # main script
+pydazzle.py                       # Dazzler model
+utils.py                          # wave file loader
+
+
+⸻
+
+Usage
+
+Run the script from the command line:
+
+python dazzler_opt_delay_peak_power.py \
+  --wave-file original.wave \
+  --order2 1000 \
+  --order3 -500 \
+  --order4 200 \
+  --power-threshold 1.0e6 \
+  --save-changed \
+  --print-laser
+
+
+⸻
+
+Command-Line Arguments
+
+Required
+
+Argument	Description
+--wave-file	Path to the original Dazzler wave file
+--order2	New 2nd-order phase coefficient
+--order3	New 3rd-order phase coefficient
+--order4	New 4th-order phase coefficient
+--power-threshold	Minimum acceptable peak power (
+
+Optional Flags
+
+Flag	Description
+--save-changed	Write a modified wave file if accepted
+--print-laser	Print time vs. power table (like plot_laser)
+
+
+⸻
+
+Output Behavior
+
+If Peak Power Is Below Threshold
+	•	Status: REJECTED
+	•	No wave file is written
+	•	Script exits with summary output
+
+If Peak Power Meets Threshold
+	•	Status: ACCEPTED
+	•	Optimized delay is applied
+	•	A new file is written (if --save-changed is used)
+
+Example output:
+
+=== RESULT SUMMARY ===
+Status          : ACCEPTED
+Peak power      : 2.431892e+06
+Optimised delay : 12.345678  (fs)
+Modified file   : original_modified.wave
+
+
+⸻
+
+Modified Wave File
+
+When accepted, the output file:
+	•	Has the same format as a native Dazzler wave file
+	•	Preserves all original settings
+	•	Only updates:
+	•	order2
+	•	order3
+	•	order4
+	•	delay
+
+Filename format:
+
+<original_name>_modified.wave
+
+
+⸻
+
+Programmatic Use
+
+The core logic is contained in the evaluate() function, which returns a dictionary:
+
+{
+    "status": "ACCEPTED" | "REJECTED",
+    "peak_power": float,
+    "opt_delay": float,
+    "out_path": str | None,
+    "laser_data": {
+        "t": ndarray,
+        "E_t": ndarray,
+        "P_t": ndarray,
+        "S_w": ndarray
+    } | None
+}
+
+This allows easy integration into:
+	•	Parameter sweeps
+	•	Optimization loops
+	•	Closed-loop experiments
+
+⸻
+
+Scientific Notes
+	•	Peak power is computed as max(|E(t)|²)
+	•	Delay optimization uses Dazzler.calc_optimal_delay()
+	•	Temporal field is computed using calc_optical()
+	•	Spectral intensity uses filtered data when available
+
+
+This is a well-structured scientific utility — very solid work.
