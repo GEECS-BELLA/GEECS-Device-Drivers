@@ -225,7 +225,6 @@
 					<Item Name="LVFunction_Imop_Compute_ModalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ModalWavefront.vi"/>
 					<Item Name="LVFunction_Imop_Compute_ModalZonalWavefront.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_ModalZonalWavefront.vi"/>
 					<Item Name="LVFunction_Imop_Compute_MTF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_MTF from HasoField.vi"/>
-					<Item Name="LVFunction_Imop_Compute_PSF from HasoField.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Compute_PSF from HasoField.vi"/>
 					<Item Name="LVFunction_Imop_Compute_Pupil_HasHoles.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_Pupil_HasHoles.vi"/>
 					<Item Name="LVFunction_Imop_Compute_PupilRegionsPositions.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PupilRegionsPositions.vi"/>
 					<Item Name="LVFunction_Imop_Compute_PupilRegionsStats.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PupilRegionsStats.vi"/>
@@ -500,25 +499,8 @@
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
 		<Item Name="DeviceHASO4_3.vi" Type="VI" URL="../DeviceHASO4_3.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
-		<Item Name="CompressAndUpdate(IMAQ Image).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(IMAQ Image).vi"/>
 		<Item Name="HASO4_3.lvclass" Type="LVClass" URL="../HASO4_3.lvclass"/>
-		<Item Name="GetCompressionTypes.vi" Type="VI" URL="../../shared/GetCompressionTypes.vi"/>
-		<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../../shared/SubscriberDataFGV.vi"/>
-		<Item Name="TriggerEnum_TypDef.ctl" Type="VI" URL="../TriggerEnum_TypDef.ctl"/>
-		<Item Name="WriteToCVT.vi" Type="VI" URL="../../shared/WriteToCVT.vi"/>
-		<Item Name="camera_asynchrone_acquisition-ajg.vi" Type="VI" URL="../camera_asynchrone_acquisition-ajg.vi"/>
-		<Item Name="camera_asynchrone_acquisition-ajg2.vi" Type="VI" URL="../camera_asynchrone_acquisition-ajg2.vi"/>
-		<Item Name="camera_synchrone_acquisition-ajg.vi" Type="VI" URL="../camera_synchrone_acquisition-ajg.vi"/>
-		<Item Name="propagation_lbl.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/propagation_lbl.vi"/>
-		<Item Name="get wavefront.vi" Type="VI" URL="../get wavefront.vi"/>
-		<Item Name="subtract ref wavefront.vi" Type="VI" URL="../subtract ref wavefront.vi"/>
 		<Item Name="phi.ico" Type="Document" URL="../phi.ico"/>
-		<Item Name="Post-Build-AllowMultipleInstances.vi" Type="VI" URL="../Post-Build-AllowMultipleInstances.vi"/>
-		<Item Name="GEECS scan path to local scan path.vi" Type="VI" URL="../GEECS scan path to local scan path.vi"/>
-		<Item Name="Get Zernike Coefficients 2.vi" Type="VI" URL="../SubVis/Get Zernike Coefficients 2.vi"/>
-		<Item Name="Compare ShotNumber from MC and Path.vi" Type="VI" URL="../SubVis/Compare ShotNumber from MC and Path.vi"/>
-		<Item Name="Zonal Stats to CVT.vi" Type="VI" URL="../SubVis/Zonal Stats to CVT.vi"/>
-		<Item Name="DeviceBeamShaper.vi" Type="VI" URL="../../ILAO_BeamShaper/ILAO_BeamShaper/DeviceBeamShaper.vi"/>
 		<Item Name="ILAO_BeamShaper.lvclass" Type="LVClass" URL="../../ILAO_BeamShaper/ILAO_BeamShaper/ILAO_BeamShaper.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -827,14 +809,6 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
-				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
-				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
-				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
-				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
-				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
-				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQ Write Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Write Custom Data"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -866,8 +840,6 @@
 				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
-				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -877,7 +849,6 @@
 				<Item Name="IMAQ Write Image And Vision Info String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info String"/>
 				<Item Name="IMAQ Write TIFF String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF String"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>
-				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
 				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
@@ -932,6 +903,17 @@
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
+				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
+				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
+				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
+				<Item Name="IMAQ Write Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Write Custom Data"/>
+				<Item Name="IMAQ Flatten Image Options" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image Options"/>
 			</Item>
 			<Item Name="Arguments to array.vi" Type="VI" URL="../../shared/Arguments to array.vi"/>
 			<Item Name="BasicFGV_control.ctl" Type="VI" URL="../../shared/BasicFGV_control.ctl"/>
@@ -1134,81 +1116,11 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="pupil ajg.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/pupil ajg.ctl"/>
 			<Item Name="save HAS file as png with scaling txt file.vi" Type="VI" URL="../save HAS file as png with scaling txt file.vi"/>
 			<Item Name="image color table presets.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.ctl"/>
 			<Item Name="Component Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Component Generator.vi"/>
 			<Item Name="Color Table Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Color Table Generator.vi"/>
 			<Item Name="image color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.vi"/>
-			<Item Name="HAS analyzer paths.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HAS analyzer paths.ctl"/>
-			<Item Name="LVFunction_Imop_Compute_WavefrontParameters.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Compute_WavefrontParameters.vi"/>
-			<Item Name="HasoField.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoField.lvclass"/>
-			<Item Name="SurfaceFloat.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/SurfaceFloat.lvclass"/>
-			<Item Name="LVFunction_Imop_Compute_PSF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PSF from HasoField.vi"/>
-			<Item Name="String_Empty buffer define by lenght.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/String_Empty buffer define by lenght.vi"/>
-			<Item Name="get path to CoreEngine dll.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/get path to CoreEngine dll.vi"/>
-			<Item Name="Manage logger file txt.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Manage logger file txt.vi"/>
-			<Item Name="LVFunction_Imop_BuildError.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_BuildError.vi"/>
-			<Item Name="GetErrorMessageBoxFromDLL.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/GetErrorMessageBoxFromDLL.vi"/>
-			<Item Name="Get error from National Instruments error.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Get error from National Instruments error.vi"/>
-			<Item Name="StatisticsData.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/StatisticsData.ctl"/>
-			<Item Name="SlopesPostProcessorList - Add lens.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Add lens.ctl"/>
-			<Item Name="General dimensions definition.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/General dimensions definition.ctl"/>
-			<Item Name="Point2D.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Point2D.ctl"/>
-			<Item Name="Point2Df.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Point2Df.ctl"/>
-			<Item Name="HAS File information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HAS File information.ctl"/>
-			<Item Name="SlopesPostProcessorList - Filter.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Filter.ctl"/>
-			<Item Name="HasoSlopes.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoSlopes.lvclass"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Adder.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Adder.vi"/>
-			<Item Name="SlopesPostProcessorList - Double passage.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Double passage.ctl"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Double Path.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Double Path.vi"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Apply Filter.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Apply Filter.vi"/>
-			<Item Name="SlopesPostProcessorList - Modulator.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - Modulator.ctl"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Modulator.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Modulator.vi"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply NeighborExtension.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply NeighborExtension.vi"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply PerfectLens.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply PerfectLens.vi"/>
-			<Item Name="Pupil.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/Pupil.lvclass"/>
-			<Item Name="LVFunction_Imop_Pupil_ApplyNeighborExtension.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Pupil_ApplyNeighborExtension.vi"/>
-			<Item Name="LVFunction_Imop_Pupil_ApplyShutOfBoundaries.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Pupil_ApplyShutOfBoundaries.vi"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Pupil.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Pupil.vi"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Scaler.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Scaler.vi"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply ShutOfBoundaries.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply ShutOfBoundaries.vi"/>
-			<Item Name="LVFunction_Imop_SlopesPostProcessor_Apply Substractor.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_SlopesPostProcessor_Apply Substractor.vi"/>
-			<Item Name="HasoConfig.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoConfig.lvclass"/>
-			<Item Name="HasoData.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/HasoData.lvclass"/>
-			<Item Name="SlopesPostProcessorList.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList.lvclass"/>
-			<Item Name="SlopesPostProcessorList - ONE.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - ONE.ctl"/>
-			<Item Name="SlopesPostProcessorList - ONE - with handle.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - ONE - with handle.ctl"/>
-			<Item Name="SlopesPostProcessorList - ONE - with variant.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesPostProcessorList - ONE - with variant.ctl"/>
-			<Item Name="SlopesStructToVariant.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesStructToVariant.ctl"/>
-			<Item Name="Slopes origin - SlopesPostProcessingList.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Slopes origin - SlopesPostProcessingList.ctl"/>
-			<Item Name="PupillStructToVariant.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/PupillStructToVariant.ctl"/>
-			<Item Name="LVFunction_Imop_HAS file_GetInformation.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_HAS file_GetInformation.vi"/>
-			<Item Name="Check wavelengths value.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Check wavelengths value.vi"/>
-			<Item Name="Value to timestamp.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/Value to timestamp.vi"/>
-			<Item Name="ComputePhaseSet.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/ComputePhaseSet.lvclass"/>
-			<Item Name="WavefrontReconstructionMode.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/WavefrontReconstructionMode.ctl"/>
-			<Item Name="ZonalPrefs.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/ZonalPrefs.ctl"/>
-			<Item Name="ModalCoef.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/ModalCoef.lvclass"/>
-			<Item Name="WavefrontModalReconstructionType.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/WavefrontModalReconstructionType.ctl"/>
-			<Item Name="LegendreModalPrefs.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/LegendreModalPrefs.ctl"/>
-			<Item Name="LegendreProjectionPupilSetup.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/LegendreProjectionPupilSetup.ctl"/>
-			<Item Name="ZernikeModalPrefs.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/ZernikeModalPrefs.ctl"/>
-			<Item Name="ZernikeProjectionPupilSetup.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/ZernikeProjectionPupilSetup.ctl"/>
-			<Item Name="DataHaso acquisition information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/DataHaso acquisition information.ctl"/>
-			<Item Name="HASO information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HASO information.ctl"/>
-			<Item Name="Image information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Image information.ctl"/>
-			<Item Name="Image general information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Image general information.ctl"/>
-			<Item Name="Image acquisition information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Image acquisition information.ctl"/>
-			<Item Name="Data alignment enum.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/Data alignment enum.ctl"/>
-			<Item Name="SlopesEngineSetup.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/SlopesEngineSetup.ctl"/>
-			<Item Name="File Dialog.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/File Dialog.vi"/>
-			<Item Name="Image.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/Image.lvclass"/>
-			<Item Name="LVFunction_Imop_HIMG file_GetInformation.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_HIMG file_GetInformation.vi"/>
-			<Item Name="HIMG File information.ctl" Type="VI" URL="../has analyzer export/has analyzer.llb/HIMG File information.ctl"/>
-			<Item Name="Phase.lvclass" Type="LVClass" URL="../has analyzer export/has analyzer.llb/Phase.lvclass"/>
-			<Item Name="CheckAndGet_Float2D_data.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/CheckAndGet_Float2D_data.vi"/>
-			<Item Name="LVFunction_Imop_Compute_ZonalWavefront.vi" Type="VI" URL="../has analyzer export/has analyzer.llb/LVFunction_Imop_Compute_ZonalWavefront.vi"/>
 			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 			<Item Name="matchPatternCaseInsensitive.vi" Type="VI" URL="../../shared/matchPatternCaseInsensitive.vi"/>
 			<Item Name="getSeperator.vi" Type="VI" URL="../../shared/getSeperator.vi"/>
@@ -1221,12 +1133,24 @@
 			<Item Name="Update Variable.vi" Type="VI" URL="../../../Shared/MySQL/Update Variable.vi"/>
 			<Item Name="SQL Insert null.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert null.vi"/>
 			<Item Name="Replace empty string with NULL.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/Replace empty string with NULL.vi"/>
+			<Item Name="LVFunction_Imop_Compute_PSF from HasoField.vi" Type="VI" URL="../WaveKit/Functions/Compute/LVFunction_Imop_Compute_PSF from HasoField.vi"/>
+			<Item Name="WriteToCVT.vi" Type="VI" URL="../../shared/WriteToCVT.vi"/>
+			<Item Name="CompressAndUpdate(IMAQ Image).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(IMAQ Image).vi"/>
+			<Item Name="GEECS scan path to local scan path.vi" Type="VI" URL="../GEECS scan path to local scan path.vi"/>
+			<Item Name="Get Zernike Coefficients 2.vi" Type="VI" URL="../SubVis/Get Zernike Coefficients 2.vi"/>
+			<Item Name="Compare ShotNumber from MC and Path.vi" Type="VI" URL="../SubVis/Compare ShotNumber from MC and Path.vi"/>
+			<Item Name="Zonal Stats to CVT.vi" Type="VI" URL="../SubVis/Zonal Stats to CVT.vi"/>
+			<Item Name="get wavefront.vi" Type="VI" URL="../get wavefront.vi"/>
+			<Item Name="subtract ref wavefront.vi" Type="VI" URL="../subtract ref wavefront.vi"/>
+			<Item Name="GetCompressionTypes.vi" Type="VI" URL="../../shared/GetCompressionTypes.vi"/>
+			<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../../shared/SubscriberDataFGV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HASO4_3" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{AC747BCD-083D-4BF1-8FBD-405E30900831}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HASO4_3</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3112608E-B720-45B0-B5C6-045DC096D87F}</Property>
@@ -1239,7 +1163,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AED8C79D-815C-4DF5-B1DB-627FE6F318FF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{31DC537A-4E99-4C6B-9A80-59401B12F234}</Property>
 				<Property Name="Source[0].newName" Type="Str">SD-</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -1255,19 +1179,21 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/CompressAndUpdate(IMAQ Image).vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependencies/CompressAndUpdate(IMAQ Image).vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GetCompressionTypes.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependencies/GetCompressionTypes.vi</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SubscriberDataFGV.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Dependencies/SubscriberDataFGV.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/TriggerEnum_TypDef.ctl</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/WriteToCVT.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Dependencies/WriteToCVT.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
@@ -1283,7 +1209,7 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B44FA41F-2340-46BD-8F37-980CB4F9EA41}</Property>
 				<Property Name="Bld_version.build" Type="Int">75</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -1304,7 +1230,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CompressAndUpdate(IMAQ Image).vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dependencies/CompressAndUpdate(IMAQ Image).vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -1312,19 +1238,19 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GetCompressionTypes.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependencies/GetCompressionTypes.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SubscriberDataFGV.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependencies/SubscriberDataFGV.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/TriggerEnum_TypDef.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/WriteToCVT.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependencies/WriteToCVT.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
@@ -1360,7 +1286,7 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build-AllowMultipleInstances.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9AC0DD6E-F5F8-4DBD-B079-A33752051EF6}</Property>
 				<Property Name="Bld_version.build" Type="Int">85</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -1381,7 +1307,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/DeviceBeamShaper.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
@@ -1389,26 +1315,26 @@
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CompressAndUpdate(IMAQ Image).vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dependencies/CompressAndUpdate(IMAQ Image).vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/HASO4_3.lvclass</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GetCompressionTypes.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependencies/GetCompressionTypes.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SubscriberDataFGV.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependencies/SubscriberDataFGV.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/TriggerEnum_TypDef.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/WriteToCVT.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependencies/WriteToCVT.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
@@ -1430,6 +1356,57 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BEE75D0A-E61E-47C9-9880-F86CBC7D6AED}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DeviceILAO_BeamShaper.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="HASO4_3_New" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6DBB555A-06B5-4237-896F-E51E5EF910F5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HASO4_3_New</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/loasis/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">4</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3E7A3E62-CA06-4BFC-B090-0F5CBA5489F3}</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EAD905D4-6C30-40EF-BF1E-7F83453D00A1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/HASO4_3.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/ILAO_BeamShaper.lvclass</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/DeviceHASO4_3.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
