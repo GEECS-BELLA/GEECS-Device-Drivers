@@ -97,6 +97,8 @@
 		<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
 		<Item Name="TriggerSource_TypDEF.ctl" Type="VI" URL="../subVis/TriggerSource_TypDEF.ctl"/>
 		<Item Name="setTriggerSource_MVF.vi" Type="VI" URL="../subVis/setTriggerSource_MVF.vi"/>
+		<Item Name="Network trigger Receiver.vi" Type="VI" URL="../../NetworkTriggerDAQ/Network trigger Receiver.vi"/>
+		<Item Name="DeviceGlobals.vi" Type="VI" URL="../../DeviceController/DeviceGlobals.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -656,6 +658,7 @@
 			<Item Name="Get FramesPerTrigger_zeroForUnlimited.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get FramesPerTrigger_zeroForUnlimited.vi"/>
 			<Item Name="Get Gain.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get Gain.vi"/>
 			<Item Name="Get GainRange.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get GainRange.vi"/>
+			<Item Name="get GEECS network card IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/get GEECS network card IP.vi"/>
 			<Item Name="Get HotPixelCorrectionThreshold.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get HotPixelCorrectionThreshold.vi"/>
 			<Item Name="Get HotPixelCorrectionThresholdRange.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Parameters Get &amp; Set/Get Parameters/Get HotPixelCorrectionThresholdRange.vi"/>
 			<Item Name="Get Image Data.vi" Type="VI" URL="../../ThorLabsCsCamera/Thorlabs VIs/SubVIs/Get Image Data.vi"/>
@@ -756,6 +759,7 @@
 			<Item Name="matchPatternCaseInsensitive.vi" Type="VI" URL="../../shared/matchPatternCaseInsensitive.vi"/>
 			<Item Name="MoveToendOfQue.vi" Type="VI" URL="../../shared/MoveToendOfQue.vi"/>
 			<Item Name="MoveUDP_TcpToEnd.vi" Type="VI" URL="../../shared/MoveUDP_TcpToEnd.vi"/>
+			<Item Name="ms time string to LV timestamp.vi" Type="VI" URL="../../NetworkTriggerDAQ/ms time string to LV timestamp.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -862,6 +866,7 @@
 			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
 			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
 			<Item Name="stringToMsg(SM).vi" Type="VI" URL="../../shared/stringToMsg(SM).vi"/>
+			<Item Name="strip final segment of an IP address.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/strip final segment of an IP address.vi"/>
 			<Item Name="SubscriberCluster_TypDEf.ctl" Type="VI" URL="../../shared/SubscriberCluster_TypDEf.ctl"/>
 			<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../../shared/SubscriberDataFGV.vi"/>
 			<Item Name="SubscriberSubVi.vi" Type="VI" URL="../../../Shared/TCP/SubscriberSubVi.vi"/>
@@ -936,7 +941,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{085C3788-3FCF-4553-9FAE-1EE96A0989E9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FD8EA2D3-C8AD-416D-A829-03D3220B603E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
@@ -967,21 +972,21 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{CB0224BA-6EBF-48CD-842B-987CF6B65B68}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Device point grey</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C45BBF32-CDAB-4087-91F7-FE49B484DB84}</Property>
-				<Property Name="Bld_version.build" Type="Int">80</Property>
+				<Property Name="Bld_version.build" Type="Int">82</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DevicePoint Grey Camera.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/DevicePoint Grey Camera.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device/DevicePoint Grey Camera.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Developers Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{828B83F0-BECB-4A2C-801A-26A11149C202}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{691EF5F3-C3EB-47FB-9D14-604496BCCC4E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
