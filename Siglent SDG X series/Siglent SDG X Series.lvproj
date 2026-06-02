@@ -17,6 +17,7 @@
 		<Item Name="Siglent SDG X Series Standard Waveform-mod.vi" Type="VI" URL="../Siglent SDG X Series Standard Waveform-mod.vi"/>
 		<Item Name="Siglent SDG X Series Standard Waveform-APP.vi" Type="VI" URL="../Siglent SDG X Series Standard Waveform-APP.vi"/>
 		<Item Name="Configure Standard Waveform Amplitude and Offset.vi" Type="VI" URL="../Configure Standard Waveform Amplitude and Offset.vi"/>
+		<Item Name="volts to amp offset.vi" Type="VI" URL="../volts to amp offset.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -77,7 +78,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/apps/SiglentSDG1000Plus</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E064A52-4447-4313-AAFE-01D2E1F5BCAB}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SiglentSDG1000Plus.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/apps/SiglentSDG1000Plus/SiglentSDG1000Plus.exe</Property>
@@ -88,7 +89,7 @@
 				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/apps/SiglentSDG1000Plus/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B473CBA3-A793-4733-B101-D62E4F33086E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{921E2DD3-19DB-458E-81BB-C823FABC50A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Siglent SDG X Series Standard Waveform.vi</Property>
