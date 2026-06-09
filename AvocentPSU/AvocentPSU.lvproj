@@ -567,6 +567,11 @@
 			<Item Name="replace shot number in tcp reply.vi" Type="VI" URL="../../../Shared/GUI_Template/Reentrant Multiple Progress/SubVIs/replace shot number in tcp reply.vi"/>
 			<Item Name="sendTCPString.vi" Type="VI" URL="../../../Shared/TCP/sendTCPString.vi"/>
 			<Item Name="CompressAndUpdate(NumericArray2D).vi" Type="VI" URL="../../shared/CompressAndUpdate(Poly)/CompressAndUpdate(NumericArray2D).vi"/>
+			<Item Name="Network trigger Receiver.vi" Type="VI" URL="../../NetworkTriggerDAQ/Network trigger Receiver.vi"/>
+			<Item Name="get GEECS network card IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/get GEECS network card IP.vi"/>
+			<Item Name="strip final segment of an IP address.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/strip final segment of an IP address.vi"/>
+			<Item Name="ms time string to LV timestamp.vi" Type="VI" URL="../../NetworkTriggerDAQ/ms time string to LV timestamp.vi"/>
+			<Item Name="DeviceGlobals.vi" Type="VI" URL="../../DeviceController/DeviceGlobals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AvocentPSU" Type="Source Distribution">
