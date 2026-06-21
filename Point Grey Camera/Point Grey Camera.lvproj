@@ -99,6 +99,7 @@
 		<Item Name="setTriggerSource_MVF.vi" Type="VI" URL="../subVis/setTriggerSource_MVF.vi"/>
 		<Item Name="Network trigger Receiver.vi" Type="VI" URL="../../NetworkTriggerDAQ/Network trigger Receiver.vi"/>
 		<Item Name="DeviceGlobals.vi" Type="VI" URL="../../DeviceController/DeviceGlobals.vi"/>
+		<Item Name="UDP_Trigger_FGV.vi" Type="VI" URL="../../shared/UDP_Trigger_FGV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -941,7 +942,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FD8EA2D3-C8AD-416D-A829-03D3220B603E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BB2F69AD-64B4-4276-88CC-EA9D696E2EFE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
@@ -958,7 +959,11 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Device_control.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/UDP_Trigger_FGV.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="Device point grey" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
