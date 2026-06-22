@@ -785,7 +785,8 @@
 			<Item Name="get GEECS network card IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/get GEECS network card IP.vi"/>
 			<Item Name="strip final segment of an IP address.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/strip final segment of an IP address.vi"/>
 			<Item Name="ms time string to LV timestamp.vi" Type="VI" URL="../../NetworkTriggerDAQ/ms time string to LV timestamp.vi"/>
-			<Item Name="DeviceGlobals.vi" Type="VI" URL="../../DeviceController/DeviceGlobals.vi"/>
+			<Item Name="UDP_Trigger_FGV.vi" Type="VI" URL="../../shared/UDP_Trigger_FGV.vi"/>
+			<Item Name="front panel state ajg.vi" Type="VI" URL="../../shared/front panel state ajg.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TapeDrive" Type="Source Distribution">
