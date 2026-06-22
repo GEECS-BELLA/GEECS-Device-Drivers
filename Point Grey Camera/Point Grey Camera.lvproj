@@ -628,6 +628,7 @@
 			<Item Name="Find Choice ID.vi" Type="VI" URL="../../shared/Find Choice ID.vi"/>
 			<Item Name="FixedCalib.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/FixedCalib.ctl"/>
 			<Item Name="FlipArray.vi" Type="VI" URL="../../MagSpec_Bella/Temp/FlipArray.vi"/>
+			<Item Name="front panel state ajg.vi" Type="VI" URL="../../shared/front panel state ajg.vi"/>
 			<Item Name="FWHM Pix.vi" Type="VI" URL="../../shared/FWHM Pix.vi"/>
 			<Item Name="FWHM-pixel-only.vi" Type="VI" URL="../FWHM-pixel-only.vi"/>
 			<Item Name="GENERATEDUMMYIMAGE.vi" Type="VI" URL="../../../Shared/GENERATEDUMMYIMAGE.vi"/>
@@ -942,7 +943,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BB2F69AD-64B4-4276-88CC-EA9D696E2EFE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{29FF464D-4479-44D6-AEBE-FBC246B96375}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
