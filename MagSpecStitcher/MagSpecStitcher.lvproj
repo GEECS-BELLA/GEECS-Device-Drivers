@@ -473,7 +473,6 @@
 			<Item Name="Delay.vi" Type="VI" URL="../../shared/Delay.vi"/>
 			<Item Name="DetermineCompressionInfo.vi" Type="VI" URL="../../shared/DetermineCompressionInfo.vi"/>
 			<Item Name="Device status FGV control.ctl" Type="VI" URL="../../shared/Device status FGV control.ctl"/>
-			<Item Name="DeviceGlobals.vi" Type="VI" URL="../../DeviceController/DeviceGlobals.vi"/>
 			<Item Name="DeviceNameFGV.vi" Type="VI" URL="../../shared/DeviceNameFGV.vi"/>
 			<Item Name="DevicePort.vi" Type="VI" URL="../../shared/DevicePort.vi"/>
 			<Item Name="DeviceType-enum.ctl" Type="VI" URL="../../../Shared/TCP/DeviceType-enum.ctl"/>
@@ -492,6 +491,7 @@
 			<Item Name="Find Choice ID.vi" Type="VI" URL="../../shared/Find Choice ID.vi"/>
 			<Item Name="FixedCalib.ctl" Type="VI" URL="../../MagSpec_Bella/Controls/FixedCalib.ctl"/>
 			<Item Name="FlipArray.vi" Type="VI" URL="../../MagSpec_Bella/Temp/FlipArray.vi"/>
+			<Item Name="front panel state ajg.vi" Type="VI" URL="../../shared/front panel state ajg.vi"/>
 			<Item Name="generateEvent.vi" Type="VI" URL="../../shared/generateEvent.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
 			<Item Name="get arguments of jki state.vi" Type="VI" URL="../../../Shared/GUI_Template/get arguments of jki state.vi"/>
@@ -654,6 +654,7 @@
 			<Item Name="UDP FGV control.ctl" Type="VI" URL="../../UDPComm/UDP FGV control.ctl"/>
 			<Item Name="UDP_FGV.ctl" Type="VI" URL="../../shared/UDP_FGV.ctl"/>
 			<Item Name="UDP_Mcast_Comm.lvlib" Type="Library" URL="../../UDPComm/UDP_Mcast_Comm.lvlib"/>
+			<Item Name="UDP_Trigger_FGV.vi" Type="VI" URL="../../shared/UDP_Trigger_FGV.vi"/>
 			<Item Name="UDPComm.lvlib" Type="Library" URL="../../UDPComm/UDPComm.lvlib"/>
 			<Item Name="UDPHistory.vi" Type="VI" URL="../../../Shared/UDPHistory.vi"/>
 			<Item Name="UDPListener.vi" Type="VI" URL="../../shared/UDPListener.vi"/>
@@ -682,18 +683,18 @@
 				<Property Name="Bld_buildSpecDescription" Type="Str">C:\GEECS\Developers Version\builds\Device builds\MagSpecStitcher</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MagSpecStitcher</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B26E4BDF-D394-41B2-81A4-2C4CDA5B2068}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1AF68A9F-A077-48EC-B99D-D483571A2C57}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{57BFEFB6-F81E-4881-927F-BF1199CDD65B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BaseDriver.lvclass</Property>
