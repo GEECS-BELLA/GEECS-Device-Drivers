@@ -436,6 +436,7 @@
 			<Item Name="FGV_Control.ctl" Type="VI" URL="../../shared/FGV_Control.ctl"/>
 			<Item Name="Filter 2D array by column names.vi" Type="VI" URL="../../shared/Filter 2D array by column names.vi"/>
 			<Item Name="Find Choice ID.vi" Type="VI" URL="../../shared/Find Choice ID.vi"/>
+			<Item Name="front panel state ajg.vi" Type="VI" URL="../../shared/front panel state ajg.vi"/>
 			<Item Name="FWHM-pixel-only.vi" Type="VI" URL="../../Point Grey Camera/FWHM-pixel-only.vi"/>
 			<Item Name="generateEvent.vi" Type="VI" URL="../../shared/generateEvent.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
@@ -446,6 +447,7 @@
 			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../shared/Get Cluster Element Names__ogtk_TS.vi"/>
 			<Item Name="get cw rep rate of expt.vi" Type="VI" URL="../../shared/get cw rep rate of expt.vi"/>
 			<Item Name="Get database IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/Get database IP.vi"/>
+			<Item Name="get GEECS network card IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/get GEECS network card IP.vi"/>
 			<Item Name="Get IPs and subnet masks.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/Get IPs and subnet masks.vi"/>
 			<Item Name="get shot numbers from tcp array.vi" Type="VI" URL="../../MagSpecStitcher/subvis/get shot numbers from tcp array.vi"/>
 			<Item Name="get value from preset query table.vi" Type="VI" URL="../../shared/get value from preset query table.vi"/>
@@ -500,8 +502,10 @@
 			<Item Name="matchPatternCaseInsensitive.vi" Type="VI" URL="../../shared/matchPatternCaseInsensitive.vi"/>
 			<Item Name="MoveToendOfQue.vi" Type="VI" URL="../../shared/MoveToendOfQue.vi"/>
 			<Item Name="MoveUDP_TcpToEnd.vi" Type="VI" URL="../../shared/MoveUDP_TcpToEnd.vi"/>
+			<Item Name="ms time string to LV timestamp.vi" Type="VI" URL="../../NetworkTriggerDAQ/ms time string to LV timestamp.vi"/>
 			<Item Name="MulticastListener.vi" Type="VI" URL="../../shared/MulticastListener.vi"/>
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
+			<Item Name="Network trigger Receiver.vi" Type="VI" URL="../../NetworkTriggerDAQ/Network trigger Receiver.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -562,6 +566,7 @@
 			<Item Name="string numbers in range.vi" Type="VI" URL="../../../Shared/Device Driver/string numbers in range.vi"/>
 			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
 			<Item Name="stringToMsg(SM).vi" Type="VI" URL="../../shared/stringToMsg(SM).vi"/>
+			<Item Name="strip final segment of an IP address.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/strip final segment of an IP address.vi"/>
 			<Item Name="SubscriberCluster_TypDEf.ctl" Type="VI" URL="../../shared/SubscriberCluster_TypDEf.ctl"/>
 			<Item Name="SubscriberDataFGV.vi" Type="VI" URL="../../shared/SubscriberDataFGV.vi"/>
 			<Item Name="SubscriberSubVi.vi" Type="VI" URL="../../../Shared/TCP/SubscriberSubVi.vi"/>
@@ -583,6 +588,7 @@
 			<Item Name="UDP FGV control.ctl" Type="VI" URL="../../UDPComm/UDP FGV control.ctl"/>
 			<Item Name="UDP_FGV.ctl" Type="VI" URL="../../shared/UDP_FGV.ctl"/>
 			<Item Name="UDP_Mcast_Comm.lvlib" Type="Library" URL="../../UDPComm/UDP_Mcast_Comm.lvlib"/>
+			<Item Name="UDP_Trigger_FGV.vi" Type="VI" URL="../../shared/UDP_Trigger_FGV.vi"/>
 			<Item Name="UDPComm.lvlib" Type="Library" URL="../../UDPComm/UDPComm.lvlib"/>
 			<Item Name="UDPHistory.vi" Type="VI" URL="../../../Shared/UDPHistory.vi"/>
 			<Item Name="UDPListener.vi" Type="VI" URL="../../shared/UDPListener.vi"/>
