@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Device_control.vi" Type="VI" URL="../../Device_control.vi"/>
+		<Item Name="Device_controlHamamatsuSpectrometer.vi" Type="VI" URL="../Device_controlHamamatsuSpectrometer.vi"/>
 		<Item Name="BaseDriver.lvclass" Type="LVClass" URL="../../BaseDriver/BaseDriver.lvclass"/>
 		<Item Name="HamamatsuSpectrometer.lvclass" Type="LVClass" URL="../HamamatsuSpectrometer.lvclass"/>
 		<Item Name="testVI.vi" Type="VI" URL="../SubVis/testVI.vi"/>
@@ -23,7 +24,7 @@
 		<Item Name="specu1a 1.0.0 Read Calibration.vi" Type="VI" URL="../Hamamatsu Spectrometer Driver (16-bit 1.0.0 Driver)/DLL Functions/specu1a 1.0.0 Read Calibration.vi"/>
 		<Item Name="specu1a 1.0.0 Open Pipe.vi" Type="VI" URL="../Hamamatsu Spectrometer Driver (16-bit 1.0.0 Driver)/DLL Functions/specu1a 1.0.0 Open Pipe.vi"/>
 		<Item Name="specu1a 1.0.0 Read Sensor Data-ajg.vi" Type="VI" URL="../Hamamatsu Spectrometer Driver (16-bit 1.0.0 Driver)/DLL Functions/specu1a 1.0.0 Read Sensor Data-ajg.vi"/>
-		<Item Name="Device_controlHamamatsuSpectrometer.vi" Type="VI" URL="../Device_controlHamamatsuSpectrometer.vi"/>
+		<Item Name="bg subtract array.vi" Type="VI" URL="../spectral analysis/background subtract array/bg subtract array.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -810,6 +811,12 @@
 			<Item Name="timestamp_path.vi" Type="VI" URL="../../../Shared/timestamp_path.vi"/>
 			<Item Name="CombineSelectedShotandAllAcq.vi" Type="VI" URL="../../HamamatsuSpectrometerDAQ/SubVis/CombineSelectedShotandAllAcq.vi"/>
 			<Item Name="Add 1D and 2D Array.vi" Type="VI" URL="../../HamamatsuSpectrometerDAQ/SubVis/Add 1D and 2D Array.vi"/>
+			<Item Name="Network trigger Receiver.vi" Type="VI" URL="../../NetworkTriggerDAQ/Network trigger Receiver.vi"/>
+			<Item Name="get GEECS network card IP.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/get GEECS network card IP.vi"/>
+			<Item Name="strip final segment of an IP address.vi" Type="VI" URL="../../../Shared/GUI_Template/IP and subnet/strip final segment of an IP address.vi"/>
+			<Item Name="ms time string to LV timestamp.vi" Type="VI" URL="../../NetworkTriggerDAQ/ms time string to LV timestamp.vi"/>
+			<Item Name="UDP_Trigger_FGV.vi" Type="VI" URL="../../shared/UDP_Trigger_FGV.vi"/>
+			<Item Name="front panel state ajg.vi" Type="VI" URL="../../shared/front panel state ajg.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HamamatsuSpectrometer" Type="Source Distribution">
@@ -853,21 +860,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFCEC991-DF91-4594-B641-877BFBE3F072}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeviceHamamatsuSpectrometer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/DeviceHamamatsuSpectrometer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/DeviceHamamatsuSpectrometer.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Device builds/Device/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/N/Software/GEECS/Active Version/builds/Device builds/Device/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B8563EB2-11A8-47B2-803B-D5E647ECFC70}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E33062A3-6199-4E25-9F01-5E61E9BF9825}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Device_controlHamamatsuSpectrometer.vi</Property>
